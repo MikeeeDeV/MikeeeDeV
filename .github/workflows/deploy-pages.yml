@@ -37,6 +37,8 @@ jobs:
           cp -r library/gallery/* _site/
           mkdir -p _site/shapes
           cp -r library/shapes/* _site/shapes/
+          mkdir -p _site/library/shapes
+          cp -r library/shapes/* _site/library/shapes/
           cp library/catalog.json _site/
 
       - name: Upload Artifact
