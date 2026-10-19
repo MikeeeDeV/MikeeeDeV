@@ -1,0 +1,34 @@
+{
+  "name": "Mohamed Ayman",
+  "login": "MikeeeDeV",
+  "public_repos": 13,
+  "total_stars": 16,
+  "total_contribs": 1844,
+  "account_age": "2 years",
+  "top_langs": [
+    {
+      "name": "TypeScript",
+      "bytes": 774409,
+      "percent": 47.1
+    },
+    {
+      "name": "HTML",
+      "bytes": 561765,
+      "percent": 34.1
+    },
+    {
+      "name": "Python",
+      "bytes": 245378,
+      "percent": 14.9
+    },
+    {
+      "name": "CSS",
+      "bytes": 37429,
+      "percent": 2.3
+    }
+  ],
+  "last_push_repo": "NixManagerPro",
+  "last_push_time": "12h ago",
+  "last_release": "v1.7.0 (NixManagerPro)",
+  "streak_days": 5
+}
