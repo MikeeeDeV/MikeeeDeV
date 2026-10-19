@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 240" width="560" height="240" role="img" aria-labelledby="title-id desc-id">
+  <title id="title-id">Matrix Terminal Access Log - Hologram Scanner</title>
+  <desc id="desc-id">Hologram widget matrix-stream-access-log</desc>
+  <style>
+    :root {
+      --vf-bg: #030A05;
+      --vf-card: #07170B;
+      --vf-border: #113B1B;
+      --vf-text: #A3F7BF;
+      --vf-text-muted: #4ADE80;
+      --vf-accent-1: #00FF66;
+      --vf-accent-2: #34D399;
+      --vf-accent-3: #22C55E;
+      --vf-glow: #00FF6644;
+      --vf-font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      --vf-font-mono: "JetBrains Mono", "Fira Code", ui-monospace, Menlo, Monaco, Consolas, monospace;
+      --vf-font-arabic: "Cairo", "Amiri", "Tahoma", -apple-system, sans-serif;
+    }
+    @media (prefers-color-scheme: light) {
+      :root {
+        --vf-bg: #F0FAF3;
+        --vf-card: #FFFFFF;
+        --vf-border: #B7E6C5;
+        --vf-text: #063815;
+        --vf-text-muted: #1A6832;
+        --vf-accent-1: #048A36;
+        --vf-accent-2: #0C6B45;
+        --vf-accent-3: #15803D;
+        --vf-glow: #048A3633;
+      }
+    }
+    text {
+      user-select: none;
+    }
+    
+      .holo-card { fill: var(--vf-card); stroke: var(--vf-border); stroke-width: 1; }
+      .holo-title { font-family: var(--vf-font-sans); font-size: 15px; font-weight: 800; fill: var(--vf-text); }
+      .holo-sub { font-family: var(--vf-font-mono); font-size: 10.5px; fill: var(--vf-text-muted); }
+      .ring-stroke { stroke: var(--vf-accent-1); stroke-width: 1.2; fill: none; }
+      .ring-sub { stroke: var(--vf-border); stroke-width: 1; fill: none; stroke-dasharray: 4 4; }
+      .sweep-line { stroke: var(--vf-accent-2); stroke-width: 1.8; }
+      .log-line { font-family: var(--vf-font-mono); font-size: 10.5px; fill: var(--vf-text); }
+    
+  </style>
+  
+  <rect x="1" y="1" width="558" height="238" rx="8" class="holo-card" />
+
+    <g transform="translate(28, 32)">
+      <circle cx="0" cy="0" r="4" fill="var(--vf-accent-1)" />
+      <text x="12" y="4" class="holo-title">MATRIX TERMINAL ACCESS LOG</text>
+      <text x="12" y="20" class="holo-sub">SYSTEM // 0xD3A39D • PROTOCOL: HOLO-DIAL</text>
+    </g>
+    
+<g class="dial-group"><circle cx="440" cy="120.0" r="75" class="ring-sub" /><circle cx="440" cy="120.0" r="48.75" class="ring-stroke" /><circle cx="440" cy="120.0" r="26.25" class="ring-sub" /><circle cx="440" cy="120.0" r="4" fill="var(--vf-accent-1)" /><line x1="365" y1="120.0" x2="515" y2="120.0" stroke="var(--vf-border)" stroke-width="0.8" /><line x1="440" y1="45.0" x2="440" y2="195.0" stroke="var(--vf-border)" stroke-width="0.8" /><line x1="440" y1="120.0" x2="484.1" y2="59.3" class="sweep-line" /><circle cx="484.1" cy="59.3" r="4.5" fill="var(--vf-accent-3)" /></g>
+<g class="ledger-rows">
+        <g transform="translate(28, 78)">
+          <rect x="0" y="0" width="360" height="24" rx="3" fill="var(--vf-bg)" stroke="var(--vf-border)" stroke-width="0.7" />
+          <circle cx="10" cy="12" r="2.5" fill="var(--vf-accent-2)" />
+          <text x="20" y="16" class="log-line">[0x1F4] Handshake OK</text>
+          <text x="180" y="16" font-family="var(--vf-font-mono)" font-size="10" fill="var(--vf-text-muted)">SHA-256 Verified</text>
+          <text x="348" y="16" text-anchor="end" font-family="var(--vf-font-mono)" font-size="10" fill="var(--vf-accent-1)">0.4ms</text>
+        </g>
+        
+        <g transform="translate(28, 110)">
+          <rect x="0" y="0" width="360" height="24" rx="3" fill="var(--vf-bg)" stroke="var(--vf-border)" stroke-width="0.7" />
+          <circle cx="10" cy="12" r="2.5" fill="var(--vf-accent-2)" />
+          <text x="20" y="16" class="log-line">[0x1F5] Synchronizing State</text>
+          <text x="180" y="16" font-family="var(--vf-font-mono)" font-size="10" fill="var(--vf-text-muted)">Merkle Root: 0x9a8f</text>
+          <text x="348" y="16" text-anchor="end" font-family="var(--vf-font-mono)" font-size="10" fill="var(--vf-accent-1)">1.2ms</text>
+        </g>
+        
+        <g transform="translate(28, 142)">
+          <rect x="0" y="0" width="360" height="24" rx="3" fill="var(--vf-bg)" stroke="var(--vf-border)" stroke-width="0.7" />
+          <circle cx="10" cy="12" r="2.5" fill="var(--vf-accent-2)" />
+          <text x="20" y="16" class="log-line">[0x1F6] Ingestion Complete</text>
+          <text x="180" y="16" font-family="var(--vf-font-mono)" font-size="10" fill="var(--vf-text-muted)">Packets: 2,048</text>
+          <text x="348" y="16" text-anchor="end" font-family="var(--vf-font-mono)" font-size="10" fill="var(--vf-accent-1)">0.8ms</text>
+        </g>
+        
+        <g transform="translate(28, 174)">
+          <rect x="0" y="0" width="360" height="24" rx="3" fill="var(--vf-bg)" stroke="var(--vf-border)" stroke-width="0.7" />
+          <circle cx="10" cy="12" r="2.5" fill="var(--vf-accent-2)" />
+          <text x="20" y="16" class="log-line">[0x1F7] Node Consensus</text>
+          <text x="180" y="16" font-family="var(--vf-font-mono)" font-size="10" fill="var(--vf-text-muted)">Quorum: 3/3</text>
+          <text x="348" y="16" text-anchor="end" font-family="var(--vf-font-mono)" font-size="10" fill="var(--vf-accent-1)">0.1ms</text>
+        </g>
+        </g>
+</svg>
