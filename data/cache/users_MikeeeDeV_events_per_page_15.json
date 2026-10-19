@@ -1,0 +1,476 @@
+[
+  {
+    "id": "24522607446",
+    "type": "DeleteEvent",
+    "actor": {
+      "id": 183979087,
+      "login": "MikeeeDeV",
+      "display_login": "MikeeeDeV",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MikeeeDeV",
+      "avatar_url": "https://avatars.githubusercontent.com/u/183979087?"
+    },
+    "repo": {
+      "id": 1424830395,
+      "name": "MikeeeDeV/NixManagerPro",
+      "url": "https://api.github.com/repos/MikeeeDeV/NixManagerPro"
+    },
+    "payload": {
+      "ref": "dependabot/github_actions/actions/stale-11",
+      "ref_type": "branch",
+      "full_ref": "refs/heads/dependabot/github_actions/actions/stale-11",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2026-10-19T01:01:17Z"
+  },
+  {
+    "id": "17593366172",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 183979087,
+      "login": "MikeeeDeV",
+      "display_login": "MikeeeDeV",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MikeeeDeV",
+      "avatar_url": "https://avatars.githubusercontent.com/u/183979087?"
+    },
+    "repo": {
+      "id": 1424970361,
+      "name": "MikeeeDeV/MikeeeDeV",
+      "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV"
+    },
+    "payload": {
+      "action": "opened",
+      "issue": {
+        "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/1",
+        "repository_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV",
+        "labels_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/1/labels{/name}",
+        "comments_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/1/comments",
+        "events_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/1/events",
+        "html_url": "https://github.com/MikeeeDeV/MikeeeDeV/issues/1",
+        "id": 5922760899,
+        "node_id": "I_kwDOVO9Sec8AAAABYQYoww",
+        "number": 1,
+        "title": "feat: Comprehensive Profile Aesthetics & Real-Time Metrics Overhaul",
+        "user": {
+          "login": "MikeeeDeV",
+          "id": 183979087,
+          "node_id": "U_kgDOCvdMTw",
+          "avatar_url": "https://avatars.githubusercontent.com/u/183979087?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/MikeeeDeV",
+          "html_url": "https://github.com/MikeeeDeV",
+          "followers_url": "https://api.github.com/users/MikeeeDeV/followers",
+          "following_url": "https://api.github.com/users/MikeeeDeV/following{/other_user}",
+          "gists_url": "https://api.github.com/users/MikeeeDeV/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/MikeeeDeV/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/MikeeeDeV/subscriptions",
+          "organizations_url": "https://api.github.com/users/MikeeeDeV/orgs",
+          "repos_url": "https://api.github.com/users/MikeeeDeV/repos",
+          "events_url": "https://api.github.com/users/MikeeeDeV/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/MikeeeDeV/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "labels": [],
+        "state": "open",
+        "locked": false,
+        "assignees": [],
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2026-10-19T11:11:10Z",
+        "updated_at": "2026-10-19T11:11:10Z",
+        "closed_at": null,
+        "assignee": null,
+        "active_lock_reason": null,
+        "sub_issues_summary": {
+          "total": 0,
+          "completed": 0,
+          "percent_completed": 0
+        },
+        "issue_dependencies_summary": {
+          "blocked_by": 0,
+          "total_blocked_by": 0,
+          "blocking": 0,
+          "total_blocking": 0
+        },
+        "body": "## Description\nUpgrade the GitHub Profile README to a state-of-the-art TokyoNight / Cyberpunk design.\n\n### Enhancements\n- [x] Dynamic animated capsule header banner with waving gradient.\n- [x] Frameless GitHub Profile Trophies row.\n- [x] Real-time GitHub Activity Wave Graph integration.\n- [x] Interactive expandable architecture sections (`<details>`) for AI Tooling (FastMCP), Nix Systems, and Full-Stack Cloud Architecture.\n- [x] Enhanced social matrix with updated for-the-badge links.\n- [x] Modern animated footer wave.",
+        "reactions": {
+          "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/1/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "timeline_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/1/timeline",
+        "performed_via_github_app": null,
+        "state_reason": null,
+        "pinned_comment": null
+      }
+    },
+    "public": true,
+    "created_at": "2026-10-19T11:11:55Z"
+  },
+  {
+    "id": "17593340185",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 183979087,
+      "login": "MikeeeDeV",
+      "display_login": "MikeeeDeV",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MikeeeDeV",
+      "avatar_url": "https://avatars.githubusercontent.com/u/183979087?"
+    },
+    "repo": {
+      "id": 1424970361,
+      "name": "MikeeeDeV/MikeeeDeV",
+      "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV"
+    },
+    "payload": {
+      "action": "opened",
+      "number": 2,
+      "pull_request": {
+        "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/pulls/2",
+        "id": 4920011442,
+        "number": 2,
+        "head": {
+          "ref": "feature/profile-revamp",
+          "sha": "a7d4e02b78f3812610c2a78ad1f94590c764fb0e",
+          "repo": {
+            "id": 1424970361,
+            "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV",
+            "name": "MikeeeDeV"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "53d2e304ad25ca617e83b4411ce8a3fbb5577dbf",
+          "repo": {
+            "id": 1424970361,
+            "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV",
+            "name": "MikeeeDeV"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-10-19T11:11:30Z"
+  },
+  {
+    "id": "24518476042",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 183979087,
+      "login": "MikeeeDeV",
+      "display_login": "MikeeeDeV",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MikeeeDeV",
+      "avatar_url": "https://avatars.githubusercontent.com/u/183979087?"
+    },
+    "repo": {
+      "id": 1424830395,
+      "name": "MikeeeDeV/NixManagerPro",
+      "url": "https://api.github.com/repos/MikeeeDeV/NixManagerPro"
+    },
+    "payload": {
+      "ref": "refactor/modern-dialogs-english-ui",
+      "ref_type": "branch",
+      "full_ref": "refs/heads/refactor/modern-dialogs-english-ui",
+      "master_branch": "main",
+      "description": "Production-grade, asynchronous desktop client for the Nix Package Manager on Ubuntu/Debian multi-user installations",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2026-10-18T23:43:29Z"
+  },
+  {
+    "id": "24517815693",
+    "type": "PushEvent",
+    "actor": {
+      "id": 183979087,
+      "login": "MikeeeDeV",
+      "display_login": "MikeeeDeV",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MikeeeDeV",
+      "avatar_url": "https://avatars.githubusercontent.com/u/183979087?"
+    },
+    "repo": {
+      "id": 1424830395,
+      "name": "MikeeeDeV/NixManagerPro",
+      "url": "https://api.github.com/repos/MikeeeDeV/NixManagerPro"
+    },
+    "payload": {
+      "repository_id": 1424830395,
+      "push_id": 46945708955,
+      "ref": "refs/heads/main",
+      "head": "037e70e4ccfa38d9c00667b2e243055d3089ea86",
+      "before": "2d9d8bcac8f1488d534473fbbb720e0e57d52960"
+    },
+    "public": true,
+    "created_at": "2026-10-18T23:31:53Z"
+  },
+  {
+    "id": "24517633522",
+    "type": "PushEvent",
+    "actor": {
+      "id": 183979087,
+      "login": "MikeeeDeV",
+      "display_login": "MikeeeDeV",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MikeeeDeV",
+      "avatar_url": "https://avatars.githubusercontent.com/u/183979087?"
+    },
+    "repo": {
+      "id": 1424830395,
+      "name": "MikeeeDeV/NixManagerPro",
+      "url": "https://api.github.com/repos/MikeeeDeV/NixManagerPro"
+    },
+    "payload": {
+      "repository_id": 1424830395,
+      "push_id": 46945523553,
+      "ref": "refs/heads/main",
+      "head": "ad8c6066dafb5e9e5bb77d43a2fd0c8581bc0e4d",
+      "before": "822bb2fb005928761707a175ee7aac8707dfb0b0"
+    },
+    "public": true,
+    "created_at": "2026-10-18T23:28:40Z"
+  },
+  {
+    "id": "24517597124",
+    "type": "DeleteEvent",
+    "actor": {
+      "id": 183979087,
+      "login": "MikeeeDeV",
+      "display_login": "MikeeeDeV",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MikeeeDeV",
+      "avatar_url": "https://avatars.githubusercontent.com/u/183979087?"
+    },
+    "repo": {
+      "id": 1424830395,
+      "name": "MikeeeDeV/NixManagerPro",
+      "url": "https://api.github.com/repos/MikeeeDeV/NixManagerPro"
+    },
+    "payload": {
+      "ref": "community/code-of-conduct",
+      "ref_type": "branch",
+      "full_ref": "refs/heads/community/code-of-conduct",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2026-10-18T23:27:57Z"
+  },
+  {
+    "id": "24517420205",
+    "type": "DeleteEvent",
+    "actor": {
+      "id": 183979087,
+      "login": "MikeeeDeV",
+      "display_login": "MikeeeDeV",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MikeeeDeV",
+      "avatar_url": "https://avatars.githubusercontent.com/u/183979087?"
+    },
+    "repo": {
+      "id": 1424830395,
+      "name": "MikeeeDeV/NixManagerPro",
+      "url": "https://api.github.com/repos/MikeeeDeV/NixManagerPro"
+    },
+    "payload": {
+      "ref": "community/citation-and-badges",
+      "ref_type": "branch",
+      "full_ref": "refs/heads/community/citation-and-badges",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2026-10-18T23:35:44Z"
+  },
+  {
+    "id": "24517418650",
+    "type": "PushEvent",
+    "actor": {
+      "id": 183979087,
+      "login": "MikeeeDeV",
+      "display_login": "MikeeeDeV",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MikeeeDeV",
+      "avatar_url": "https://avatars.githubusercontent.com/u/183979087?"
+    },
+    "repo": {
+      "id": 1424830395,
+      "name": "MikeeeDeV/NixManagerPro",
+      "url": "https://api.github.com/repos/MikeeeDeV/NixManagerPro"
+    },
+    "payload": {
+      "repository_id": 1424830395,
+      "push_id": 46945925165,
+      "ref": "refs/heads/main",
+      "head": "d156a6dea1e9dc76755466cc53e6b7a970dedf7b",
+      "before": "5d7b7309bffbc65d56a901404b45d11d838561e1"
+    },
+    "public": true,
+    "created_at": "2026-10-18T23:35:43Z"
+  },
+  {
+    "id": "24517360996",
+    "type": "PushEvent",
+    "actor": {
+      "id": 183979087,
+      "login": "MikeeeDeV",
+      "display_login": "MikeeeDeV",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MikeeeDeV",
+      "avatar_url": "https://avatars.githubusercontent.com/u/183979087?"
+    },
+    "repo": {
+      "id": 1424830395,
+      "name": "MikeeeDeV/NixManagerPro",
+      "url": "https://api.github.com/repos/MikeeeDeV/NixManagerPro"
+    },
+    "payload": {
+      "repository_id": 1424830395,
+      "push_id": 46945868864,
+      "ref": "refs/heads/main",
+      "head": "5d7b7309bffbc65d56a901404b45d11d838561e1",
+      "before": "037e70e4ccfa38d9c00667b2e243055d3089ea86"
+    },
+    "public": true,
+    "created_at": "2026-10-18T23:34:45Z"
+  },
+  {
+    "id": "24517207224",
+    "type": "DeleteEvent",
+    "actor": {
+      "id": 183979087,
+      "login": "MikeeeDeV",
+      "display_login": "MikeeeDeV",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MikeeeDeV",
+      "avatar_url": "https://avatars.githubusercontent.com/u/183979087?"
+    },
+    "repo": {
+      "id": 1424830395,
+      "name": "MikeeeDeV/NixManagerPro",
+      "url": "https://api.github.com/repos/MikeeeDeV/NixManagerPro"
+    },
+    "payload": {
+      "ref": "community/accessibility",
+      "ref_type": "branch",
+      "full_ref": "refs/heads/community/accessibility",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2026-10-18T23:31:55Z"
+  },
+  {
+    "id": "24517195460",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 183979087,
+      "login": "MikeeeDeV",
+      "display_login": "MikeeeDeV",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MikeeeDeV",
+      "avatar_url": "https://avatars.githubusercontent.com/u/183979087?"
+    },
+    "repo": {
+      "id": 1424830395,
+      "name": "MikeeeDeV/NixManagerPro",
+      "url": "https://api.github.com/repos/MikeeeDeV/NixManagerPro"
+    },
+    "payload": {
+      "ref": "community/accessibility",
+      "ref_type": "branch",
+      "full_ref": "refs/heads/community/accessibility",
+      "master_branch": "main",
+      "description": "Production-grade, asynchronous desktop client for the Nix Package Manager on Ubuntu/Debian multi-user installations",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2026-10-18T23:31:40Z"
+  },
+  {
+    "id": "24517167453",
+    "type": "PushEvent",
+    "actor": {
+      "id": 183979087,
+      "login": "MikeeeDeV",
+      "display_login": "MikeeeDeV",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MikeeeDeV",
+      "avatar_url": "https://avatars.githubusercontent.com/u/183979087?"
+    },
+    "repo": {
+      "id": 1424830395,
+      "name": "MikeeeDeV/NixManagerPro",
+      "url": "https://api.github.com/repos/MikeeeDeV/NixManagerPro"
+    },
+    "payload": {
+      "repository_id": 1424830395,
+      "push_id": 46945667889,
+      "ref": "refs/heads/main",
+      "head": "2d9d8bcac8f1488d534473fbbb720e0e57d52960",
+      "before": "91e61054e8c5e02ba31c12f8874e4de70fc30ed7"
+    },
+    "public": true,
+    "created_at": "2026-10-18T23:31:10Z"
+  },
+  {
+    "id": "24517060925",
+    "type": "DeleteEvent",
+    "actor": {
+      "id": 183979087,
+      "login": "MikeeeDeV",
+      "display_login": "MikeeeDeV",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MikeeeDeV",
+      "avatar_url": "https://avatars.githubusercontent.com/u/183979087?"
+    },
+    "repo": {
+      "id": 1424830395,
+      "name": "MikeeeDeV/NixManagerPro",
+      "url": "https://api.github.com/repos/MikeeeDeV/NixManagerPro"
+    },
+    "payload": {
+      "ref": "feat/nix-flakes-profile-support",
+      "ref_type": "branch",
+      "full_ref": "refs/heads/feat/nix-flakes-profile-support",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2026-10-19T01:08:50Z"
+  },
+  {
+    "id": "24517027132",
+    "type": "DeleteEvent",
+    "actor": {
+      "id": 183979087,
+      "login": "MikeeeDeV",
+      "display_login": "MikeeeDeV",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MikeeeDeV",
+      "avatar_url": "https://avatars.githubusercontent.com/u/183979087?"
+    },
+    "repo": {
+      "id": 1424830395,
+      "name": "MikeeeDeV/NixManagerPro",
+      "url": "https://api.github.com/repos/MikeeeDeV/NixManagerPro"
+    },
+    "payload": {
+      "ref": "community/contributing-guide",
+      "ref_type": "branch",
+      "full_ref": "refs/heads/community/contributing-guide",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2026-10-18T23:28:42Z"
+  }
+]
