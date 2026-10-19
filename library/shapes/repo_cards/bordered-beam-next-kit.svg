@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 160" width="420" height="160" role="img" aria-labelledby="title-id desc-id">
+  <title id="title-id">gawdah-cleankit - Repo Card</title>
+  <desc id="desc-id">Featured repo bento card bordered-beam-next-kit</desc>
+  <style>
+    :root {
+      --vf-bg: #221F22;
+      --vf-card: #2D2A2E;
+      --vf-border: #403E41;
+      --vf-text: #FCFCFA;
+      --vf-text-muted: #939293;
+      --vf-accent-1: #FFD866;
+      --vf-accent-2: #FF6188;
+      --vf-accent-3: #78DCE8;
+      --vf-glow: #FFD86644;
+      --vf-font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      --vf-font-mono: "JetBrains Mono", "Fira Code", ui-monospace, Menlo, Monaco, Consolas, monospace;
+      --vf-font-arabic: "Cairo", "Amiri", "Tahoma", -apple-system, sans-serif;
+    }
+    @media (prefers-color-scheme: light) {
+      :root {
+        --vf-bg: #F9F8F9;
+        --vf-card: #FFFFFF;
+        --vf-border: #DAD7DA;
+        --vf-text: #2D2A2E;
+        --vf-text-muted: #656366;
+        --vf-accent-1: #B58600;
+        --vf-accent-2: #C7204A;
+        --vf-accent-3: #0B8B9B;
+        --vf-glow: #B5860033;
+      }
+    }
+    text {
+      user-select: none;
+    }
+    
+      .card-box { fill: var(--vf-card); stroke: var(--vf-border); stroke-width: 1; }
+      .repo-name { font-family: var(--vf-font-sans); font-size: 15px; font-weight: 700; fill: var(--vf-accent-2); }
+      .repo-badge { fill: var(--vf-bg); stroke: var(--vf-border); stroke-width: 1; }
+      .repo-desc { font-family: var(--vf-font-sans); font-size: 11.5px; fill: var(--vf-text-muted); }
+      .meta-text { font-family: var(--vf-font-mono); font-size: 10.5px; fill: var(--vf-text); }
+      .card-decor { stroke: var(--vf-border); stroke-width: 0.8; fill: none; }
+    
+  </style>
+  
+  <rect x="1" y="1" width="418" height="158" rx="8" class="card-box" />
+
+    <g transform="translate(24, 28)">
+      <!-- Book / Repo Icon -->
+      <g transform="translate(0, -12)">
+        <path d="M 0 2 L 6 0 L 12 2 L 12 14 L 6 12 L 0 14 Z" fill="none" stroke="var(--vf-accent-1)" stroke-width="1.4" />
+        <line x1="6" y1="0" x2="6" y2="12" stroke="var(--vf-accent-1)" stroke-width="1.2" />
+      </g>
+      
+      <!-- Repo Name -->
+      <text x="22" y="0" class="repo-name">gawdah-cleankit</text>
+      
+      <!-- Public Badge -->
+      <g transform="translate(310, -14)">
+        <rect x="0" y="0" width="58" height="20" rx="10" class="repo-badge" />
+        <text x="29" y="13.5" text-anchor="middle" font-family="var(--vf-font-mono)" font-size="9" font-weight="600" fill="var(--vf-accent-1)">PUBLIC</text>
+      </g>
+    </g>
+    
+
+    <g transform="translate(24, 66)">
+      <text x="0" y="0" class="repo-desc">Enterprise clean architecture starter kit with</text>
+      <text x="0" y="18" class="repo-desc">strict domain boundaries.</text>
+    </g>
+    
+
+    <g transform="translate(24, 130)">
+      <!-- Language -->
+      <circle cx="5" cy="-4" r="4.5" fill="var(--vf-accent-1)" />
+      <text x="16" y="0" class="meta-text">TypeScript</text>
+      
+      <!-- Stars -->
+      <g transform="translate(90, 0)">
+        <path d="M 0 -8 L 2.5 -3 L 8 -2.5 L 4 1.5 L 5 7 L 0 4 L -5 7 L -4 1.5 L -8 -2.5 L -2.5 -3 Z" fill="var(--vf-accent-1)" transform="scale(0.8) translate(6, -6)" />
+        <text x="18" y="0" class="meta-text">15</text>
+      </g>
+      
+      <!-- License Pill -->
+      <g transform="translate(290, -12)">
+        <rect x="0" y="0" width="78" height="18" rx="3" fill="var(--vf-bg)" stroke="var(--vf-border)" />
+        <text x="39" y="12" text-anchor="middle" font-family="var(--vf-font-mono)" font-size="9" fill="var(--vf-accent-2)">MIT LICENSE</text>
+      </g>
+    </g>
+    
+</svg>
