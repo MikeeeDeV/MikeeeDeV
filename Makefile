@@ -5,19 +5,28 @@ PYTHON ?= python3
 all: build test
 
 help:
-	@echo "MikeeeDeV Profile Engine - Commands"
+	@echo "MikeeeDeV Profile & VectorForge Engine - Commands"
 	@echo "  make build       Run all SVG and Markdown generators"
-	@echo "  make test        Run test suite (snapshot & XML validation)"
-	@echo "  make check       Build and run test suite"
+	@echo "  make test        Run full test suite (snapshots, library, XML)"
+	@echo "  make library     Compile catalog and batch render all 235 SVGs"
+	@echo "  make gallery     Preview VectorForge interactive showroom"
 	@echo "  make preview     Serve profile locally on port 8080"
 	@echo "  make nix-build   Build hermetic derivation via Nix Flake"
 	@echo "  make clean       Remove temporary caches"
 
 build:
 	$(PYTHON) scripts/run_all.py
+	$(PYTHON) -m library.catalog
+
+library:
+	$(PYTHON) -m library.catalog
 
 test:
 	$(PYTHON) -m unittest discover tests -v
+
+gallery:
+	@echo "Serving VectorForge Showroom on http://localhost:8080/library/gallery/index.html ..."
+	$(PYTHON) -m http.server 8080
 
 check: build test
 
