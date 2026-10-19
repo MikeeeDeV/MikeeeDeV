@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
     inputs:
       publish_to_pypi:
-        description: 'Publish package to PyPI (requires PyPI Trusted Publisher or PYPI_API_TOKEN)'
+        description: 'Publish package to PyPI'
         type: boolean
         default: false
 
@@ -47,7 +47,7 @@ jobs:
           gh release upload ${{ github.ref_name }} dist/* --clobber || true
 
       - name: Publish to PyPI
-        if: ${{ secrets.PYPI_API_TOKEN != '' || inputs.publish_to_pypi == true }}
+        if: ${{ inputs.publish_to_pypi == true }}
         uses: pypa/gh-action-pypi-publish@release/v1
         with:
           skip-existing: true
