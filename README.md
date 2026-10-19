@@ -180,13 +180,79 @@ vectorforge generate kemet-nocturne-rosette --theme cyberpunk_2077 --out banner.
 vectorforge build --config vectorforge.json
 ```
 
-##### 🤖 Use as a Reusable GitHub Action in your CI/CD:
+### 🚀 Use VectorForge in Your Profile (`@v1`)
+
+You can generate, customize, and automatically update deterministic VectorForge SVG components in your own GitHub profile or project documentation using the official GitHub Action.
+
+#### 📋 Quick Copy-Paste Profile Workflow (`.github/workflows/vectorforge.yml`)
+
+> [!IMPORTANT]
+> Ensure you include `permissions: contents: write` so the GitHub Actions runner can commit the generated SVG assets back to your repository.
+
 ```yaml
-- uses: MikeeeDeV/MikeeeDeV@main
-  with:
-    shape: "kemet-nocturne-rosette"
-    theme: "cyberpunk_2077"
-    output: "./assets/banner.svg"
+name: Generate VectorForge Profile Shapes
+
+on:
+  schedule:
+    - cron: '0 0 * * 0' # Every Sunday at midnight UTC
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['vectorforge.json']
+
+permissions:
+  contents: write # REQUIRED: Permits automated commit of generated SVGs
+
+jobs:
+  render-shapes:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Generate Custom Banner
+        uses: MikeeeDeV/MikeeeDeV@v1
+        with:
+          shape: 'kemet-nocturne-rosette'
+          theme: 'cyberpunk_2077'
+          output: 'assets/profile-banner.svg'
+          params: 'title=Your Name,subtitle=Systems Engineer'
+
+      - name: Commit Updated SVGs
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore(assets): sync deterministic VectorForge shapes [skip ci]"
+          file_pattern: "assets/**"
+```
+
+#### ⚙️ Action Inputs Reference
+
+| Input | Type | Default | Description |
+| :--- | :---: | :---: | :--- |
+| `command` | `string` | `generate` | Operation mode: `generate` (single preset) or `build` (`vectorforge.json`) |
+| `shape` | `string` | `kemet-nocturne-rosette` | Preset shape ID (choose from 235 components in the [Showroom](https://mikeeedev.github.io/MikeeeDeV/)) |
+| `theme` | `string` | `(default)` | Palette theme override (`kemet_nocturne`, `cyberpunk_2077`, `nord_frost`, `dracula`, etc.) |
+| `output` | `string` | `assets/vectorforge-shape.svg` | Destination file path for the generated SVG |
+| `params` | `string` | `""` | Comma-separated dynamic variables (e.g. `title=Alice,subtitle=Lead Architect`) |
+| `config` | `string` | `""` | Path to declarative configuration file when `command: build` is used |
+
+---
+
+### 🤖 AI Agents & FastMCP Integration (Claude Desktop & Cursor)
+
+VectorForge ships with a native **Model Context Protocol (MCP)** server over stdio. AI Agents can inspect the 235-shape catalog, search presets by keyword, and generate customized SVGs with arbitrary parameters.
+
+Add VectorForge to your **Claude Desktop** (`claude_desktop_config.json`) or **Cursor** (`.cursor/mcp.json`):
+
+```json
+{
+  "mcpServers": {
+    "vectorforge": {
+      "command": "python3",
+      "args": ["-m", "vectorforge.mcp_server"]
+    }
+  }
+}
 ```
 
 ##### 🔄 Turnkey Profile Sync Automation Workflow:

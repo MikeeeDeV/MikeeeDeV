@@ -468,7 +468,7 @@ window.copyJSX = async function (presetId, category) {
 };
 
 window.copyCDN = function (presetId, category) {
-  const cdnUrl = `https://cdn.jsdelivr.net/gh/MikeeeDeV/MikeeeDeV@main/library/shapes/${category}/${presetId}.svg`;
+  const cdnUrl = `https://cdn.jsdelivr.net/gh/MikeeeDeV/MikeeeDeV@v1/library/shapes/${category}/${presetId}.svg`;
   navigator.clipboard.writeText(cdnUrl).then(() => {
     showToast("Copied jsDelivr CDN URL!");
   });
@@ -540,7 +540,7 @@ async function updateModalPreviewAndCode() {
   } else if (activeModalTab === "svg") {
     displayEl.textContent = themedText;
   } else if (activeModalTab === "cdn") {
-    displayEl.textContent = `https://cdn.jsdelivr.net/gh/MikeeeDeV/MikeeeDeV@main/library/shapes/${activeModalItem.category}/${activeModalItem.id}.svg`;
+    displayEl.textContent = `https://cdn.jsdelivr.net/gh/MikeeeDeV/MikeeeDeV@v1/library/shapes/${activeModalItem.category}/${activeModalItem.id}.svg`;
   }
 }
 

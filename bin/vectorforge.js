@@ -332,7 +332,7 @@ function cmdEmbed(args) {
     process.exit(1);
   }
 
-  const cdnUrl = `https://cdn.jsdelivr.net/gh/MikeeeDeV/MikeeeDeV@main/library/shapes/${item.category}/${item.id}.svg`;
+  const cdnUrl = `https://cdn.jsdelivr.net/gh/MikeeeDeV/MikeeeDeV@v1/library/shapes/${item.category}/${item.id}.svg`;
   console.log("### Markdown Embed Syntax:\n");
   console.log(`![${item.title}](${cdnUrl})`);
   console.log("\n### jsDelivr Raw URL:\n");
