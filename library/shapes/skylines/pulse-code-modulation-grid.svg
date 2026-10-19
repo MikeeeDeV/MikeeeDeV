@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 210" width="880" height="210" role="img" aria-labelledby="title-id desc-id">
+  <title id="title-id">PCM Digital Modulation - Contribution Skyline</title>
+  <desc id="desc-id">Telemetry horizon pulse-code-modulation-grid</desc>
+  <style>
+    :root {
+      --vf-bg: #221F22;
+      --vf-card: #2D2A2E;
+      --vf-border: #403E41;
+      --vf-text: #FCFCFA;
+      --vf-text-muted: #939293;
+      --vf-accent-1: #FFD866;
+      --vf-accent-2: #FF6188;
+      --vf-accent-3: #78DCE8;
+      --vf-glow: #FFD86644;
+      --vf-font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      --vf-font-mono: "JetBrains Mono", "Fira Code", ui-monospace, Menlo, Monaco, Consolas, monospace;
+      --vf-font-arabic: "Cairo", "Amiri", "Tahoma", -apple-system, sans-serif;
+    }
+    @media (prefers-color-scheme: light) {
+      :root {
+        --vf-bg: #F9F8F9;
+        --vf-card: #FFFFFF;
+        --vf-border: #DAD7DA;
+        --vf-text: #2D2A2E;
+        --vf-text-muted: #656366;
+        --vf-accent-1: #B58600;
+        --vf-accent-2: #C7204A;
+        --vf-accent-3: #0B8B9B;
+        --vf-glow: #B5860033;
+      }
+    }
+    text {
+      user-select: none;
+    }
+    
+      .card-frame { fill: var(--vf-card); stroke: var(--vf-border); stroke-width: 1; }
+      .skyline-bar { fill: var(--vf-accent-1); }
+      .skyline-sub { fill: var(--vf-accent-2); opacity: 0.65; }
+      .grid-h { stroke: var(--vf-border); stroke-width: 0.5; stroke-dasharray: 2 4; }
+      .metric-title { font-family: var(--vf-font-mono); font-size: 13px; font-weight: 700; fill: var(--vf-text); }
+      .metric-stat { font-family: var(--vf-font-mono); font-size: 11px; fill: var(--vf-text-muted); }
+      .accent-pill { fill: var(--vf-bg); stroke: var(--vf-border); stroke-width: 1; }
+    
+  </style>
+  
+  <rect x="1" y="1" width="878" height="208" rx="8" class="card-frame" />
+
+    <g transform="translate(28, 26)">
+      <circle cx="0" cy="0" r="4" fill="var(--vf-accent-1)" />
+      <text x="12" y="4" class="metric-title">PCM DIGITAL MODULATION</text>
+      <text x="12" y="20" class="metric-stat">52 WEEKS • 1,844 TOTAL COMMITS • 99.8% CI PASS RATE</text>
+      
+      <g transform="translate(640, -8)">
+        <rect x="0" y="0" width="180" height="26" rx="4" class="accent-pill" />
+        <circle cx="12" cy="13" r="3" fill="var(--vf-accent-3)" />
+        <text x="24" y="17" font-family="var(--vf-font-mono)" font-size="10" font-weight="700" fill="var(--vf-accent-1)">PEAK: 34 COMMITS/DAY</text>
+      </g>
+    </g>
+    
+<line x1="28" y1="152" x2="852" y2="152" class="grid-h" />
+<line x1="28" y1="117" x2="852" y2="117" class="grid-h" />
+<line x1="28" y1="82" x2="852" y2="82" class="grid-h" />
+<g class="skyline-content"><rect x="30.5" y="176.0" width="10.8" height="6.0" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="46.4" y="176.0" width="10.8" height="6.0" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="62.2" y="176.0" width="10.8" height="6.0" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="78.1" y="176.0" width="10.8" height="6.0" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="93.9" y="174.0" width="10.8" height="8.0" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="109.8" y="172.1" width="10.8" height="9.9" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="125.6" y="160.3" width="10.8" height="21.7" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="141.5" y="158.8" width="10.8" height="23.2" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="157.3" y="168.2" width="10.8" height="13.8" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="173.2" y="166.6" width="10.8" height="15.4" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="189.0" y="157.6" width="10.8" height="24.4" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="204.8" y="152.5" width="10.8" height="29.5" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="220.7" y="157.6" width="10.8" height="24.4" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="236.5" y="149.3" width="10.8" height="32.7" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="252.4" y="125.3" width="10.8" height="56.7" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="268.2" y="121.5" width="10.8" height="60.5" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="284.1" y="152.6" width="10.8" height="29.4" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="299.9" y="128.4" width="10.8" height="53.6" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="315.8" y="124.9" width="10.8" height="57.1" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="331.6" y="122.8" width="10.8" height="59.2" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="347.5" y="102.6" width="10.8" height="79.4" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="363.3" y="97.9" width="10.8" height="84.1" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="379.2" y="133.3" width="10.8" height="48.7" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="395.0" y="131.3" width="10.8" height="50.7" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="410.8" y="139.3" width="10.8" height="42.7" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="426.7" y="134.5" width="10.8" height="47.5" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="442.5" y="138.4" width="10.8" height="43.6" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="458.4" y="143.4" width="10.8" height="38.6" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="474.2" y="146.7" width="10.8" height="35.3" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="490.1" y="134.9" width="10.8" height="47.1" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="505.9" y="139.1" width="10.8" height="42.9" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="521.8" y="96.1" width="10.8" height="85.9" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="537.6" y="89.4" width="10.8" height="92.6" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="553.5" y="117.6" width="10.8" height="64.4" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="569.3" y="135.3" width="10.8" height="46.7" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="585.2" y="136.8" width="10.8" height="45.2" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="601.0" y="154.6" width="10.8" height="27.4" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="616.8" y="129.1" width="10.8" height="52.9" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="632.7" y="124.4" width="10.8" height="57.6" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="648.5" y="149.0" width="10.8" height="33.0" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="664.4" y="159.5" width="10.8" height="22.5" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="680.2" y="159.8" width="10.8" height="22.2" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="696.1" y="154.5" width="10.8" height="27.5" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="711.9" y="162.1" width="10.8" height="19.9" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="727.8" y="166.2" width="10.8" height="15.8" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="743.6" y="159.9" width="10.8" height="22.1" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="759.5" y="158.8" width="10.8" height="23.2" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="775.3" y="169.8" width="10.8" height="12.2" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="791.2" y="173.5" width="10.8" height="8.5" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="807.0" y="174.5" width="10.8" height="7.5" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="822.8" y="176.0" width="10.8" height="6.0" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="838.7" y="176.0" width="10.8" height="6.0" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /></g>
+<line x1="28" y1="182" x2="852" y2="182" stroke="var(--vf-border)" stroke-width="1.5" />
+</svg>
