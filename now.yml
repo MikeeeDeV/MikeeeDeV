@@ -1,0 +1,28 @@
+# Now Building - Editable status for Mohamed Ayman (@MikeeeDeV)
+# Updated automatically in README and assets/now-building.svg
+
+current_focus: "Nix Flakes Desktop Engine & FastMCP Agent Tooling"
+shipping:
+  project: "NixManagerPro"
+  repo: "MikeeeDeV/NixManagerPro"
+  status: "Shipping v1.2"
+  tagline: "Asynchronous multi-channel Nix package manager for Debian/Ubuntu"
+  milestone: "92% complete"
+
+secondary_focus:
+  project: "git-smart-sync"
+  repo: "MikeeeDeV/git-smart-sync"
+  status: "Active Maintenance"
+  tagline: "Divergence protection and branch presets for VS Code & Antigravity"
+
+leadership:
+  role: "Technical Team Leader"
+  organization: "Gawdah"
+  focus: "Resilient microservices, enterprise ERP integrations & engineering rigor"
+
+exploring:
+  - "Deterministic Nix derivation caches"
+  - "Model Context Protocol (FastMCP) autonomous loops"
+  - "Kernel cgroup sandboxing for desktop tools"
+
+updated: "2026-10-19"

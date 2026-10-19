@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 116" width="820" height="116" role="img" aria-label="Now Building Status Card">
+  <title>Now Building - Mohamed Ayman (@MikeeeDeV)</title>
+  <desc>Current engineering focus: Nix Flakes Desktop Engine &amp; FastMCP Agent Tooling, shipping NixManagerPro (Shipping v1.2), Team Lead at Gawdah.</desc>
+  <style>
+    
+    :root {
+      --bg: #0A0E14;
+      --card-bg: #111822;
+      --card-elevated: #182230;
+      --border: #223348;
+      --border-accent: #3B5372;
+      --text-primary: #E2E8F0;
+      --text-secondary: #94A3B8;
+      --text-muted: #64748B;
+      --accent-gold: #E5C07B;
+      --accent-lapis: #3898EC;
+      --accent-teal: #2DD4BF;
+      --accent-coral: #F43F5E;
+      --term-green: #2DD4BF;
+      --term-yellow: #E5C07B;
+      --term-blue: #3898EC;
+      --term-purple: #C678DD;
+      --font-mono: ui-monospace, 'JetBrains Mono', 'SF Mono', 'Fira Code', 'Menlo', monospace;
+      --font-sans: system-ui, -apple-system, 'Segoe UI', Roboto, 'Cairo', sans-serif;
+      --font-arabic: 'Cairo', 'Amiri', 'Noto Sans Arabic', 'Segoe UI', system-ui, sans-serif;
+    }
+
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg: #F8FAFC;
+        --card-bg: #FFFFFF;
+        --card-elevated: #F1F5F9;
+        --border: #CBD5E1;
+        --border-accent: #94A3B8;
+        --text-primary: #0F172A;
+        --text-secondary: #475569;
+        --text-muted: #64748B;
+        --accent-gold: #B48924;
+        --accent-lapis: #1E6BB8;
+        --accent-teal: #0D9488;
+        --accent-coral: #E11D48;
+        --term-green: #0D9488;
+        --term-yellow: #B48924;
+        --term-blue: #1E6BB8;
+        --term-purple: #9333EA;
+      }
+    }
+    
+    .card-bg {
+      fill: var(--card-bg);
+      stroke: var(--border);
+      stroke-width: 1px;
+    }
+    .badge-bar {
+      fill: var(--card-elevated);
+      stroke: var(--border);
+      stroke-width: 1px;
+    }
+    .text-title {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.8px;
+      fill: var(--accent-gold);
+    }
+    .text-main {
+      font-family: var(--font-sans);
+      font-size: 14px;
+      font-weight: 600;
+      fill: var(--text-primary);
+    }
+    .text-sub {
+      font-family: var(--font-mono);
+      font-size: 12px;
+      fill: var(--text-secondary);
+    }
+    .text-meta {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      fill: var(--text-muted);
+    }
+    .tag-pill {
+      fill: var(--card-elevated);
+      stroke: var(--border-accent);
+      stroke-width: 1px;
+    }
+    .live-dot {
+      fill: var(--accent-teal);
+      animation: pulse-ring 2.2s infinite ease-in-out;
+    }
+    @keyframes pulse-ring {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.4; }
+    }
+  </style>
+
+  <rect x="0.5" y="0.5" width="819" height="115" rx="8" class="card-bg" />
+
+  <!-- Left Status Rail -->
+  <g transform="translate(24, 20)">
+    <!-- Live Beacon -->
+    <circle cx="8" cy="8" r="4.5" class="live-dot" />
+    <circle cx="8" cy="8" r="8" fill="none" stroke="var(--accent-teal)" stroke-width="1" opacity="0.3" />
+    
+    <text x="24" y="12" class="text-title">NOW SHIPPING &amp; ARCHITECTING</text>
+    <text x="0" y="40" class="text-main">Nix Flakes Desktop Engine &amp; FastMCP Agent Tooling</text>
+    <text x="0" y="64" class="text-sub">Active project: <tspan font-weight="700" fill="var(--accent-lapis)">NixManagerPro</tspan> • <tspan fill="var(--accent-gold)">Shipping v1.2</tspan> (92% complete)</text>
+    <text x="0" y="84" class="text-meta">Team Leadership: Technical Team Leader @ Gawdah • Synced: 2026-10-19</text>
+  </g>
+
+  <!-- Right Chamfered Badges -->
+  <g transform="translate(590, 24)">
+    <rect x="0" y="0" width="206" height="32" rx="4" class="tag-pill" />
+    <text x="103" y="20" text-anchor="middle" font-family="var(--font-mono)" font-size="11" font-weight="600" fill="var(--accent-gold)">❄️ NIX ENGINE v1.7.0</text>
+    
+    <rect x="0" y="38" width="206" height="32" rx="4" class="tag-pill" />
+    <text x="103" y="58" text-anchor="middle" font-family="var(--font-mono)" font-size="11" font-weight="600" fill="var(--accent-teal)">⚡ FASTMCP SPEC 1.0</text>
+  </g>
+</svg>
