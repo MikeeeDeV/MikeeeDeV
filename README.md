@@ -51,7 +51,7 @@
 |:---:|:---:|:---|:---|
 | `2026-10-18` | **`RELEASE`** | [`NixManagerPro`](https://github.com/MikeeeDeV/NixManagerPro) | [`v1.7.0` — ❄️ NixManager Pro v1.7.0 — Smart Channels Hub & Presets Ecosystem](https://github.com/MikeeeDeV/NixManagerPro/releases/tag/v1.7.0) |
 | `2026-10-18` | **`RELEASE`** | [`NixManagerPro`](https://github.com/MikeeeDeV/NixManagerPro) | [`v1.6.0` — ❄️ NixManager Pro v1.6.0 — WingetUI Ecosystem & Multi-Manager Suite](https://github.com/MikeeeDeV/NixManagerPro/releases/tag/v1.6.0) |
-| `2026-10-18` | **`SYSTEM`** | [`NixManagerPro`](https://github.com/MikeeeDeV/NixManagerPro) | [Branch update: `main` (Nix package orchestration)](https://github.com/MikeeeDeV/NixManagerPro) |
+| `2026-10-12` | **`RELEASE`** | [`git-smart-sync`](https://github.com/MikeeeDeV/git-smart-sync) | [`v1.2.0` — Multi-branch divergence guard & VS Code sync presets](https://github.com/MikeeeDeV/git-smart-sync/releases/tag/v1.2.0) |
 | `2026-09-26` | **`RELEASE`** | [`next-session-guard`](https://github.com/MikeeeDeV/next-session-guard) | [`v2.0.0` — Real-time SSE device revocation & SOC telemetry](https://github.com/MikeeeDeV/next-session-guard/releases/tag/v2.0.0) |
 | `2026-09-10` | **`CORE`** | [`Gawdah-CleanKit`](https://github.com/MikeeeDeV/Gawdah-CleanKit) | [Architecture specs & automated validation tooling](https://github.com/MikeeeDeV/Gawdah-CleanKit) |
 <!-- SHIPPING-LOG:END -->
