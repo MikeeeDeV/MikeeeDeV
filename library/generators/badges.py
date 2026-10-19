@@ -41,7 +41,7 @@ BADGE_PRESETS: List[Dict[str, Any]] = [
     {"id": "ram-ecc-verified-badge", "title": "ECC Memory Bitflip Guard", "theme": "nord_frost", "label": "HARDWARE MEMORY", "val": "DDR5 ECC Error Correcting", "status": "ECC OK"},
     {"id": "dark-mode-native-toggle", "title": "Native CSS prefers-color", "theme": "monokai_pro", "label": "THEME ENGINE", "val": "prefers-color-scheme Native", "status": "ADAPTIVE"},
     
-    {"id": "system-team-lead-crest", "title": "Technical Team Lead Crest", "theme": "kemet_nocturne", "label": "LEADERSHIP", "val": "Technical Team Leader @ Gawdah", "status": "LEAD"},
+    {"id": "system-team-lead-crest", "title": "Senior Systems Engineer Crest", "theme": "kemet_nocturne", "label": "EXPERTISE", "val": "Senior Full-Stack & Systems Engineer", "status": "SENIOR"},
     {"id": "kemet-pharaonic-seal", "title": "Pharaonic Horus Eye Seal", "theme": "kemet_nocturne", "label": "KEMET SEAL", "val": "Ancient Geometry • Modern Core", "status": "SEALED"},
     {"id": "high-availability-active", "title": "Multi-Region HA Active", "theme": "dracula", "label": "AVAILABILITY", "val": "3 AZ Active-Active Failover", "status": "HA READY"},
     {"id": "immutable-root-fs-pill", "title": "Immutable Read-Only RootFS", "theme": "solarized_dark", "label": "ROOT FILESYSTEM", "val": "RO SquashFS / OSTree", "status": "IMMUTABLE"},

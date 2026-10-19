@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 160" width="420" height="160" role="img" aria-labelledby="title-id desc-id">
-  <title id="title-id">gawdah-lead-suite - Repo Card</title>
+  <title id="title-id">systems-core-suite - Repo Card</title>
   <desc id="desc-id">Featured repo bento card kemet-nocturne-master-card</desc>
   <style>
     :root {
@@ -52,7 +52,7 @@
       </g>
       
       <!-- Repo Name -->
-      <text x="22" y="0" class="repo-name">gawdah-lead-suite</text>
+      <text x="22" y="0" class="repo-name">systems-core-suite</text>
       
       <!-- Public Badge -->
       <g transform="translate(310, -14)">
@@ -63,8 +63,8 @@
     
 
     <g transform="translate(24, 66)">
-      <text x="0" y="0" class="repo-desc">Technical Team Lead developer workspace, dashboard,</text>
-      <text x="0" y="18" class="repo-desc">and telemetry stack.</text>
+      <text x="0" y="0" class="repo-desc">Senior systems engineer workspace, dashboard, and</text>
+      <text x="0" y="18" class="repo-desc">telemetry stack.</text>
     </g>
     
 

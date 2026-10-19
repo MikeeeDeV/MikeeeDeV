@@ -15,10 +15,9 @@ secondary_focus:
   status: "Active Maintenance"
   tagline: "Divergence protection and branch presets for VS Code & Antigravity"
 
-leadership:
-  role: "Technical Team Leader"
-  organization: "Gawdah"
-  focus: "Resilient microservices, enterprise ERP integrations & engineering rigor"
+engineering_role:
+  title: "Senior Full-Stack & Systems Engineer"
+  focus: "Resilient microservices, distributed systems & engineering rigor"
 
 exploring:
   - "Deterministic Nix derivation caches"

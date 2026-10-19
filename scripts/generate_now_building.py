@@ -47,9 +47,8 @@ def parse_now_config() -> Dict[str, Any]:
                 "status": "Active Maintenance",
                 "tagline": "Divergence protection and branch presets for VS Code"
             },
-            "leadership": {
-                "role": "Technical Team Leader",
-                "organization": "Gawdah"
+            "engineering_role": {
+                "title": "Senior Full-Stack & Systems Engineer"
             },
             "updated": "2026-10-19"
         }
@@ -79,16 +78,13 @@ def generate_now_building_svg(cfg: Dict[str, Any]) -> str:
     project = escape_xml(shipping.get("project", "NixManagerPro"))
     status = escape_xml(shipping.get("status", "Active"))
     milestone = escape_xml(shipping.get("milestone", "Shipping"))
-    leadership = cfg.get("leadership", {})
-    lead_role = escape_xml(leadership.get("role", "Technical Team Leader"))
-    lead_org = escape_xml(leadership.get("organization", "Gawdah"))
     updated = escape_xml(cfg.get("updated", "2026-10-19"))
     
     w, h = 820, 116
     
     svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}" width="{w}" height="{h}" role="img" aria-label="Now Building Status Card">
   <title>Now Building - Mohamed Ayman (@MikeeeDeV)</title>
-  <desc>Current engineering focus: {current_focus}, shipping {project} ({status}), Team Lead at {lead_org}.</desc>
+  <desc>Current engineering focus: {current_focus}, shipping {project} ({status}).</desc>
   <style>
     {root_css}
     .card-bg {{
@@ -150,7 +146,7 @@ def generate_now_building_svg(cfg: Dict[str, Any]) -> str:
     <text x="24" y="12" class="text-title">NOW SHIPPING &amp; ARCHITECTING</text>
     <text x="0" y="40" class="text-main">{current_focus}</text>
     <text x="0" y="64" class="text-sub">Active project: <tspan font-weight="700" fill="var(--accent-lapis)">{project}</tspan> • <tspan fill="var(--accent-gold)">{status}</tspan> ({milestone})</text>
-    <text x="0" y="84" class="text-meta">Team Leadership: {lead_role} @ {lead_org} • Synced: {updated}</text>
+    <text x="0" y="84" class="text-meta">Focus: Senior Full-Stack &amp; Systems Architecture • Synced: {updated}</text>
   </g>
 
   <!-- Right Chamfered Badges -->
@@ -183,7 +179,7 @@ def render_now_building_markdown(cfg: Dict[str, Any]) -> str:
 - **Primary Focus**: **{current}**
 - **Active Release**: [`{shipping.get('project', 'NixManagerPro')}`](https://github.com/{shipping.get('repo', '')}) — *{shipping.get('status', '')}* ({shipping.get('tagline', '')})
 - **Secondary Track**: [`{sec.get('project', 'git-smart-sync')}`](https://github.com/{sec.get('repo', '')}) — *{sec.get('status', '')}* ({sec.get('tagline', '')})
-- **Leadership**: **{lead.get('role', 'Technical Team Leader')}** at **{lead.get('organization', 'Gawdah')}**
+- **Engineering**: **Senior Full-Stack &amp; Systems Engineer**
 - **Current R&amp;D**: `{exploring_md}`"""
     return md
 

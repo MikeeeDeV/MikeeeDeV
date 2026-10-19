@@ -14,7 +14,7 @@ REPO_PRESETS: List[Dict[str, Any]] = [
     {"id": "gradient-glow-smart-sync", "title": "Gradient Glow Bento Card", "theme": "tokyo_night", "repo": "My-portfolio", "lang": "TypeScript", "stars": 19, "desc": "Interactive personal engineering showcase with 3D canvas and dynamic themes."},
     {"id": "clean-minimal-portfolio", "title": "Clean Minimalist Mono Card", "theme": "solarized_dark", "repo": "fastmcp-kit", "lang": "Python", "stars": 52, "desc": "Ultra-lightweight FastMCP tool framework with type-safe schema reflection."},
     {"id": "deep-glass-fastmcp-tools", "title": "Deep Glass Frosted Card", "theme": "dracula", "repo": "vector-forge", "lang": "Python", "stars": 140, "desc": "Deterministic 200+ SVG developer component library with live preview."},
-    {"id": "bordered-beam-next-kit", "title": "Bordered Beam Highlight Card", "theme": "monokai_pro", "repo": "gawdah-cleankit", "lang": "TypeScript", "stars": 15, "desc": "Enterprise clean architecture starter kit with strict domain boundaries."},
+    {"id": "bordered-beam-next-kit", "title": "Bordered Beam Highlight Card", "theme": "monokai_pro", "repo": "cleankit-core", "lang": "TypeScript", "stars": 15, "desc": "Enterprise clean architecture starter kit with strict domain boundaries."},
     {"id": "monokai-ide-code-card", "title": "Monokai Syntax Card", "theme": "monokai_pro", "repo": "nile-vector-engine", "lang": "Rust", "stars": 67, "desc": "High-performance vector geometry and rosette math generator in Rust."},
     {"id": "dracula-shadow-card", "title": "Dracula Cast Shadow Card", "theme": "dracula", "repo": "al-raheq-al-makhtom", "lang": "Dart", "stars": 8, "desc": "Islamic biography and reference library with bilingual Arabic/English search."},
     {"id": "tokyo-night-glass-box", "title": "Tokyo Night Glass Container", "theme": "tokyo_night", "repo": "cairo-transit-tracker", "lang": "Go", "stars": 41, "desc": "Real-time Cairo metro and bus schedule engine with offline GTFS feed."},
@@ -45,7 +45,7 @@ REPO_PRESETS: List[Dict[str, Any]] = [
     {"id": "quantum-dot-card", "title": "Quantum Dot Grid Card", "theme": "tokyo_night", "repo": "qubit-sim", "lang": "Python", "stars": 50, "desc": "Statevector quantum simulator supporting up to 30 qubits on GPU."},
     {"id": "frosted-acrylic-card", "title": "Frosted Acrylic Glass Card", "theme": "rose_pine", "repo": "acrylic-dock", "lang": "Swift", "stars": 77, "desc": "macOS status bar utility for toggling display resolutions and rates."},
     {"id": "vintage-cassette-card", "title": "Vintage Cassette Card", "theme": "amber_crt", "repo": "tape-archive", "lang": "C", "stars": 49, "desc": "FSK audio encoder converting binary tarballs to analog audio cassettes."},
-    {"id": "kemet-nocturne-master-card", "title": "Kemet Nocturne Master Bento", "theme": "kemet_nocturne", "repo": "gawdah-lead-suite", "lang": "TypeScript", "stars": 125, "desc": "Technical Team Lead developer workspace, dashboard, and telemetry stack."},
+    {"id": "kemet-nocturne-master-card", "title": "Kemet Nocturne Master Bento", "theme": "kemet_nocturne", "repo": "systems-core-suite", "lang": "TypeScript", "stars": 125, "desc": "Senior systems engineer workspace, dashboard, and telemetry stack."},
 ]
 
 def generate_repo_card_svg(preset_id: str, theme_override: str = None) -> str:

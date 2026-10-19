@@ -128,9 +128,9 @@ def fetch_shipping_log() -> List[Dict[str, Any]]:
             {
                 "date": "2026-09-10",
                 "type": "CORE",
-                "repo": "MikeeeDeV/Gawdah-CleanKit",
+                "repo": "MikeeeDeV/cleankit-core",
                 "title": "Architecture specs & automated validation tooling",
-                "url": "https://github.com/MikeeeDeV/Gawdah-CleanKit"
+                "url": "https://github.com/MikeeeDeV/cleankit-core"
             }
         ]
         items.extend(fallback_items[len(items):5])

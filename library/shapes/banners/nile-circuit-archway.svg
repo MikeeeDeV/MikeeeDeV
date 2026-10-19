@@ -61,7 +61,7 @@
       <text x="0" y="56" class="title-text">NILE DIGITAL ARCHWAY</text>
       
       <!-- Subtitle & Specs -->
-      <text x="0" y="82" class="subtitle-text">Deterministic 1-of-1 SVG Canvas • Seed 0x0F6C5F</text>
+      <text x="0" y="82" class="subtitle-text">Deterministic 1-of-1 SVG Canvas • Seed 0xD5D34A</text>
       <text x="0" y="104" font-family="var(--vf-font-mono)" font-size="11" fill="var(--vf-text-muted)">Theme: kemet_nocturne • Resolution: 960x240 • Zero Runtime Dependency</text>
       
       <!-- Badges row -->

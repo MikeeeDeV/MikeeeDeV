@@ -61,7 +61,7 @@
       <text x="0" y="56" class="title-text">HONEYCOMB NEXUS HIVE</text>
       
       <!-- Subtitle & Specs -->
-      <text x="0" y="82" class="subtitle-text">Deterministic 1-of-1 SVG Canvas • Seed 0x9100F2</text>
+      <text x="0" y="82" class="subtitle-text">Deterministic 1-of-1 SVG Canvas • Seed 0xD6DDFC</text>
       <text x="0" y="104" font-family="var(--vf-font-mono)" font-size="11" fill="var(--vf-text-muted)">Theme: cyberpunk_2077 • Resolution: 960x240 • Zero Runtime Dependency</text>
       
       <!-- Badges row -->

@@ -159,7 +159,7 @@ def generate_og_svg(repo: Dict[str, Any], tokens: Dict[str, Any]) -> str:
   <!-- Bottom Attribution -->
   <g transform="translate(80, 580)">
     <text x="0" y="0" class="og-meta">Designed with Kemet Nocturne Design System • 100% Deterministic</text>
-    <text x="{w - 160}" y="0" class="og-meta" text-anchor="end" fill="var(--accent-gold)">GAWDAH ENGINEERING</text>
+    <text x="{w - 160}" y="0" class="og-meta" text-anchor="end" fill="var(--accent-gold)">SYSTEMS ARCHITECTURE</text>
   </g>
 </svg>"""
     return svg

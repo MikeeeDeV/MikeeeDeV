@@ -1,7 +1,7 @@
 # Creative Mandate: Profile Inventions & Ideation Matrix
 
 > **Target Profile**: Mohamed Ayman (`MikeeeDeV`)  
-> **Brand Identity**: Egyptian Systems Engineer, Technical Team Leader at Gawdah, Builder of Deterministic Linux/Nix Ecosystems, FastMCP & AI Agent Infrastructure, Resilient Full-Stack Architectures.
+> **Brand Identity**: Egyptian Systems Engineer, Senior Full-Stack & Systems Architect, Builder of Deterministic Linux/Nix Ecosystems, FastMCP & AI Agent Infrastructure, Resilient Full-Stack Architectures.
 
 ---
 
@@ -49,7 +49,7 @@
 
 ### Invention 3: Model Context Protocol (FastMCP) Manifest & Protocol Topology Card
 * **Why it fits MikeeeDeV**:
-  Technical Team Leader and FastMCP / AI agent tooling builder. The future of developer profiles is machine-readable by LLMs and autonomous agents.
+  Senior Systems Engineer and FastMCP / AI agent tooling builder. The future of developer profiles is machine-readable by LLMs and autonomous agents.
 * **How it works**:
   1. A root-level standard manifest `mcp.json` conforms to the Model Context Protocol specification, defining tools he authored (e.g. `nix_inspect_channel`, `git_smart_sync_branch`, `session_guard_revoke_device`).
   2. A dedicated generator (`scripts/generate_mcp_card.py`) renders an SVG card (`assets/mcp-topology.svg`) displaying the protocol topology: tool namespaces, schemas, input contracts, and zero-leak security guarantees.

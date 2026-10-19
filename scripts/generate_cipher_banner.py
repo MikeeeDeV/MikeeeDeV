@@ -226,7 +226,7 @@ def generate_cipher_banner_svg() -> str:
     <text x="0" y="46" class="kemet-name">MOHAMED AYMAN</text>
     
     <!-- Title -->
-    <text x="0" y="74" class="kemet-role">TECHNICAL TEAM LEADER @ GAWDAH • SYSTEMS &amp; FULL-STACK</text>
+    <text x="0" y="74" class="kemet-role">SENIOR SYSTEMS &amp; FULL-STACK ARCHITECT</text>
     
     <!-- Engineering Focus Statement -->
     <text x="0" y="100" class="kemet-tagline">Architecting Zero-Drift Linux Tooling, Next.js Security Guards &amp; FastMCP AI Agents</text>
