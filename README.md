@@ -161,19 +161,23 @@
 <p align="center">
   <b>Explore all 235 components in the interactive showroom or use the CLI:</b><br />
   <a href="https://mikeeedev.github.io/MikeeeDeV/"><b>🌐 Live Showroom on GitHub Pages</b></a> • 
+  <a href="DEVELOPER_GUIDE.md"><b>🛠️ Developer Guide (DEVELOPER_GUIDE.md)</b></a> • 
   <a href="LIBRARY.md"><b>📖 Full Documentation (LIBRARY.md)</b></a> • 
   <a href="CONTRIBUTING.md"><b>🤝 Contributing Guidelines</b></a> • 
   <a href="library/catalog.json"><b>📋 Catalog JSON</b></a>
 </p>
 
 ```bash
-# Install globally via pip:
-pip install git+https://github.com/MikeeeDeV/MikeeeDeV.git
+# Option A: Zero-install via NPX (Node.js ecosystem)
+npx vectorforge search "raft"
+npx vectorforge generate raft-consensus-cluster --theme dracula -o architecture.svg
+npx vectorforge init && npx vectorforge build
 
-# Or run instantly via CLI:
+# Option B: Python CLI (pip install)
+pip install git+https://github.com/MikeeeDeV/MikeeeDeV.git
 vectorforge list
-vectorforge generate raft-consensus-cluster --theme cyberpunk_2077 --out banner.svg
-vectorforge embed kemet-nocturne-rosette
+vectorforge generate kemet-nocturne-rosette --theme cyberpunk_2077 --out banner.svg
+vectorforge build --config vectorforge.json
 ```
 
 ##### 🤖 Use as a Reusable GitHub Action in your CI/CD:
@@ -184,6 +188,9 @@ vectorforge embed kemet-nocturne-rosette
     theme: "cyberpunk_2077"
     output: "./assets/banner.svg"
 ```
+
+##### 🔄 Turnkey Profile Sync Automation Workflow:
+See [examples/profile-sync-workflow.yml](examples/profile-sync-workflow.yml) to automatically render and sync your custom assets on every commit!
 
 ---
 

@@ -1,0 +1,68 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "VectorForgeConfiguration",
+  "description": "Configuration schema for VectorForge Developer Shape Studio",
+  "type": "object",
+  "required": ["shapes"],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string",
+      "default": "1.0"
+    },
+    "output_dir": {
+      "type": "string",
+      "description": "Output directory for rendered SVG shapes",
+      "default": "./assets/generated"
+    },
+    "shapes": {
+      "type": "array",
+      "description": "List of developer shapes to generate",
+      "items": {
+        "type": "object",
+        "required": ["preset"],
+        "properties": {
+          "preset": {
+            "type": "string",
+            "description": "Preset shape identifier (e.g. kemet-nocturne-rosette, raft-consensus-cluster)"
+          },
+          "theme": {
+            "type": "string",
+            "description": "Color theme palette override",
+            "enum": [
+              "kemet_nocturne",
+              "cyberpunk_2077",
+              "nord_frost",
+              "dracula",
+              "tokyo_night",
+              "monokai_pro",
+              "emerald_matrix",
+              "amber_crt",
+              "solarized_dark",
+              "rose_pine"
+            ]
+          },
+          "out": {
+            "type": "string",
+            "description": "Target SVG output filename relative to output_dir"
+          },
+          "params": {
+            "type": "object",
+            "description": "Key-value parameters to inject into SVG placeholders",
+            "properties": {
+              "title": { "type": "string" },
+              "subtitle": { "type": "string" },
+              "role": { "type": "string" },
+              "author": { "type": "string" },
+              "stack": { "type": "string" },
+              "stats": { "type": "string" }
+            },
+            "additionalProperties": { "type": "string" }
+          }
+        }
+      }
+    }
+  }
+}

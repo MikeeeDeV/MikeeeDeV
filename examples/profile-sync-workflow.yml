@@ -1,0 +1,42 @@
+# .github/workflows/vectorforge-sync.yml
+# Copy this file to your profile or documentation repository to automatically
+# keep your custom VectorForge developer assets built and up-to-date.
+
+name: Sync VectorForge Profile Assets
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'vectorforge.json'
+      - '.github/workflows/vectorforge-sync.yml'
+  schedule:
+    # Run every Sunday at midnight UTC
+    - cron: '0 0 * * 0'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Render VectorForge Assets
+        run: |
+          npx -y vectorforge build
+
+      - name: Commit Updated Shapes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore(assets): sync deterministic VectorForge profile shapes [skip ci]"
+          file_pattern: "assets/**"
