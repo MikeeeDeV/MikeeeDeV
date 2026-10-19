@@ -52,5 +52,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ISSUE_NUMBER: ${{ github.event.issue.number }}
         run: |
+          gh issue edit "$ISSUE_NUMBER" --add-label "bot-processed"
           gh issue comment "$ISSUE_NUMBER" --body-file receipt.txt
           gh issue close "$ISSUE_NUMBER" --reason completed
