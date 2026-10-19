@@ -19,7 +19,6 @@ from common import (
 
 
 def get_current_sha() -> str:
-    """Gets the current git commit SHA or a deterministic fallback."""
     try:
         proc = subprocess.run(
             ["git", "rev-parse", "HEAD"],
@@ -35,7 +34,6 @@ def get_current_sha() -> str:
 
 
 class SeededRNG:
-    """Simple linear congruential generator for deterministic math."""
     def __init__(self, seed: int):
         self.state = seed & 0xFFFFFFFF
 
@@ -45,22 +43,21 @@ class SeededRNG:
 
 
 def generate_rosette_paths(cx: float, cy: float, base_r: float, angle_offset: float) -> List[str]:
-    """Generates an 8-pointed star rosette with interlocking strapwork."""
     elements = []
     points_count = 8
     
-    # Outer constellation ring
+    # Concentric rings
     elements.append(
-        f'<circle cx="{cx}" cy="{cy}" r="{base_r * 1.25}" fill="none" stroke="var(--border)" stroke-width="1" stroke-dasharray="3,4" opacity="0.6" />'
+        f'<circle cx="{cx}" cy="{cy}" r="{base_r * 1.25:.1f}" fill="none" stroke="var(--border)" stroke-width="1" stroke-dasharray="3,4" opacity="0.6" />'
     )
     elements.append(
-        f'<circle cx="{cx}" cy="{cy}" r="{base_r}" fill="none" stroke="var(--accent-teal)" stroke-width="1.2" opacity="0.4" />'
+        f'<circle cx="{cx}" cy="{cy}" r="{base_r:.1f}" fill="none" stroke="var(--accent-teal)" stroke-width="1.2" opacity="0.4" />'
     )
     elements.append(
-        f'<circle cx="{cx}" cy="{cy}" r="{base_r * 0.45}" fill="none" stroke="var(--accent-gold)" stroke-width="1" opacity="0.7" />'
+        f'<circle cx="{cx}" cy="{cy}" r="{base_r * 0.45:.1f}" fill="none" stroke="var(--accent-gold)" stroke-width="1.2" opacity="0.8" />'
     )
     
-    # Star polygons (2 interpenetrating squares rotated 45 degrees)
+    # 2 interpenetrating squares (8-pointed star)
     sq1_pts = []
     sq2_pts = []
     for i in range(4):
@@ -71,10 +68,10 @@ def generate_rosette_paths(cx: float, cy: float, base_r: float, angle_offset: fl
         sq2_pts.append(f"{cx + r * math.cos(ang2):.1f},{cy + r * math.sin(ang2):.1f}")
         
     elements.append(
-        f'<polygon points="{" ".join(sq1_pts)}" fill="none" stroke="var(--accent-gold)" stroke-width="1.4" opacity="0.8" />'
+        f'<polygon points="{" ".join(sq1_pts)}" fill="none" stroke="var(--accent-gold)" stroke-width="1.5" opacity="0.9" />'
     )
     elements.append(
-        f'<polygon points="{" ".join(sq2_pts)}" fill="none" stroke="var(--accent-lapis)" stroke-width="1.2" opacity="0.7" />'
+        f'<polygon points="{" ".join(sq2_pts)}" fill="none" stroke="var(--accent-lapis)" stroke-width="1.2" opacity="0.8" />'
     )
     
     # Radial diamond nodes
@@ -83,31 +80,28 @@ def generate_rosette_paths(cx: float, cy: float, base_r: float, angle_offset: fl
         nx = cx + base_r * 1.12 * math.cos(ang)
         ny = cy + base_r * 1.12 * math.sin(ang)
         elements.append(
-            f'<rect x="{nx - 3:.1f}" y="{ny - 3:.1f}" width="6" height="6" transform="rotate(45 {nx:.1f} {ny:.1f})" fill="var(--accent-gold)" />'
+            f'<rect x="{nx - 3.5:.1f}" y="{ny - 3.5:.1f}" width="7" height="7" transform="rotate(45 {nx:.1f} {ny:.1f})" fill="var(--accent-gold)" />'
         )
-        # Connecting line to center
         elements.append(
-            f'<line x1="{cx}" y1="{cy}" x2="{nx:.1f}" y2="{ny:.1f}" stroke="var(--border-accent)" stroke-width="0.8" opacity="0.5" />'
+            f'<line x1="{cx}" y1="{cy}" x2="{nx:.1f}" y2="{ny:.1f}" stroke="var(--border-accent)" stroke-width="0.8" opacity="0.6" />'
         )
         
-    # Center node
-    elements.append(f'<circle cx="{cx}" cy="{cy}" r="4" fill="var(--accent-gold)" />')
+    elements.append(f'<circle cx="{cx}" cy="{cy}" r="4.5" fill="var(--accent-gold)" />')
     return elements
 
 
 def generate_nile_circuits(rng: SeededRNG, w: int, h: int) -> List[str]:
-    """Generates deterministic circuit traces branching across the banner."""
     paths = []
     for _ in range(5):
-        y_start = int(40 + rng.next() * (h - 80))
-        pts = [(600, y_start)]
-        x = 600
+        y_start = int(45 + rng.next() * (h - 90))
+        pts = [(620, y_start)]
+        x = 620
         y = y_start
         for _ in range(3):
-            dx = -(80 + rng.next() * 120)
-            dy = (rng.next() - 0.5) * 50
-            x = max(60, x + dx)
-            y = max(30, min(h - 30, y + dy))
+            dx = -(80 + rng.next() * 110)
+            dy = (rng.next() - 0.5) * 45
+            x = max(70, x + dx)
+            y = max(35, min(h - 35, y + dy))
             pts.append((x, y))
             
         d_str = f"M {pts[0][0]:.1f} {pts[0][1]:.1f}"
@@ -116,12 +110,11 @@ def generate_nile_circuits(rng: SeededRNG, w: int, h: int) -> List[str]:
             
         color = "var(--accent-teal)" if rng.next() > 0.5 else "var(--accent-lapis)"
         paths.append(
-            f'<path d="{d_str}" fill="none" stroke="{color}" stroke-width="1" opacity="0.3" stroke-dasharray="4,4" />'
+            f'<path d="{d_str}" fill="none" stroke="{color}" stroke-width="1" opacity="0.32" stroke-dasharray="4,4" />'
         )
-        # End node
         last_x, last_y = pts[-1]
         paths.append(
-            f'<circle cx="{last_x:.1f}" cy="{last_y:.1f}" r="2" fill="{color}" opacity="0.7" />'
+            f'<circle cx="{last_x:.1f}" cy="{last_y:.1f}" r="2.5" fill="{color}" opacity="0.75" />'
         )
     return paths
 
@@ -131,13 +124,12 @@ def generate_cipher_banner_svg() -> str:
     root_css = get_root_css(tokens)
     sha = get_current_sha()
     
-    # Compute seed from SHA
     seed_val = int(sha[:8], 16)
     rng = SeededRNG(seed_val)
     angle_offset = (seed_val % 360) / 4.0
     
-    w, h = 960, 240
-    rosette_cx = w - 160
+    w, h = 980, 240
+    rosette_cx = w - 170
     rosette_cy = h / 2
     rosette_r = 82
     
@@ -161,7 +153,7 @@ def generate_cipher_banner_svg() -> str:
     }}
     .kemet-name {{
       font-family: var(--font-mono);
-      font-size: 32px;
+      font-size: 34px;
       font-weight: 700;
       letter-spacing: 4px;
       fill: var(--text-primary);
@@ -175,22 +167,21 @@ def generate_cipher_banner_svg() -> str:
     }}
     .kemet-tagline {{
       font-family: var(--font-sans);
-      font-size: 13px;
+      font-size: 13.5px;
       fill: var(--text-secondary);
     }}
     .seed-tag {{
       font-family: var(--font-mono);
-      font-size: 10px;
+      font-size: 10.5px;
       fill: var(--accent-teal);
       letter-spacing: 1px;
     }}
     .arabic-watermark {{
       font-family: var(--font-arabic);
-      font-size: 26px;
+      font-size: 22px;
       font-weight: 700;
-      fill: var(--border);
-      opacity: 0.35;
-      direction: rtl;
+      fill: var(--border-accent);
+      opacity: 0.22;
     }}
     .badge-pill {{
       fill: var(--card-elevated);
@@ -207,16 +198,15 @@ def generate_cipher_banner_svg() -> str:
       animation: banner-pulse 3s infinite ease-in-out;
     }}
     @keyframes banner-pulse {{
-      0%, 100% {{ opacity: 0.9; }}
+      0%, 100% {{ opacity: 0.95; }}
       50% {{ opacity: 0.45; }}
     }}
   </style>
 
-  <!-- Outer Frame -->
   <rect x="0.5" y="0.5" width="{w - 1}" height="{h - 1}" rx="8" class="banner-frame" />
 
-  <!-- Arabic Calligraphic Watermark in Background -->
-  <text x="{w - 320}" y="70" class="arabic-watermark">محمد أيمن • مهندس نظم برمجية</text>
+  <!-- Arabic Watermark (Clean subtle placement) -->
+  <text x="{w - 360}" y="48" class="arabic-watermark" text-anchor="end" direction="rtl" xml:lang="ar">محمد أيمن • مهندس نظم وبرمجيات</text>
 
   <!-- Nile Circuit Traces -->
   <g>
@@ -227,22 +217,22 @@ def generate_cipher_banner_svg() -> str:
   <g transform="translate(42, 54)">
     <!-- Header Seed Indicator -->
     <g transform="translate(0, 0)">
-      <rect x="0" y="-12" width="230" height="20" rx="3" class="inner-panel" />
-      <circle cx="8" cy="-2" r="3" fill="var(--accent-teal)" class="glow-pulse" />
-      <text x="18" y="2" class="seed-tag">CIPHER SEED: 0x{sha[:8]} // DETERMINISTIC</text>
+      <rect x="0" y="-12" width="240" height="22" rx="4" class="inner-panel" />
+      <circle cx="10" cy="-1" r="3.5" fill="var(--accent-teal)" class="glow-pulse" />
+      <text x="22" y="3" class="seed-tag">CIPHER SEED: 0x{sha[:8]} // DETERMINISTIC</text>
     </g>
 
     <!-- Name -->
-    <text x="0" y="44" class="kemet-name">MOHAMED AYMAN</text>
+    <text x="0" y="46" class="kemet-name">MOHAMED AYMAN</text>
     
     <!-- Title -->
-    <text x="0" y="72" class="kemet-role">TECHNICAL TEAM LEADER @ GAWDAH • SYSTEMS &amp; FULL-STACK</text>
+    <text x="0" y="74" class="kemet-role">TECHNICAL TEAM LEADER @ GAWDAH • SYSTEMS &amp; FULL-STACK</text>
     
     <!-- Engineering Focus Statement -->
-    <text x="0" y="98" class="kemet-tagline">Architecting Zero-Drift Linux Tooling, Next.js Security Guards &amp; FastMCP AI Agents</text>
+    <text x="0" y="100" class="kemet-tagline">Architecting Zero-Drift Linux Tooling, Next.js Security Guards &amp; FastMCP AI Agents</text>
 
     <!-- Stack Badges -->
-    <g transform="translate(0, 118)">
+    <g transform="translate(0, 120)">
       <rect x="0" y="0" width="84" height="22" rx="3" class="badge-pill" />
       <text x="42" y="15" text-anchor="middle" class="badge-text">❄️ NIXOS</text>
 

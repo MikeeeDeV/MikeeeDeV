@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 134" width="840" height="134" role="img" aria-label="Mohamed Ayman Positioning Statement">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 138" width="860" height="138" role="img" aria-label="Mohamed Ayman Positioning Statement">
   <title>Mohamed Ayman (MikeeeDeV) - Systems &amp; Full-Stack Engineer</title>
   <desc>Architecting deterministic Linux systems, resilient auth guards and FastMCP agent infrastructure. Egyptian systems engineer.</desc>
   <style>
@@ -71,36 +71,25 @@
     }
     .arabic-text {
       font-family: var(--font-arabic);
-      font-size: 14px;
+      font-size: 13.5px;
       font-weight: 600;
       fill: var(--text-secondary);
-      direction: rtl;
-      unicode-bidi: embed;
     }
     .cursor {
       fill: var(--accent-gold);
+      font-weight: 700;
       animation: blink 0.9s infinite step-start;
-    }
-    .chamfer-marker {
-      fill: var(--accent-lapis);
     }
     @keyframes blink {
       0%, 100% { opacity: 1; }
       50% { opacity: 0; }
     }
-    @keyframes fadeIn {
-      0% { opacity: 0; transform: translateY(4px); }
-      100% { opacity: 1; transform: translateY(0); }
-    }
-    .fade-seq {
-      animation: fadeIn 0.8s ease-out forwards;
-    }
   </style>
 
-  <rect x="0.5" y="0.5" width="839" height="133" rx="8" class="hero-card" />
+  <rect x="0.5" y="0.5" width="859" height="137" rx="8" class="hero-card" />
 
   <!-- Window Header Bar Line -->
-  <line x1="0" y1="32" x2="840" y2="32" stroke="var(--border)" stroke-width="1" />
+  <line x1="0" y1="32" x2="860" y2="32" stroke="var(--border)" stroke-width="1" />
   
   <g transform="translate(18, 20)">
     <circle cx="0" cy="0" r="4" fill="var(--accent-coral)" />
@@ -108,7 +97,7 @@
     <circle cx="28" cy="0" r="4" fill="var(--accent-teal)" />
     
     <text x="50" y="4" font-family="var(--font-mono)" font-size="11" fill="var(--text-muted)">session: init --profile=engineer --location=cairo</text>
-    <text x="784" y="4" font-family="var(--font-mono)" font-size="11" font-weight="600" fill="var(--accent-teal)" text-anchor="end">STATUS: ACTIVE</text>
+    <text x="812" y="4" font-family="var(--font-mono)" font-size="11" font-weight="600" fill="var(--accent-teal)" text-anchor="end">STATUS: ACTIVE</text>
   </g>
 
   <!-- Line 1: Terminal Command -->
@@ -117,16 +106,15 @@
     <text x="175" y="0" class="terminal-cmd">antigravity --focus=systems --manifest</text>
   </g>
 
-  <!-- Line 2: Positioning Statement with Cursor -->
+  <!-- Line 2: Positioning Statement with Inline Natural Blinking Cursor -->
   <g transform="translate(24, 88)">
     <text x="0" y="0" font-family="var(--font-mono)" font-size="14" font-weight="700" fill="var(--accent-teal)">❯</text>
-    <text x="18" y="0" class="typewriter-eng">Architecting deterministic Linux systems, resilient auth guards &amp; FastMCP agent infrastructure.</text>
-    <rect x="746" y="-12" width="8" height="15" class="cursor" />
+    <text x="18" y="0" class="typewriter-eng">Architecting deterministic Linux systems, resilient auth guards &amp; FastMCP agent infrastructure.<tspan class="cursor" dx="4">▋</tspan></text>
   </g>
 
-  <!-- Line 3: Arabic Typographic Line (RTL) -->
-  <g transform="translate(24, 114)">
+  <!-- Line 3: Arabic Typographic Line (Cleanly bounded to avoid clipping) -->
+  <g transform="translate(24, 116)">
     <text x="0" y="0" font-family="var(--font-mono)" font-size="11" font-weight="600" fill="var(--accent-lapis)">SYS//AR</text>
-    <text x="792" y="0" class="arabic-text" text-anchor="end">مهندس نظم ومطور برمجيات متكاملة • أبني أنظمة محكمة غير قابلة للانهيار</text>
+    <text x="824" y="0" class="arabic-text" text-anchor="end" direction="rtl" xml:lang="ar">مهندس نظم ومطور برمجيات متكاملة • أبني أنظمة محكمة غير قابلة للانهيار</text>
   </g>
 </svg>
