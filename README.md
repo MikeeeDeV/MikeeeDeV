@@ -6,6 +6,15 @@
 <!-- Pure SMIL/CSS Animated Positioning Statement & Arabic Typography -->
 <img src="assets/hero-typing.svg" width="100%" alt="Mohamed Ayman Positioning Statement" />
 
+<br /><br />
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-F5C451.svg?style=flat-square&logo=opensourceinitiative&logoColor=black)](LICENSE)
+[![Community Standards](https://img.shields.io/badge/Community%20Standards-100%25%20Verified-38BDF8.svg?style=flat-square&logo=github)](.github/ISSUE_TEMPLATE/)
+[![VectorForge Showroom](https://img.shields.io/badge/Showroom-Live%20on%20GitHub%20Pages-14B8A6.svg?style=flat-square&logo=githubpages&logoColor=white)](https://mikeeedev.github.io/MikeeeDeV/)
+[![Accessibility](https://img.shields.io/badge/Accessibility-W3C%20SVG%201.1-10B981.svg?style=flat-square)](ACCESSIBILITY.md)
+[![Code of Conduct](https://img.shields.io/badge/Contributor%20Covenant-2.1-BD93F9.svg?style=flat-square)](CODE_OF_CONDUCT.md)
+[![Security Policy](https://img.shields.io/badge/Security-Policy-EF4444.svg?style=flat-square)](SECURITY.md)
+
 </div>
 
 ---
@@ -151,16 +160,29 @@
 
 <p align="center">
   <b>Explore all 235 components in the interactive showroom or use the CLI:</b><br />
-  <a href="LIBRARY.md"><b>📖 Read Full Documentation (LIBRARY.md)</b></a> • 
-  <a href="library/catalog.json"><b>📋 Catalog JSON</b></a> • 
-  <a href="library/gallery/index.html"><b>🖥️ Offline Web Showroom</b></a>
+  <a href="https://mikeeedev.github.io/MikeeeDeV/"><b>🌐 Live Showroom on GitHub Pages</b></a> • 
+  <a href="LIBRARY.md"><b>📖 Full Documentation (LIBRARY.md)</b></a> • 
+  <a href="CONTRIBUTING.md"><b>🤝 Contributing Guidelines</b></a> • 
+  <a href="library/catalog.json"><b>📋 Catalog JSON</b></a>
 </p>
 
 ```bash
-# Clone and explore via developer CLI:
-python3 -m library.cli list
-python3 -m library.cli generate raft-consensus-cluster --theme cyberpunk_2077
-python3 -m library.cli embed kemet-nocturne-rosette
+# Install globally via pip:
+pip install git+https://github.com/MikeeeDeV/MikeeeDeV.git
+
+# Or run instantly via CLI:
+vectorforge list
+vectorforge generate raft-consensus-cluster --theme cyberpunk_2077 --out banner.svg
+vectorforge embed kemet-nocturne-rosette
+```
+
+##### 🤖 Use as a Reusable GitHub Action in your CI/CD:
+```yaml
+- uses: MikeeeDeV/MikeeeDeV@main
+  with:
+    shape: "kemet-nocturne-rosette"
+    theme: "cyberpunk_2077"
+    output: "./assets/banner.svg"
 ```
 
 ---
