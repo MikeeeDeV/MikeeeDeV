@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 160" width="400" height="160" role="img" aria-label="Pinned Repository NixManagerPro">
+  <title>NixManagerPro - Featured Repository</title>
+  <desc>Asynchronous desktop client for Nix Package Manager on Ubuntu/Debian multi-user setups.</desc>
+  <style>
+    
+    :root {
+      --bg: #0A0E14;
+      --card-bg: #111822;
+      --card-elevated: #182230;
+      --border: #223348;
+      --border-accent: #3B5372;
+      --text-primary: #E2E8F0;
+      --text-secondary: #94A3B8;
+      --text-muted: #64748B;
+      --accent-gold: #E5C07B;
+      --accent-lapis: #3898EC;
+      --accent-teal: #2DD4BF;
+      --accent-coral: #F43F5E;
+      --term-green: #2DD4BF;
+      --term-yellow: #E5C07B;
+      --term-blue: #3898EC;
+      --term-purple: #C678DD;
+      --font-mono: ui-monospace, 'JetBrains Mono', 'SF Mono', 'Fira Code', 'Menlo', monospace;
+      --font-sans: system-ui, -apple-system, 'Segoe UI', Roboto, 'Cairo', sans-serif;
+      --font-arabic: 'Cairo', 'Amiri', 'Noto Sans Arabic', 'Segoe UI', system-ui, sans-serif;
+    }
+
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg: #F8FAFC;
+        --card-bg: #FFFFFF;
+        --card-elevated: #F1F5F9;
+        --border: #CBD5E1;
+        --border-accent: #94A3B8;
+        --text-primary: #0F172A;
+        --text-secondary: #475569;
+        --text-muted: #64748B;
+        --accent-gold: #B48924;
+        --accent-lapis: #1E6BB8;
+        --accent-teal: #0D9488;
+        --accent-coral: #E11D48;
+        --term-green: #0D9488;
+        --term-yellow: #B48924;
+        --term-blue: #1E6BB8;
+        --term-purple: #9333EA;
+      }
+    }
+    
+    .pin-card {
+      fill: var(--card-bg);
+      stroke: var(--border);
+      stroke-width: 1px;
+      transition: stroke 0.2s ease;
+    }
+    .pin-title {
+      font-family: var(--font-mono);
+      font-size: 14px;
+      font-weight: 700;
+      fill: var(--text-primary);
+    }
+    .pin-desc {
+      font-family: var(--font-sans);
+      font-size: 12px;
+      fill: var(--text-secondary);
+      line-height: 16px;
+    }
+    .pin-meta {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      fill: var(--text-muted);
+    }
+    .badge-icon {
+      font-size: 14px;
+    }
+    .stat-label {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      font-weight: 600;
+      fill: var(--text-secondary);
+    }
+  </style>
+
+  <rect x="0.5" y="0.5" width="399" height="159" rx="8" class="pin-card" />
+
+  <!-- Card Top Header -->
+  <g transform="translate(18, 24)">
+    <!-- Icon & Title -->
+    <text x="0" y="2" class="badge-icon">❄️</text>
+    <text x="24" y="2" class="pin-title">NixManagerPro</text>
+
+    <!-- Star & Fork Metrics -->
+    <g transform="translate(290, -4)">
+      <text x="0" y="6" class="stat-label">★ 0</text>
+      <text x="44" y="6" class="stat-label">⑂ 0</text>
+    </g>
+  </g>
+
+  <!-- Description Body -->
+  <g transform="translate(18, 56)">
+    <text x="0" y="10" class="pin-desc">Asynchronous desktop client for Nix on</text>
+    <text x="0" y="28" class="pin-desc">Package Manager Ubuntu/Debian multi-user setups.</text>
+  </g>
+
+  <!-- Language Bar and Footer -->
+  <g transform="translate(18, 126)">
+    <!-- Primary Language -->
+    <circle cx="4" cy="0" r="4" fill="var(--accent-gold)" />
+    <text x="14" y="4" class="pin-meta">Python</text>
+
+    <!-- Micro Language Stack -->
+    <g transform="translate(120, -2)">
+      <rect x="0" y="0" width="118" height="4" rx="2" fill="var(--accent-lapis)" /><rect x="119" y="0" width="4" height="4" rx="2" fill="var(--accent-gold)" />
+    </g>
+
+    <!-- Updated Time -->
+    <text x="360" y="4" class="pin-meta" text-anchor="end">Synced 10h ago</text>
+  </g>
+</svg>
