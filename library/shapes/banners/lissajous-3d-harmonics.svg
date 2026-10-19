@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 240" width="960" height="240" role="img" aria-labelledby="title-id desc-id">
+  <title id="title-id">Lissajous Resonance Knot - VectorForge Banner</title>
+  <desc id="desc-id">Algorithmic banner preset lissajous-3d-harmonics</desc>
+  <style>
+    :root {
+      --vf-bg: #1E1F29;
+      --vf-card: #282A36;
+      --vf-border: #44475A;
+      --vf-text: #F8F8F2;
+      --vf-text-muted: #B6B8CA;
+      --vf-accent-1: #BD93F9;
+      --vf-accent-2: #50FA7B;
+      --vf-accent-3: #FF79C6;
+      --vf-glow: #BD93F944;
+      --vf-font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      --vf-font-mono: "JetBrains Mono", "Fira Code", ui-monospace, Menlo, Monaco, Consolas, monospace;
+      --vf-font-arabic: "Cairo", "Amiri", "Tahoma", -apple-system, sans-serif;
+    }
+    @media (prefers-color-scheme: light) {
+      :root {
+        --vf-bg: #F5F3F8;
+        --vf-card: #FFFFFF;
+        --vf-border: #D6D0E3;
+        --vf-text: #282A36;
+        --vf-text-muted: #59556B;
+        --vf-accent-1: #7D49C9;
+        --vf-accent-2: #219E47;
+        --vf-accent-3: #C72E85;
+        --vf-glow: #7D49C933;
+      }
+    }
+    text {
+      user-select: none;
+    }
+    
+      .card-bg { fill: var(--vf-card); stroke: var(--vf-border); stroke-width: 1; }
+      .grid-line { stroke: var(--vf-border); stroke-width: 0.5; opacity: 0.4; }
+      .glow-layer { filter: drop-shadow(0 0 10px var(--vf-glow)); }
+      .badge-bg { fill: var(--vf-bg); stroke: var(--vf-border); stroke-width: 1; }
+      .title-text { font-family: var(--vf-font-sans); font-size: 24px; font-weight: 800; fill: var(--vf-text); letter-spacing: -0.5px; }
+      .subtitle-text { font-family: var(--vf-font-mono); font-size: 12px; fill: var(--vf-text-muted); letter-spacing: 0.5px; }
+      .tag-text { font-family: var(--vf-font-mono); font-size: 10px; font-weight: 700; fill: var(--vf-accent-1); }
+      .center-stroke { stroke: var(--vf-accent-1); stroke-width: 1.5; fill: none; }
+      .center-sub { stroke: var(--vf-accent-2); stroke-width: 1.0; fill: none; opacity: 0.75; }
+      .center-dot { fill: var(--vf-accent-3); }
+      .circuit-line { stroke: var(--vf-border); stroke-width: 1; fill: none; }
+    
+  </style>
+  
+  <rect x="1" y="1" width="958" height="238" rx="8" class="card-bg" />
+<g class="grid-layer"><line x1="40" y1="0" x2="40" y2="240" class="grid-line" /><line x1="100" y1="0" x2="100" y2="240" class="grid-line" /><line x1="160" y1="0" x2="160" y2="240" class="grid-line" /><line x1="220" y1="0" x2="220" y2="240" class="grid-line" /><line x1="280" y1="0" x2="280" y2="240" class="grid-line" /><line x1="340" y1="0" x2="340" y2="240" class="grid-line" /><line x1="400" y1="0" x2="400" y2="240" class="grid-line" /><line x1="460" y1="0" x2="460" y2="240" class="grid-line" /><line x1="520" y1="0" x2="520" y2="240" class="grid-line" /><line x1="580" y1="0" x2="580" y2="240" class="grid-line" /><line x1="640" y1="0" x2="640" y2="240" class="grid-line" /><line x1="700" y1="0" x2="700" y2="240" class="grid-line" /><line x1="760" y1="0" x2="760" y2="240" class="grid-line" /><line x1="820" y1="0" x2="820" y2="240" class="grid-line" /><line x1="880" y1="0" x2="880" y2="240" class="grid-line" /><line x1="940" y1="0" x2="940" y2="240" class="grid-line" /><line x1="0" y1="30" x2="960" y2="30" class="grid-line" /><line x1="0" y1="60" x2="960" y2="60" class="grid-line" /><line x1="0" y1="90" x2="960" y2="90" class="grid-line" /><line x1="0" y1="120" x2="960" y2="120" class="grid-line" /><line x1="0" y1="150" x2="960" y2="150" class="grid-line" /><line x1="0" y1="180" x2="960" y2="180" class="grid-line" /><line x1="0" y1="210" x2="960" y2="210" class="grid-line" /></g>
+<g><path d="M 420.0 80.0 L 450.0 80.0 L 458.0 88.0 L 690.0 88.0" class="circuit-line" /><circle cx="420" cy="80.0" r="2.5" fill="var(--vf-accent-2)" opacity="0.6" /><path d="M 420.0 120.0 L 465.0 120.0 L 465.0 120.0 L 690.0 120.0" class="circuit-line" /><circle cx="420" cy="120.0" r="2.5" fill="var(--vf-accent-2)" opacity="0.6" /><path d="M 420.0 160.0 L 480.0 160.0 L 472.0 152.0 L 690.0 152.0" class="circuit-line" /><circle cx="420" cy="160.0" r="2.5" fill="var(--vf-accent-2)" opacity="0.6" /></g>
+
+    <g transform="translate(48, 48)">
+      <!-- Category & Status Badge -->
+      <rect x="0" y="0" width="170" height="22" rx="4" class="badge-bg" />
+      <circle cx="10" cy="11" r="3.5" fill="var(--vf-accent-1)" />
+      <text x="22" y="15" class="tag-text">VECTORFORGE // BANNERS</text>
+      
+      <!-- Main Title -->
+      <text x="0" y="56" class="title-text">LISSAJOUS RESONANCE KNOT</text>
+      
+      <!-- Subtitle & Specs -->
+      <text x="0" y="82" class="subtitle-text">Deterministic 1-of-1 SVG Canvas • Seed 0xE70057</text>
+      <text x="0" y="104" font-family="var(--vf-font-mono)" font-size="11" fill="var(--vf-text-muted)">Theme: dracula • Resolution: 960x240 • Zero Runtime Dependency</text>
+      
+      <!-- Badges row -->
+      <g transform="translate(0, 122)">
+        <rect x="0" y="0" width="80" height="20" rx="3" fill="var(--vf-bg)" stroke="var(--vf-border)" />
+        <text x="40" y="14" text-anchor="middle" font-family="var(--vf-font-mono)" font-size="10" fill="var(--vf-accent-2)">STANDALONE</text>
+        <rect x="90" y="0" width="70" height="20" rx="3" fill="var(--vf-bg)" stroke="var(--vf-border)" />
+        <text x="125" y="14" text-anchor="middle" font-family="var(--vf-font-mono)" font-size="10" fill="var(--vf-accent-1)">A11Y READY</text>
+        <rect x="170" y="0" width="60" height="20" rx="3" fill="var(--vf-bg)" stroke="var(--vf-border)" />
+        <text x="200" y="14" text-anchor="middle" font-family="var(--vf-font-mono)" font-size="10" fill="var(--vf-accent-3)">&lt; 15 KB</text>
+      </g>
+    </g>
+    
+<g class="art-layer"><circle cx="790" cy="120.0" r="88" fill="none" stroke="var(--vf-border)" /><path d="M 843.74 120.00 L 855.14 133.31 L 862.68 146.03 L 865.90 157.62 L 864.60 167.56 L 858.88 175.43 L 849.06 180.87 L 835.74 183.65 L 819.70 183.65 L 801.89 180.87 L 783.38 175.43 L 765.26 167.56 L 748.61 157.62 L 734.42 146.03 L 723.53 133.31 L 716.59 120.00 L 714.01 106.69 L 715.95 93.97 L 722.28 82.38 L 732.64 72.44 L 746.41 64.57 L 762.76 59.13 L 780.74 56.35 L 799.26 56.35 L 817.24 59.13 L 833.59 64.57 L 847.36 72.44 L 857.72 82.38 L 864.05 93.97 L 865.99 106.69 L 863.41 120.00 L 856.47 133.31 L 845.58 146.03 L 831.39 157.62 L 814.74 167.56 L 796.62 175.43 L 778.11 180.87 L 760.30 183.65 L 744.26 183.65 L 730.94 180.87 L 721.12 175.43 L 715.40 167.56 L 714.10 157.62 L 717.32 146.03 L 724.86 133.31 L 736.26 120.00 L 750.86 106.69 L 767.78 93.97 L 786.02 82.38 L 804.50 72.44 L 822.12 64.57 L 837.83 59.13 L 850.70 56.35 L 859.96 56.35 L 865.06 59.13 L 865.71 64.57 L 861.86 72.44 L 853.74 82.38 L 841.83 93.97 L 826.85 106.69 L 809.67 120.00 L 791.33 133.31 L 772.90 146.03 L 755.50 157.62 L 740.14 167.56 L 727.74 175.43 L 719.05 180.87 L 714.57 183.65 L 714.57 183.65 L 719.05 180.87 L 727.74 175.43 L 740.14 167.56 L 755.50 157.62 L 772.90 146.03 L 791.33 133.31 L 809.67 120.00 L 826.85 106.69 L 841.83 93.97 L 853.74 82.38 L 861.86 72.44 L 865.71 64.57 L 865.06 59.13 L 859.96 56.35 L 850.70 56.35 L 837.83 59.13 L 822.12 64.57 L 804.50 72.44 L 786.02 82.38 L 767.78 93.97 L 750.86 106.69 L 736.26 120.00 L 724.86 133.31 L 717.32 146.03 L 714.10 157.62 L 715.40 167.56 L 721.12 175.43 L 730.94 180.87 L 744.26 183.65 L 760.30 183.65 L 778.11 180.87 L 796.62 175.43 L 814.74 167.56 L 831.39 157.62 L 845.58 146.03 L 856.47 133.31 L 863.41 120.00 L 865.99 106.69 L 864.05 93.97 L 857.72 82.38 L 847.36 72.44 L 833.59 64.57 L 817.24 59.13 L 799.26 56.35 L 780.74 56.35 L 762.76 59.13 L 746.41 64.57 L 732.64 72.44 L 722.28 82.38 L 715.95 93.97 L 714.01 106.69 L 716.59 120.00 L 723.53 133.31 L 734.42 146.03 L 748.61 157.62 L 765.26 167.56 L 783.38 175.43 L 801.89 180.87 L 819.70 183.65 L 835.74 183.65 L 849.06 180.87 L 858.88 175.43 L 864.60 167.56 L 865.90 157.62 L 862.68 146.03 L 855.14 133.31 L 843.74 120.00 L 829.14 106.69 L 812.22 93.97 L 793.98 82.38 L 775.50 72.44 L 757.88 64.57 L 742.17 59.13 L 729.30 56.35 L 720.04 56.35 L 714.94 59.13 L 714.29 64.57 L 718.14 72.44 L 726.26 82.38 L 738.17 93.97 L 753.15 106.69 L 770.33 120.00 L 788.67 133.31 L 807.10 146.03 L 824.50 157.62 L 839.86 167.56 L 852.26 175.43 L 860.95 180.87 L 865.43 183.65 L 865.43 183.65 L 860.95 180.87 L 852.26 175.43 L 839.86 167.56 L 824.50 157.62 L 807.10 146.03 L 788.67 133.31 L 770.33 120.00 L 753.15 106.69 L 738.17 93.97 L 726.26 82.38 L 718.14 72.44 L 714.29 64.57 L 714.94 59.13 L 720.04 56.35 L 729.30 56.35 L 742.17 59.13 L 757.88 64.57 L 775.50 72.44 L 793.98 82.38 L 812.22 93.97 L 829.14 106.69 L 843.74 120.00" class="center-stroke glow-layer" /></g>
+</svg>
