@@ -1,111 +1,122 @@
 <div align="center">
 
-# 👨‍💻 Mohamed Ayman (MikeeeDeV)
+# ⚡ Mohamed Ayman (MikeeeDeV)
+### *Full-Stack Software Engineer & Systems Tools Architect*
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=61AFEF&center=true&vCenter=true&width=680&lines=Hey+there!+I'm+Mohamed+Ayman+%F0%9F%91%8B;Full-Stack+Engineer+%26+System+Tools+Builder;Python+%7C+TypeScript+%7C+Nix+%7C+Next.js;Crafting+Production-Ready+Open-Source+Software" alt="Typing SVG" />
+<br />
+
+<a href="https://github.com/MikeeeDeV">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=61AFEF&center=true&vCenter=true&width=750&lines=Hi+there!+I'm+Mohamed+Ayman+%F0%9F%91%8B;Building+Deterministic+Systems+%26+Production+Web+Apps;Python+%7C+TypeScript+%7C+Nix+%7C+Next.js+%7C+AI+Agents;Crafting+Fast%2C+Zero-Crash%2C+Modern+Developer+Tools" alt="Typing SVG" />
+</a>
+
+<br />
+<br />
+
+[![Profile Views](https://komarev.com/ghpvc/?username=MikeeeDeV&color=61afef&style=flat-square&label=PROFILE+VIEWS)](https://github.com/MikeeeDeV)
+[![Repositories](https://img.shields.io/badge/Public%20Repos-14+-3776AB?style=flat-square&logo=github&logoColor=white)](https://github.com/MikeeeDeV?tab=repositories)
+[![Open Source](https://img.shields.io/badge/Open%20Source-Active%20Contributor-brightgreen?style=flat-square&logo=git&logoColor=white)](https://github.com/MikeeeDeV)
+[![Location](https://img.shields.io/badge/Location-Egypt-E95420?style=flat-square&logo=google-maps&logoColor=white)](https://github.com/MikeeeDeV)
+[![Work](https://img.shields.io/badge/Building%20at-Gawdah-blueviolet?style=flat-square&logo=codewars&logoColor=white)](https://github.com/MikeeeDeV)
+
+<br />
+
+</div>
+
+---
+
+### 🚀 Who I Am & What I Build
+
+I am an engineer focused on **systems programming, developer infrastructure, and modern web architectures**. I bridge the gap between low-level Linux package isolation and elegant, responsive graphical user experiences.
+
+- ❄️ **Nix & Declarative Linux Infrastructure:** Lead architect of [NixManagerPro](https://github.com/MikeeeDeV/NixManagerPro) — transforming complex Nix derivations, Flakes, generation timelines, and channel operations into an intuitive, zero-freeze desktop experience.
+- 🛡️ **Enterprise Web & Session Security:** Creator of [next-session-guard](https://github.com/MikeeeDeV/next-session-guard) — defending Next.js applications with multi-device session management, real-time Server-Sent Events (SSE) token revocation, and anti-hijacking heuristics.
+- ⚡ **Workflow & Tooling Automation:** Developed [git-smart-sync](https://github.com/MikeeeDeV/git-smart-sync) to eliminate multi-branch divergence friction for engineering teams.
+- 🤖 **Model Context Protocol (MCP) Ecosystem:** Designing domain-specific MCP micro-servers to seamlessly orchestrate AI coding agents and production data workflows.
+
+---
+
+### 🛠️ Tech Stack & Tooling
+
+<div align="center">
 
 <p align="center">
-  <a href="https://github.com/MikeeeDeV"><img src="https://img.shields.io/badge/GitHub-MikeeeDeV-181717?style=flat&logo=github&logoColor=white" /></a>
-  <a href="https://github.com/MikeeeDeV?tab=repositories"><img src="https://img.shields.io/badge/Open%20Source-Active-success?style=flat&logo=git&logoColor=white" /></a>
-  <a href="https://github.com/MikeeeDeV"><img src="https://img.shields.io/badge/Location-Egypt-E95420?style=flat&logo=google-maps&logoColor=white" /></a>
-  <a href="https://github.com/MikeeeDeV"><img src="https://img.shields.io/badge/Focus-Full--Stack%20%7C%20Nix%20%7C%20AI-blueviolet?style=flat&logo=codewars&logoColor=white" /></a>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=python,ts,js,bash,html,css,nextjs,react,nodejs,tailwind,postgres,prisma,docker,linux,ubuntu,debian,git,githubactions,firebase,sqlite,vscode&perline=11" alt="Tech Stack Icons" />
+  </a>
 </p>
 
 </div>
 
----
+<br />
 
-### 🌟 About Me
-
-I am a passionate **Full-Stack Software Engineer & Systems Developer** dedicated to building resilient desktop applications, scalable modern web platforms, and intelligent agentic developer tools.
-
-- ❄️ **Nix & Linux Systems:** Creator of [NixManagerPro](https://github.com/MikeeeDeV/NixManagerPro), a high-performance desktop control suite for managing Nix derivations, atomic generations, and upstream channels.
-- 🛡️ **Web & Security Engineering:** Author of [next-session-guard](https://github.com/MikeeeDeV/next-session-guard), an enterprise-grade multi-device session security framework with real-time SSE revocation for Next.js and modern ORMs.
-- ⚡ **Developer Tooling:** Built [git-smart-sync](https://github.com/MikeeeDeV/git-smart-sync) for seamless branch synchronizations and divergence protection.
-- 🤖 **AI & Model Context Protocol (MCP):** Architect of custom MCP servers connecting domain-specific applications with intelligent agent ecosystems.
-- 🏢 **Currently building at:** Gawdah.
+| Domain | Core Technologies & Tools |
+|---|---|
+| **Languages** | Python 3.10+, TypeScript, JavaScript (ESNext), Bash / Shell, SQL, Smali |
+| **Frontend & UI** | Next.js (App Router), React, CustomTkinter, Tailwind CSS, Material Design 3 (M3) |
+| **Backend & APIs** | Node.js, Express, Asyncio, FastMCP / Model Context Protocol, RESTful APIs, SSE |
+| **Databases & ORMs** | PostgreSQL, Prisma, Drizzle ORM, SQLite, Firebase Firestore |
+| **DevOps & Systems** | Nix, NixOS, Ubuntu, Debian, Docker, GitHub Actions CI/CD, Git |
 
 ---
 
-### 🛠️ Tech Stack & Arsenal
-
-<div align="center">
-
-#### 💻 Languages
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-336791?style=flat&logo=postgresql&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
-
-#### 🌐 Frameworks & Frontend
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
-![CustomTkinter](https://img.shields.io/badge/CustomTkinter-294E80?style=flat&logo=python&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white)
-
-#### 🗄️ Databases & ORM
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat&logo=prisma&logoColor=white)
-![Drizzle ORM](https://img.shields.io/badge/Drizzle_ORM-C5F74F?style=flat&logo=drizzle&logoColor=black)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=black)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
-
-#### 🐧 Systems, DevOps & Automation
-![Nix](https://img.shields.io/badge/Nix-5277C3?style=flat&logo=nixos&logoColor=white)
-![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=flat&logo=ubuntu&logoColor=white)
-![Debian](https://img.shields.io/badge/Debian-A81D33?style=flat&logo=debian&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=github-actions&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-
-</div>
-
----
-
-### 🚀 Highlighted Projects
+### 🌟 Featured Open-Source Projects
 
 <table>
   <tr>
-    <td width="50%">
+    <td width="50%" valign="top">
       <h3 align="center"><a href="https://github.com/MikeeeDeV/NixManagerPro">❄️ NixManager Pro</a></h3>
       <p align="center">
-        The Production-Grade, Asynchronous Desktop Control Suite for the <b>Nix Package Manager</b> on Ubuntu & Linux. Features atomic rollback timelines, live channel management, and multi-package search.
+        <b>Production-Grade Asynchronous Desktop Control Suite for Nix on Linux</b>
       </p>
+      <ul>
+        <li>Atomic generation rollbacks with visual history diffing.</li>
+        <li>Unified multi-manager support: Nix profiles, Flakes, Flatpak, and Snap.</li>
+        <li>100% test coverage with 31 automated pytest assertions & 0 Pyright errors.</li>
+      </ul>
       <p align="center">
-        <code>Python</code> • <code>Nix</code> • <code>CustomTkinter</code> • <code>Asyncio</code>
+        <code>Python 3.10+</code> • <code>CustomTkinter</code> • <code>Asyncio</code> • <code>Nix Ecosystem</code>
       </p>
     </td>
-    <td width="50%">
+    <td width="50%" valign="top">
       <h3 align="center"><a href="https://github.com/MikeeeDeV/next-session-guard">🛡️ next-session-guard</a></h3>
       <p align="center">
-        Enterprise multi-device session management, real-time SSE revocation, device fingerprinting, and session hijacking defense built for Next.js, Prisma, and Drizzle ORM.
+        <b>Enterprise Multi-Device Session Security & Real-Time SSE Revocation</b>
       </p>
+      <ul>
+        <li>Real-time Server-Sent Events (SSE) immediate session termination.</li>
+        <li>Device fingerprinting & concurrent active session dashboards.</li>
+        <li>First-class integration with Next.js App Router, Prisma, and Drizzle.</li>
+      </ul>
       <p align="center">
-        <code>TypeScript</code> • <code>Next.js</code> • <code>Prisma</code> • <code>Security</code>
+        <code>TypeScript</code> • <code>Next.js</code> • <code>Prisma</code> • <code>Security Engineering</code>
       </p>
     </td>
   </tr>
   <tr>
-    <td width="50%">
+    <td width="50%" valign="top">
       <h3 align="center"><a href="https://github.com/MikeeeDeV/git-smart-sync">🔄 git-smart-sync</a></h3>
       <p align="center">
-        Developer productivity tool for seamless multi-branch Git synchronization, preset profiles, and divergence protection within IDE workspaces.
+        <b>Intelligent Multi-Branch Git Synchronization for Modern Workspaces</b>
       </p>
+      <ul>
+        <li>Prevents branch divergence with preset group synchronization.</li>
+        <li>Integrated clean architecture for IDEs and CLI workflows.</li>
+      </ul>
       <p align="center">
-        <code>TypeScript</code> • <code>Git</code> • <code>CLI</code> • <code>Automation</code>
+        <code>TypeScript</code> • <code>Git Engine</code> • <code>CLI</code> • <code>Automation</code>
       </p>
     </td>
-    <td width="50%">
-      <h3 align="center"><a href="https://github.com/MikeeeDeV/My-portfolio">🎨 Material 3 Portfolio</a></h3>
+    <td width="50%" valign="top">
+      <h3 align="center"><a href="https://github.com/MikeeeDeV/My-portfolio">🎨 Material Design 3 Portfolio</a></h3>
       <p align="center">
-        Personal portfolio web application replicating Google's Material Design 3 (M3) design system. Powered by Next.js App Router, Firebase, and Telegram bot integration.
+        <b>Google Material Design 3 Web Application & Developer Showcase</b>
       </p>
+      <ul>
+        <li>Dynamic theme tokens mimicking M3 design specs.</li>
+        <li>Integrated with Firebase, Telegram Bot notifications, and GitHub API.</li>
+      </ul>
       <p align="center">
-        <code>Next.js</code> • <code>React</code> • <code>Firebase</code> • <code>M3 Design</code>
+        <code>Next.js</code> • <code>React</code> • <code>Firebase</code> • <code>Telegram Bot API</code>
       </p>
     </td>
   </tr>
@@ -113,25 +124,49 @@ I am a passionate **Full-Stack Software Engineer & Systems Developer** dedicated
 
 ---
 
-### 📊 GitHub Activity & Statistics
+### 📊 GitHub Activity & Real-Time Metrics
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=MikeeeDeV&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="48%" alt="Mohamed's GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MikeeeDeV&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" width="48%" alt="Top Languages" />
-</div>
 
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=MikeeeDeV&theme=tokyonight&hide_border=true" width="97%" alt="GitHub Streak" />
+<img src="https://github-readme-stats.vercel.app/api?username=MikeeeDeV&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" width="49%" alt="Mohamed's GitHub Stats" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MikeeeDeV&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" width="48%" alt="Top Languages" />
+
+<br />
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=MikeeeDeV&theme=tokyonight&hide_border=true" width="98%" alt="GitHub Streak" />
+
 </div>
 
 ---
 
-### 💬 Let's Connect & Collaborate!
-
-- 💻 Check out my repositories: [github.com/MikeeeDeV](https://github.com/MikeeeDeV)
-- 🤝 Open for collaboration on: **Open Source, System Tools, Next.js, Nix Ecosystem & AI Agent tooling**
-- ⚡ *Fun fact:* Automation is not about saving 5 minutes once; it's about building systems that scale reliably forever.
+### 🐍 Contribution Activity Snake
 
 <div align="center">
-  <sub>Designed with precision by Mohamed Ayman • © 2026</sub>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/output/github-contribution-grid-snake.svg">
+  <img alt="GitHub Contribution Grid Snake" src="https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/output/github-contribution-grid-snake.svg">
+</picture>
+
+</div>
+
+---
+
+### 🤝 Connect & Collaborate
+
+<div align="center">
+
+[![GitHub](https://img.shields.io/badge/GitHub-MikeeeDeV-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MikeeeDeV)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Live-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://github.com/MikeeeDeV/My-portfolio)
+[![Discussion](https://img.shields.io/badge/Let's_Talk-Open_Source-brightgreen?style=for-the-badge&logo=discourse&logoColor=white)](https://github.com/MikeeeDeV)
+
+<br />
+
+> *"Simplicity is a prerequisite for reliability."* — Edsger W. Dijkstra
+
+<br />
+
+<sub>Crafted with passion by **Mohamed Ayman** • Built with Antigravity • © 2026</sub>
+
 </div>
