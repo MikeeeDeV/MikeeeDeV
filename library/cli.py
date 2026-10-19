@@ -1,15 +1,32 @@
 """
 library/cli.py - VectorForge Developer CLI.
-Command-line tool to inspect, customize, and export 235+ developer SVG shapes.
+Command-line tool to inspect, customize, configure, and batch-render 235+ developer SVG shapes.
 """
 
 import sys
 import argparse
 from pathlib import Path
-from typing import Optional
+from typing import Optional, Dict, Any, List
 from library.generators import CATEGORIES
 from library.engine.color_palettes import PALETTES, list_palette_ids
 from library.catalog import build_catalog_metadata, render_all_svgs
+from library.config import (
+    find_config_file,
+    load_config,
+    init_config,
+    apply_parameters
+)
+
+def parse_param_args(param_list: Optional[List[str]]) -> Dict[str, str]:
+    """Parses list of 'key=value' CLI strings into a dictionary."""
+    params = {}
+    if not param_list:
+        return params
+    for item in param_list:
+        if "=" in item:
+            k, v = item.split("=", 1)
+            params[k.strip()] = v.strip()
+    return params
 
 def cmd_list(args):
     cat_filter = args.category
@@ -53,6 +70,7 @@ def cmd_generate(args):
     preset_id = args.preset_id
     theme = args.theme
     out_path = args.out
+    cli_params = parse_param_args(args.param)
     
     # Locate generator
     target_cat = None
@@ -73,11 +91,16 @@ def cmd_generate(args):
     gen_fn = target_cat["fn"]
     svg = gen_fn(preset_id, theme_override=theme)
     
+    # Apply dynamic parameters
+    if cli_params:
+        svg = apply_parameters(svg, cli_params, target_preset)
+    
     if out_path:
         p = Path(out_path)
         p.parent.mkdir(parents=True, exist_ok=True)
         p.write_text(svg, encoding="utf-8")
-        print(f"[OK] Generated {preset_id} (theme: {theme or target_preset['theme']}) -> {out_path} ({len(svg)} bytes)")
+        param_desc = f" (params: {len(cli_params)})" if cli_params else ""
+        print(f"[OK] Generated {preset_id} (theme: {theme or target_preset['theme']}){param_desc} -> {out_path} ({len(svg)} bytes)")
     else:
         print(svg)
 
@@ -98,11 +121,96 @@ def cmd_embed(args):
         print(f"Error: Preset '{preset_id}' not found.", file=sys.stderr)
         sys.exit(1)
         
-    url = f"https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/{cat_found}/{preset_id}.svg"
+    url = f"https://cdn.jsdelivr.net/gh/MikeeeDeV/MikeeeDeV@main/library/shapes/{cat_found}/{preset_id}.svg"
     print("### Markdown Embed Syntax:\n")
     print(f"![{preset_found['title']}]({url})")
+    print("\n### jsDelivr Raw URL:\n")
+    print(url)
     print("\n### HTML Embed Syntax:\n")
     print(f'<img src="{url}" alt="{preset_found["title"]}" width="100%" />')
+
+def cmd_init(args):
+    target = args.out or "vectorforge.json"
+    try:
+        created = init_config(target)
+        print("=" * 70)
+        print("✨ VECTORFORGE // INITIALIZED STARTER CONFIGURATION")
+        print("=" * 70)
+        print(f"\nCreated: {created.resolve()}")
+        print("\nNext Steps:")
+        print("  1. Inspect and customize your presets in vectorforge.json")
+        print("  2. Run 'vectorforge build' to render all profile assets\n")
+    except FileExistsError as e:
+        print(f"Error: {e}", file=sys.stderr)
+        sys.exit(1)
+
+def cmd_build(args):
+    try:
+        cfg_path = find_config_file(args.config)
+        if not cfg_path:
+            print("Error: No vectorforge.json or vectorforge.yaml found. Run 'vectorforge init' first.", file=sys.stderr)
+            sys.exit(1)
+            
+        config = load_config(cfg_path)
+    except Exception as e:
+        print(f"Error loading configuration: {e}", file=sys.stderr)
+        sys.exit(1)
+        
+    out_dir_str = config.get("output_dir", "./assets")
+    out_dir = Path(out_dir_str)
+    out_dir.mkdir(parents=True, exist_ok=True)
+    
+    shapes_list = config.get("shapes", [])
+    if not shapes_list:
+        print("Warning: No shapes defined in configuration 'shapes' array.", file=sys.stderr)
+        return
+        
+    print("=" * 75)
+    print(f"⚡ VECTORFORGE // BUILDING {len(shapes_list)} ASSETS FROM {cfg_path.name}")
+    print(f"Target Output Directory: {out_dir.resolve()}")
+    print("=" * 75)
+    
+    total_bytes = 0
+    built_count = 0
+    
+    for item in shapes_list:
+        preset_id = item.get("preset")
+        theme = item.get("theme")
+        rel_out = item.get("out") or f"{preset_id}.svg"
+        params = item.get("params", {})
+        
+        target_preset = None
+        target_cat = None
+        for cat_id, cat_info in CATEGORIES.items():
+            for p in cat_info["presets"]:
+                if p["id"] == preset_id:
+                    target_preset = p
+                    target_cat = cat_info
+                    break
+            if target_preset:
+                break
+                
+        if not target_preset:
+            print(f"  [SKIP] Unknown preset ID '{preset_id}'")
+            continue
+            
+        gen_fn = target_cat["fn"]
+        svg = gen_fn(preset_id, theme_override=theme)
+        if params:
+            svg = apply_parameters(svg, params, target_preset)
+            
+        target_file = out_dir / rel_out
+        target_file.parent.mkdir(parents=True, exist_ok=True)
+        target_file.write_text(svg, encoding="utf-8")
+        
+        size = len(svg.encode("utf-8"))
+        total_bytes += size
+        built_count += 1
+        print(f"  ✓ {preset_id:<28} -> {rel_out:<28} ({size:,} B) [{theme or target_preset['theme']}]")
+        
+    print("-" * 75)
+    print(f"[DONE] Successfully built {built_count}/{len(shapes_list)} shapes ({total_bytes:,} total bytes)")
+    print("=" * 75)
 
 def cmd_render_all(args):
     print("⚡ Rendering all 235 VectorForge SVGs and updating catalog.json...")
@@ -128,12 +236,23 @@ def main():
     p_gen.add_argument("preset_id", help="Preset ID")
     p_gen.add_argument("--theme", "-t", choices=list_palette_ids(), help="Override color palette theme")
     p_gen.add_argument("--out", "-o", help="Output file path (default stdout)")
+    p_gen.add_argument("--param", "-p", action="append", help="Dynamic parameter override (e.g. -p title='My Name')")
     p_gen.set_defaults(func=cmd_generate)
     
     # embed
     p_embed = subparsers.add_parser("embed", help="Get markdown / HTML embed snippet")
     p_embed.add_argument("preset_id", help="Preset ID")
     p_embed.set_defaults(func=cmd_embed)
+    
+    # init
+    p_init = subparsers.add_parser("init", help="Scaffold a starter vectorforge.json configuration")
+    p_init.add_argument("--out", "-o", help="Config file path (default vectorforge.json)")
+    p_init.set_defaults(func=cmd_init)
+    
+    # build
+    p_build = subparsers.add_parser("build", help="Build all shapes defined in vectorforge.json")
+    p_build.add_argument("--config", "-c", help="Path to vectorforge.json or vectorforge.yaml")
+    p_build.set_defaults(func=cmd_build)
     
     # render-all
     p_all = subparsers.add_parser("render-all", help="Batch render all 235 SVGs")
