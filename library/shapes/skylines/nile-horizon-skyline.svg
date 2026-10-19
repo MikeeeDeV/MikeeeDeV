@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 210" width="880" height="210" role="img" aria-labelledby="title-id desc-id">
+  <title id="title-id">The Nile Horizon - Contribution Skyline</title>
+  <desc id="desc-id">Telemetry horizon nile-horizon-skyline</desc>
+  <style>
+    :root {
+      --vf-bg: #0A0E17;
+      --vf-card: #111827;
+      --vf-border: #1F293D;
+      --vf-text: #F8FAFC;
+      --vf-text-muted: #94A3B8;
+      --vf-accent-1: #F5C451;
+      --vf-accent-2: #38BDF8;
+      --vf-accent-3: #14B8A6;
+      --vf-glow: #F5C45144;
+      --vf-font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      --vf-font-mono: "JetBrains Mono", "Fira Code", ui-monospace, Menlo, Monaco, Consolas, monospace;
+      --vf-font-arabic: "Cairo", "Amiri", "Tahoma", -apple-system, sans-serif;
+    }
+    @media (prefers-color-scheme: light) {
+      :root {
+        --vf-bg: #F8FAFC;
+        --vf-card: #FFFFFF;
+        --vf-border: #CBD5E1;
+        --vf-text: #0F172A;
+        --vf-text-muted: #475569;
+        --vf-accent-1: #D97706;
+        --vf-accent-2: #0284C7;
+        --vf-accent-3: #0D9488;
+        --vf-glow: #D9770633;
+      }
+    }
+    text {
+      user-select: none;
+    }
+    
+      .card-frame { fill: var(--vf-card); stroke: var(--vf-border); stroke-width: 1; }
+      .skyline-bar { fill: var(--vf-accent-1); }
+      .skyline-sub { fill: var(--vf-accent-2); opacity: 0.65; }
+      .grid-h { stroke: var(--vf-border); stroke-width: 0.5; stroke-dasharray: 2 4; }
+      .metric-title { font-family: var(--vf-font-mono); font-size: 13px; font-weight: 700; fill: var(--vf-text); }
+      .metric-stat { font-family: var(--vf-font-mono); font-size: 11px; fill: var(--vf-text-muted); }
+      .accent-pill { fill: var(--vf-bg); stroke: var(--vf-border); stroke-width: 1; }
+    
+  </style>
+  
+  <rect x="1" y="1" width="878" height="208" rx="8" class="card-frame" />
+
+    <g transform="translate(28, 26)">
+      <circle cx="0" cy="0" r="4" fill="var(--vf-accent-1)" />
+      <text x="12" y="4" class="metric-title">THE NILE HORIZON</text>
+      <text x="12" y="20" class="metric-stat">52 WEEKS • 1,844 TOTAL COMMITS • 99.8% CI PASS RATE</text>
+      
+      <g transform="translate(640, -8)">
+        <rect x="0" y="0" width="180" height="26" rx="4" class="accent-pill" />
+        <circle cx="12" cy="13" r="3" fill="var(--vf-accent-3)" />
+        <text x="24" y="17" font-family="var(--vf-font-mono)" font-size="10" font-weight="700" fill="var(--vf-accent-1)">PEAK: 34 COMMITS/DAY</text>
+      </g>
+    </g>
+    
+<line x1="28" y1="152" x2="852" y2="152" class="grid-h" />
+<line x1="28" y1="117" x2="852" y2="117" class="grid-h" />
+<line x1="28" y1="82" x2="852" y2="82" class="grid-h" />
+<g class="skyline-content"><rect x="28.0" y="69.2" width="12" height="112.8" rx="1" fill="var(--vf-accent-1)" opacity="0.85" /><line x1="34.0" y1="69.23109619926197" x2="34.0" y2="57.23109619926197" stroke="var(--vf-accent-3)" stroke-width="1.2" /><rect x="43.8" y="83.4" width="12" height="98.6" rx="1" fill="var(--vf-accent-2)" opacity="0.85" /><rect x="59.7" y="98.5" width="12" height="83.5" rx="1" fill="var(--vf-accent-2)" opacity="0.85" /><rect x="75.5" y="112.2" width="12" height="69.8" rx="1" fill="var(--vf-accent-1)" opacity="0.85" /><rect x="91.4" y="122.8" width="12" height="59.2" rx="1" fill="var(--vf-accent-2)" opacity="0.85" /><rect x="107.2" y="129.0" width="12" height="53.0" rx="1" fill="var(--vf-accent-2)" opacity="0.85" /><rect x="123.1" y="130.5" width="12" height="51.5" rx="1" fill="var(--vf-accent-1)" opacity="0.85" /><rect x="138.9" y="127.6" width="12" height="54.4" rx="1" fill="var(--vf-accent-2)" opacity="0.85" /><line x1="144.9" y1="127.55692670204611" x2="144.9" y2="115.55692670204611" stroke="var(--vf-accent-3)" stroke-width="1.2" /><rect x="154.8" y="121.5" width="12" height="60.5" rx="1" fill="var(--vf-accent-2)" opacity="0.85" /><rect x="170.6" y="114.2" width="12" height="67.8" rx="1" fill="var(--vf-accent-1)" opacity="0.85" /><rect x="186.5" y="107.5" width="12" height="74.5" rx="1" fill="var(--vf-accent-2)" opacity="0.85" /><rect x="202.3" y="103.5" width="12" height="78.5" rx="1" fill="var(--vf-accent-2)" opacity="0.85" /><rect x="218.2" y="103.6" width="12" height="78.4" rx="1" fill="var(--vf-accent-1)" opacity="0.85" /><rect x="234.0" y="108.9" width="12" height="73.1" rx="1" fill="var(--vf-accent-2)" opacity="0.85" /><rect x="249.8" y="119.2" width="12" height="62.8" rx="1" fill="var(--vf-accent-2)" opacity="0.85" /><line x1="255.8" y1="119.24345078075112" x2="255.8" y2="107.24345078075112" stroke="var(--vf-accent-3)" stroke-width="1.2" /><rect x="265.7" y="133.9" width="12" height="48.1" rx="1" fill="var(--vf-accent-1)" opacity="0.85" /><rect x="281.5" y="151.3" width="12" height="30.7" rx="1" fill="var(--vf-accent-2)" opacity="0.85" /><rect x="297.4" y="169.4" width="12" height="12.6" rx="1" fill="var(--vf-accent-2)" opacity="0.85" /><rect x="313.2" y="172.0" width="12" height="10.0" rx="1" fill="var(--vf-accent-1)" opacity="0.85" /><rect x="329.1" y="172.0" width="12" height="10.0" rx="1" fill="var(--vf-accent-2)" opacity="0.85" /><rect x="344.9" y="172.0" width="12" height="10.0" rx="1" fill="var(--vf-accent-2)" opacity="0.85" /><rect x="360.8" y="172.0" width="12" height="10.0" rx="1" fill="var(--vf-accent-1)" opacity="0.85" /><line x1="366.8" y1="172" x2="366.8" y2="160" stroke="var(--vf-accent-3)" stroke-width="1.2" /><rect x="376.6" y="172.0" width="12" height="10.0" rx="1" fill="var(--vf-accent-2)" opacity="0.85" /><rect x="392.5" y="172.0" width="12" height="10.0" rx="1" fill="var(--vf-accent-2)" opacity="0.85" /><rect x="408.3" y="172.0" width="12" height="10.0" rx="1" fill="var(--vf-accent-1)" opacity="0.85" /><rect x="424.2" y="156.9" width="12" height="25.1" rx="1" fill="var(--vf-accent-2)" opacity="0.85" /><rect x="440.0" y="139.9" width="12" height="42.1" rx="1" fill="var(--vf-accent-2)" opacity="0.85" /><rect x="455.8" y="125.2" width="12" height="56.8" rx="1" fill="var(--vf-accent-1)" opacity="0.85" /><rect x="471.7" y="114.6" width="12" height="67.4" rx="1" fill="var(--vf-accent-2)" opacity="0.85" /><line x1="477.7" y1="114.5604838058182" x2="477.7" y2="102.5604838058182" stroke="var(--vf-accent-3)" stroke-width="1.2" /><rect x="487.5" y="108.9" width="12" height="73.1" rx="1" fill="var(--vf-accent-2)" opacity="0.85" /><rect x="503.4" y="108.2" width="12" height="73.8" rx="1" fill="var(--vf-accent-1)" opacity="0.85" /><rect x="519.2" y="111.8" width="12" height="70.2" rx="1" fill="var(--vf-accent-2)" opacity="0.85" /><rect x="535.1" y="118.2" width="12" height="63.8" rx="1" fill="var(--vf-accent-2)" opacity="0.85" /><rect x="550.9" y="125.4" width="12" height="56.6" rx="1" fill="var(--vf-accent-1)" opacity="0.85" /><rect x="566.8" y="131.5" width="12" height="50.5" rx="1" fill="var(--vf-accent-2)" opacity="0.85" /><rect x="582.6" y="134.5" width="12" height="47.5" rx="1" fill="var(--vf-accent-2)" opacity="0.85" /><line x1="588.6" y1="134.4917374142234" x2="588.6" y2="122.4917374142234" stroke="var(--vf-accent-3)" stroke-width="1.2" /><rect x="598.5" y="133.2" width="12" height="48.8" rx="1" fill="var(--vf-accent-1)" opacity="0.85" /><rect x="614.3" y="127.1" width="12" height="54.9" rx="1" fill="var(--vf-accent-2)" opacity="0.85" /><rect x="630.2" y="116.4" width="12" height="65.6" rx="1" fill="var(--vf-accent-2)" opacity="0.85" /><rect x="646.0" y="102.4" width="12" height="79.6" rx="1" fill="var(--vf-accent-1)" opacity="0.85" /><rect x="661.8" y="86.6" width="12" height="95.4" rx="1" fill="var(--vf-accent-2)" opacity="0.85" /><rect x="677.7" y="71.4" width="12" height="110.6" rx="1" fill="var(--vf-accent-2)" opacity="0.85" /><rect x="693.5" y="67.0" width="12" height="115.0" rx="1" fill="var(--vf-accent-1)" opacity="0.85" /><line x1="699.5" y1="67" x2="699.5" y2="55" stroke="var(--vf-accent-3)" stroke-width="1.2" /><rect x="709.4" y="67.0" width="12" height="115.0" rx="1" fill="var(--vf-accent-2)" opacity="0.85" /><rect x="725.2" y="67.0" width="12" height="115.0" rx="1" fill="var(--vf-accent-2)" opacity="0.85" /><rect x="741.1" y="67.0" width="12" height="115.0" rx="1" fill="var(--vf-accent-1)" opacity="0.85" /><rect x="756.9" y="67.0" width="12" height="115.0" rx="1" fill="var(--vf-accent-2)" opacity="0.85" /><rect x="772.8" y="80.2" width="12" height="101.8" rx="1" fill="var(--vf-accent-2)" opacity="0.85" /><rect x="788.6" y="98.8" width="12" height="83.2" rx="1" fill="var(--vf-accent-1)" opacity="0.85" /><rect x="804.5" y="118.2" width="12" height="63.8" rx="1" fill="var(--vf-accent-2)" opacity="0.85" /><line x1="810.5" y1="118.15337740020134" x2="810.5" y2="106.15337740020134" stroke="var(--vf-accent-3)" stroke-width="1.2" /><rect x="820.3" y="135.9" width="12" height="46.1" rx="1" fill="var(--vf-accent-2)" opacity="0.85" /><rect x="836.2" y="150.2" width="12" height="31.8" rx="1" fill="var(--vf-accent-1)" opacity="0.85" /></g>
+<line x1="28" y1="182" x2="852" y2="182" stroke="var(--vf-border)" stroke-width="1.5" />
+</svg>
