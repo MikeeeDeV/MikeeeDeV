@@ -1,59 +1,41 @@
 <div align="center">
 
-<!-- Hero Animated Header Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,11,21,31&height=230&section=header&text=Mohamed%20Ayman&fontSize=44&fontAlignY=38&desc=Full-Stack%20Systems%20Engineer%20•%20Open-Source%20Builder%20•%20AI%20Tooling&descAlignY=60&descSize=18&theme=tokyonight" width="100%" alt="Header Banner" />
-
-<!-- Dynamic Animated Typing Text -->
-<a href="https://github.com/MikeeeDeV">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=23&pause=1000&color=61AFEF&center=true&vCenter=true&width=800&lines=Hi+there!+I'm+Mohamed+Ayman+(MikeeeDeV)+%F0%9F%91%8B;Building+Deterministic+Systems+%26+Cloud-Native+Web+Apps;Python+%7C+TypeScript+%7C+NixOS+%7C+Next.js+%7C+AI+Agent+Tools;Architecting+Zero-Crash%2C+Production-Ready+Developer+Workflows;Turning+Complex+Problems+Into+Clean%2C+Elegant+Code" alt="Typing SVG" />
-</a>
+#  Mohamed Ayman (MikeeeDeV)
+###  *Full-Stack Systems Engineer • Open-Source Builder • AI Tooling Architect*
 
 <br />
 
-<!-- Status & Metric Badges -->
-<p align="center">
-  <a href="https://github.com/MikeeeDeV">
-    <img src="https://komarev.com/ghpvc/?username=MikeeeDeV&color=61afef&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views" />
-  </a>
-  <a href="https://github.com/MikeeeDeV?tab=repositories">
-    <img src="https://img.shields.io/badge/Public%20Repos-14+-3776AB?style=flat-square&logo=github&logoColor=white" alt="Repositories" />
-  </a>
-  <a href="https://github.com/MikeeeDeV">
-    <img src="https://img.shields.io/badge/Open%20Source-Active%20Contributor-brightgreen?style=flat-square&logo=git&logoColor=white" alt="Open Source" />
-  </a>
-  <a href="https://github.com/MikeeeDeV">
-    <img src="https://img.shields.io/badge/Location-Egypt-E95420?style=flat-square&logo=google-maps&logoColor=white" alt="Location" />
-  </a>
-  <a href="https://github.com/MikeeeDeV">
-    <img src="https://img.shields.io/badge/Building%20at-Gawdah-blueviolet?style=flat-square&logo=codewars&logoColor=white" alt="Work" />
-  </a>
-  <a href="https://github.com/MikeeeDeV">
-    <img src="https://img.shields.io/badge/Status-Shipping%20Code-success?style=flat-square&logo=visualstudiocode&logoColor=white" alt="Status" />
-  </a>
-</p>
+<a href="https://github.com/MikeeeDeV">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=61AFEF&center=true&vCenter=true&width=780&lines=Hi+there!+I'm+Mohamed+Ayman+%F0%9F%91%8B;Building+Deterministic+Systems+%26+Cloud-Native+Web+Apps;Python+%7C+TypeScript+%7C+Nix+%7C+Next.js+%7C+AI+Agents;Crafting+Production-Ready%2C+Zero-Crash+Developer+Tools" alt="Typing SVG" />
+</a>
 
-<!-- GitHub Trophies -->
-<div align="center">
-  <a href="https://github.com/MikeeeDeV">
-    <img src="https://github-profile-trophy.vercel.app/?username=MikeeeDeV&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=1&column=7" alt="GitHub Trophies" />
-  </a>
-</div>
+<br />
+<br />
+
+[![Profile Views](https://komarev.com/ghpvc/?username=MikeeeDeV&color=61afef&style=flat-square&label=PROFILE+VIEWS)](https://github.com/MikeeeDeV)
+[![Repositories](https://img.shields.io/badge/Public%20Repos-14+-3776AB?style=flat-square&logo=github&logoColor=white)](https://github.com/MikeeeDeV?tab=repositories)
+[![Open Source](https://img.shields.io/badge/Open%20Source-Active%20Contributor-brightgreen?style=flat-square&logo=git&logoColor=white)](https://github.com/MikeeeDeV)
+[![Location](https://img.shields.io/badge/Location-Egypt-E95420?style=flat-square&logo=google-maps&logoColor=white)](https://github.com/MikeeeDeV)
+[![Work](https://img.shields.io/badge/Building%20at-Gawdah-blueviolet?style=flat-square&logo=codewars&logoColor=white)](https://github.com/MikeeeDeV)
+[![Status](https://img.shields.io/badge/Status-Shipping%20Code-success?style=flat-square&logo=visualstudiocode&logoColor=white)](https://github.com/MikeeeDeV)
+
+<br />
 
 </div>
 
 ---
 
-### 💻 Developer Terminal (`neofetch --profile`)
+### 💻 Developer Terminal
 
 ```bash
 mohamed@workstation:~$ neofetch --profile
 ---------------------------------------------
-OS        : NixOS / Linux x86_64 / Ubuntu Desktop
+OS        : Linux x86_64 / NixOS / Ubuntu Desktop
 Host      : Full-Stack & Systems Engineer
 Role      : Building at Gawdah & Open-Source Maintainer
 Kernel    : Python 3.10+, TypeScript 5+, Nix Flakes
-Focus     : AI Agent (MCP) Tooling, Distributed Web Apps, Desktop Architecture
-Uptime    : Continuous High-Impact Shipping 🚀
+Focus     : Desktop GUI Architecture, Distributed Web Apps, AI Agent (MCP) Tools
+Uptime    : Continuous High-Impact Shipping
 Shell     : zsh / bash with custom dotfiles
 Status    : 🟢 Open for Technical Collaborations & Cutting-Edge Engineering
 Quote     : "Simplicity is a prerequisite for reliability." — Edsger W. Dijkstra
@@ -61,7 +43,7 @@ Quote     : "Simplicity is a prerequisite for reliability." — Edsger W. Dijkst
 
 ---
 
-### 🌟 Featured Repositories
+###  Featured Repositories
 
 <div align="center">
 
@@ -85,41 +67,7 @@ Quote     : "Simplicity is a prerequisite for reliability." — Edsger W. Dijkst
 
 ---
 
-### 🚀 Deep Dive: Engineering Focus & Architecture Specs
-
-<details>
-  <summary><b>🤖 AI Tooling & Model Context Protocol (MCP)</b></summary>
-  <br />
-  <ul>
-    <li>Architecting autonomous AI agent tools and custom FastMCP servers for system automation.</li>
-    <li>Integrating LLM reasoning loops with native OS utilities, Git workflows, and CLI development.</li>
-    <li>Designing zero-latency streaming pipelines with Server-Sent Events (SSE) and WebSockets.</li>
-  </ul>
-</details>
-
-<details>
-  <summary><b>❄️ Declarative Infrastructure & Nix Systems</b></summary>
-  <br />
-  <ul>
-    <li>Building fully reproducible developer environments using Nix Flakes & Home Manager.</li>
-    <li>Automating package configuration, desktop customization, and zero-drift system setups.</li>
-    <li>Eliminating "works on my machine" bottlenecks through immutable packaging.</li>
-  </ul>
-</details>
-
-<details>
-  <summary><b>🌐 Full-Stack & Distributed Cloud Architecture</b></summary>
-  <br />
-  <ul>
-    <li>Production-grade Next.js (App Router) with SSR, ISR, and React Server Components.</li>
-    <li>Robust database schemas with PostgreSQL, Prisma, Drizzle ORM, and SQLite.</li>
-    <li>Hardened security practices: session guards, RBAC authentication, input sanitization, and API rate limiting.</li>
-  </ul>
-</details>
-
----
-
-### 🛠️ Tech Stack & Arsenal
+###  Tech Stack & Arsenal
 
 <div align="center">
 
@@ -131,6 +79,8 @@ Quote     : "Simplicity is a prerequisite for reliability." — Edsger W. Dijkst
 
 </div>
 
+<br />
+
 | Domain | Core Technologies & Tools |
 |---|---|
 | **Languages** | Python 3.10+, TypeScript, JavaScript (ESNext), Bash / POSIX Shell, SQL, Smali |
@@ -141,16 +91,9 @@ Quote     : "Simplicity is a prerequisite for reliability." — Edsger W. Dijkst
 
 ---
 
-### 📈 Real-Time GitHub Activity & Performance Wave
+###  GitHub Activity & Real-Time Metrics
 
 <div align="center">
-
-<!-- Real-time Activity Graph Wave -->
-<a href="https://github.com/MikeeeDeV">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=MikeeeDeV&theme=tokyo-night&hide_border=true&area=true" width="98%" alt="Mohamed's GitHub Activity Graph" />
-</a>
-
-<br /><br />
 
 <img src="https://github-readme-stats.vercel.app/api?username=MikeeeDeV&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" width="49%" alt="Mohamed's GitHub Stats" />
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MikeeeDeV&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" width="48%" alt="Top Languages" />
@@ -163,7 +106,7 @@ Quote     : "Simplicity is a prerequisite for reliability." — Edsger W. Dijkst
 
 ---
 
-### 🏙️ 3D Contribution Landscape
+###  3D Contribution Landscape
 
 <div align="center">
 
@@ -177,7 +120,7 @@ Quote     : "Simplicity is a prerequisite for reliability." — Edsger W. Dijkst
 
 ---
 
-### 🐍 Contribution Activity Snake
+###  Contribution Activity Snake
 
 <div align="center">
 
@@ -191,7 +134,7 @@ Quote     : "Simplicity is a prerequisite for reliability." — Edsger W. Dijkst
 
 ---
 
-### 💡 Daily Developer Humor
+###  Daily Developer Humor
 
 <div align="center">
 
@@ -201,23 +144,16 @@ Quote     : "Simplicity is a prerequisite for reliability." — Edsger W. Dijkst
 
 ---
 
-### 🤝 Let's Connect & Collaborate!
+###  Let's Connect & Collaborate!
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Mohamed_Ayman-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/)
 [![GitHub](https://img.shields.io/badge/GitHub-MikeeeDeV-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MikeeeDeV)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Live_Site-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://github.com/MikeeeDeV/My-portfolio)
-[![Email](https://img.shields.io/badge/Gmail-Direct_Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mohamed.ayman.developer@gmail.com)
-[![Discord](https://img.shields.io/badge/Discord-Community-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Live-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://github.com/MikeeeDeV/My-portfolio)
+[![Discussion](https://img.shields.io/badge/Let's_Talk-Open_Source-brightgreen?style=for-the-badge&logo=discourse&logoColor=white)](https://github.com/MikeeeDeV)
 
 <br />
 
-<!-- Modern Waving Footer -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,11,21,31&height=100&section=footer&theme=tokyonight" width="100%" alt="Footer Wave" />
-
-<br />
-
-<sub>Crafted with engineering precision by **Mohamed Ayman** • Powered by Antigravity • © 2026</sub>
+<sub>Designed with precision by **Mohamed Ayman** • © 2026</sub>
 
 </div>
