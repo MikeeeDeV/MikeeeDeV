@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 210" width="880" height="210" role="img" aria-labelledby="title-id desc-id">
+  <title id="title-id">Harmonic Sine Oscillator - Contribution Skyline</title>
+  <desc id="desc-id">Telemetry horizon sine-wave-harmonic-stack</desc>
+  <style>
+    :root {
+      --vf-bg: #120800;
+      --vf-card: #1F1002;
+      --vf-border: #3E2004;
+      --vf-text: #FFE6B3;
+      --vf-text-muted: #F59E0B;
+      --vf-accent-1: #FFB000;
+      --vf-accent-2: #F97316;
+      --vf-accent-3: #FDE047;
+      --vf-glow: #FFB00044;
+      --vf-font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      --vf-font-mono: "JetBrains Mono", "Fira Code", ui-monospace, Menlo, Monaco, Consolas, monospace;
+      --vf-font-arabic: "Cairo", "Amiri", "Tahoma", -apple-system, sans-serif;
+    }
+    @media (prefers-color-scheme: light) {
+      :root {
+        --vf-bg: #FFF9F0;
+        --vf-card: #FFFFFF;
+        --vf-border: #F4D3B0;
+        --vf-text: #3A1C00;
+        --vf-text-muted: #7A3F00;
+        --vf-accent-1: #B45309;
+        --vf-accent-2: #C2410C;
+        --vf-accent-3: #854D0E;
+        --vf-glow: #B4530933;
+      }
+    }
+    text {
+      user-select: none;
+    }
+    
+      .card-frame { fill: var(--vf-card); stroke: var(--vf-border); stroke-width: 1; }
+      .skyline-bar { fill: var(--vf-accent-1); }
+      .skyline-sub { fill: var(--vf-accent-2); opacity: 0.65; }
+      .grid-h { stroke: var(--vf-border); stroke-width: 0.5; stroke-dasharray: 2 4; }
+      .metric-title { font-family: var(--vf-font-mono); font-size: 13px; font-weight: 700; fill: var(--vf-text); }
+      .metric-stat { font-family: var(--vf-font-mono); font-size: 11px; fill: var(--vf-text-muted); }
+      .accent-pill { fill: var(--vf-bg); stroke: var(--vf-border); stroke-width: 1; }
+    
+  </style>
+  
+  <rect x="1" y="1" width="878" height="208" rx="8" class="card-frame" />
+
+    <g transform="translate(28, 26)">
+      <circle cx="0" cy="0" r="4" fill="var(--vf-accent-1)" />
+      <text x="12" y="4" class="metric-title">HARMONIC SINE OSCILLATOR</text>
+      <text x="12" y="20" class="metric-stat">52 WEEKS • 1,844 TOTAL COMMITS • 99.8% CI PASS RATE</text>
+      
+      <g transform="translate(640, -8)">
+        <rect x="0" y="0" width="180" height="26" rx="4" class="accent-pill" />
+        <circle cx="12" cy="13" r="3" fill="var(--vf-accent-3)" />
+        <text x="24" y="17" font-family="var(--vf-font-mono)" font-size="10" font-weight="700" fill="var(--vf-accent-1)">PEAK: 34 COMMITS/DAY</text>
+      </g>
+    </g>
+    
+<line x1="28" y1="152" x2="852" y2="152" class="grid-h" />
+<line x1="28" y1="117" x2="852" y2="117" class="grid-h" />
+<line x1="28" y1="82" x2="852" y2="82" class="grid-h" />
+<g class="skyline-content"><path d="M 28.0 113.2 L 34.9 111.5 L 41.8 109.7 L 48.8 107.8 L 55.7 105.7 L 62.6 103.6 L 69.5 101.4 L 76.5 99.2 L 83.4 97.0 L 90.3 95.0 L 97.2 93.0 L 104.2 91.1 L 111.1 89.5 L 118.0 88.0 L 124.9 86.8 L 131.9 85.9 L 138.8 85.2 L 145.7 84.9 L 152.6 85.0 L 159.6 85.4 L 166.5 86.1 L 173.4 87.3 L 180.3 88.9 L 187.3 90.8 L 194.2 93.1 L 201.1 95.8 L 208.0 98.8 L 215.0 102.2 L 221.9 105.9 L 228.8 109.8 L 235.7 114.0 L 242.7 118.4 L 249.6 123.0 L 256.5 127.8 L 263.4 132.6 L 270.4 137.5 L 277.3 142.3 L 284.2 147.2 L 291.1 151.9 L 298.1 156.5 L 305.0 161.0 L 311.9 165.2 L 318.8 169.2 L 325.7 172.9 L 332.7 176.3 L 339.6 179.4 L 346.5 182.1 L 353.4 184.4 L 360.4 186.3 L 367.3 187.8 L 374.2 188.9 L 381.1 189.6 L 388.1 189.8 L 395.0 189.6 L 401.9 189.1 L 408.8 188.2 L 415.8 186.9 L 422.7 185.3 L 429.6 183.4 L 436.5 181.2 L 443.5 178.8 L 450.4 176.2 L 457.3 173.4 L 464.2 170.5 L 471.2 167.6 L 478.1 164.6 L 485.0 161.6 L 491.9 158.6 L 498.9 155.7 L 505.8 152.9 L 512.7 150.3 L 519.6 147.8 L 526.6 145.5 L 533.5 143.4 L 540.4 141.6 L 547.3 140.0 L 554.3 138.6 L 561.2 137.6 L 568.1 136.7 L 575.0 136.2 L 581.9 135.9 L 588.9 135.8 L 595.8 135.9 L 602.7 136.3 L 609.6 136.8 L 616.6 137.5 L 623.5 138.3 L 630.4 139.2 L 637.3 140.1 L 644.3 141.1 L 651.2 142.1 L 658.1 143.0 L 665.0 143.9 L 672.0 144.6 L 678.9 145.2 L 685.8 145.6 L 692.7 145.8 L 699.7 145.8 L 706.6 145.6 L 713.5 145.0 L 720.4 144.2 L 727.4 143.1 L 734.3 141.7 L 741.2 140.0 L 748.1 138.1 L 755.1 135.8 L 762.0 133.2 L 768.9 130.4 L 775.8 127.3 L 782.8 124.0 L 789.7 120.5 L 796.6 116.9 L 803.5 113.1 L 810.5 109.3 L 817.4 105.4 L 824.3 101.5 L 831.2 97.6 L 838.2 93.8 L 845.1 90.1 L 852.0 86.6 L 852 182 L 28 182 Z" fill="var(--vf-accent-2)" opacity="0.35" /><path d="M 28.0 113.2 L 34.9 111.5 L 41.8 109.7 L 48.8 107.8 L 55.7 105.7 L 62.6 103.6 L 69.5 101.4 L 76.5 99.2 L 83.4 97.0 L 90.3 95.0 L 97.2 93.0 L 104.2 91.1 L 111.1 89.5 L 118.0 88.0 L 124.9 86.8 L 131.9 85.9 L 138.8 85.2 L 145.7 84.9 L 152.6 85.0 L 159.6 85.4 L 166.5 86.1 L 173.4 87.3 L 180.3 88.9 L 187.3 90.8 L 194.2 93.1 L 201.1 95.8 L 208.0 98.8 L 215.0 102.2 L 221.9 105.9 L 228.8 109.8 L 235.7 114.0 L 242.7 118.4 L 249.6 123.0 L 256.5 127.8 L 263.4 132.6 L 270.4 137.5 L 277.3 142.3 L 284.2 147.2 L 291.1 151.9 L 298.1 156.5 L 305.0 161.0 L 311.9 165.2 L 318.8 169.2 L 325.7 172.9 L 332.7 176.3 L 339.6 179.4 L 346.5 182.1 L 353.4 184.4 L 360.4 186.3 L 367.3 187.8 L 374.2 188.9 L 381.1 189.6 L 388.1 189.8 L 395.0 189.6 L 401.9 189.1 L 408.8 188.2 L 415.8 186.9 L 422.7 185.3 L 429.6 183.4 L 436.5 181.2 L 443.5 178.8 L 450.4 176.2 L 457.3 173.4 L 464.2 170.5 L 471.2 167.6 L 478.1 164.6 L 485.0 161.6 L 491.9 158.6 L 498.9 155.7 L 505.8 152.9 L 512.7 150.3 L 519.6 147.8 L 526.6 145.5 L 533.5 143.4 L 540.4 141.6 L 547.3 140.0 L 554.3 138.6 L 561.2 137.6 L 568.1 136.7 L 575.0 136.2 L 581.9 135.9 L 588.9 135.8 L 595.8 135.9 L 602.7 136.3 L 609.6 136.8 L 616.6 137.5 L 623.5 138.3 L 630.4 139.2 L 637.3 140.1 L 644.3 141.1 L 651.2 142.1 L 658.1 143.0 L 665.0 143.9 L 672.0 144.6 L 678.9 145.2 L 685.8 145.6 L 692.7 145.8 L 699.7 145.8 L 706.6 145.6 L 713.5 145.0 L 720.4 144.2 L 727.4 143.1 L 734.3 141.7 L 741.2 140.0 L 748.1 138.1 L 755.1 135.8 L 762.0 133.2 L 768.9 130.4 L 775.8 127.3 L 782.8 124.0 L 789.7 120.5 L 796.6 116.9 L 803.5 113.1 L 810.5 109.3 L 817.4 105.4 L 824.3 101.5 L 831.2 97.6 L 838.2 93.8 L 845.1 90.1 L 852.0 86.6" fill="none" stroke="var(--vf-accent-1)" stroke-width="2" /></g>
+<line x1="28" y1="182" x2="852" y2="182" stroke="var(--vf-border)" stroke-width="1.5" />
+</svg>
