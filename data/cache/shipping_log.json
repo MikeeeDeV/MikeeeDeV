@@ -1,0 +1,37 @@
+[
+  {
+    "date": "2026-10-18",
+    "type": "RELEASE",
+    "repo": "MikeeeDeV/NixManagerPro",
+    "title": "`v1.7.0` — ❄️ NixManager Pro v1.7.0 — Smart Channels Hub & Presets Ecosystem",
+    "url": "https://github.com/MikeeeDeV/NixManagerPro/releases/tag/v1.7.0"
+  },
+  {
+    "date": "2026-10-18",
+    "type": "RELEASE",
+    "repo": "MikeeeDeV/NixManagerPro",
+    "title": "`v1.6.0` — ❄️ NixManager Pro v1.6.0 — WingetUI Ecosystem & Multi-Manager Suite",
+    "url": "https://github.com/MikeeeDeV/NixManagerPro/releases/tag/v1.6.0"
+  },
+  {
+    "date": "2026-10-18",
+    "type": "SYSTEM",
+    "repo": "MikeeeDeV/NixManagerPro",
+    "title": "Branch update: `main` (Nix package orchestration)",
+    "url": "https://github.com/MikeeeDeV/NixManagerPro"
+  },
+  {
+    "date": "2026-09-26",
+    "type": "RELEASE",
+    "repo": "MikeeeDeV/next-session-guard",
+    "title": "`v2.0.0` — Real-time SSE device revocation & SOC telemetry",
+    "url": "https://github.com/MikeeeDeV/next-session-guard/releases/tag/v2.0.0"
+  },
+  {
+    "date": "2026-09-10",
+    "type": "CORE",
+    "repo": "MikeeeDeV/Gawdah-CleanKit",
+    "title": "Architecture specs & automated validation tooling",
+    "url": "https://github.com/MikeeeDeV/Gawdah-CleanKit"
+  }
+]
