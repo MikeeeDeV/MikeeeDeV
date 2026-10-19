@@ -1,0 +1,31 @@
+name: 'VectorForge SVG Shape Generator'
+description: 'Generate deterministic SVG banners, terminals, skylines, and architecture diagrams for your GitHub profile and docs'
+author: 'Mohamed Ayman (@MikeeeDeV)'
+branding:
+  icon: 'layout'
+  color: 'yellow'
+
+inputs:
+  shape:
+    description: 'Preset ID to generate (e.g. kemet-nocturne-rosette, raft-consensus-cluster)'
+    required: true
+    default: 'kemet-nocturne-rosette'
+  theme:
+    description: 'Color theme override (kemet_nocturne, cyberpunk_2077, nord_frost, dracula, etc.)'
+    required: false
+  output:
+    description: 'Output SVG file path'
+    required: true
+    default: 'assets/vectorforge-shape.svg'
+
+runs:
+  using: 'composite'
+  steps:
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+    - name: Generate VectorForge Shape
+      shell: bash
+      run: |
+        python3 -m library.cli generate "${{ inputs.shape }}" ${{ inputs.theme && format('--theme {0}', inputs.theme) || '' }} --out "${{ inputs.output }}"
