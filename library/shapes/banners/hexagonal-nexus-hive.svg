@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 240" width="960" height="240" role="img" aria-labelledby="title-id desc-id">
+  <title id="title-id">Honeycomb Nexus Hive - VectorForge Banner</title>
+  <desc id="desc-id">Algorithmic banner preset hexagonal-nexus-hive</desc>
+  <style>
+    :root {
+      --vf-bg: #08080E;
+      --vf-card: #121222;
+      --vf-border: #2B2B47;
+      --vf-text: #FFFDF0;
+      --vf-text-muted: #8E8EA8;
+      --vf-accent-1: #FEE715;
+      --vf-accent-2: #00F0FF;
+      --vf-accent-3: #FF007F;
+      --vf-glow: #00F0FF44;
+      --vf-font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      --vf-font-mono: "JetBrains Mono", "Fira Code", ui-monospace, Menlo, Monaco, Consolas, monospace;
+      --vf-font-arabic: "Cairo", "Amiri", "Tahoma", -apple-system, sans-serif;
+    }
+    @media (prefers-color-scheme: light) {
+      :root {
+        --vf-bg: #F4F4F8;
+        --vf-card: #FFFFFF;
+        --vf-border: #D1D1DF;
+        --vf-text: #121224;
+        --vf-text-muted: #5A5A72;
+        --vf-accent-1: #CA9A00;
+        --vf-accent-2: #0099A8;
+        --vf-accent-3: #D6006B;
+        --vf-glow: #0099A833;
+      }
+    }
+    text {
+      user-select: none;
+    }
+    
+      .card-bg { fill: var(--vf-card); stroke: var(--vf-border); stroke-width: 1; }
+      .grid-line { stroke: var(--vf-border); stroke-width: 0.5; opacity: 0.4; }
+      .glow-layer { filter: drop-shadow(0 0 10px var(--vf-glow)); }
+      .badge-bg { fill: var(--vf-bg); stroke: var(--vf-border); stroke-width: 1; }
+      .title-text { font-family: var(--vf-font-sans); font-size: 24px; font-weight: 800; fill: var(--vf-text); letter-spacing: -0.5px; }
+      .subtitle-text { font-family: var(--vf-font-mono); font-size: 12px; fill: var(--vf-text-muted); letter-spacing: 0.5px; }
+      .tag-text { font-family: var(--vf-font-mono); font-size: 10px; font-weight: 700; fill: var(--vf-accent-1); }
+      .center-stroke { stroke: var(--vf-accent-1); stroke-width: 1.5; fill: none; }
+      .center-sub { stroke: var(--vf-accent-2); stroke-width: 1.0; fill: none; opacity: 0.75; }
+      .center-dot { fill: var(--vf-accent-3); }
+      .circuit-line { stroke: var(--vf-border); stroke-width: 1; fill: none; }
+    
+  </style>
+  
+  <rect x="1" y="1" width="958" height="238" rx="8" class="card-bg" />
+<g class="grid-layer"><line x1="40" y1="0" x2="40" y2="240" class="grid-line" /><line x1="100" y1="0" x2="100" y2="240" class="grid-line" /><line x1="160" y1="0" x2="160" y2="240" class="grid-line" /><line x1="220" y1="0" x2="220" y2="240" class="grid-line" /><line x1="280" y1="0" x2="280" y2="240" class="grid-line" /><line x1="340" y1="0" x2="340" y2="240" class="grid-line" /><line x1="400" y1="0" x2="400" y2="240" class="grid-line" /><line x1="460" y1="0" x2="460" y2="240" class="grid-line" /><line x1="520" y1="0" x2="520" y2="240" class="grid-line" /><line x1="580" y1="0" x2="580" y2="240" class="grid-line" /><line x1="640" y1="0" x2="640" y2="240" class="grid-line" /><line x1="700" y1="0" x2="700" y2="240" class="grid-line" /><line x1="760" y1="0" x2="760" y2="240" class="grid-line" /><line x1="820" y1="0" x2="820" y2="240" class="grid-line" /><line x1="880" y1="0" x2="880" y2="240" class="grid-line" /><line x1="940" y1="0" x2="940" y2="240" class="grid-line" /><line x1="0" y1="30" x2="960" y2="30" class="grid-line" /><line x1="0" y1="60" x2="960" y2="60" class="grid-line" /><line x1="0" y1="90" x2="960" y2="90" class="grid-line" /><line x1="0" y1="120" x2="960" y2="120" class="grid-line" /><line x1="0" y1="150" x2="960" y2="150" class="grid-line" /><line x1="0" y1="180" x2="960" y2="180" class="grid-line" /><line x1="0" y1="210" x2="960" y2="210" class="grid-line" /></g>
+<g><path d="M 420.0 80.0 L 450.0 80.0 L 458.0 88.0 L 690.0 88.0" class="circuit-line" /><circle cx="420" cy="80.0" r="2.5" fill="var(--vf-accent-2)" opacity="0.6" /><path d="M 420.0 120.0 L 465.0 120.0 L 465.0 120.0 L 690.0 120.0" class="circuit-line" /><circle cx="420" cy="120.0" r="2.5" fill="var(--vf-accent-2)" opacity="0.6" /><path d="M 420.0 160.0 L 480.0 160.0 L 472.0 152.0 L 690.0 152.0" class="circuit-line" /><circle cx="420" cy="160.0" r="2.5" fill="var(--vf-accent-2)" opacity="0.6" /></g>
+
+    <g transform="translate(48, 48)">
+      <!-- Category & Status Badge -->
+      <rect x="0" y="0" width="170" height="22" rx="4" class="badge-bg" />
+      <circle cx="10" cy="11" r="3.5" fill="var(--vf-accent-1)" />
+      <text x="22" y="15" class="tag-text">VECTORFORGE // BANNERS</text>
+      
+      <!-- Main Title -->
+      <text x="0" y="56" class="title-text">HONEYCOMB NEXUS HIVE</text>
+      
+      <!-- Subtitle & Specs -->
+      <text x="0" y="82" class="subtitle-text">Deterministic 1-of-1 SVG Canvas • Seed 0x9100F2</text>
+      <text x="0" y="104" font-family="var(--vf-font-mono)" font-size="11" fill="var(--vf-text-muted)">Theme: cyberpunk_2077 • Resolution: 960x240 • Zero Runtime Dependency</text>
+      
+      <!-- Badges row -->
+      <g transform="translate(0, 122)">
+        <rect x="0" y="0" width="80" height="20" rx="3" fill="var(--vf-bg)" stroke="var(--vf-border)" />
+        <text x="40" y="14" text-anchor="middle" font-family="var(--vf-font-mono)" font-size="10" fill="var(--vf-accent-2)">STANDALONE</text>
+        <rect x="90" y="0" width="70" height="20" rx="3" fill="var(--vf-bg)" stroke="var(--vf-border)" />
+        <text x="125" y="14" text-anchor="middle" font-family="var(--vf-font-mono)" font-size="10" fill="var(--vf-accent-1)">A11Y READY</text>
+        <rect x="170" y="0" width="60" height="20" rx="3" fill="var(--vf-bg)" stroke="var(--vf-border)" />
+        <text x="200" y="14" text-anchor="middle" font-family="var(--vf-font-mono)" font-size="10" fill="var(--vf-accent-3)">&lt; 15 KB</text>
+      </g>
+    </g>
+    
+<g class="art-layer"><circle cx="790" cy="120.0" r="82" fill="none" stroke="var(--vf-border)" /><line x1="790" y1="120.0" x2="864.0" y2="120.0" class="center-sub" /><circle cx="864.0" cy="120.0" r="4" fill="var(--vf-accent-1)" /><line x1="790" y1="120.0" x2="859.5" y2="145.3" class="center-sub" /><circle cx="859.5" cy="145.3" r="4" fill="var(--vf-accent-1)" /><line x1="790" y1="120.0" x2="846.7" y2="167.6" class="center-sub" /><circle cx="846.7" cy="167.6" r="4" fill="var(--vf-accent-1)" /><line x1="790" y1="120.0" x2="827.0" y2="184.1" class="center-sub" /><circle cx="827.0" cy="184.1" r="4" fill="var(--vf-accent-1)" /><line x1="790" y1="120.0" x2="802.8" y2="192.9" class="center-sub" /><circle cx="802.8" cy="192.9" r="4" fill="var(--vf-accent-1)" /><line x1="790" y1="120.0" x2="777.2" y2="192.9" class="center-sub" /><circle cx="777.2" cy="192.9" r="4" fill="var(--vf-accent-1)" /><line x1="790" y1="120.0" x2="753.0" y2="184.1" class="center-sub" /><circle cx="753.0" cy="184.1" r="4" fill="var(--vf-accent-1)" /><line x1="790" y1="120.0" x2="733.3" y2="167.6" class="center-sub" /><circle cx="733.3" cy="167.6" r="4" fill="var(--vf-accent-1)" /><line x1="790" y1="120.0" x2="720.5" y2="145.3" class="center-sub" /><circle cx="720.5" cy="145.3" r="4" fill="var(--vf-accent-1)" /><line x1="790" y1="120.0" x2="716.0" y2="120.0" class="center-sub" /><circle cx="716.0" cy="120.0" r="4" fill="var(--vf-accent-1)" /><line x1="790" y1="120.0" x2="720.5" y2="94.7" class="center-sub" /><circle cx="720.5" cy="94.7" r="4" fill="var(--vf-accent-1)" /><line x1="790" y1="120.0" x2="733.3" y2="72.4" class="center-sub" /><circle cx="733.3" cy="72.4" r="4" fill="var(--vf-accent-1)" /><line x1="790" y1="120.0" x2="753.0" y2="55.9" class="center-sub" /><circle cx="753.0" cy="55.9" r="4" fill="var(--vf-accent-1)" /><line x1="790" y1="120.0" x2="777.2" y2="47.1" class="center-sub" /><circle cx="777.2" cy="47.1" r="4" fill="var(--vf-accent-1)" /><line x1="790" y1="120.0" x2="802.8" y2="47.1" class="center-sub" /><circle cx="802.8" cy="47.1" r="4" fill="var(--vf-accent-1)" /><line x1="790" y1="120.0" x2="827.0" y2="55.9" class="center-sub" /><circle cx="827.0" cy="55.9" r="4" fill="var(--vf-accent-1)" /><line x1="790" y1="120.0" x2="846.7" y2="72.4" class="center-sub" /><circle cx="846.7" cy="72.4" r="4" fill="var(--vf-accent-1)" /><line x1="790" y1="120.0" x2="859.5" y2="94.7" class="center-sub" /><circle cx="859.5" cy="94.7" r="4" fill="var(--vf-accent-1)" /><circle cx="790" cy="120.0" r="18" fill="var(--vf-card)" stroke="var(--vf-accent-2)" stroke-width="2" /><circle cx="790" cy="120.0" r="6" fill="var(--vf-accent-3)" /></g>
+</svg>
