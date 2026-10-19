@@ -48,10 +48,10 @@
     <g transform="translate(28, 32)">
       <circle cx="0" cy="0" r="4" fill="var(--vf-accent-1)" />
       <text x="12" y="4" class="holo-title">MILLISECOND PULSAR TIMING</text>
-      <text x="12" y="20" class="holo-sub">SYSTEM // 0xAAC4D7 • PROTOCOL: HOLO-DIAL</text>
+      <text x="12" y="20" class="holo-sub">SYSTEM // 0x61742A • PROTOCOL: HOLO-DIAL</text>
     </g>
     
-<g class="dial-group"><circle cx="440" cy="120.0" r="75" class="ring-sub" /><circle cx="440" cy="120.0" r="48.75" class="ring-stroke" /><circle cx="440" cy="120.0" r="26.25" class="ring-sub" /><circle cx="440" cy="120.0" r="4" fill="var(--vf-accent-1)" /><line x1="365" y1="120.0" x2="515" y2="120.0" stroke="var(--vf-border)" stroke-width="0.8" /><line x1="440" y1="45.0" x2="440" y2="195.0" stroke="var(--vf-border)" stroke-width="0.8" /><line x1="440" y1="120.0" x2="502.2" y2="78.1" class="sweep-line" /><circle cx="502.2" cy="78.1" r="4.5" fill="var(--vf-accent-3)" /></g>
+<g class="dial-group"><circle cx="440" cy="120.0" r="75" class="ring-sub" /><circle cx="440" cy="120.0" r="48.75" class="ring-stroke" /><circle cx="440" cy="120.0" r="26.25" class="ring-sub" /><circle cx="440" cy="120.0" r="4" fill="var(--vf-accent-1)" /><line x1="365" y1="120.0" x2="515" y2="120.0" stroke="var(--vf-border)" stroke-width="0.8" /><line x1="440" y1="45.0" x2="440" y2="195.0" stroke="var(--vf-border)" stroke-width="0.8" /><line x1="440" y1="120.0" x2="420.6" y2="192.4" class="sweep-line" /><circle cx="420.6" cy="192.4" r="4.5" fill="var(--vf-accent-3)" /></g>
 <g class="ledger-rows">
         <g transform="translate(28, 78)">
           <rect x="0" y="0" width="360" height="24" rx="3" fill="var(--vf-bg)" stroke="var(--vf-border)" stroke-width="0.7" />

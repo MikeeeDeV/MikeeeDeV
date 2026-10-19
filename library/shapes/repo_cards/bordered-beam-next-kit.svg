@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 160" width="420" height="160" role="img" aria-labelledby="title-id desc-id">
-  <title id="title-id">gawdah-cleankit - Repo Card</title>
+  <title id="title-id">cleankit-core - Repo Card</title>
   <desc id="desc-id">Featured repo bento card bordered-beam-next-kit</desc>
   <style>
     :root {
@@ -52,7 +52,7 @@
       </g>
       
       <!-- Repo Name -->
-      <text x="22" y="0" class="repo-name">gawdah-cleankit</text>
+      <text x="22" y="0" class="repo-name">cleankit-core</text>
       
       <!-- Public Badge -->
       <g transform="translate(310, -14)">

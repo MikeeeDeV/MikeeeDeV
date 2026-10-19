@@ -39,7 +39,7 @@
 - **Primary Focus**: **Nix Flakes Desktop Engine & FastMCP Agent Tooling**
 - **Active Release**: [`NixManagerPro`](https://github.com/MikeeeDeV/NixManagerPro) — *Shipping v1.2* (Asynchronous multi-channel Nix package manager for Debian/Ubuntu)
 - **Secondary Track**: [`git-smart-sync`](https://github.com/MikeeeDeV/git-smart-sync) — *Active Maintenance* (Divergence protection and branch presets for VS Code & Antigravity)
-- **Leadership**: **Technical Team Leader** at **Gawdah**
+- **Engineering**: **Senior Full-Stack &amp; Systems Engineer**
 - **Current R&amp;D**: `Deterministic Nix derivation caches • Model Context Protocol (FastMCP) autonomous loops • Kernel cgroup sandboxing for desktop tools`
 <!-- NOW-BUILDING:END -->
 
@@ -60,9 +60,9 @@
 |:---:|:---:|:---|:---|
 | `2026-10-18` | **`RELEASE`** | [`NixManagerPro`](https://github.com/MikeeeDeV/NixManagerPro) | [`v1.7.0` — ❄️ NixManager Pro v1.7.0 — Smart Channels Hub & Presets Ecosystem](https://github.com/MikeeeDeV/NixManagerPro/releases/tag/v1.7.0) |
 | `2026-10-18` | **`RELEASE`** | [`NixManagerPro`](https://github.com/MikeeeDeV/NixManagerPro) | [`v1.6.0` — ❄️ NixManager Pro v1.6.0 — WingetUI Ecosystem & Multi-Manager Suite](https://github.com/MikeeeDeV/NixManagerPro/releases/tag/v1.6.0) |
-| `2026-10-12` | **`RELEASE`** | [`git-smart-sync`](https://github.com/MikeeeDeV/git-smart-sync) | [`v1.2.0` — Multi-branch divergence guard & VS Code sync presets](https://github.com/MikeeeDeV/git-smart-sync/releases/tag/v1.2.0) |
+| `2026-10-18` | **`SYSTEM`** | [`NixManagerPro`](https://github.com/MikeeeDeV/NixManagerPro) | [Branch update: `main` (Nix package orchestration)](https://github.com/MikeeeDeV/NixManagerPro) |
 | `2026-09-26` | **`RELEASE`** | [`next-session-guard`](https://github.com/MikeeeDeV/next-session-guard) | [`v2.0.0` — Real-time SSE device revocation & SOC telemetry](https://github.com/MikeeeDeV/next-session-guard/releases/tag/v2.0.0) |
-| `2026-09-10` | **`CORE`** | [`Gawdah-CleanKit`](https://github.com/MikeeeDeV/Gawdah-CleanKit) | [Architecture specs & automated validation tooling](https://github.com/MikeeeDeV/Gawdah-CleanKit) |
+| `2026-09-10` | **`CORE`** | [`cleankit-core`](https://github.com/MikeeeDeV/cleankit-core) | [Architecture specs & automated validation tooling](https://github.com/MikeeeDeV/cleankit-core) |
 <!-- SHIPPING-LOG:END -->
 
 ---
@@ -262,7 +262,7 @@ See [examples/profile-sync-workflow.yml](examples/profile-sync-workflow.yml) to 
 
 <div align="center">
 
-**Mohamed Ayman** • Technical Team Leader @ Gawdah • Cairo, Egypt (UTC+2)  
+**Mohamed Ayman** • Senior Full-Stack &amp; Systems Engineer • Cairo, Egypt (UTC+2)  
 [LinkedIn](https://www.linkedin.com/in/) • [GitHub](https://github.com/MikeeeDeV) • [Email](mailto:mohamed.ayman.developer@gmail.com) • [Nix Flake Specs](flake.nix) • [MCP Manifest](mcp.json)
 
 <sub>Precision-engineered with Kemet Nocturne Design System • 100% Deterministic &amp; Zero-Crash Resilience</sub>

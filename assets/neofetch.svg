@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 390" width="820" height="390" role="img" aria-label="Neofetch Terminal Card for Mohamed Ayman">
   <title>Developer Terminal Profile (neofetch) - Mohamed Ayman</title>
-  <desc>Deterministic terminal card rendering live statistics: 13 repos, 16 stars, 2004 contributions, top languages, and active uptime.</desc>
+  <desc>Deterministic terminal card rendering live statistics: 13 repos, 16 stars, 2238 contributions, top languages, and active uptime.</desc>
   <style>
     
     :root {
@@ -185,7 +185,7 @@
     <text x="135" y="38" class="term-val">Mohamed Ayman <tspan class="term-dim">(@MikeeeDeV)</tspan></text>
 
     <text x="0" y="60" class="term-label">Role</text>
-    <text x="135" y="60" class="term-accent">Technical Team Leader @ Gawdah</text>
+    <text x="135" y="60" class="term-accent">Senior Full-Stack &amp; Systems Engineer</text>
 
     <text x="0" y="82" class="term-label">Account Age</text>
     <text x="135" y="82" class="term-val">2 years <tspan class="term-dim">(since Oct 2024)</tspan></text>
@@ -197,7 +197,7 @@
     <text x="135" y="126" class="term-val">16 ★ <tspan class="term-dim">across pinned projects</tspan></text>
 
     <text x="0" y="148" class="term-label">Contributions</text>
-    <text x="135" y="148" class="term-val">2,004 <tspan class="term-dim">(past year)</tspan></text>
+    <text x="135" y="148" class="term-val">2,238 <tspan class="term-dim">(past year)</tspan></text>
 
     <text x="0" y="170" class="term-label">Active Streak</text>
     <text x="135" y="170" class="term-accent">5 days shipping cadence</text>
@@ -209,7 +209,7 @@
     <text x="135" y="214" class="term-val">v1.7.0 (NixManagerPro)</text>
 
     <text x="0" y="236" class="term-label">Top Languages</text>
-    <text x="135" y="236" class="term-val">TypeScript 44.2%, HTML 32.2%, Python 19.8%</text>
+    <text x="135" y="236" class="term-val">TypeScript 38.1%, HTML 33.0%, Python 23.4%</text>
 
     <!-- Language Multi-color Stack Bar -->
     <g transform="translate(135, 246)">

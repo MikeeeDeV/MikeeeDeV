@@ -3,28 +3,28 @@
   "login": "MikeeeDeV",
   "public_repos": 13,
   "total_stars": 16,
-  "total_contribs": 2004,
+  "total_contribs": 2238,
   "account_age": "2 years",
   "top_langs": [
     {
       "name": "TypeScript",
       "bytes": 774409,
-      "percent": 44.2
+      "percent": 38.1
     },
     {
       "name": "HTML",
-      "bytes": 564887,
-      "percent": 32.2
+      "bytes": 670325,
+      "percent": 33.0
     },
     {
       "name": "Python",
-      "bytes": 346127,
-      "percent": 19.8
+      "bytes": 474965,
+      "percent": 23.4
     },
     {
-      "name": "CSS",
-      "bytes": 37429,
-      "percent": 2.1
+      "name": "JavaScript",
+      "bytes": 57267,
+      "percent": 2.8
     }
   ],
   "last_push_repo": "NixManagerPro",

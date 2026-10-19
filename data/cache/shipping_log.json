@@ -14,11 +14,11 @@
     "url": "https://github.com/MikeeeDeV/NixManagerPro/releases/tag/v1.6.0"
   },
   {
-    "date": "2026-10-12",
-    "type": "RELEASE",
-    "repo": "MikeeeDeV/git-smart-sync",
-    "title": "`v1.2.0` — Multi-branch divergence guard & VS Code sync presets",
-    "url": "https://github.com/MikeeeDeV/git-smart-sync/releases/tag/v1.2.0"
+    "date": "2026-10-18",
+    "type": "SYSTEM",
+    "repo": "MikeeeDeV/NixManagerPro",
+    "title": "Branch update: `main` (Nix package orchestration)",
+    "url": "https://github.com/MikeeeDeV/NixManagerPro"
   },
   {
     "date": "2026-09-26",
@@ -30,8 +30,8 @@
   {
     "date": "2026-09-10",
     "type": "CORE",
-    "repo": "MikeeeDeV/Gawdah-CleanKit",
+    "repo": "MikeeeDeV/cleankit-core",
     "title": "Architecture specs & automated validation tooling",
-    "url": "https://github.com/MikeeeDeV/Gawdah-CleanKit"
+    "url": "https://github.com/MikeeeDeV/cleankit-core"
   }
 ]

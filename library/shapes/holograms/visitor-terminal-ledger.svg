@@ -48,10 +48,10 @@
     <g transform="translate(28, 32)">
       <circle cx="0" cy="0" r="4" fill="var(--vf-accent-1)" />
       <text x="12" y="4" class="holo-title">VISITOR TERMINAL LEDGER</text>
-      <text x="12" y="20" class="holo-sub">SYSTEM // 0xCB13E2 • PROTOCOL: HOLO-DIAL</text>
+      <text x="12" y="20" class="holo-sub">SYSTEM // 0x6BFA30 • PROTOCOL: HOLO-DIAL</text>
     </g>
     
-<g class="dial-group"><circle cx="440" cy="120.0" r="75" class="ring-sub" /><circle cx="440" cy="120.0" r="48.75" class="ring-stroke" /><circle cx="440" cy="120.0" r="26.25" class="ring-sub" /><circle cx="440" cy="120.0" r="4" fill="var(--vf-accent-1)" /><line x1="365" y1="120.0" x2="515" y2="120.0" stroke="var(--vf-border)" stroke-width="0.8" /><line x1="440" y1="45.0" x2="440" y2="195.0" stroke="var(--vf-border)" stroke-width="0.8" /><line x1="440" y1="120.0" x2="456.9" y2="46.9" class="sweep-line" /><circle cx="456.9" cy="46.9" r="4.5" fill="var(--vf-accent-3)" /></g>
+<g class="dial-group"><circle cx="440" cy="120.0" r="75" class="ring-sub" /><circle cx="440" cy="120.0" r="48.75" class="ring-stroke" /><circle cx="440" cy="120.0" r="26.25" class="ring-sub" /><circle cx="440" cy="120.0" r="4" fill="var(--vf-accent-1)" /><line x1="365" y1="120.0" x2="515" y2="120.0" stroke="var(--vf-border)" stroke-width="0.8" /><line x1="440" y1="45.0" x2="440" y2="195.0" stroke="var(--vf-border)" stroke-width="0.8" /><line x1="440" y1="120.0" x2="505.0" y2="82.5" class="sweep-line" /><circle cx="505.0" cy="82.5" r="4.5" fill="var(--vf-accent-3)" /></g>
 <g class="ledger-rows">
         <g transform="translate(28, 78)">
           <rect x="0" y="0" width="360" height="24" rx="3" fill="var(--vf-bg)" stroke="var(--vf-border)" stroke-width="0.7" />

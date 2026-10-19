@@ -310,7 +310,7 @@ def generate_neofetch_svg() -> str:
     <text x="135" y="38" class="term-val">{escape_xml(stats['name'])} <tspan class="term-dim">(@{escape_xml(stats['login'])})</tspan></text>
 
     <text x="0" y="60" class="term-label">Role</text>
-    <text x="135" y="60" class="term-accent">Technical Team Leader @ Gawdah</text>
+    <text x="135" y="60" class="term-accent">Senior Full-Stack &amp; Systems Engineer</text>
 
     <text x="0" y="82" class="term-label">Account Age</text>
     <text x="135" y="82" class="term-val">{escape_xml(stats['account_age'])} <tspan class="term-dim">(since Oct 2024)</tspan></text>

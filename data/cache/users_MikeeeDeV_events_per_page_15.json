@@ -1,6 +1,6 @@
 [
   {
-    "id": "17595928995",
+    "id": "17604271092",
     "type": "IssuesEvent",
     "actor": {
       "id": 183979087,
@@ -18,16 +18,16 @@
     "payload": {
       "action": "opened",
       "issue": {
-        "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/61",
+        "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/120",
         "repository_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV",
-        "labels_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/61/labels{/name}",
-        "comments_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/61/comments",
-        "events_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/61/events",
-        "html_url": "https://github.com/MikeeeDeV/MikeeeDeV/issues/61",
-        "id": 5923304447,
-        "node_id": "I_kwDOVO9Sec8AAAABYQ5z_w",
-        "number": 61,
-        "title": "feat: Wire interactive terminal issue links and contact footer",
+        "labels_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/120/labels{/name}",
+        "comments_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/120/comments",
+        "events_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/120/events",
+        "html_url": "https://github.com/MikeeeDeV/MikeeeDeV/issues/120",
+        "id": 5923836539,
+        "node_id": "I_kwDOVO9Sec8AAAABYRaSew",
+        "number": 120,
+        "title": "feat: Add HUD status badges batch 3 (Shapes 15-21)",
         "user": {
           "login": "MikeeeDeV",
           "id": 183979087,
@@ -55,9 +55,9 @@
         "assignees": [],
         "milestone": null,
         "comments": 0,
-        "created_at": "2026-10-19T11:50:57Z",
-        "updated_at": "2026-10-19T11:51:08Z",
-        "closed_at": "2026-10-19T11:51:08Z",
+        "created_at": "2026-10-19T12:27:19Z",
+        "updated_at": "2026-10-19T12:27:30Z",
+        "closed_at": "2026-10-19T12:27:30Z",
         "assignee": null,
         "active_lock_reason": null,
         "sub_issues_summary": {
@@ -71,9 +71,9 @@
           "blocking": 0,
           "total_blocking": 0
         },
-        "body": "Add one-click issue links for `ping`, `vouch`, `inspect`, `quote`, and bilingual footer.",
+        "body": "### Objective\nGenerate 7 badges: Observatory A+, TypeScript Strict, Sub-5ms Latency, FastMCP AI Protocol, Dual License MIT/Apache, Carbon Neutral, 100% Code Coverage.",
         "reactions": {
-          "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/61/reactions",
+          "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/120/reactions",
           "total_count": 0,
           "+1": 0,
           "-1": 0,
@@ -84,17 +84,44 @@
           "rocket": 0,
           "eyes": 0
         },
-        "timeline_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/61/timeline",
+        "timeline_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/120/timeline",
         "performed_via_github_app": null,
         "state_reason": "completed",
         "pinned_comment": null
       }
     },
     "public": true,
-    "created_at": "2026-10-19T11:51:42Z"
+    "created_at": "2026-10-19T13:46:41Z"
   },
   {
-    "id": "17595924570",
+    "id": "24532637655",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 183979087,
+      "login": "MikeeeDeV",
+      "display_login": "MikeeeDeV",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MikeeeDeV",
+      "avatar_url": "https://avatars.githubusercontent.com/u/183979087?"
+    },
+    "repo": {
+      "id": 1424830395,
+      "name": "MikeeeDeV/NixManagerPro",
+      "url": "https://api.github.com/repos/MikeeeDeV/NixManagerPro"
+    },
+    "payload": {
+      "ref": "feature/dual-mode-uninstall-ui",
+      "ref_type": "branch",
+      "full_ref": "refs/heads/feature/dual-mode-uninstall-ui",
+      "master_branch": "main",
+      "description": "Production-grade, asynchronous desktop client for the Nix Package Manager on Ubuntu/Debian multi-user installations",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2026-10-18T22:45:04Z"
+  },
+  {
+    "id": "17604201964",
     "type": "IssuesEvent",
     "actor": {
       "id": 183979087,
@@ -110,18 +137,18 @@
       "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV"
     },
     "payload": {
-      "action": "closed",
+      "action": "opened",
       "issue": {
-        "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/65",
+        "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/112",
         "repository_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV",
-        "labels_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/65/labels{/name}",
-        "comments_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/65/comments",
-        "events_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/65/events",
-        "html_url": "https://github.com/MikeeeDeV/MikeeeDeV/issues/65",
-        "id": 5923311180,
-        "node_id": "I_kwDOVO9Sec8AAAABYQ6OTA",
-        "number": 65,
-        "title": "release: Deploy 1-of-1 Kemet Nocturne profile engine v1.0",
+        "labels_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/112/labels{/name}",
+        "comments_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/112/comments",
+        "events_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/112/events",
+        "html_url": "https://github.com/MikeeeDeV/MikeeeDeV/issues/112",
+        "id": 5923822792,
+        "node_id": "I_kwDOVO9Sec8AAAABYRZcyA",
+        "number": 112,
+        "title": "feat: Add system architecture flowcards batch 4 (Shapes 22-28)",
         "user": {
           "login": "MikeeeDeV",
           "id": 183979087,
@@ -149,9 +176,9 @@
         "assignees": [],
         "milestone": null,
         "comments": 0,
-        "created_at": "2026-10-19T11:51:29Z",
-        "updated_at": "2026-10-19T11:51:38Z",
-        "closed_at": "2026-10-19T11:51:38Z",
+        "created_at": "2026-10-19T12:26:23Z",
+        "updated_at": "2026-10-19T12:26:33Z",
+        "closed_at": "2026-10-19T12:26:33Z",
         "assignee": null,
         "active_lock_reason": null,
         "sub_issues_summary": {
@@ -165,9 +192,9 @@
           "blocking": 0,
           "total_blocking": 0
         },
-        "body": "Final production release milestone: all 1-of-1 deliverables, 3 inventions, tests, and CI/CD verified.",
+        "body": "### Objective\nGenerate 7 topologies: OAuth 2.1 PKCE, Temporal Saga, Transactional Outbox, Circuit Breaker, Token Bucket Rate Limiter, Apache Iceberg, Prometheus Alertmanager.",
         "reactions": {
-          "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/65/reactions",
+          "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/112/reactions",
           "total_count": 0,
           "+1": 0,
           "-1": 0,
@@ -178,18 +205,18 @@
           "rocket": 0,
           "eyes": 0
         },
-        "timeline_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/65/timeline",
+        "timeline_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/112/timeline",
         "performed_via_github_app": null,
         "state_reason": "completed",
         "pinned_comment": null
       }
     },
     "public": true,
-    "created_at": "2026-10-19T11:51:40Z"
+    "created_at": "2026-10-19T13:45:44Z"
   },
   {
-    "id": "17595917831",
-    "type": "PullRequestEvent",
+    "id": "17604188322",
+    "type": "IssuesEvent",
     "actor": {
       "id": 183979087,
       "login": "MikeeeDeV",
@@ -205,14 +232,694 @@
     },
     "payload": {
       "action": "opened",
-      "number": 66,
+      "issue": {
+        "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/110",
+        "repository_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV",
+        "labels_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/110/labels{/name}",
+        "comments_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/110/comments",
+        "events_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/110/events",
+        "html_url": "https://github.com/MikeeeDeV/MikeeeDeV/issues/110",
+        "id": 5923819096,
+        "node_id": "I_kwDOVO9Sec8AAAABYRZOWA",
+        "number": 110,
+        "title": "feat: Add system architecture flowcards batch 3 (Shapes 15-21)",
+        "user": {
+          "login": "MikeeeDeV",
+          "id": 183979087,
+          "node_id": "U_kgDOCvdMTw",
+          "avatar_url": "https://avatars.githubusercontent.com/u/183979087?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/MikeeeDeV",
+          "html_url": "https://github.com/MikeeeDeV",
+          "followers_url": "https://api.github.com/users/MikeeeDeV/followers",
+          "following_url": "https://api.github.com/users/MikeeeDeV/following{/other_user}",
+          "gists_url": "https://api.github.com/users/MikeeeDeV/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/MikeeeDeV/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/MikeeeDeV/subscriptions",
+          "organizations_url": "https://api.github.com/users/MikeeeDeV/orgs",
+          "repos_url": "https://api.github.com/users/MikeeeDeV/repos",
+          "events_url": "https://api.github.com/users/MikeeeDeV/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/MikeeeDeV/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "labels": [],
+        "state": "closed",
+        "locked": false,
+        "assignees": [],
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2026-10-19T12:26:08Z",
+        "updated_at": "2026-10-19T12:26:19Z",
+        "closed_at": "2026-10-19T12:26:19Z",
+        "assignee": null,
+        "active_lock_reason": null,
+        "sub_issues_summary": {
+          "total": 0,
+          "completed": 0,
+          "percent_completed": 0
+        },
+        "issue_dependencies_summary": {
+          "blocked_by": 0,
+          "total_blocked_by": 0,
+          "blocking": 0,
+          "total_blocking": 0
+        },
+        "body": "### Objective\nGenerate 7 system topologies: Serverless Pipelines, CI/CD Hermetic Matrix, RAG Vector Search, vLLM PagedAttention, Multi-Tenant RLS, libp2p DHT, Edge Anycast CDN.",
+        "reactions": {
+          "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/110/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "timeline_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/110/timeline",
+        "performed_via_github_app": null,
+        "state_reason": "completed",
+        "pinned_comment": null
+      }
+    },
+    "public": true,
+    "created_at": "2026-10-19T13:45:31Z"
+  },
+  {
+    "id": "17604124464",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 183979087,
+      "login": "MikeeeDeV",
+      "display_login": "MikeeeDeV",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MikeeeDeV",
+      "avatar_url": "https://avatars.githubusercontent.com/u/183979087?"
+    },
+    "repo": {
+      "id": 1424970361,
+      "name": "MikeeeDeV/MikeeeDeV",
+      "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV"
+    },
+    "payload": {
+      "action": "opened",
+      "issue": {
+        "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/102",
+        "repository_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV",
+        "labels_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/102/labels{/name}",
+        "comments_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/102/comments",
+        "events_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/102/events",
+        "html_url": "https://github.com/MikeeeDeV/MikeeeDeV/issues/102",
+        "id": 5923804593,
+        "node_id": "I_kwDOVO9Sec8AAAABYRYVsQ",
+        "number": 102,
+        "title": "feat: Add contribution skylines batch 4 (Shapes 19-24)",
+        "user": {
+          "login": "MikeeeDeV",
+          "id": 183979087,
+          "node_id": "U_kgDOCvdMTw",
+          "avatar_url": "https://avatars.githubusercontent.com/u/183979087?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/MikeeeDeV",
+          "html_url": "https://github.com/MikeeeDeV",
+          "followers_url": "https://api.github.com/users/MikeeeDeV/followers",
+          "following_url": "https://api.github.com/users/MikeeeDeV/following{/other_user}",
+          "gists_url": "https://api.github.com/users/MikeeeDeV/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/MikeeeDeV/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/MikeeeDeV/subscriptions",
+          "organizations_url": "https://api.github.com/users/MikeeeDeV/orgs",
+          "repos_url": "https://api.github.com/users/MikeeeDeV/repos",
+          "events_url": "https://api.github.com/users/MikeeeDeV/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/MikeeeDeV/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "labels": [],
+        "state": "closed",
+        "locked": false,
+        "assignees": [],
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2026-10-19T12:25:13Z",
+        "updated_at": "2026-10-19T12:25:23Z",
+        "closed_at": "2026-10-19T12:25:23Z",
+        "assignee": null,
+        "active_lock_reason": null,
+        "sub_issues_summary": {
+          "total": 0,
+          "completed": 0,
+          "percent_completed": 0
+        },
+        "issue_dependencies_summary": {
+          "blocked_by": 0,
+          "total_blocked_by": 0,
+          "blocking": 0,
+          "total_blocking": 0
+        },
+        "body": "### Objective\nGenerate 6 skylines: Mare Tranquillitatis Rim, Olympus Mons, Mariana Sonar, Transformer Histogram, PCM Modulation, ECG Pulse.",
+        "reactions": {
+          "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/102/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "timeline_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/102/timeline",
+        "performed_via_github_app": null,
+        "state_reason": "completed",
+        "pinned_comment": null
+      }
+    },
+    "public": true,
+    "created_at": "2026-10-19T13:44:36Z"
+  },
+  {
+    "id": "17603926024",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 183979087,
+      "login": "MikeeeDeV",
+      "display_login": "MikeeeDeV",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MikeeeDeV",
+      "avatar_url": "https://avatars.githubusercontent.com/u/183979087?"
+    },
+    "repo": {
+      "id": 1424970361,
+      "name": "MikeeeDeV/MikeeeDeV",
+      "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV"
+    },
+    "payload": {
+      "action": "opened",
+      "issue": {
+        "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/78",
+        "repository_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV",
+        "labels_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/78/labels{/name}",
+        "comments_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/78/comments",
+        "events_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/78/events",
+        "html_url": "https://github.com/MikeeeDeV/MikeeeDeV/issues/78",
+        "id": 5923761714,
+        "node_id": "I_kwDOVO9Sec8AAAABYRVuMg",
+        "number": 78,
+        "title": "feat: Add geometric banners batch 2 (Shapes 9-16)",
+        "user": {
+          "login": "MikeeeDeV",
+          "id": 183979087,
+          "node_id": "U_kgDOCvdMTw",
+          "avatar_url": "https://avatars.githubusercontent.com/u/183979087?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/MikeeeDeV",
+          "html_url": "https://github.com/MikeeeDeV",
+          "followers_url": "https://api.github.com/users/MikeeeDeV/followers",
+          "following_url": "https://api.github.com/users/MikeeeDeV/following{/other_user}",
+          "gists_url": "https://api.github.com/users/MikeeeDeV/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/MikeeeDeV/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/MikeeeDeV/subscriptions",
+          "organizations_url": "https://api.github.com/users/MikeeeDeV/orgs",
+          "repos_url": "https://api.github.com/users/MikeeeDeV/repos",
+          "events_url": "https://api.github.com/users/MikeeeDeV/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/MikeeeDeV/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "labels": [],
+        "state": "closed",
+        "locked": false,
+        "assignees": [],
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2026-10-19T12:22:21Z",
+        "updated_at": "2026-10-19T12:22:30Z",
+        "closed_at": "2026-10-19T12:22:30Z",
+        "assignee": null,
+        "active_lock_reason": null,
+        "sub_issues_summary": {
+          "total": 0,
+          "completed": 0,
+          "percent_completed": 0
+        },
+        "issue_dependencies_summary": {
+          "blocked_by": 0,
+          "total_blocked_by": 0,
+          "blocking": 0,
+          "total_blocking": 0
+        },
+        "body": "### Objective\nGenerate 8 banner presets: Rosé Pine Mandala, Monokai Mesh, Golden Spiral, Penrose Tiling, Sacred Octagon, Warp Speed, Quantum Ripples, Iso Cubes.",
+        "reactions": {
+          "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/78/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "timeline_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/78/timeline",
+        "performed_via_github_app": null,
+        "state_reason": "completed",
+        "pinned_comment": null
+      }
+    },
+    "public": true,
+    "created_at": "2026-10-19T13:41:44Z"
+  },
+  {
+    "id": "17603899296",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 183979087,
+      "login": "MikeeeDeV",
+      "display_login": "MikeeeDeV",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MikeeeDeV",
+      "avatar_url": "https://avatars.githubusercontent.com/u/183979087?"
+    },
+    "repo": {
+      "id": 1424970361,
+      "name": "MikeeeDeV/MikeeeDeV",
+      "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV"
+    },
+    "payload": {
+      "action": "opened",
+      "issue": {
+        "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/76",
+        "repository_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV",
+        "labels_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/76/labels{/name}",
+        "comments_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/76/comments",
+        "events_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/76/events",
+        "html_url": "https://github.com/MikeeeDeV/MikeeeDeV/issues/76",
+        "id": 5923757733,
+        "node_id": "I_kwDOVO9Sec8AAAABYRVepQ",
+        "number": 76,
+        "title": "feat: Add geometric banners batch 1 (Shapes 1-8)",
+        "user": {
+          "login": "MikeeeDeV",
+          "id": 183979087,
+          "node_id": "U_kgDOCvdMTw",
+          "avatar_url": "https://avatars.githubusercontent.com/u/183979087?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/MikeeeDeV",
+          "html_url": "https://github.com/MikeeeDeV",
+          "followers_url": "https://api.github.com/users/MikeeeDeV/followers",
+          "following_url": "https://api.github.com/users/MikeeeDeV/following{/other_user}",
+          "gists_url": "https://api.github.com/users/MikeeeDeV/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/MikeeeDeV/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/MikeeeDeV/subscriptions",
+          "organizations_url": "https://api.github.com/users/MikeeeDeV/orgs",
+          "repos_url": "https://api.github.com/users/MikeeeDeV/repos",
+          "events_url": "https://api.github.com/users/MikeeeDeV/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/MikeeeDeV/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "labels": [],
+        "state": "closed",
+        "locked": false,
+        "assignees": [],
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2026-10-19T12:22:05Z",
+        "updated_at": "2026-10-19T12:22:17Z",
+        "closed_at": "2026-10-19T12:22:17Z",
+        "assignee": null,
+        "active_lock_reason": null,
+        "sub_issues_summary": {
+          "total": 0,
+          "completed": 0,
+          "percent_completed": 0
+        },
+        "issue_dependencies_summary": {
+          "blocked_by": 0,
+          "total_blocked_by": 0,
+          "blocking": 0,
+          "total_blocking": 0
+        },
+        "body": "### Objective\nGenerate 8 classical geometric banner presets: Kemet Rosette, Cyberpunk Matrix, Nordic, Dracula, Tokyo Sine, Solarized, Emerald, Amber.",
+        "reactions": {
+          "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/76/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "timeline_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/76/timeline",
+        "performed_via_github_app": null,
+        "state_reason": "completed",
+        "pinned_comment": null
+      }
+    },
+    "public": true,
+    "created_at": "2026-10-19T13:41:21Z"
+  },
+  {
+    "id": "17603698000",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 183979087,
+      "login": "MikeeeDeV",
+      "display_login": "MikeeeDeV",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MikeeeDeV",
+      "avatar_url": "https://avatars.githubusercontent.com/u/183979087?"
+    },
+    "repo": {
+      "id": 1424970361,
+      "name": "MikeeeDeV/MikeeeDeV",
+      "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV"
+    },
+    "payload": {
+      "action": "opened",
+      "issue": {
+        "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/70",
+        "repository_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV",
+        "labels_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/70/labels{/name}",
+        "comments_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/70/comments",
+        "events_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/70/events",
+        "html_url": "https://github.com/MikeeeDeV/MikeeeDeV/issues/70",
+        "id": 5923713125,
+        "node_id": "I_kwDOVO9Sec8AAAABYRSwZQ",
+        "number": 70,
+        "title": "feat: Implement 10 curated developer color palettes with light/dark mode",
+        "user": {
+          "login": "MikeeeDeV",
+          "id": 183979087,
+          "node_id": "U_kgDOCvdMTw",
+          "avatar_url": "https://avatars.githubusercontent.com/u/183979087?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/MikeeeDeV",
+          "html_url": "https://github.com/MikeeeDeV",
+          "followers_url": "https://api.github.com/users/MikeeeDeV/followers",
+          "following_url": "https://api.github.com/users/MikeeeDeV/following{/other_user}",
+          "gists_url": "https://api.github.com/users/MikeeeDeV/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/MikeeeDeV/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/MikeeeDeV/subscriptions",
+          "organizations_url": "https://api.github.com/users/MikeeeDeV/orgs",
+          "repos_url": "https://api.github.com/users/MikeeeDeV/repos",
+          "events_url": "https://api.github.com/users/MikeeeDeV/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/MikeeeDeV/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "labels": [],
+        "state": "closed",
+        "locked": false,
+        "assignees": [],
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2026-10-19T12:19:01Z",
+        "updated_at": "2026-10-19T12:21:32Z",
+        "closed_at": "2026-10-19T12:21:32Z",
+        "assignee": null,
+        "active_lock_reason": null,
+        "sub_issues_summary": {
+          "total": 0,
+          "completed": 0,
+          "percent_completed": 0
+        },
+        "issue_dependencies_summary": {
+          "blocked_by": 0,
+          "total_blocked_by": 0,
+          "blocking": 0,
+          "total_blocking": 0
+        },
+        "body": "### Objective\nProvide 10 high-contrast, cohesive color palettes (Kemet, Cyberpunk, Nord, Dracula, Tokyo Night, Monokai Pro, Emerald Matrix, Amber CRT, Solarized, Rosé Pine) for the VectorForge library.",
+        "reactions": {
+          "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/70/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "timeline_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/70/timeline",
+        "performed_via_github_app": null,
+        "state_reason": "completed",
+        "pinned_comment": null
+      }
+    },
+    "public": true,
+    "created_at": "2026-10-19T13:38:24Z"
+  },
+  {
+    "id": "17603672601",
+    "type": "ReleaseEvent",
+    "actor": {
+      "id": 183979087,
+      "login": "MikeeeDeV",
+      "display_login": "MikeeeDeV",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MikeeeDeV",
+      "avatar_url": "https://avatars.githubusercontent.com/u/183979087?"
+    },
+    "repo": {
+      "id": 1424970361,
+      "name": "MikeeeDeV/MikeeeDeV",
+      "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV"
+    },
+    "payload": {
+      "action": "published",
+      "release": {
+        "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/releases/417335166",
+        "assets_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/releases/417335166/assets",
+        "upload_url": "https://uploads.github.com/repos/MikeeeDeV/MikeeeDeV/releases/417335166/assets{?name,label}",
+        "html_url": "https://github.com/MikeeeDeV/MikeeeDeV/releases/tag/v1.0.0",
+        "id": 417335166,
+        "author": {
+          "login": "MikeeeDeV",
+          "id": 183979087,
+          "node_id": "U_kgDOCvdMTw",
+          "avatar_url": "https://avatars.githubusercontent.com/u/183979087?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/MikeeeDeV",
+          "html_url": "https://github.com/MikeeeDeV",
+          "followers_url": "https://api.github.com/users/MikeeeDeV/followers",
+          "following_url": "https://api.github.com/users/MikeeeDeV/following{/other_user}",
+          "gists_url": "https://api.github.com/users/MikeeeDeV/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/MikeeeDeV/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/MikeeeDeV/subscriptions",
+          "organizations_url": "https://api.github.com/users/MikeeeDeV/orgs",
+          "repos_url": "https://api.github.com/users/MikeeeDeV/repos",
+          "events_url": "https://api.github.com/users/MikeeeDeV/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/MikeeeDeV/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "node_id": "RE_kwDOVO9Sec4Y4Ad-",
+        "tag_name": "v1.0.0",
+        "target_commitish": "main",
+        "name": "VectorForge v1.0.0 — Deterministic Developer Shape Studio",
+        "draft": false,
+        "immutable": false,
+        "prerelease": false,
+        "created_at": "2026-10-19T13:37:51Z",
+        "updated_at": "2026-10-19T13:38:03Z",
+        "published_at": "2026-10-19T13:38:03Z",
+        "assets": [],
+        "tarball_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/tarball/v1.0.0",
+        "zipball_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/zipball/v1.0.0",
+        "body": "### ⚡ VectorForge v1.0.0 Release Notes\n\nWe are thrilled to ship the initial production release of **VectorForge**: the deterministic, zero-runtime-dependency developer SVG shape and component library.\n\n#### 🌟 Highlights\n- **235 Professional Developer Shapes**: Across 7 categories (Banners, Terminals, Skylines, Architectures, Badges, Repo Cards, Holograms).\n- **Zero External Runtime Dependencies**: 100% self-contained W3C SVG 1.1 assets, compliant with WCAG 2.1 AA accessibility.\n- **10 Curated Color Themes**: High-contrast palettes including Kemet Nocturne, Cyberpunk 2077, Nord Frost, Dracula, Tokyo Night, Monokai Pro, Emerald Matrix, Amber CRT, Solarized Dark, and Rosé Pine.\n- **Node.js & NPX Support**: Run directly via `npx vectorforge <cmd>` with zero install overhead.\n- **Python Package (PEP 621)**: `pip install vectorforge` with `vectorforge` CLI command.\n- **Model Context Protocol (FastMCP)**: Native stdio JSON-RPC MCP server (`vectorforge.mcp_server`) for Claude Desktop, Cursor, and AI agents.\n- **Reusable GitHub Action**: Pin with `uses: MikeeeDeV/MikeeeDeV@v1` in any repository workflow.\n- **Interactive Showroom Gallery**: Live on GitHub Pages at https://mikeeedev.github.io/MikeeeDeV/ with real-time React JSX export and 1-click jsDelivr CDN embeds.",
+        "short_description_html": "<h3>⚡ VectorForge v1.0.0 Release Notes</h3>\n<p>We are thrilled to ship the initial production release of <strong>VectorForge</strong>: the deterministic, zero-runtime-dependency developer SVG shape and component library.</p>\n<h4>🌟 Hig…</h4>",
+        "is_short_description_html_truncated": true
+      }
+    },
+    "public": true,
+    "created_at": "2026-10-19T13:38:03Z"
+  },
+  {
+    "id": "17603654953",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 183979087,
+      "login": "MikeeeDeV",
+      "display_login": "MikeeeDeV",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MikeeeDeV",
+      "avatar_url": "https://avatars.githubusercontent.com/u/183979087?"
+    },
+    "repo": {
+      "id": 1424970361,
+      "name": "MikeeeDeV/MikeeeDeV",
+      "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV"
+    },
+    "payload": {
+      "action": "opened",
+      "issue": {
+        "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/197",
+        "repository_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV",
+        "labels_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/197/labels{/name}",
+        "comments_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/197/comments",
+        "events_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/197/events",
+        "html_url": "https://github.com/MikeeeDeV/MikeeeDeV/issues/197",
+        "id": 5924882528,
+        "node_id": "I_kwDOVO9Sec8AAAABYSaIYA",
+        "number": 197,
+        "title": "docs(action): add dedicated 'Use VectorForge in Your Profile' guide with v1 release specs",
+        "user": {
+          "login": "MikeeeDeV",
+          "id": 183979087,
+          "node_id": "U_kgDOCvdMTw",
+          "avatar_url": "https://avatars.githubusercontent.com/u/183979087?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/MikeeeDeV",
+          "html_url": "https://github.com/MikeeeDeV",
+          "followers_url": "https://api.github.com/users/MikeeeDeV/followers",
+          "following_url": "https://api.github.com/users/MikeeeDeV/following{/other_user}",
+          "gists_url": "https://api.github.com/users/MikeeeDeV/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/MikeeeDeV/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/MikeeeDeV/subscriptions",
+          "organizations_url": "https://api.github.com/users/MikeeeDeV/orgs",
+          "repos_url": "https://api.github.com/users/MikeeeDeV/repos",
+          "events_url": "https://api.github.com/users/MikeeeDeV/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/MikeeeDeV/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "labels": [
+          {
+            "id": 12745790451,
+            "node_id": "LA_kwDOVO9Sec8AAAAC97VT8w",
+            "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/labels/documentation",
+            "name": "documentation",
+            "color": "0075ca",
+            "default": true,
+            "description": "Improvements or additions to documentation",
+            "archived_at": null,
+            "archived_by": null
+          }
+        ],
+        "state": "closed",
+        "locked": false,
+        "assignees": [],
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2026-10-19T13:35:24Z",
+        "updated_at": "2026-10-19T13:37:41Z",
+        "closed_at": "2026-10-19T13:37:41Z",
+        "assignee": null,
+        "active_lock_reason": null,
+        "sub_issues_summary": {
+          "total": 0,
+          "completed": 0,
+          "percent_completed": 0
+        },
+        "issue_dependencies_summary": {
+          "blocked_by": 0,
+          "total_blocked_by": 0,
+          "blocking": 0,
+          "total_blocking": 0
+        },
+        "body": "### Documentation & Release Onboarding\n1. **Dedicated 'Use VectorForge in Your Profile' Section**: Full copy-paste workflow YAML with @v1 tag.\n2. **Inputs & Permissions Specification Table**: Documents all action inputs with explicit callout on `permissions: contents: write`.\n3. **Claude & Cursor FastMCP Setup**: Configuration JSON for AI agents to invoke VectorForge tools.\n4. **Tag Alignment**: Standardize all documentation and badges from `@main` to stable `@v1`.",
+        "reactions": {
+          "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/197/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "timeline_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/197/timeline",
+        "performed_via_github_app": null,
+        "state_reason": "completed",
+        "pinned_comment": null
+      }
+    },
+    "public": true,
+    "created_at": "2026-10-19T13:37:48Z"
+  },
+  {
+    "id": "17603649928",
+    "type": "PullRequestReviewEvent",
+    "actor": {
+      "id": 183979087,
+      "login": "MikeeeDeV",
+      "display_login": "MikeeeDeV",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MikeeeDeV",
+      "avatar_url": "https://avatars.githubusercontent.com/u/183979087?"
+    },
+    "repo": {
+      "id": 1424970361,
+      "name": "MikeeeDeV/MikeeeDeV",
+      "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV"
+    },
+    "payload": {
+      "review": {
+        "id": 5572339438,
+        "node_id": "PRR_kwDOVO9Sec8AAAABTCMm7g",
+        "user": {
+          "login": "MikeeeDeV",
+          "id": 183979087,
+          "node_id": "U_kgDOCvdMTw",
+          "avatar_url": "https://avatars.githubusercontent.com/u/183979087?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/MikeeeDeV",
+          "html_url": "https://github.com/MikeeeDeV",
+          "followers_url": "https://api.github.com/users/MikeeeDeV/followers",
+          "following_url": "https://api.github.com/users/MikeeeDeV/following{/other_user}",
+          "gists_url": "https://api.github.com/users/MikeeeDeV/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/MikeeeDeV/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/MikeeeDeV/subscriptions",
+          "organizations_url": "https://api.github.com/users/MikeeeDeV/orgs",
+          "repos_url": "https://api.github.com/users/MikeeeDeV/repos",
+          "events_url": "https://api.github.com/users/MikeeeDeV/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/MikeeeDeV/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "body": "### AI Agent & Packaging Architecture Review: Approved\n\n- **MCP Compliance**: Strict conformance with Model Context Protocol specification (protocol version `2024-11-05`) for tools discovery and execution over standard IO.\n- **Top-Level Package Decoupling**: Adding the `vectorforge/` package namespace enables idiomatic PEP 621 Python packaging while retaining the core engine.\n- **Trusted Publishing Ready**: `publish-pypi.yml` adheres to PyPA trusted publisher guidance with `id-token: write` permissions.",
+        "commit_id": "596b414df84f406a776eed27874e095cc1a72186",
+        "state": "commented",
+        "html_url": "https://github.com/MikeeeDeV/MikeeeDeV/pull/196#pullrequestreview-5572339438",
+        "pull_request_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/pulls/196",
+        "_links": {
+          "html": {
+            "href": "https://github.com/MikeeeDeV/MikeeeDeV/pull/196#pullrequestreview-5572339438"
+          },
+          "pull_request": {
+            "href": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/pulls/196"
+          }
+        },
+        "submitted_at": "2026-10-19T13:34:49Z",
+        "updated_at": "2026-10-19T13:34:49Z"
+      },
       "pull_request": {
-        "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/pulls/66",
-        "id": 4920474116,
-        "number": 66,
+        "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/pulls/196",
+        "id": 4921788976,
+        "number": 196,
         "head": {
-          "ref": "release/v1-kemet-nocturne",
-          "sha": "44d64d0a69a154386d0fcd23bf5a060f8797c804",
+          "ref": "feat/mcp-server-and-pypi-suite",
+          "sha": "596b414df84f406a776eed27874e095cc1a72186",
           "repo": {
             "id": 1424970361,
             "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV",
@@ -221,20 +928,21 @@
         },
         "base": {
           "ref": "main",
-          "sha": "b365dfaad919c8cff55e34d22563fccb6257de88",
+          "sha": "7a84d0698dbed4d63c65f236679d869de306922a",
           "repo": {
             "id": 1424970361,
             "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV",
             "name": "MikeeeDeV"
           }
         }
-      }
+      },
+      "action": "created"
     },
     "public": true,
-    "created_at": "2026-10-19T11:51:33Z"
+    "created_at": "2026-10-19T13:37:45Z"
   },
   {
-    "id": "17595908104",
+    "id": "17603647472",
     "type": "IssuesEvent",
     "actor": {
       "id": 183979087,
@@ -252,16 +960,16 @@
     "payload": {
       "action": "closed",
       "issue": {
-        "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/63",
+        "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/197",
         "repository_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV",
-        "labels_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/63/labels{/name}",
-        "comments_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/63/comments",
-        "events_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/63/events",
-        "html_url": "https://github.com/MikeeeDeV/MikeeeDeV/issues/63",
-        "id": 5923307767,
-        "node_id": "I_kwDOVO9Sec8AAAABYQ6A9w",
-        "number": 63,
-        "title": "ci: End-to-end integration validation and asset compilation",
+        "labels_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/197/labels{/name}",
+        "comments_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/197/comments",
+        "events_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/197/events",
+        "html_url": "https://github.com/MikeeeDeV/MikeeeDeV/issues/197",
+        "id": 5924882528,
+        "node_id": "I_kwDOVO9Sec8AAAABYSaIYA",
+        "number": 197,
+        "title": "docs(action): add dedicated 'Use VectorForge in Your Profile' guide with v1 release specs",
         "user": {
           "login": "MikeeeDeV",
           "id": 183979087,
@@ -283,15 +991,27 @@
           "user_view_type": "public",
           "site_admin": false
         },
-        "labels": [],
+        "labels": [
+          {
+            "id": 12745790451,
+            "node_id": "LA_kwDOVO9Sec8AAAAC97VT8w",
+            "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/labels/documentation",
+            "name": "documentation",
+            "color": "0075ca",
+            "default": true,
+            "description": "Improvements or additions to documentation",
+            "archived_at": null,
+            "archived_by": null
+          }
+        ],
         "state": "closed",
         "locked": false,
         "assignees": [],
         "milestone": null,
         "comments": 0,
-        "created_at": "2026-10-19T11:51:13Z",
-        "updated_at": "2026-10-19T11:51:24Z",
-        "closed_at": "2026-10-19T11:51:24Z",
+        "created_at": "2026-10-19T13:35:24Z",
+        "updated_at": "2026-10-19T13:37:41Z",
+        "closed_at": "2026-10-19T13:37:41Z",
         "assignee": null,
         "active_lock_reason": null,
         "sub_issues_summary": {
@@ -305,9 +1025,9 @@
           "blocking": 0,
           "total_blocking": 0
         },
-        "body": "Execute full test suite and master pipeline in clean tree to verify all markers and assets.",
+        "body": "### Documentation & Release Onboarding\n1. **Dedicated 'Use VectorForge in Your Profile' Section**: Full copy-paste workflow YAML with @v1 tag.\n2. **Inputs & Permissions Specification Table**: Documents all action inputs with explicit callout on `permissions: contents: write`.\n3. **Claude & Cursor FastMCP Setup**: Configuration JSON for AI agents to invoke VectorForge tools.\n4. **Tag Alignment**: Standardize all documentation and badges from `@main` to stable `@v1`.",
         "reactions": {
-          "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/63/reactions",
+          "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/197/reactions",
           "total_count": 0,
           "+1": 0,
           "-1": 0,
@@ -318,157 +1038,17 @@
           "rocket": 0,
           "eyes": 0
         },
-        "timeline_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/63/timeline",
+        "timeline_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/197/timeline",
         "performed_via_github_app": null,
         "state_reason": "completed",
         "pinned_comment": null
       }
     },
     "public": true,
-    "created_at": "2026-10-19T11:51:25Z"
+    "created_at": "2026-10-19T13:37:44Z"
   },
   {
-    "id": "17595901737",
-    "type": "PullRequestEvent",
-    "actor": {
-      "id": 183979087,
-      "login": "MikeeeDeV",
-      "display_login": "MikeeeDeV",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/MikeeeDeV",
-      "avatar_url": "https://avatars.githubusercontent.com/u/183979087?"
-    },
-    "repo": {
-      "id": 1424970361,
-      "name": "MikeeeDeV/MikeeeDeV",
-      "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV"
-    },
-    "payload": {
-      "action": "opened",
-      "number": 64,
-      "pull_request": {
-        "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/pulls/64",
-        "id": 4920471169,
-        "number": 64,
-        "head": {
-          "ref": "ci/verify-integration",
-          "sha": "000a7565859f0c25eecef679045d93c0b0092d6b",
-          "repo": {
-            "id": 1424970361,
-            "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV",
-            "name": "MikeeeDeV"
-          }
-        },
-        "base": {
-          "ref": "main",
-          "sha": "5e30f68480417e2685334d5bc8914c81526a110f",
-          "repo": {
-            "id": 1424970361,
-            "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV",
-            "name": "MikeeeDeV"
-          }
-        }
-      }
-    },
-    "public": true,
-    "created_at": "2026-10-19T11:51:17Z"
-  },
-  {
-    "id": "17595890949",
-    "type": "IssuesEvent",
-    "actor": {
-      "id": 183979087,
-      "login": "MikeeeDeV",
-      "display_login": "MikeeeDeV",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/MikeeeDeV",
-      "avatar_url": "https://avatars.githubusercontent.com/u/183979087?"
-    },
-    "repo": {
-      "id": 1424970361,
-      "name": "MikeeeDeV/MikeeeDeV",
-      "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV"
-    },
-    "payload": {
-      "action": "closed",
-      "issue": {
-        "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/61",
-        "repository_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV",
-        "labels_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/61/labels{/name}",
-        "comments_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/61/comments",
-        "events_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/61/events",
-        "html_url": "https://github.com/MikeeeDeV/MikeeeDeV/issues/61",
-        "id": 5923304447,
-        "node_id": "I_kwDOVO9Sec8AAAABYQ5z_w",
-        "number": 61,
-        "title": "feat: Wire interactive terminal issue links and contact footer",
-        "user": {
-          "login": "MikeeeDeV",
-          "id": 183979087,
-          "node_id": "U_kgDOCvdMTw",
-          "avatar_url": "https://avatars.githubusercontent.com/u/183979087?v=4",
-          "gravatar_id": "",
-          "url": "https://api.github.com/users/MikeeeDeV",
-          "html_url": "https://github.com/MikeeeDeV",
-          "followers_url": "https://api.github.com/users/MikeeeDeV/followers",
-          "following_url": "https://api.github.com/users/MikeeeDeV/following{/other_user}",
-          "gists_url": "https://api.github.com/users/MikeeeDeV/gists{/gist_id}",
-          "starred_url": "https://api.github.com/users/MikeeeDeV/starred{/owner}{/repo}",
-          "subscriptions_url": "https://api.github.com/users/MikeeeDeV/subscriptions",
-          "organizations_url": "https://api.github.com/users/MikeeeDeV/orgs",
-          "repos_url": "https://api.github.com/users/MikeeeDeV/repos",
-          "events_url": "https://api.github.com/users/MikeeeDeV/events{/privacy}",
-          "received_events_url": "https://api.github.com/users/MikeeeDeV/received_events",
-          "type": "User",
-          "user_view_type": "public",
-          "site_admin": false
-        },
-        "labels": [],
-        "state": "closed",
-        "locked": false,
-        "assignees": [],
-        "milestone": null,
-        "comments": 0,
-        "created_at": "2026-10-19T11:50:57Z",
-        "updated_at": "2026-10-19T11:51:08Z",
-        "closed_at": "2026-10-19T11:51:08Z",
-        "assignee": null,
-        "active_lock_reason": null,
-        "sub_issues_summary": {
-          "total": 0,
-          "completed": 0,
-          "percent_completed": 0
-        },
-        "issue_dependencies_summary": {
-          "blocked_by": 0,
-          "total_blocked_by": 0,
-          "blocking": 0,
-          "total_blocking": 0
-        },
-        "body": "Add one-click issue links for `ping`, `vouch`, `inspect`, `quote`, and bilingual footer.",
-        "reactions": {
-          "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/61/reactions",
-          "total_count": 0,
-          "+1": 0,
-          "-1": 0,
-          "laugh": 0,
-          "hooray": 0,
-          "confused": 0,
-          "heart": 0,
-          "rocket": 0,
-          "eyes": 0
-        },
-        "timeline_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/61/timeline",
-        "performed_via_github_app": null,
-        "state_reason": "completed",
-        "pinned_comment": null
-      }
-    },
-    "public": true,
-    "created_at": "2026-10-19T11:51:09Z"
-  },
-  {
-    "id": "24524400219",
+    "id": "24532006801",
     "type": "CreateEvent",
     "actor": {
       "id": 183979087,
@@ -484,18 +1064,18 @@
       "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV"
     },
     "payload": {
-      "ref": "feat/terminal-dispatch-footer",
+      "ref": "docs/profile-usage-and-v1-release",
       "ref_type": "branch",
-      "full_ref": "refs/heads/feat/terminal-dispatch-footer",
+      "full_ref": "refs/heads/docs/profile-usage-and-v1-release",
       "master_branch": "main",
-      "description": "✨ Personal GitHub Profile README for Mohamed Ayman (MikeeeDeV)",
+      "description": "Personal GitHub Profile README for Mohamed Ayman (MikeeeDeV)",
       "pusher_type": "user"
     },
     "public": true,
-    "created_at": "2026-10-19T11:51:00Z"
+    "created_at": "2026-10-19T13:36:44Z"
   },
   {
-    "id": "17595885377",
+    "id": "17603588745",
     "type": "PullRequestEvent",
     "actor": {
       "id": 183979087,
@@ -512,14 +1092,14 @@
     },
     "payload": {
       "action": "opened",
-      "number": 62,
+      "number": 198,
       "pull_request": {
-        "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/pulls/62",
-        "id": 4920468365,
-        "number": 62,
+        "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/pulls/198",
+        "id": 4921818054,
+        "number": 198,
         "head": {
-          "ref": "feat/terminal-dispatch-footer",
-          "sha": "1838ab7158535ef60ae847cfc948430bfb59de52",
+          "ref": "docs/profile-usage-and-v1-release",
+          "sha": "dfb897e8020eb230ebed26d1842ae9a8c74b5cef",
           "repo": {
             "id": 1424970361,
             "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV",
@@ -528,7 +1108,7 @@
         },
         "base": {
           "ref": "main",
-          "sha": "2417fe26ccf1be7c7a1d33d145c661f8316edf11",
+          "sha": "4ae4766b3da26c740883cf77409126ee82b5a6b4",
           "repo": {
             "id": 1424970361,
             "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV",
@@ -538,11 +1118,11 @@
       }
     },
     "public": true,
-    "created_at": "2026-10-19T11:51:02Z"
+    "created_at": "2026-10-19T13:36:52Z"
   },
   {
-    "id": "17595876102",
-    "type": "IssuesEvent",
+    "id": "24531955212",
+    "type": "DeleteEvent",
     "actor": {
       "id": 183979087,
       "login": "MikeeeDeV",
@@ -552,439 +1132,17 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/183979087?"
     },
     "repo": {
-      "id": 1424970361,
-      "name": "MikeeeDeV/MikeeeDeV",
-      "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV"
+      "id": 1424830395,
+      "name": "MikeeeDeV/NixManagerPro",
+      "url": "https://api.github.com/repos/MikeeeDeV/NixManagerPro"
     },
     "payload": {
-      "action": "closed",
-      "issue": {
-        "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/59",
-        "repository_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV",
-        "labels_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/59/labels{/name}",
-        "comments_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/59/comments",
-        "events_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/59/events",
-        "html_url": "https://github.com/MikeeeDeV/MikeeeDeV/issues/59",
-        "id": 5923301205,
-        "node_id": "I_kwDOVO9Sec8AAAABYQ5nVQ",
-        "number": 59,
-        "title": "docs: Restructure README.md into 6 focused scannable sections",
-        "user": {
-          "login": "MikeeeDeV",
-          "id": 183979087,
-          "node_id": "U_kgDOCvdMTw",
-          "avatar_url": "https://avatars.githubusercontent.com/u/183979087?v=4",
-          "gravatar_id": "",
-          "url": "https://api.github.com/users/MikeeeDeV",
-          "html_url": "https://github.com/MikeeeDeV",
-          "followers_url": "https://api.github.com/users/MikeeeDeV/followers",
-          "following_url": "https://api.github.com/users/MikeeeDeV/following{/other_user}",
-          "gists_url": "https://api.github.com/users/MikeeeDeV/gists{/gist_id}",
-          "starred_url": "https://api.github.com/users/MikeeeDeV/starred{/owner}{/repo}",
-          "subscriptions_url": "https://api.github.com/users/MikeeeDeV/subscriptions",
-          "organizations_url": "https://api.github.com/users/MikeeeDeV/orgs",
-          "repos_url": "https://api.github.com/users/MikeeeDeV/repos",
-          "events_url": "https://api.github.com/users/MikeeeDeV/events{/privacy}",
-          "received_events_url": "https://api.github.com/users/MikeeeDeV/received_events",
-          "type": "User",
-          "user_view_type": "public",
-          "site_admin": false
-        },
-        "labels": [],
-        "state": "closed",
-        "locked": false,
-        "assignees": [],
-        "milestone": null,
-        "comments": 0,
-        "created_at": "2026-10-19T11:50:42Z",
-        "updated_at": "2026-10-19T11:50:52Z",
-        "closed_at": "2026-10-19T11:50:52Z",
-        "assignee": null,
-        "active_lock_reason": null,
-        "sub_issues_summary": {
-          "total": 0,
-          "completed": 0,
-          "percent_completed": 0
-        },
-        "issue_dependencies_summary": {
-          "blocked_by": 0,
-          "total_blocked_by": 0,
-          "blocking": 0,
-          "total_blocking": 0
-        },
-        "body": "Replace template widget soup with clean 6-section layout incorporating all custom SVGs.",
-        "reactions": {
-          "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/59/reactions",
-          "total_count": 0,
-          "+1": 0,
-          "-1": 0,
-          "laugh": 0,
-          "hooray": 0,
-          "confused": 0,
-          "heart": 0,
-          "rocket": 0,
-          "eyes": 0
-        },
-        "timeline_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/59/timeline",
-        "performed_via_github_app": null,
-        "state_reason": "completed",
-        "pinned_comment": null
-      }
-    },
-    "public": true,
-    "created_at": "2026-10-19T11:50:55Z"
-  },
-  {
-    "id": "17595870176",
-    "type": "PullRequestEvent",
-    "actor": {
-      "id": 183979087,
-      "login": "MikeeeDeV",
-      "display_login": "MikeeeDeV",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/MikeeeDeV",
-      "avatar_url": "https://avatars.githubusercontent.com/u/183979087?"
-    },
-    "repo": {
-      "id": 1424970361,
-      "name": "MikeeeDeV/MikeeeDeV",
-      "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV"
-    },
-    "payload": {
-      "action": "opened",
-      "number": 60,
-      "pull_request": {
-        "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/pulls/60",
-        "id": 4920465681,
-        "number": 60,
-        "head": {
-          "ref": "docs/scannable-readme",
-          "sha": "e5c9d1291f28cc1db83d6e556f87ac1824dbba40",
-          "repo": {
-            "id": 1424970361,
-            "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV",
-            "name": "MikeeeDeV"
-          }
-        },
-        "base": {
-          "ref": "main",
-          "sha": "37fd412250aed97b1f38894cd4acd3151db741c1",
-          "repo": {
-            "id": 1424970361,
-            "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV",
-            "name": "MikeeeDeV"
-          }
-        }
-      }
-    },
-    "public": true,
-    "created_at": "2026-10-19T11:50:47Z"
-  },
-  {
-    "id": "17595860859",
-    "type": "PullRequestEvent",
-    "actor": {
-      "id": 183979087,
-      "login": "MikeeeDeV",
-      "display_login": "MikeeeDeV",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/MikeeeDeV",
-      "avatar_url": "https://avatars.githubusercontent.com/u/183979087?"
-    },
-    "repo": {
-      "id": 1424970361,
-      "name": "MikeeeDeV/MikeeeDeV",
-      "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV"
-    },
-    "payload": {
-      "action": "merged",
-      "number": 58,
-      "pull_request": {
-        "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/pulls/58",
-        "id": 4920462873,
-        "number": 58,
-        "head": {
-          "ref": "perf/vector-optimization",
-          "sha": "ea0f727dbf6addc40a15e6c0b971cdb0657d2ebd",
-          "repo": {
-            "id": 1424970361,
-            "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV",
-            "name": "MikeeeDeV"
-          }
-        },
-        "base": {
-          "ref": "main",
-          "sha": "46f80b31d99e70c097871d5c007d0d5656d66004",
-          "repo": {
-            "id": 1424970361,
-            "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV",
-            "name": "MikeeeDeV"
-          }
-        }
-      }
-    },
-    "public": true,
-    "created_at": "2026-10-19T11:50:36Z"
-  },
-  {
-    "id": "17595860460",
-    "type": "IssuesEvent",
-    "actor": {
-      "id": 183979087,
-      "login": "MikeeeDeV",
-      "display_login": "MikeeeDeV",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/MikeeeDeV",
-      "avatar_url": "https://avatars.githubusercontent.com/u/183979087?"
-    },
-    "repo": {
-      "id": 1424970361,
-      "name": "MikeeeDeV/MikeeeDeV",
-      "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV"
-    },
-    "payload": {
-      "action": "closed",
-      "issue": {
-        "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/57",
-        "repository_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV",
-        "labels_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/57/labels{/name}",
-        "comments_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/57/comments",
-        "events_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/57/events",
-        "html_url": "https://github.com/MikeeeDeV/MikeeeDeV/issues/57",
-        "id": 5923297845,
-        "node_id": "I_kwDOVO9Sec8AAAABYQ5aNQ",
-        "number": 57,
-        "title": "perf: Optimize SVG coordinate precision and verify budget compliance",
-        "user": {
-          "login": "MikeeeDeV",
-          "id": 183979087,
-          "node_id": "U_kgDOCvdMTw",
-          "avatar_url": "https://avatars.githubusercontent.com/u/183979087?v=4",
-          "gravatar_id": "",
-          "url": "https://api.github.com/users/MikeeeDeV",
-          "html_url": "https://github.com/MikeeeDeV",
-          "followers_url": "https://api.github.com/users/MikeeeDeV/followers",
-          "following_url": "https://api.github.com/users/MikeeeDeV/following{/other_user}",
-          "gists_url": "https://api.github.com/users/MikeeeDeV/gists{/gist_id}",
-          "starred_url": "https://api.github.com/users/MikeeeDeV/starred{/owner}{/repo}",
-          "subscriptions_url": "https://api.github.com/users/MikeeeDeV/subscriptions",
-          "organizations_url": "https://api.github.com/users/MikeeeDeV/orgs",
-          "repos_url": "https://api.github.com/users/MikeeeDeV/repos",
-          "events_url": "https://api.github.com/users/MikeeeDeV/events{/privacy}",
-          "received_events_url": "https://api.github.com/users/MikeeeDeV/received_events",
-          "type": "User",
-          "user_view_type": "public",
-          "site_admin": false
-        },
-        "labels": [],
-        "state": "closed",
-        "locked": false,
-        "assignees": [],
-        "milestone": null,
-        "comments": 0,
-        "created_at": "2026-10-19T11:50:27Z",
-        "updated_at": "2026-10-19T11:50:37Z",
-        "closed_at": "2026-10-19T11:50:37Z",
-        "assignee": null,
-        "active_lock_reason": null,
-        "sub_issues_summary": {
-          "total": 0,
-          "completed": 0,
-          "percent_completed": 0
-        },
-        "issue_dependencies_summary": {
-          "blocked_by": 0,
-          "total_blocked_by": 0,
-          "blocking": 0,
-          "total_blocking": 0
-        },
-        "body": "Audit all generated SVGs to ensure none exceed 55KB (well below the 100KB budget).",
-        "reactions": {
-          "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/57/reactions",
-          "total_count": 0,
-          "+1": 0,
-          "-1": 0,
-          "laugh": 0,
-          "hooray": 0,
-          "confused": 0,
-          "heart": 0,
-          "rocket": 0,
-          "eyes": 0
-        },
-        "timeline_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/57/timeline",
-        "performed_via_github_app": null,
-        "state_reason": "completed",
-        "pinned_comment": null
-      }
-    },
-    "public": true,
-    "created_at": "2026-10-19T11:50:38Z"
-  },
-  {
-    "id": "24524368299",
-    "type": "CreateEvent",
-    "actor": {
-      "id": 183979087,
-      "login": "MikeeeDeV",
-      "display_login": "MikeeeDeV",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/MikeeeDeV",
-      "avatar_url": "https://avatars.githubusercontent.com/u/183979087?"
-    },
-    "repo": {
-      "id": 1424970361,
-      "name": "MikeeeDeV/MikeeeDeV",
-      "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV"
-    },
-    "payload": {
-      "ref": "perf/vector-optimization",
+      "ref": "fix/ci-syntax-error",
       "ref_type": "branch",
-      "full_ref": "refs/heads/perf/vector-optimization",
-      "master_branch": "main",
-      "description": "✨ Personal GitHub Profile README for Mohamed Ayman (MikeeeDeV)",
+      "full_ref": "refs/heads/fix/ci-syntax-error",
       "pusher_type": "user"
     },
     "public": true,
-    "created_at": "2026-10-19T11:50:30Z"
-  },
-  {
-    "id": "17595856047",
-    "type": "PullRequestEvent",
-    "actor": {
-      "id": 183979087,
-      "login": "MikeeeDeV",
-      "display_login": "MikeeeDeV",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/MikeeeDeV",
-      "avatar_url": "https://avatars.githubusercontent.com/u/183979087?"
-    },
-    "repo": {
-      "id": 1424970361,
-      "name": "MikeeeDeV/MikeeeDeV",
-      "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV"
-    },
-    "payload": {
-      "action": "opened",
-      "number": 58,
-      "pull_request": {
-        "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/pulls/58",
-        "id": 4920462873,
-        "number": 58,
-        "head": {
-          "ref": "perf/vector-optimization",
-          "sha": "ea0f727dbf6addc40a15e6c0b971cdb0657d2ebd",
-          "repo": {
-            "id": 1424970361,
-            "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV",
-            "name": "MikeeeDeV"
-          }
-        },
-        "base": {
-          "ref": "main",
-          "sha": "46f80b31d99e70c097871d5c007d0d5656d66004",
-          "repo": {
-            "id": 1424970361,
-            "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV",
-            "name": "MikeeeDeV"
-          }
-        }
-      }
-    },
-    "public": true,
-    "created_at": "2026-10-19T11:50:31Z"
-  },
-  {
-    "id": "17595855422",
-    "type": "IssuesEvent",
-    "actor": {
-      "id": 183979087,
-      "login": "MikeeeDeV",
-      "display_login": "MikeeeDeV",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/MikeeeDeV",
-      "avatar_url": "https://avatars.githubusercontent.com/u/183979087?"
-    },
-    "repo": {
-      "id": 1424970361,
-      "name": "MikeeeDeV/MikeeeDeV",
-      "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV"
-    },
-    "payload": {
-      "action": "opened",
-      "issue": {
-        "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/51",
-        "repository_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV",
-        "labels_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/51/labels{/name}",
-        "comments_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/51/comments",
-        "events_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/51/events",
-        "html_url": "https://github.com/MikeeeDeV/MikeeeDeV/issues/51",
-        "id": 5923287709,
-        "node_id": "I_kwDOVO9Sec8AAAABYQ4ynQ",
-        "number": 51,
-        "title": "docs: Comprehensive developer & maintainer guide (DEV.md)",
-        "user": {
-          "login": "MikeeeDeV",
-          "id": 183979087,
-          "node_id": "U_kgDOCvdMTw",
-          "avatar_url": "https://avatars.githubusercontent.com/u/183979087?v=4",
-          "gravatar_id": "",
-          "url": "https://api.github.com/users/MikeeeDeV",
-          "html_url": "https://github.com/MikeeeDeV",
-          "followers_url": "https://api.github.com/users/MikeeeDeV/followers",
-          "following_url": "https://api.github.com/users/MikeeeDeV/following{/other_user}",
-          "gists_url": "https://api.github.com/users/MikeeeDeV/gists{/gist_id}",
-          "starred_url": "https://api.github.com/users/MikeeeDeV/starred{/owner}{/repo}",
-          "subscriptions_url": "https://api.github.com/users/MikeeeDeV/subscriptions",
-          "organizations_url": "https://api.github.com/users/MikeeeDeV/orgs",
-          "repos_url": "https://api.github.com/users/MikeeeDeV/repos",
-          "events_url": "https://api.github.com/users/MikeeeDeV/events{/privacy}",
-          "received_events_url": "https://api.github.com/users/MikeeeDeV/received_events",
-          "type": "User",
-          "user_view_type": "public",
-          "site_admin": false
-        },
-        "labels": [],
-        "state": "closed",
-        "locked": false,
-        "assignees": [],
-        "milestone": null,
-        "comments": 0,
-        "created_at": "2026-10-19T11:49:40Z",
-        "updated_at": "2026-10-19T11:49:50Z",
-        "closed_at": "2026-10-19T11:49:50Z",
-        "assignee": null,
-        "active_lock_reason": null,
-        "sub_issues_summary": {
-          "total": 0,
-          "completed": 0,
-          "percent_completed": 0
-        },
-        "issue_dependencies_summary": {
-          "blocked_by": 0,
-          "total_blocked_by": 0,
-          "blocking": 0,
-          "total_blocking": 0
-        },
-        "body": "Document directory structure, engineering guarantees, local workflows, and generator addition guide.",
-        "reactions": {
-          "url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/51/reactions",
-          "total_count": 0,
-          "+1": 0,
-          "-1": 0,
-          "laugh": 0,
-          "hooray": 0,
-          "confused": 0,
-          "heart": 0,
-          "rocket": 0,
-          "eyes": 0
-        },
-        "timeline_url": "https://api.github.com/repos/MikeeeDeV/MikeeeDeV/issues/51/timeline",
-        "performed_via_github_app": null,
-        "state_reason": "completed",
-        "pinned_comment": null
-      }
-    },
-    "public": true,
-    "created_at": "2026-10-19T11:50:32Z"
+    "created_at": "2026-10-18T22:33:55Z"
   }
 ]

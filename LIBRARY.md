@@ -1,7 +1,7 @@
 # ⚡ VectorForge Shape Studio
 
 > **Deterministic, Zero-Runtime-Dependency Developer SVG Shape & Component Library**  
-> *Crafted by Mohamed Ayman ([@MikeeeDeV](https://github.com/MikeeeDeV)) • Technical Team Leader @ Gawdah*
+> *Crafted by Mohamed Ayman ([@MikeeeDeV](https://github.com/MikeeeDeV)) • Senior Full-Stack & Systems Engineer*
 
 VectorForge is an open-source, mathematically deterministic vector asset library engineered for developers, engineering leaders, and open-source creators. Every component is self-contained SVG with dark/light mode responsiveness (`prefers-color-scheme`), zero external font downloads, zero tracking scripts, and strict `<100KB` file size budgets.
 

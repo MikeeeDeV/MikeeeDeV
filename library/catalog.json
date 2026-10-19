@@ -1460,10 +1460,10 @@
     {
       "id": "system-team-lead-crest",
       "category": "badges",
-      "title": "Technical Team Lead Crest",
+      "title": "Senior Systems Engineer Crest",
       "default_theme": "kemet_nocturne",
       "file_path": "library/shapes/badges/system-team-lead-crest.svg",
-      "markdown_embed": "![Technical Team Lead Crest](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/badges/system-team-lead-crest.svg)"
+      "markdown_embed": "![Senior Systems Engineer Crest](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/badges/system-team-lead-crest.svg)"
     },
     {
       "id": "kemet-pharaonic-seal",
