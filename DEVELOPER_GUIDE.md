@@ -57,9 +57,9 @@ Embed directly into your GitHub `README.md` or web page via jsDelivr CDN without
 
 Every VectorForge shape can be exported directly into a clean, typed React component:
 
-1. Open the [VectorForge Showroom](https://mikeeedev.github.io/MikeeeDeV/).
-2. Click **`⚛️ JSX`** on any card or open the Inspector modal.
-3. Paste the generated component into your project:
+1. Pick any preset from [catalog.json](library/catalog.json) or [LIBRARY.md](LIBRARY.md).
+2. Generate the shape using `npx vectorforge generate <preset-id> -o component.svg`.
+3. Wrap or import the SVG directly into your React/Next.js/Astro project:
 
 ```tsx
 import React from 'react';
@@ -178,7 +178,7 @@ jobs:
 
 ---
 
-## 🌐 Interactive Showroom
+## 🌐 Component Catalog & Presets
 
-Browse all 235 shapes, preview themes live, and copy snippets directly from the browser:
-👉 **[Launch VectorForge Showroom Gallery](https://mikeeedev.github.io/MikeeeDeV/)**
+Browse all 235 shapes and inspect themes directly via [LIBRARY.md](LIBRARY.md) and [catalog.json](library/catalog.json).
+You can also run `npx vectorforge list` to view all available presets in your terminal.

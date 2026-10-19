@@ -42,7 +42,7 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://github.com/MikeeeDeV/MikeeeDeV"
-Showroom = "https://mikeeedev.github.io/MikeeeDeV/"
+Documentation = "https://github.com/MikeeeDeV/MikeeeDeV#readme"
 Repository = "https://github.com/MikeeeDeV/MikeeeDeV.git"
 Issues = "https://github.com/MikeeeDeV/MikeeeDeV/issues"
 

@@ -10,7 +10,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-F5C451.svg?style=flat-square&logo=opensourceinitiative&logoColor=black)](LICENSE)
 [![Community Standards](https://img.shields.io/badge/Community%20Standards-100%25%20Verified-38BDF8.svg?style=flat-square&logo=github)](.github/ISSUE_TEMPLATE/)
-[![VectorForge Showroom](https://img.shields.io/badge/Showroom-Live%20on%20GitHub%20Pages-14B8A6.svg?style=flat-square&logo=githubpages&logoColor=white)](https://mikeeedev.github.io/MikeeeDeV/)
+[![VectorForge Release](https://img.shields.io/badge/VectorForge-v1.0.1%20Release-14B8A6.svg?style=flat-square&logo=github)](https://github.com/MikeeeDeV/MikeeeDeV/releases)
 [![Accessibility](https://img.shields.io/badge/Accessibility-W3C%20SVG%201.1-10B981.svg?style=flat-square)](ACCESSIBILITY.md)
 [![Code of Conduct](https://img.shields.io/badge/Contributor%20Covenant-2.1-BD93F9.svg?style=flat-square)](CODE_OF_CONDUCT.md)
 [![Security Policy](https://img.shields.io/badge/Security-Policy-EF4444.svg?style=flat-square)](SECURITY.md)
@@ -159,8 +159,7 @@
 | [**Holograms &amp; Radars**](library/shapes/holograms/) | `25` | `560x240` | Visitor Ledgers, Quantum Radars, Sonar Pings, Merkle Explorers |
 
 <p align="center">
-  <b>Explore all 235 components in the interactive showroom or use the CLI:</b><br />
-  <a href="https://mikeeedev.github.io/MikeeeDeV/"><b>🌐 Live Showroom on GitHub Pages</b></a> • 
+  <b>Explore all 235 components or use the CLI:</b><br />
   <a href="DEVELOPER_GUIDE.md"><b>🛠️ Developer Guide (DEVELOPER_GUIDE.md)</b></a> • 
   <a href="LIBRARY.md"><b>📖 Full Documentation (LIBRARY.md)</b></a> • 
   <a href="CONTRIBUTING.md"><b>🤝 Contributing Guidelines</b></a> • 
@@ -230,7 +229,7 @@ jobs:
 | Input | Type | Default | Description |
 | :--- | :---: | :---: | :--- |
 | `command` | `string` | `generate` | Operation mode: `generate` (single preset) or `build` (`vectorforge.json`) |
-| `shape` | `string` | `kemet-nocturne-rosette` | Preset shape ID (choose from 235 components in the [Showroom](https://mikeeedev.github.io/MikeeeDeV/)) |
+| `shape` | `string` | `kemet-nocturne-rosette` | Preset shape ID (choose from 235 components in [catalog.json](library/catalog.json) or [LIBRARY.md](LIBRARY.md)) |
 | `theme` | `string` | `(default)` | Palette theme override (`kemet_nocturne`, `cyberpunk_2077`, `nord_frost`, `dracula`, etc.) |
 | `output` | `string` | `assets/vectorforge-shape.svg` | Destination file path for the generated SVG |
 | `params` | `string` | `""` | Comma-separated dynamic variables (e.g. `title=Alice,subtitle=Lead Architect`) |
