@@ -1,0 +1,62 @@
+{
+  "$schema": "https://modelcontextprotocol.io/schema/draft/mcp.json",
+  "name": "mikeeedev-mcp-registry",
+  "version": "1.0.0",
+  "description": "Model Context Protocol tools and agent capabilities authored by Mohamed Ayman (@MikeeeDeV)",
+  "author": {
+    "name": "Mohamed Ayman",
+    "handle": "MikeeeDeV",
+    "url": "https://github.com/MikeeeDeV"
+  },
+  "capabilities": {
+    "tools": true,
+    "resources": true,
+    "prompts": false
+  },
+  "tools": [
+    {
+      "name": "nix_inspect_channel",
+      "description": "Inspects local and declarative Nix channels, flake locks, and installed derivations with zero side-effects.",
+      "repo": "MikeeeDeV/NixManagerPro",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "channel": { "type": "string", "default": "nixos-unstable" },
+          "verify_signatures": { "type": "boolean", "default": true }
+        }
+      },
+      "guarantees": ["read-only", "deterministic", "sandbox-safe"]
+    },
+    {
+      "name": "git_smart_sync_audit",
+      "description": "Audits local vs upstream branch divergence across multi-branch workflows to prevent silent overwrites.",
+      "repo": "MikeeeDeV/git-smart-sync",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "preset": { "type": "string", "enum": ["feature", "release", "hotfix"] },
+          "dry_run": { "type": "boolean", "default": true }
+        }
+      },
+      "guarantees": ["idempotent", "zero-data-loss", "local-first"]
+    },
+    {
+      "name": "session_guard_revoke_device",
+      "description": "Immediately invalidates a compromised device session across distributed Next.js clusters via SSE broadcast.",
+      "repo": "MikeeeDeV/next-session-guard",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "session_id": { "type": "string" },
+          "reason": { "type": "string" }
+        },
+        "required": ["session_id"]
+      },
+      "guarantees": ["atomic", "sub-5ms-propagation", "audit-logged"]
+    }
+  ],
+  "transport": {
+    "supported": ["stdio", "sse"],
+    "default": "stdio"
+  }
+}
