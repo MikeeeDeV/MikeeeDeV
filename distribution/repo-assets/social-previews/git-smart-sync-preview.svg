@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="1280" height="640" role="img" aria-label="git-smart-sync Social Preview">
+  <title>git-smart-sync - OpenGraph Social Preview</title>
+  <desc>Multi-Branch Git Sync &amp; Divergence Protection. Seamless branch presets, multi-remote synchronization, and silent overwrite prevention inside VS Code &amp; Antigravity. Authored by Mohamed Ayman (@MikeeeDeV).</desc>
+  <style>
+    
+    :root {
+      --bg: #0A0E14;
+      --card-bg: #111822;
+      --card-elevated: #182230;
+      --border: #223348;
+      --border-accent: #3B5372;
+      --text-primary: #E2E8F0;
+      --text-secondary: #94A3B8;
+      --text-muted: #64748B;
+      --accent-gold: #E5C07B;
+      --accent-lapis: #3898EC;
+      --accent-teal: #2DD4BF;
+      --accent-coral: #F43F5E;
+      --term-green: #2DD4BF;
+      --term-yellow: #E5C07B;
+      --term-blue: #3898EC;
+      --term-purple: #C678DD;
+      --font-mono: ui-monospace, 'JetBrains Mono', 'SF Mono', 'Fira Code', 'Menlo', monospace;
+      --font-sans: system-ui, -apple-system, 'Segoe UI', Roboto, 'Cairo', sans-serif;
+      --font-arabic: 'Cairo', 'Amiri', 'Noto Sans Arabic', 'Segoe UI', system-ui, sans-serif;
+    }
+
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg: #F8FAFC;
+        --card-bg: #FFFFFF;
+        --card-elevated: #F1F5F9;
+        --border: #CBD5E1;
+        --border-accent: #94A3B8;
+        --text-primary: #0F172A;
+        --text-secondary: #475569;
+        --text-muted: #64748B;
+        --accent-gold: #B48924;
+        --accent-lapis: #1E6BB8;
+        --accent-teal: #0D9488;
+        --accent-coral: #E11D48;
+        --term-green: #0D9488;
+        --term-yellow: #B48924;
+        --term-blue: #1E6BB8;
+        --term-purple: #9333EA;
+      }
+    }
+    
+    .og-card {
+      fill: var(--card-bg);
+      stroke: var(--border);
+      stroke-width: 2px;
+    }
+    .og-title {
+      font-family: var(--font-mono);
+      font-size: 54px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      fill: var(--text-primary);
+    }
+    .og-tagline {
+      font-family: var(--font-sans);
+      font-size: 26px;
+      font-weight: 600;
+      fill: var(--accent-teal);
+    }
+    .og-desc {
+      font-family: var(--font-sans);
+      font-size: 20px;
+      line-height: 32px;
+      fill: var(--text-secondary);
+    }
+    .og-meta {
+      font-family: var(--font-mono);
+      font-size: 16px;
+      fill: var(--text-muted);
+    }
+    .watermark-rosette {
+      opacity: 0.15;
+    }
+  </style>
+
+  <rect x="1" y="1" width="1278" height="638" rx="16" class="og-card" />
+
+  <!-- Background Geometry Watermark -->
+  <g transform="translate(1040, 320.0)" class="watermark-rosette">
+    <circle cx="0" cy="0" r="220" fill="none" stroke="var(--accent-gold)" stroke-width="2" stroke-dasharray="6,6" />
+    <circle cx="0" cy="0" r="160" fill="none" stroke="var(--accent-teal)" stroke-width="2" />
+    <polygon points="0,-140 40,-40 140,0 40,40 0,140 -40,40 -140,0 -40,-40" fill="none" stroke="var(--accent-lapis)" stroke-width="3" />
+    <polygon points="-100,-100 0,-60 100,-100 60,0 100,100 0,60 -100,100 -60,0" fill="none" stroke="var(--accent-gold)" stroke-width="2.5" />
+  </g>
+
+  <!-- Top Metadata Bar -->
+  <g transform="translate(80, 80)">
+    <text x="0" y="0" class="og-meta">GITHUB REPOSITORY // MOHAMED AYMAN (@MikeeeDeV)</text>
+    <text x="1120" y="0" class="og-meta" text-anchor="end" fill="var(--accent-teal)">SYSTEMS &amp; ARCHITECTURE</text>
+  </g>
+
+  <!-- Title & Icon -->
+  <g transform="translate(80, 190)">
+    <text x="0" y="0" font-size="48">⚡</text>
+    <text x="70" y="-4" class="og-title">git-smart-sync</text>
+  </g>
+
+  <!-- Tagline -->
+  <g transform="translate(80, 260)">
+    <text x="0" y="0" class="og-tagline">Multi-Branch Git Sync &amp; Divergence Protection</text>
+  </g>
+
+  <!-- Description -->
+  <g transform="translate(80, 320)">
+    <text x="0" y="0" class="og-desc">Seamless branch presets, multi-remote synchronization, and silent overwrite prevention inside VS Code &amp; Antigravity.</text>
+  </g>
+
+  <!-- Badges -->
+  <g>
+    
+        <rect x="80" y="480" width="101" height="36" rx="6" fill="var(--card-elevated)" stroke="var(--border-accent)" stroke-width="1" />
+        <text x="130.5" y="503" text-anchor="middle" font-family="var(--font-mono)" font-size="13" font-weight="700" fill="var(--accent-gold)">VS CODE</text>
+        
+        <rect x="195" y="480" width="134" height="36" rx="6" fill="var(--card-elevated)" stroke="var(--border-accent)" stroke-width="1" />
+        <text x="262.0" y="503" text-anchor="middle" font-family="var(--font-mono)" font-size="13" font-weight="700" fill="var(--accent-gold)">TYPESCRIPT</text>
+        
+        <rect x="343" y="480" width="134" height="36" rx="6" fill="var(--card-elevated)" stroke="var(--border-accent)" stroke-width="1" />
+        <text x="410.0" y="503" text-anchor="middle" font-family="var(--font-mono)" font-size="13" font-weight="700" fill="var(--accent-gold)">GIT ENGINE</text>
+        
+        <rect x="491" y="480" width="156" height="36" rx="6" fill="var(--card-elevated)" stroke="var(--border-accent)" stroke-width="1" />
+        <text x="569.0" y="503" text-anchor="middle" font-family="var(--font-mono)" font-size="13" font-weight="700" fill="var(--accent-gold)">PRODUCTIVITY</text>
+        
+  </g>
+
+  <!-- Bottom Attribution -->
+  <g transform="translate(80, 580)">
+    <text x="0" y="0" class="og-meta">Designed with Kemet Nocturne Design System • 100% Deterministic</text>
+    <text x="1120" y="0" class="og-meta" text-anchor="end" fill="var(--accent-gold)">GAWDAH ENGINEERING</text>
+  </g>
+</svg>
