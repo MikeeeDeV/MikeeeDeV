@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 88" width="420" height="88" role="img" aria-labelledby="title-id desc-id">
+  <title id="title-id">Cyberpunk HUD Target Lock - HUD Badge</title>
+  <desc id="desc-id">Status badge cyberpunk-hud-target-lock</desc>
+  <style>
+    :root {
+      --vf-bg: #08080E;
+      --vf-card: #121222;
+      --vf-border: #2B2B47;
+      --vf-text: #FFFDF0;
+      --vf-text-muted: #8E8EA8;
+      --vf-accent-1: #FEE715;
+      --vf-accent-2: #00F0FF;
+      --vf-accent-3: #FF007F;
+      --vf-glow: #00F0FF44;
+      --vf-font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      --vf-font-mono: "JetBrains Mono", "Fira Code", ui-monospace, Menlo, Monaco, Consolas, monospace;
+      --vf-font-arabic: "Cairo", "Amiri", "Tahoma", -apple-system, sans-serif;
+    }
+    @media (prefers-color-scheme: light) {
+      :root {
+        --vf-bg: #F4F4F8;
+        --vf-card: #FFFFFF;
+        --vf-border: #D1D1DF;
+        --vf-text: #121224;
+        --vf-text-muted: #5A5A72;
+        --vf-accent-1: #CA9A00;
+        --vf-accent-2: #0099A8;
+        --vf-accent-3: #D6006B;
+        --vf-glow: #0099A833;
+      }
+    }
+    text {
+      user-select: none;
+    }
+    
+      .badge-frame { fill: var(--vf-card); stroke: var(--vf-border); stroke-width: 1; }
+      .label-text { font-family: var(--vf-font-mono); font-size: 10px; font-weight: 700; fill: var(--vf-accent-1); letter-spacing: 1px; }
+      .value-text { font-family: var(--vf-font-sans); font-size: 13.5px; font-weight: 700; fill: var(--vf-text); }
+      .status-pill { fill: var(--vf-bg); stroke: var(--vf-border); stroke-width: 1; }
+      .status-text { font-family: var(--vf-font-mono); font-size: 9.5px; font-weight: 700; fill: var(--vf-accent-2); }
+      .hud-dot { fill: var(--vf-accent-1); }
+      .hud-decor { stroke: var(--vf-border); stroke-width: 1; fill: none; }
+    
+  </style>
+  
+  <rect x="1" y="1" width="418" height="86" rx="6" class="badge-frame" />
+
+    <path d="M 6 12 L 6 6 L 12 6" class="hud-decor" />
+    <path d="M 414 12 L 414 6 L 408 6" class="hud-decor" />
+    <path d="M 6 76 L 6 82 L 12 82" class="hud-decor" />
+    <path d="M 414 76 L 414 82 L 408 82" class="hud-decor" />
+    
+
+    <g transform="translate(20, 24)">
+      <!-- Pulsing radar dot -->
+      <circle cx="8" cy="8" r="8" fill="var(--vf-accent-1)" opacity="0.18" />
+      <circle cx="8" cy="8" r="4" fill="var(--vf-accent-1)" />
+      
+      <!-- Content column -->
+      <g transform="translate(26, 0)">
+        <text x="0" y="4" class="label-text">TARGET LOCK</text>
+        <text x="0" y="24" class="value-text">Zero-Day Exploit Guard</text>
+      </g>
+    </g>
+    
+
+    <g transform="translate(324, 30)">
+      <rect x="0" y="0" width="76" height="24" rx="4" class="status-pill" />
+      <circle cx="10" cy="12" r="3" fill="var(--vf-accent-2)" />
+      <text x="43.0" y="15.5" text-anchor="middle" class="status-text">ENGAGED</text>
+    </g>
+    
+<line x1="20" y1="78" x2="400" y2="78" stroke="var(--vf-border)" stroke-width="0.8" />
+<line x1="20" y1="78" x2="189.0" y2="78" stroke="var(--vf-accent-1)" stroke-width="1.2" />
+</svg>
