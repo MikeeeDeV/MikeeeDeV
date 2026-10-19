@@ -1,0 +1,53 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vectorforge"
+version = "1.0.0"
+description = "Deterministic developer SVG shape and component library with 235+ presets."
+readme = "LIBRARY.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [
+    {name = "Mohamed Ayman", email = "mohamed.ayman.developer@gmail.com"}
+]
+keywords = [
+    "svg",
+    "github-profile",
+    "vector",
+    "developer-shapes",
+    "neofetch",
+    "badges",
+    "diagrams",
+    "terminal-cards",
+    "fastmcp",
+    "nixos"
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Topic :: Multimedia :: Graphics",
+    "Topic :: Software Development :: Libraries",
+]
+
+[project.urls]
+Homepage = "https://github.com/MikeeeDeV/MikeeeDeV"
+Showroom = "https://mikeeedev.github.io/MikeeeDeV/"
+Repository = "https://github.com/MikeeeDeV/MikeeeDeV.git"
+Issues = "https://github.com/MikeeeDeV/MikeeeDeV/issues"
+
+[project.scripts]
+vectorforge = "library.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["library*"]
