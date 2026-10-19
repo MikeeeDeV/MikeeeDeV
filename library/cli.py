@@ -121,7 +121,7 @@ def cmd_embed(args):
         print(f"Error: Preset '{preset_id}' not found.", file=sys.stderr)
         sys.exit(1)
         
-    url = f"https://cdn.jsdelivr.net/gh/MikeeeDeV/MikeeeDeV@main/library/shapes/{cat_found}/{preset_id}.svg"
+    url = f"https://cdn.jsdelivr.net/gh/MikeeeDeV/MikeeeDeV@v1/library/shapes/{cat_found}/{preset_id}.svg"
     print("### Markdown Embed Syntax:\n")
     print(f"![{preset_found['title']}]({url})")
     print("\n### jsDelivr Raw URL:\n")

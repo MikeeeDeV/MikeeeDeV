@@ -48,7 +48,7 @@ vectorforge build
 Embed directly into your GitHub `README.md` or web page via jsDelivr CDN without downloading files:
 
 ```markdown
-![VectorForge Hero Banner](https://cdn.jsdelivr.net/gh/MikeeeDeV/MikeeeDeV@main/library/shapes/banners/kemet-nocturne-rosette.svg)
+![VectorForge Hero Banner](https://cdn.jsdelivr.net/gh/MikeeeDeV/MikeeeDeV@v1/library/shapes/banners/kemet-nocturne-rosette.svg)
 ```
 
 ---
