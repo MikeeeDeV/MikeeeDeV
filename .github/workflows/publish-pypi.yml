@@ -15,8 +15,8 @@ permissions:
   id-token: write
 
 jobs:
-  build-and-release:
-    name: Build wheels and publish distribution
+  build:
+    name: Build wheels and distribution
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
@@ -46,10 +46,30 @@ jobs:
         run: |
           gh release upload ${{ github.ref_name }} dist/* --clobber || true
 
+      - name: Store Distribution Packages
+        uses: actions/upload-artifact@v4
+        with:
+          name: python-package-distributions
+          path: dist/
+
+  publish-pypi:
+    name: Publish to PyPI
+    if: github.event_name == 'release' || inputs.publish_to_pypi == true
+    needs: [build]
+    runs-on: ubuntu-latest
+    environment:
+      name: pypi
+      url: https://pypi.org/p/vectorforge-py
+    steps:
+      - name: Download Distribution Packages
+        uses: actions/download-artifact@v4
+        with:
+          name: python-package-distributions
+          path: dist/
+
       - name: Publish to PyPI
-        if: github.event_name == 'release' || inputs.publish_to_pypi == true
         uses: pypa/gh-action-pypi-publish@release/v1
         with:
           skip-existing: true
-        continue-on-error: true
+
 
