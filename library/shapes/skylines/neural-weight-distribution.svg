@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 210" width="880" height="210" role="img" aria-labelledby="title-id desc-id">
+  <title id="title-id">Transformer Weight Histogram - Contribution Skyline</title>
+  <desc id="desc-id">Telemetry horizon neural-weight-distribution</desc>
+  <style>
+    :root {
+      --vf-bg: #08080E;
+      --vf-card: #121222;
+      --vf-border: #2B2B47;
+      --vf-text: #FFFDF0;
+      --vf-text-muted: #8E8EA8;
+      --vf-accent-1: #FEE715;
+      --vf-accent-2: #00F0FF;
+      --vf-accent-3: #FF007F;
+      --vf-glow: #00F0FF44;
+      --vf-font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      --vf-font-mono: "JetBrains Mono", "Fira Code", ui-monospace, Menlo, Monaco, Consolas, monospace;
+      --vf-font-arabic: "Cairo", "Amiri", "Tahoma", -apple-system, sans-serif;
+    }
+    @media (prefers-color-scheme: light) {
+      :root {
+        --vf-bg: #F4F4F8;
+        --vf-card: #FFFFFF;
+        --vf-border: #D1D1DF;
+        --vf-text: #121224;
+        --vf-text-muted: #5A5A72;
+        --vf-accent-1: #CA9A00;
+        --vf-accent-2: #0099A8;
+        --vf-accent-3: #D6006B;
+        --vf-glow: #0099A833;
+      }
+    }
+    text {
+      user-select: none;
+    }
+    
+      .card-frame { fill: var(--vf-card); stroke: var(--vf-border); stroke-width: 1; }
+      .skyline-bar { fill: var(--vf-accent-1); }
+      .skyline-sub { fill: var(--vf-accent-2); opacity: 0.65; }
+      .grid-h { stroke: var(--vf-border); stroke-width: 0.5; stroke-dasharray: 2 4; }
+      .metric-title { font-family: var(--vf-font-mono); font-size: 13px; font-weight: 700; fill: var(--vf-text); }
+      .metric-stat { font-family: var(--vf-font-mono); font-size: 11px; fill: var(--vf-text-muted); }
+      .accent-pill { fill: var(--vf-bg); stroke: var(--vf-border); stroke-width: 1; }
+    
+  </style>
+  
+  <rect x="1" y="1" width="878" height="208" rx="8" class="card-frame" />
+
+    <g transform="translate(28, 26)">
+      <circle cx="0" cy="0" r="4" fill="var(--vf-accent-1)" />
+      <text x="12" y="4" class="metric-title">TRANSFORMER WEIGHT HISTOGRAM</text>
+      <text x="12" y="20" class="metric-stat">52 WEEKS • 1,844 TOTAL COMMITS • 99.8% CI PASS RATE</text>
+      
+      <g transform="translate(640, -8)">
+        <rect x="0" y="0" width="180" height="26" rx="4" class="accent-pill" />
+        <circle cx="12" cy="13" r="3" fill="var(--vf-accent-3)" />
+        <text x="24" y="17" font-family="var(--vf-font-mono)" font-size="10" font-weight="700" fill="var(--vf-accent-1)">PEAK: 34 COMMITS/DAY</text>
+      </g>
+    </g>
+    
+<line x1="28" y1="152" x2="852" y2="152" class="grid-h" />
+<line x1="28" y1="117" x2="852" y2="117" class="grid-h" />
+<line x1="28" y1="82" x2="852" y2="82" class="grid-h" />
+<g class="skyline-content"><rect x="30.5" y="176.0" width="10.8" height="6.0" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="46.4" y="176.0" width="10.8" height="6.0" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="62.2" y="176.0" width="10.8" height="6.0" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="78.1" y="176.0" width="10.8" height="6.0" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="93.9" y="176.0" width="10.8" height="6.0" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="109.8" y="168.4" width="10.8" height="13.6" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="125.6" y="167.6" width="10.8" height="14.4" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="141.5" y="169.1" width="10.8" height="12.9" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="157.3" y="164.3" width="10.8" height="17.7" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="173.2" y="162.3" width="10.8" height="19.7" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="189.0" y="146.9" width="10.8" height="35.1" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="204.8" y="125.4" width="10.8" height="56.6" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="220.7" y="126.7" width="10.8" height="55.3" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="236.5" y="151.7" width="10.8" height="30.3" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="252.4" y="151.8" width="10.8" height="30.2" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="268.2" y="153.4" width="10.8" height="28.6" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="284.1" y="146.5" width="10.8" height="35.5" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="299.9" y="125.4" width="10.8" height="56.6" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="315.8" y="125.3" width="10.8" height="56.7" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="331.6" y="151.3" width="10.8" height="30.7" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="347.5" y="137.5" width="10.8" height="44.5" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="363.3" y="137.4" width="10.8" height="44.6" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="379.2" y="109.5" width="10.8" height="72.5" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="395.0" y="115.2" width="10.8" height="66.8" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="410.8" y="125.1" width="10.8" height="56.9" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="426.7" y="113.2" width="10.8" height="68.8" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="442.5" y="113.8" width="10.8" height="68.2" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="458.4" y="141.0" width="10.8" height="41.0" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="474.2" y="95.1" width="10.8" height="86.9" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="490.1" y="95.1" width="10.8" height="86.9" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="505.9" y="120.1" width="10.8" height="61.9" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="521.8" y="124.9" width="10.8" height="57.1" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="537.6" y="120.4" width="10.8" height="61.6" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="553.5" y="141.2" width="10.8" height="40.8" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="569.3" y="137.8" width="10.8" height="44.2" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="585.2" y="145.1" width="10.8" height="36.9" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="601.0" y="138.1" width="10.8" height="43.9" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="616.8" y="134.5" width="10.8" height="47.5" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="632.7" y="156.9" width="10.8" height="25.1" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="648.5" y="151.1" width="10.8" height="30.9" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="664.4" y="155.6" width="10.8" height="26.4" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="680.2" y="150.9" width="10.8" height="31.1" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="696.1" y="136.2" width="10.8" height="45.8" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="711.9" y="137.0" width="10.8" height="45.0" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="727.8" y="157.1" width="10.8" height="24.9" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="743.6" y="169.9" width="10.8" height="12.1" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="759.5" y="171.0" width="10.8" height="11.0" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="775.3" y="173.8" width="10.8" height="8.2" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="791.2" y="172.6" width="10.8" height="9.4" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="807.0" y="174.1" width="10.8" height="7.9" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="822.8" y="176.0" width="10.8" height="6.0" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /><rect x="838.7" y="176.0" width="10.8" height="6.0" rx="2" fill="var(--vf-accent-1)" opacity="0.8" /></g>
+<line x1="28" y1="182" x2="852" y2="182" stroke="var(--vf-border)" stroke-width="1.5" />
+</svg>
