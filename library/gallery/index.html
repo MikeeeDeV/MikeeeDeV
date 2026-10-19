@@ -1,0 +1,2056 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VectorForge // 235+ Developer SVG Shapes &amp; Components</title>
+  <meta name="description" content="Deterministic, zero-runtime-dependency developer SVG shape and component library. Built by Mohamed Ayman (@MikeeeDeV).">
+  <link rel="stylesheet" href="styles.css">
+  <script id="catalog-data" type="application/json">
+{
+  "version": "1.0.0",
+  "name": "VectorForge",
+  "description": "Deterministic, zero-runtime-dependency developer SVG shape and component library.",
+  "author": "Mohamed Ayman (@MikeeeDeV)",
+  "total_shapes": 235,
+  "categories": {
+    "banners": {
+      "name": "Geometric Banners",
+      "count": 40
+    },
+    "terminals": {
+      "name": "Neofetch & Terminals",
+      "count": 35
+    },
+    "skylines": {
+      "name": "Skylines & Horizons",
+      "count": 30
+    },
+    "architectures": {
+      "name": "System Architectures",
+      "count": 35
+    },
+    "badges": {
+      "name": "HUD Badges & Pills",
+      "count": 35
+    },
+    "repo_cards": {
+      "name": "Bento & Repo Cards",
+      "count": 35
+    },
+    "holograms": {
+      "name": "Holograms & Ledgers",
+      "count": 25
+    }
+  },
+  "palettes": [
+    {
+      "id": "kemet_nocturne",
+      "name": "Kemet Nocturne (Egyptian Deep Gold & Lapis)",
+      "dark_bg": "#0A0E17",
+      "accent": "#F5C451"
+    },
+    {
+      "id": "cyberpunk_2077",
+      "name": "Cyberpunk 2077 (Neon Yellow & Cyan Pulse)",
+      "dark_bg": "#08080E",
+      "accent": "#FEE715"
+    },
+    {
+      "id": "nord_frost",
+      "name": "Nord Frost (Arctic Glacier & Aurora)",
+      "dark_bg": "#242933",
+      "accent": "#88C0D0"
+    },
+    {
+      "id": "dracula",
+      "name": "Dracula Vampire (Nocturnal Purple & Toxic Green)",
+      "dark_bg": "#1E1F29",
+      "accent": "#BD93F9"
+    },
+    {
+      "id": "tokyo_night",
+      "name": "Tokyo Night (Shibuya Rain & Neon Lanterns)",
+      "dark_bg": "#16161E",
+      "accent": "#7AA2F7"
+    },
+    {
+      "id": "monokai_pro",
+      "name": "Monokai Pro (Spectrum Sunset & Vivid Accents)",
+      "dark_bg": "#221F22",
+      "accent": "#FFD866"
+    },
+    {
+      "id": "emerald_matrix",
+      "name": "Emerald Matrix (Terminal Green & Hex Code)",
+      "dark_bg": "#030A05",
+      "accent": "#00FF66"
+    },
+    {
+      "id": "amber_crt",
+      "name": "Amber CRT (Phosphor Glow & Vintage Glass)",
+      "dark_bg": "#120800",
+      "accent": "#FFB000"
+    },
+    {
+      "id": "solarized_dark",
+      "name": "Solarized Dark (Precision Science & Clean Contrast)",
+      "dark_bg": "#00212B",
+      "accent": "#2AA198"
+    },
+    {
+      "id": "rose_pine",
+      "name": "Ros\u00e9 Pine (All-Natural Pastel & Calming Dusk)",
+      "dark_bg": "#14121E",
+      "accent": "#EBBCBA"
+    }
+  ],
+  "items": [
+    {
+      "id": "kemet-nocturne-rosette",
+      "category": "banners",
+      "title": "Kemet 8-Pointed Rosette",
+      "default_theme": "kemet_nocturne",
+      "file_path": "library/shapes/banners/kemet-nocturne-rosette.svg",
+      "markdown_embed": "![Kemet 8-Pointed Rosette](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/banners/kemet-nocturne-rosette.svg)"
+    },
+    {
+      "id": "cyberpunk-matrix-hex",
+      "category": "banners",
+      "title": "Cyberpunk Neon Matrix",
+      "default_theme": "cyberpunk_2077",
+      "file_path": "library/shapes/banners/cyberpunk-matrix-hex.svg",
+      "markdown_embed": "![Cyberpunk Neon Matrix](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/banners/cyberpunk-matrix-hex.svg)"
+    },
+    {
+      "id": "nordic-constellation",
+      "category": "banners",
+      "title": "Nordic Frost Starfield",
+      "default_theme": "nord_frost",
+      "file_path": "library/shapes/banners/nordic-constellation.svg",
+      "markdown_embed": "![Nordic Frost Starfield](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/banners/nordic-constellation.svg)"
+    },
+    {
+      "id": "dracula-astrolabe",
+      "category": "banners",
+      "title": "Dracula Cryptographic Astrolabe",
+      "default_theme": "dracula",
+      "file_path": "library/shapes/banners/dracula-astrolabe.svg",
+      "markdown_embed": "![Dracula Cryptographic Astrolabe](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/banners/dracula-astrolabe.svg)"
+    },
+    {
+      "id": "tokyo-neon-sine",
+      "category": "banners",
+      "title": "Tokyo Neon Sine Harmonics",
+      "default_theme": "tokyo_night",
+      "file_path": "library/shapes/banners/tokyo-neon-sine.svg",
+      "markdown_embed": "![Tokyo Neon Sine Harmonics](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/banners/tokyo-neon-sine.svg)"
+    },
+    {
+      "id": "solarized-tesseract",
+      "category": "banners",
+      "title": "Solarized 4D Hypercube",
+      "default_theme": "solarized_dark",
+      "file_path": "library/shapes/banners/solarized-tesseract.svg",
+      "markdown_embed": "![Solarized 4D Hypercube](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/banners/solarized-tesseract.svg)"
+    },
+    {
+      "id": "emerald-circuit-bus",
+      "category": "banners",
+      "title": "Emerald Logic Bus",
+      "default_theme": "emerald_matrix",
+      "file_path": "library/shapes/banners/emerald-circuit-bus.svg",
+      "markdown_embed": "![Emerald Logic Bus](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/banners/emerald-circuit-bus.svg)"
+    },
+    {
+      "id": "amber-crt-scanline",
+      "category": "banners",
+      "title": "Amber CRT Vector Horizon",
+      "default_theme": "amber_crt",
+      "file_path": "library/shapes/banners/amber-crt-scanline.svg",
+      "markdown_embed": "![Amber CRT Vector Horizon](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/banners/amber-crt-scanline.svg)"
+    },
+    {
+      "id": "rose-pine-mandala",
+      "category": "banners",
+      "title": "Ros\u00e9 Pine Sacred Mandala",
+      "default_theme": "rose_pine",
+      "file_path": "library/shapes/banners/rose-pine-mandala.svg",
+      "markdown_embed": "![Ros\u00e9 Pine Sacred Mandala](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/banners/rose-pine-mandala.svg)"
+    },
+    {
+      "id": "monokai-flow-mesh",
+      "category": "banners",
+      "title": "Monokai Pro Polytope Mesh",
+      "default_theme": "monokai_pro",
+      "file_path": "library/shapes/banners/monokai-flow-mesh.svg",
+      "markdown_embed": "![Monokai Pro Polytope Mesh](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/banners/monokai-flow-mesh.svg)"
+    },
+    {
+      "id": "golden-ratio-spiral",
+      "category": "banners",
+      "title": "Fibonacci Golden Spiral",
+      "default_theme": "kemet_nocturne",
+      "file_path": "library/shapes/banners/golden-ratio-spiral.svg",
+      "markdown_embed": "![Fibonacci Golden Spiral](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/banners/golden-ratio-spiral.svg)"
+    },
+    {
+      "id": "penrose-tiling-grid",
+      "category": "banners",
+      "title": "Penrose Quasi-Lattice",
+      "default_theme": "cyberpunk_2077",
+      "file_path": "library/shapes/banners/penrose-tiling-grid.svg",
+      "markdown_embed": "![Penrose Quasi-Lattice](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/banners/penrose-tiling-grid.svg)"
+    },
+    {
+      "id": "sacred-octagon-shrine",
+      "category": "banners",
+      "title": "Sacred Octagon Shrine",
+      "default_theme": "kemet_nocturne",
+      "file_path": "library/shapes/banners/sacred-octagon-shrine.svg",
+      "markdown_embed": "![Sacred Octagon Shrine](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/banners/sacred-octagon-shrine.svg)"
+    },
+    {
+      "id": "warp-speed-hypergrid",
+      "category": "banners",
+      "title": "Warp Speed Starburst",
+      "default_theme": "tokyo_night",
+      "file_path": "library/shapes/banners/warp-speed-hypergrid.svg",
+      "markdown_embed": "![Warp Speed Starburst](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/banners/warp-speed-hypergrid.svg)"
+    },
+    {
+      "id": "quantum-field-ripples",
+      "category": "banners",
+      "title": "Quantum Wave Ripple",
+      "default_theme": "nord_frost",
+      "file_path": "library/shapes/banners/quantum-field-ripples.svg",
+      "markdown_embed": "![Quantum Wave Ripple](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/banners/quantum-field-ripples.svg)"
+    },
+    {
+      "id": "isometric-cube-lattice",
+      "category": "banners",
+      "title": "Isometric Cube Matrix",
+      "default_theme": "solarized_dark",
+      "file_path": "library/shapes/banners/isometric-cube-lattice.svg",
+      "markdown_embed": "![Isometric Cube Matrix](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/banners/isometric-cube-lattice.svg)"
+    },
+    {
+      "id": "cyber-wireframe-horizon",
+      "category": "banners",
+      "title": "Cyber Synthwave Horizon",
+      "default_theme": "cyberpunk_2077",
+      "file_path": "library/shapes/banners/cyber-wireframe-horizon.svg",
+      "markdown_embed": "![Cyber Synthwave Horizon](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/banners/cyber-wireframe-horizon.svg)"
+    },
+    {
+      "id": "hypocycloid-gear-star",
+      "category": "banners",
+      "title": "Hypocycloid Chrono Star",
+      "default_theme": "monokai_pro",
+      "file_path": "library/shapes/banners/hypocycloid-gear-star.svg",
+      "markdown_embed": "![Hypocycloid Chrono Star](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/banners/hypocycloid-gear-star.svg)"
+    },
+    {
+      "id": "torus-wire-knot",
+      "category": "banners",
+      "title": "Trefoil Torus Knot",
+      "default_theme": "dracula",
+      "file_path": "library/shapes/banners/torus-wire-knot.svg",
+      "markdown_embed": "![Trefoil Torus Knot](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/banners/torus-wire-knot.svg)"
+    },
+    {
+      "id": "delaunay-triangulation",
+      "category": "banners",
+      "title": "Delaunay Vector Web",
+      "default_theme": "emerald_matrix",
+      "file_path": "library/shapes/banners/delaunay-triangulation.svg",
+      "markdown_embed": "![Delaunay Vector Web](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/banners/delaunay-triangulation.svg)"
+    },
+    {
+      "id": "hyperbolic-poincare-disk",
+      "category": "banners",
+      "title": "Poincar\u00e9 Hyperbolic Disk",
+      "default_theme": "rose_pine",
+      "file_path": "library/shapes/banners/hyperbolic-poincare-disk.svg",
+      "markdown_embed": "![Poincar\u00e9 Hyperbolic Disk](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/banners/hyperbolic-poincare-disk.svg)"
+    },
+    {
+      "id": "chladni-resonance-plate",
+      "category": "banners",
+      "title": "Chladni Harmonic Modal",
+      "default_theme": "amber_crt",
+      "file_path": "library/shapes/banners/chladni-resonance-plate.svg",
+      "markdown_embed": "![Chladni Harmonic Modal](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/banners/chladni-resonance-plate.svg)"
+    },
+    {
+      "id": "lorenz-attractor-orbit",
+      "category": "banners",
+      "title": "Lorenz Strange Attractor",
+      "default_theme": "tokyo_night",
+      "file_path": "library/shapes/banners/lorenz-attractor-orbit.svg",
+      "markdown_embed": "![Lorenz Strange Attractor](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/banners/lorenz-attractor-orbit.svg)"
+    },
+    {
+      "id": "sierpinski-vector-gasket",
+      "category": "banners",
+      "title": "Sierpinski Fractal Gasket",
+      "default_theme": "kemet_nocturne",
+      "file_path": "library/shapes/banners/sierpinski-vector-gasket.svg",
+      "markdown_embed": "![Sierpinski Fractal Gasket](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/banners/sierpinski-vector-gasket.svg)"
+    },
+    {
+      "id": "lissajous-3d-harmonics",
+      "category": "banners",
+      "title": "Lissajous Resonance Knot",
+      "default_theme": "dracula",
+      "file_path": "library/shapes/banners/lissajous-3d-harmonics.svg",
+      "markdown_embed": "![Lissajous Resonance Knot](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/banners/lissajous-3d-harmonics.svg)"
+    },
+    {
+      "id": "hexagonal-nexus-hive",
+      "category": "banners",
+      "title": "Honeycomb Nexus Hive",
+      "default_theme": "cyberpunk_2077",
+      "file_path": "library/shapes/banners/hexagonal-nexus-hive.svg",
+      "markdown_embed": "![Honeycomb Nexus Hive](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/banners/hexagonal-nexus-hive.svg)"
+    },
+    {
+      "id": "nile-circuit-archway",
+      "category": "banners",
+      "title": "Nile Digital Archway",
+      "default_theme": "kemet_nocturne",
+      "file_path": "library/shapes/banners/nile-circuit-archway.svg",
+      "markdown_embed": "![Nile Digital Archway](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/banners/nile-circuit-archway.svg)"
+    },
+    {
+      "id": "archimedean-vortex",
+      "category": "banners",
+      "title": "Archimedean Dual Vortex",
+      "default_theme": "monokai_pro",
+      "file_path": "library/shapes/banners/archimedean-vortex.svg",
+      "markdown_embed": "![Archimedean Dual Vortex](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/banners/archimedean-vortex.svg)"
+    },
+    {
+      "id": "quantum-spin-network",
+      "category": "banners",
+      "title": "Quantum Spin Lattice",
+      "default_theme": "nord_frost",
+      "file_path": "library/shapes/banners/quantum-spin-network.svg",
+      "markdown_embed": "![Quantum Spin Lattice](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/banners/quantum-spin-network.svg)"
+    },
+    {
+      "id": "mobius-strip-ribbon",
+      "category": "banners",
+      "title": "M\u00f6bius Topology Ribbon",
+      "default_theme": "rose_pine",
+      "file_path": "library/shapes/banners/mobius-strip-ribbon.svg",
+      "markdown_embed": "![M\u00f6bius Topology Ribbon](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/banners/mobius-strip-ribbon.svg)"
+    },
+    {
+      "id": "klein-bottle-contour",
+      "category": "banners",
+      "title": "Klein Manifold Contour",
+      "default_theme": "tokyo_night",
+      "file_path": "library/shapes/banners/klein-bottle-contour.svg",
+      "markdown_embed": "![Klein Manifold Contour](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/banners/klein-bottle-contour.svg)"
+    },
+    {
+      "id": "hypercube-shadow-cast",
+      "category": "banners",
+      "title": "Orthogonal 4D Projection",
+      "default_theme": "solarized_dark",
+      "file_path": "library/shapes/banners/hypercube-shadow-cast.svg",
+      "markdown_embed": "![Orthogonal 4D Projection](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/banners/hypercube-shadow-cast.svg)"
+    },
+    {
+      "id": "calabi-yau-manifold",
+      "category": "banners",
+      "title": "Calabi-Yau String Compact",
+      "default_theme": "dracula",
+      "file_path": "library/shapes/banners/calabi-yau-manifold.svg",
+      "markdown_embed": "![Calabi-Yau String Compact](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/banners/calabi-yau-manifold.svg)"
+    },
+    {
+      "id": "holographic-prism-beam",
+      "category": "banners",
+      "title": "Holographic Prism Beam",
+      "default_theme": "cyberpunk_2077",
+      "file_path": "library/shapes/banners/holographic-prism-beam.svg",
+      "markdown_embed": "![Holographic Prism Beam](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/banners/holographic-prism-beam.svg)"
+    },
+    {
+      "id": "synaptic-neural-web",
+      "category": "banners",
+      "title": "Synaptic Neural Matrix",
+      "default_theme": "emerald_matrix",
+      "file_path": "library/shapes/banners/synaptic-neural-web.svg",
+      "markdown_embed": "![Synaptic Neural Matrix](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/banners/synaptic-neural-web.svg)"
+    },
+    {
+      "id": "vector-radar-compass",
+      "category": "banners",
+      "title": "Navigational Vector Rose",
+      "default_theme": "kemet_nocturne",
+      "file_path": "library/shapes/banners/vector-radar-compass.svg",
+      "markdown_embed": "![Navigational Vector Rose](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/banners/vector-radar-compass.svg)"
+    },
+    {
+      "id": "infinity-oscillator",
+      "category": "banners",
+      "title": "Infinity Lemniscate Wave",
+      "default_theme": "amber_crt",
+      "file_path": "library/shapes/banners/infinity-oscillator.svg",
+      "markdown_embed": "![Infinity Lemniscate Wave](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/banners/infinity-oscillator.svg)"
+    },
+    {
+      "id": "stellar-pulsar-burst",
+      "category": "banners",
+      "title": "Stellar Pulsar Core",
+      "default_theme": "tokyo_night",
+      "file_path": "library/shapes/banners/stellar-pulsar-burst.svg",
+      "markdown_embed": "![Stellar Pulsar Core](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/banners/stellar-pulsar-burst.svg)"
+    },
+    {
+      "id": "celtic-vector-knotwork",
+      "category": "banners",
+      "title": "Interlocking Vector Ribbon",
+      "default_theme": "nord_frost",
+      "file_path": "library/shapes/banners/celtic-vector-knotwork.svg",
+      "markdown_embed": "![Interlocking Vector Ribbon](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/banners/celtic-vector-knotwork.svg)"
+    },
+    {
+      "id": "kemet-pharaonic-sun",
+      "category": "banners",
+      "title": "Pharaonic Solar Disc & Wings",
+      "default_theme": "kemet_nocturne",
+      "file_path": "library/shapes/banners/kemet-pharaonic-sun.svg",
+      "markdown_embed": "![Pharaonic Solar Disc & Wings](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/banners/kemet-pharaonic-sun.svg)"
+    },
+    {
+      "id": "nixos-flake-minimal",
+      "category": "terminals",
+      "title": "NixOS Flake Zero-Drift",
+      "default_theme": "nord_frost",
+      "file_path": "library/shapes/terminals/nixos-flake-minimal.svg",
+      "markdown_embed": "![NixOS Flake Zero-Drift](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/terminals/nixos-flake-minimal.svg)"
+    },
+    {
+      "id": "arch-retro-amber",
+      "category": "terminals",
+      "title": "Arch Linux Rolling Release",
+      "default_theme": "amber_crt",
+      "file_path": "library/shapes/terminals/arch-retro-amber.svg",
+      "markdown_embed": "![Arch Linux Rolling Release](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/terminals/arch-retro-amber.svg)"
+    },
+    {
+      "id": "cyberdeck-terminal-hacker",
+      "category": "terminals",
+      "title": "Cyberdeck Offensive HUD",
+      "default_theme": "cyberpunk_2077",
+      "file_path": "library/shapes/terminals/cyberdeck-terminal-hacker.svg",
+      "markdown_embed": "![Cyberdeck Offensive HUD](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/terminals/cyberdeck-terminal-hacker.svg)"
+    },
+    {
+      "id": "dracula-zsh-prompt",
+      "category": "terminals",
+      "title": "Dracula Nocturnal Console",
+      "default_theme": "dracula",
+      "file_path": "library/shapes/terminals/dracula-zsh-prompt.svg",
+      "markdown_embed": "![Dracula Nocturnal Console](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/terminals/dracula-zsh-prompt.svg)"
+    },
+    {
+      "id": "tokyo-night-fish-shell",
+      "category": "terminals",
+      "title": "Tokyo Night Neovim Host",
+      "default_theme": "tokyo_night",
+      "file_path": "library/shapes/terminals/tokyo-night-fish-shell.svg",
+      "markdown_embed": "![Tokyo Night Neovim Host](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/terminals/tokyo-night-fish-shell.svg)"
+    },
+    {
+      "id": "retro-macintosh-classic",
+      "category": "terminals",
+      "title": "Classic Mac System 7",
+      "default_theme": "solarized_dark",
+      "file_path": "library/shapes/terminals/retro-macintosh-classic.svg",
+      "markdown_embed": "![Classic Mac System 7](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/terminals/retro-macintosh-classic.svg)"
+    },
+    {
+      "id": "ubuntu-server-motd",
+      "category": "terminals",
+      "title": "Ubuntu Server 24.04 LTS",
+      "default_theme": "amber_crt",
+      "file_path": "library/shapes/terminals/ubuntu-server-motd.svg",
+      "markdown_embed": "![Ubuntu Server 24.04 LTS](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/terminals/ubuntu-server-motd.svg)"
+    },
+    {
+      "id": "kali-offensive-hud",
+      "category": "terminals",
+      "title": "Kali Vector Terminal",
+      "default_theme": "emerald_matrix",
+      "file_path": "library/shapes/terminals/kali-offensive-hud.svg",
+      "markdown_embed": "![Kali Vector Terminal](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/terminals/kali-offensive-hud.svg)"
+    },
+    {
+      "id": "gentoo-kernel-compile",
+      "category": "terminals",
+      "title": "Gentoo Hardened Core",
+      "default_theme": "monokai_pro",
+      "file_path": "library/shapes/terminals/gentoo-kernel-compile.svg",
+      "markdown_embed": "![Gentoo Hardened Core](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/terminals/gentoo-kernel-compile.svg)"
+    },
+    {
+      "id": "freebsd-daemon-card",
+      "category": "terminals",
+      "title": "FreeBSD 14.1 Beastie",
+      "default_theme": "kemet_nocturne",
+      "file_path": "library/shapes/terminals/freebsd-daemon-card.svg",
+      "markdown_embed": "![FreeBSD 14.1 Beastie](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/terminals/freebsd-daemon-card.svg)"
+    },
+    {
+      "id": "monokai-coder-terminal",
+      "category": "terminals",
+      "title": "Monokai Pro IDE Console",
+      "default_theme": "monokai_pro",
+      "file_path": "library/shapes/terminals/monokai-coder-terminal.svg",
+      "markdown_embed": "![Monokai Pro IDE Console](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/terminals/monokai-coder-terminal.svg)"
+    },
+    {
+      "id": "solarized-tmux-split",
+      "category": "terminals",
+      "title": "Solarized Tmux Session",
+      "default_theme": "solarized_dark",
+      "file_path": "library/shapes/terminals/solarized-tmux-split.svg",
+      "markdown_embed": "![Solarized Tmux Session](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/terminals/solarized-tmux-split.svg)"
+    },
+    {
+      "id": "matrix-green-code-rain",
+      "category": "terminals",
+      "title": "Emerald Code Matrix Node",
+      "default_theme": "emerald_matrix",
+      "file_path": "library/shapes/terminals/matrix-green-code-rain.svg",
+      "markdown_embed": "![Emerald Code Matrix Node](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/terminals/matrix-green-code-rain.svg)"
+    },
+    {
+      "id": "synthwave-retro-console",
+      "category": "terminals",
+      "title": "Synthwave Outrun CLI",
+      "default_theme": "cyberpunk_2077",
+      "file_path": "library/shapes/terminals/synthwave-retro-console.svg",
+      "markdown_embed": "![Synthwave Outrun CLI](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/terminals/synthwave-retro-console.svg)"
+    },
+    {
+      "id": "docker-container-stats",
+      "category": "terminals",
+      "title": "Docker Engine Daemon",
+      "default_theme": "nord_frost",
+      "file_path": "library/shapes/terminals/docker-container-stats.svg",
+      "markdown_embed": "![Docker Engine Daemon](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/terminals/docker-container-stats.svg)"
+    },
+    {
+      "id": "k8s-pod-cluster-telemetry",
+      "category": "terminals",
+      "title": "Kubernetes Control Plane",
+      "default_theme": "tokyo_night",
+      "file_path": "library/shapes/terminals/k8s-pod-cluster-telemetry.svg",
+      "markdown_embed": "![Kubernetes Control Plane](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/terminals/k8s-pod-cluster-telemetry.svg)"
+    },
+    {
+      "id": "rust-cargo-build-summary",
+      "category": "terminals",
+      "title": "Rust Cargo Toolchain",
+      "default_theme": "amber_crt",
+      "file_path": "library/shapes/terminals/rust-cargo-build-summary.svg",
+      "markdown_embed": "![Rust Cargo Toolchain](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/terminals/rust-cargo-build-summary.svg)"
+    },
+    {
+      "id": "python-fastmcp-daemon",
+      "category": "terminals",
+      "title": "FastMCP AI Agent Node",
+      "default_theme": "kemet_nocturne",
+      "file_path": "library/shapes/terminals/python-fastmcp-daemon.svg",
+      "markdown_embed": "![FastMCP AI Agent Node](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/terminals/python-fastmcp-daemon.svg)"
+    },
+    {
+      "id": "redis-inmemory-stats",
+      "category": "terminals",
+      "title": "Redis Sentinel Memory",
+      "default_theme": "dracula",
+      "file_path": "library/shapes/terminals/redis-inmemory-stats.svg",
+      "markdown_embed": "![Redis Sentinel Memory](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/terminals/redis-inmemory-stats.svg)"
+    },
+    {
+      "id": "postgresql-database-cluster",
+      "category": "terminals",
+      "title": "PostgreSQL 16 Engine",
+      "default_theme": "nord_frost",
+      "file_path": "library/shapes/terminals/postgresql-database-cluster.svg",
+      "markdown_embed": "![PostgreSQL 16 Engine](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/terminals/postgresql-database-cluster.svg)"
+    },
+    {
+      "id": "git-commit-hash-log",
+      "category": "terminals",
+      "title": "Git Head Commit Ledger",
+      "default_theme": "solarized_dark",
+      "file_path": "library/shapes/terminals/git-commit-hash-log.svg",
+      "markdown_embed": "![Git Head Commit Ledger](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/terminals/git-commit-hash-log.svg)"
+    },
+    {
+      "id": "vax-vms-heritage-console",
+      "category": "terminals",
+      "title": "OpenVMS Heritage Console",
+      "default_theme": "amber_crt",
+      "file_path": "library/shapes/terminals/vax-vms-heritage-console.svg",
+      "markdown_embed": "![OpenVMS Heritage Console](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/terminals/vax-vms-heritage-console.svg)"
+    },
+    {
+      "id": "commodore-64-basic-prompt",
+      "category": "terminals",
+      "title": "Commodore 64 BASIC V2",
+      "default_theme": "dracula",
+      "file_path": "library/shapes/terminals/commodore-64-basic-prompt.svg",
+      "markdown_embed": "![Commodore 64 BASIC V2](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/terminals/commodore-64-basic-prompt.svg)"
+    },
+    {
+      "id": "cyberpunk-netrunner-rig",
+      "category": "terminals",
+      "title": "Netrunner Deck Interface",
+      "default_theme": "cyberpunk_2077",
+      "file_path": "library/shapes/terminals/cyberpunk-netrunner-rig.svg",
+      "markdown_embed": "![Netrunner Deck Interface](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/terminals/cyberpunk-netrunner-rig.svg)"
+    },
+    {
+      "id": "deep-space-satellite-telemetry",
+      "category": "terminals",
+      "title": "Orbital Telemetry Rig",
+      "default_theme": "rose_pine",
+      "file_path": "library/shapes/terminals/deep-space-satellite-telemetry.svg",
+      "markdown_embed": "![Orbital Telemetry Rig](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/terminals/deep-space-satellite-telemetry.svg)"
+    },
+    {
+      "id": "quantum-qubit-register",
+      "category": "terminals",
+      "title": "Qiskit Quantum Register",
+      "default_theme": "tokyo_night",
+      "file_path": "library/shapes/terminals/quantum-qubit-register.svg",
+      "markdown_embed": "![Qiskit Quantum Register](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/terminals/quantum-qubit-register.svg)"
+    },
+    {
+      "id": "linux-kernel-ring-buffer",
+      "category": "terminals",
+      "title": "Dmesg Kernel Ring Buffer",
+      "default_theme": "monokai_pro",
+      "file_path": "library/shapes/terminals/linux-kernel-ring-buffer.svg",
+      "markdown_embed": "![Dmesg Kernel Ring Buffer](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/terminals/linux-kernel-ring-buffer.svg)"
+    },
+    {
+      "id": "systemd-cgroup-monitor",
+      "category": "terminals",
+      "title": "Systemd Slice Inspector",
+      "default_theme": "emerald_matrix",
+      "file_path": "library/shapes/terminals/systemd-cgroup-monitor.svg",
+      "markdown_embed": "![Systemd Slice Inspector](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/terminals/systemd-cgroup-monitor.svg)"
+    },
+    {
+      "id": "btop-inspired-system-hud",
+      "category": "terminals",
+      "title": "Btop++ Resource Monitor",
+      "default_theme": "tokyo_night",
+      "file_path": "library/shapes/terminals/btop-inspired-system-hud.svg",
+      "markdown_embed": "![Btop++ Resource Monitor](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/terminals/btop-inspired-system-hud.svg)"
+    },
+    {
+      "id": "starship-prompt-showcase",
+      "category": "terminals",
+      "title": "Cross-Shell Starship",
+      "default_theme": "nord_frost",
+      "file_path": "library/shapes/terminals/starship-prompt-showcase.svg",
+      "markdown_embed": "![Cross-Shell Starship](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/terminals/starship-prompt-showcase.svg)"
+    },
+    {
+      "id": "neovim-lua-dashboard",
+      "category": "terminals",
+      "title": "Neovim LazyVim Buffer",
+      "default_theme": "rose_pine",
+      "file_path": "library/shapes/terminals/neovim-lua-dashboard.svg",
+      "markdown_embed": "![Neovim LazyVim Buffer](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/terminals/neovim-lua-dashboard.svg)"
+    },
+    {
+      "id": "wasm-runtime-status",
+      "category": "terminals",
+      "title": "Wasmtime WASI Sandbox",
+      "default_theme": "amber_crt",
+      "file_path": "library/shapes/terminals/wasm-runtime-status.svg",
+      "markdown_embed": "![Wasmtime WASI Sandbox](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/terminals/wasm-runtime-status.svg)"
+    },
+    {
+      "id": "graphql-gateway-node",
+      "category": "terminals",
+      "title": "Apollo Router Federation",
+      "default_theme": "dracula",
+      "file_path": "library/shapes/terminals/graphql-gateway-node.svg",
+      "markdown_embed": "![Apollo Router Federation](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/terminals/graphql-gateway-node.svg)"
+    },
+    {
+      "id": "ai-agent-memory-context",
+      "category": "terminals",
+      "title": "LLM Context Window HUD",
+      "default_theme": "cyberpunk_2077",
+      "file_path": "library/shapes/terminals/ai-agent-memory-context.svg",
+      "markdown_embed": "![LLM Context Window HUD](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/terminals/ai-agent-memory-context.svg)"
+    },
+    {
+      "id": "kemet-nile-terminal-zero",
+      "category": "terminals",
+      "title": "Kemet Nile Terminal Zero",
+      "default_theme": "kemet_nocturne",
+      "file_path": "library/shapes/terminals/kemet-nile-terminal-zero.svg",
+      "markdown_embed": "![Kemet Nile Terminal Zero](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/terminals/kemet-nile-terminal-zero.svg)"
+    },
+    {
+      "id": "nile-horizon-skyline",
+      "category": "skylines",
+      "title": "The Nile Horizon",
+      "default_theme": "kemet_nocturne",
+      "file_path": "library/shapes/skylines/nile-horizon-skyline.svg",
+      "markdown_embed": "![The Nile Horizon](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/skylines/nile-horizon-skyline.svg)"
+    },
+    {
+      "id": "cyberpunk-megacity-blocks",
+      "category": "skylines",
+      "title": "Night City Megablocks",
+      "default_theme": "cyberpunk_2077",
+      "file_path": "library/shapes/skylines/cyberpunk-megacity-blocks.svg",
+      "markdown_embed": "![Night City Megablocks](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/skylines/cyberpunk-megacity-blocks.svg)"
+    },
+    {
+      "id": "tokyo-audio-equalizer",
+      "category": "skylines",
+      "title": "Tokyo Club Equalizer",
+      "default_theme": "tokyo_night",
+      "file_path": "library/shapes/skylines/tokyo-audio-equalizer.svg",
+      "markdown_embed": "![Tokyo Club Equalizer](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/skylines/tokyo-audio-equalizer.svg)"
+    },
+    {
+      "id": "alpine-mountain-peaks",
+      "category": "skylines",
+      "title": "Alpine Glacial Ridge",
+      "default_theme": "nord_frost",
+      "file_path": "library/shapes/skylines/alpine-mountain-peaks.svg",
+      "markdown_embed": "![Alpine Glacial Ridge](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/skylines/alpine-mountain-peaks.svg)"
+    },
+    {
+      "id": "nordic-fjord-depths",
+      "category": "skylines",
+      "title": "Nordic Fjord Depth Sounding",
+      "default_theme": "nord_frost",
+      "file_path": "library/shapes/skylines/nordic-fjord-depths.svg",
+      "markdown_embed": "![Nordic Fjord Depth Sounding](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/skylines/nordic-fjord-depths.svg)"
+    },
+    {
+      "id": "audio-mastering-spectrogram",
+      "category": "skylines",
+      "title": "Studio Mastering Spectrum",
+      "default_theme": "monokai_pro",
+      "file_path": "library/shapes/skylines/audio-mastering-spectrogram.svg",
+      "markdown_embed": "![Studio Mastering Spectrum](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/skylines/audio-mastering-spectrogram.svg)"
+    },
+    {
+      "id": "binary-waterfall-stream",
+      "category": "skylines",
+      "title": "Matrix Binary Waterfall",
+      "default_theme": "emerald_matrix",
+      "file_path": "library/shapes/skylines/binary-waterfall-stream.svg",
+      "markdown_embed": "![Matrix Binary Waterfall](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/skylines/binary-waterfall-stream.svg)"
+    },
+    {
+      "id": "sine-wave-harmonic-stack",
+      "category": "skylines",
+      "title": "Harmonic Sine Oscillator",
+      "default_theme": "amber_crt",
+      "file_path": "library/shapes/skylines/sine-wave-harmonic-stack.svg",
+      "markdown_embed": "![Harmonic Sine Oscillator](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/skylines/sine-wave-harmonic-stack.svg)"
+    },
+    {
+      "id": "cosmic-constellation-chart",
+      "category": "skylines",
+      "title": "Cosmic Nebular Ridge",
+      "default_theme": "dracula",
+      "file_path": "library/shapes/skylines/cosmic-constellation-chart.svg",
+      "markdown_embed": "![Cosmic Nebular Ridge](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/skylines/cosmic-constellation-chart.svg)"
+    },
+    {
+      "id": "circuit-board-trace-horizon",
+      "category": "skylines",
+      "title": "PCB Logic Trace Skyline",
+      "default_theme": "emerald_matrix",
+      "file_path": "library/shapes/skylines/circuit-board-trace-horizon.svg",
+      "markdown_embed": "![PCB Logic Trace Skyline](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/skylines/circuit-board-trace-horizon.svg)"
+    },
+    {
+      "id": "dracula-transylvania-towers",
+      "category": "skylines",
+      "title": "Gothic Castle Spires",
+      "default_theme": "dracula",
+      "file_path": "library/shapes/skylines/dracula-transylvania-towers.svg",
+      "markdown_embed": "![Gothic Castle Spires](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/skylines/dracula-transylvania-towers.svg)"
+    },
+    {
+      "id": "monokai-matrix-waterfall",
+      "category": "skylines",
+      "title": "Monokai Syntax Cascade",
+      "default_theme": "monokai_pro",
+      "file_path": "library/shapes/skylines/monokai-matrix-waterfall.svg",
+      "markdown_embed": "![Monokai Syntax Cascade](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/skylines/monokai-matrix-waterfall.svg)"
+    },
+    {
+      "id": "pyramids-of-giza-silhouette",
+      "category": "skylines",
+      "title": "Pyramids of Giza Alignment",
+      "default_theme": "kemet_nocturne",
+      "file_path": "library/shapes/skylines/pyramids-of-giza-silhouette.svg",
+      "markdown_embed": "![Pyramids of Giza Alignment](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/skylines/pyramids-of-giza-silhouette.svg)"
+    },
+    {
+      "id": "cairo-tower-nightline",
+      "category": "skylines",
+      "title": "Cairo Corniche Nightline",
+      "default_theme": "kemet_nocturne",
+      "file_path": "library/shapes/skylines/cairo-tower-nightline.svg",
+      "markdown_embed": "![Cairo Corniche Nightline](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/skylines/cairo-tower-nightline.svg)"
+    },
+    {
+      "id": "manhattan-grid-skyline",
+      "category": "skylines",
+      "title": "Manhattan Highline Blocks",
+      "default_theme": "solarized_dark",
+      "file_path": "library/shapes/skylines/manhattan-grid-skyline.svg",
+      "markdown_embed": "![Manhattan Highline Blocks](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/skylines/manhattan-grid-skyline.svg)"
+    },
+    {
+      "id": "dubai-burj-horizon",
+      "category": "skylines",
+      "title": "Emirates Spire Ridge",
+      "default_theme": "kemet_nocturne",
+      "file_path": "library/shapes/skylines/dubai-burj-horizon.svg",
+      "markdown_embed": "![Emirates Spire Ridge](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/skylines/dubai-burj-horizon.svg)"
+    },
+    {
+      "id": "seattle-needle-fog",
+      "category": "skylines",
+      "title": "Cascadia Ridge Skyline",
+      "default_theme": "nord_frost",
+      "file_path": "library/shapes/skylines/seattle-needle-fog.svg",
+      "markdown_embed": "![Cascadia Ridge Skyline](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/skylines/seattle-needle-fog.svg)"
+    },
+    {
+      "id": "san-francisco-golden-gate",
+      "category": "skylines",
+      "title": "Pacific Bay Bridge Grid",
+      "default_theme": "amber_crt",
+      "file_path": "library/shapes/skylines/san-francisco-golden-gate.svg",
+      "markdown_embed": "![Pacific Bay Bridge Grid](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/skylines/san-francisco-golden-gate.svg)"
+    },
+    {
+      "id": "lunar-crater-elevation",
+      "category": "skylines",
+      "title": "Mare Tranquillitatis Rim",
+      "default_theme": "solarized_dark",
+      "file_path": "library/shapes/skylines/lunar-crater-elevation.svg",
+      "markdown_embed": "![Mare Tranquillitatis Rim](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/skylines/lunar-crater-elevation.svg)"
+    },
+    {
+      "id": "mars-olympus-mons-topography",
+      "category": "skylines",
+      "title": "Olympus Mons Topo Scan",
+      "default_theme": "amber_crt",
+      "file_path": "library/shapes/skylines/mars-olympus-mons-topography.svg",
+      "markdown_embed": "![Olympus Mons Topo Scan](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/skylines/mars-olympus-mons-topography.svg)"
+    },
+    {
+      "id": "deep-sea-trench-sonar",
+      "category": "skylines",
+      "title": "Mariana Trench Bathymetry",
+      "default_theme": "tokyo_night",
+      "file_path": "library/shapes/skylines/deep-sea-trench-sonar.svg",
+      "markdown_embed": "![Mariana Trench Bathymetry](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/skylines/deep-sea-trench-sonar.svg)"
+    },
+    {
+      "id": "neural-weight-distribution",
+      "category": "skylines",
+      "title": "Transformer Weight Histogram",
+      "default_theme": "cyberpunk_2077",
+      "file_path": "library/shapes/skylines/neural-weight-distribution.svg",
+      "markdown_embed": "![Transformer Weight Histogram](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/skylines/neural-weight-distribution.svg)"
+    },
+    {
+      "id": "pulse-code-modulation-grid",
+      "category": "skylines",
+      "title": "PCM Digital Modulation",
+      "default_theme": "monokai_pro",
+      "file_path": "library/shapes/skylines/pulse-code-modulation-grid.svg",
+      "markdown_embed": "![PCM Digital Modulation](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/skylines/pulse-code-modulation-grid.svg)"
+    },
+    {
+      "id": "heartbeat-ecg-rhythm",
+      "category": "skylines",
+      "title": "Biometric Pulse Rhythm",
+      "default_theme": "dracula",
+      "file_path": "library/shapes/skylines/heartbeat-ecg-rhythm.svg",
+      "markdown_embed": "![Biometric Pulse Rhythm](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/skylines/heartbeat-ecg-rhythm.svg)"
+    },
+    {
+      "id": "seismic-faultline-monitor",
+      "category": "skylines",
+      "title": "Richter Vector Faultline",
+      "default_theme": "amber_crt",
+      "file_path": "library/shapes/skylines/seismic-faultline-monitor.svg",
+      "markdown_embed": "![Richter Vector Faultline](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/skylines/seismic-faultline-monitor.svg)"
+    },
+    {
+      "id": "radio-telescope-signal",
+      "category": "skylines",
+      "title": "Arecibo SETI Beacon",
+      "default_theme": "rose_pine",
+      "file_path": "library/shapes/skylines/radio-telescope-signal.svg",
+      "markdown_embed": "![Arecibo SETI Beacon](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/skylines/radio-telescope-signal.svg)"
+    },
+    {
+      "id": "aurora-borealis-curtain",
+      "category": "skylines",
+      "title": "Aurora Magnetic Curtain",
+      "default_theme": "nord_frost",
+      "file_path": "library/shapes/skylines/aurora-borealis-curtain.svg",
+      "markdown_embed": "![Aurora Magnetic Curtain](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/skylines/aurora-borealis-curtain.svg)"
+    },
+    {
+      "id": "glitch-art-raster-horizon",
+      "category": "skylines",
+      "title": "CRT Raster Desync Scan",
+      "default_theme": "cyberpunk_2077",
+      "file_path": "library/shapes/skylines/glitch-art-raster-horizon.svg",
+      "markdown_embed": "![CRT Raster Desync Scan](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/skylines/glitch-art-raster-horizon.svg)"
+    },
+    {
+      "id": "low-poly-isometric-terrain",
+      "category": "skylines",
+      "title": "Low-Poly Elevation Map",
+      "default_theme": "solarized_dark",
+      "file_path": "library/shapes/skylines/low-poly-isometric-terrain.svg",
+      "markdown_embed": "![Low-Poly Elevation Map](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/skylines/low-poly-isometric-terrain.svg)"
+    },
+    {
+      "id": "quantum-probability-density",
+      "category": "skylines",
+      "title": "Schr\u00f6dinger Wave Packet",
+      "default_theme": "tokyo_night",
+      "file_path": "library/shapes/skylines/quantum-probability-density.svg",
+      "markdown_embed": "![Schr\u00f6dinger Wave Packet](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/skylines/quantum-probability-density.svg)"
+    },
+    {
+      "id": "fastmcp-agent-topology",
+      "category": "architectures",
+      "title": "FastMCP AI Agent Mesh",
+      "default_theme": "kemet_nocturne",
+      "file_path": "library/shapes/architectures/fastmcp-agent-topology.svg",
+      "markdown_embed": "![FastMCP AI Agent Mesh](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/architectures/fastmcp-agent-topology.svg)"
+    },
+    {
+      "id": "microservices-service-mesh",
+      "category": "architectures",
+      "title": "Istio Envoy Service Mesh",
+      "default_theme": "tokyo_night",
+      "file_path": "library/shapes/architectures/microservices-service-mesh.svg",
+      "markdown_embed": "![Istio Envoy Service Mesh](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/architectures/microservices-service-mesh.svg)"
+    },
+    {
+      "id": "raft-consensus-cluster",
+      "category": "architectures",
+      "title": "Raft Distributed Consensus",
+      "default_theme": "nord_frost",
+      "file_path": "library/shapes/architectures/raft-consensus-cluster.svg",
+      "markdown_embed": "![Raft Distributed Consensus](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/architectures/raft-consensus-cluster.svg)"
+    },
+    {
+      "id": "kafka-event-stream-pipeline",
+      "category": "architectures",
+      "title": "Kafka Event Bus Pipeline",
+      "default_theme": "monokai_pro",
+      "file_path": "library/shapes/architectures/kafka-event-stream-pipeline.svg",
+      "markdown_embed": "![Kafka Event Bus Pipeline](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/architectures/kafka-event-stream-pipeline.svg)"
+    },
+    {
+      "id": "nix-store-derivation-dag",
+      "category": "architectures",
+      "title": "Nix Store Derivation Graph",
+      "default_theme": "nord_frost",
+      "file_path": "library/shapes/architectures/nix-store-derivation-dag.svg",
+      "markdown_embed": "![Nix Store Derivation Graph](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/architectures/nix-store-derivation-dag.svg)"
+    },
+    {
+      "id": "kubernetes-ingress-controller",
+      "category": "architectures",
+      "title": "K8s Ingress & Pod Replica",
+      "default_theme": "dracula",
+      "file_path": "library/shapes/architectures/kubernetes-ingress-controller.svg",
+      "markdown_embed": "![K8s Ingress & Pod Replica](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/architectures/kubernetes-ingress-controller.svg)"
+    },
+    {
+      "id": "hexagonal-clean-architecture",
+      "category": "architectures",
+      "title": "Hexagonal Ports & Adapters",
+      "default_theme": "solarized_dark",
+      "file_path": "library/shapes/architectures/hexagonal-clean-architecture.svg",
+      "markdown_embed": "![Hexagonal Ports & Adapters](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/architectures/hexagonal-clean-architecture.svg)"
+    },
+    {
+      "id": "event-driven-cqrs-es",
+      "category": "architectures",
+      "title": "CQRS & Event Sourcing Store",
+      "default_theme": "cyberpunk_2077",
+      "file_path": "library/shapes/architectures/event-driven-cqrs-es.svg",
+      "markdown_embed": "![CQRS & Event Sourcing Store](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/architectures/event-driven-cqrs-es.svg)"
+    },
+    {
+      "id": "zero-trust-auth-guard",
+      "category": "architectures",
+      "title": "Zero-Trust Session Guard",
+      "default_theme": "kemet_nocturne",
+      "file_path": "library/shapes/architectures/zero-trust-auth-guard.svg",
+      "markdown_embed": "![Zero-Trust Session Guard](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/architectures/zero-trust-auth-guard.svg)"
+    },
+    {
+      "id": "graphql-federation-mesh",
+      "category": "architectures",
+      "title": "Apollo Federation Supergraph",
+      "default_theme": "dracula",
+      "file_path": "library/shapes/architectures/graphql-federation-mesh.svg",
+      "markdown_embed": "![Apollo Federation Supergraph](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/architectures/graphql-federation-mesh.svg)"
+    },
+    {
+      "id": "redis-cluster-sharding",
+      "category": "architectures",
+      "title": "Redis Cluster Slot Hash",
+      "default_theme": "amber_crt",
+      "file_path": "library/shapes/architectures/redis-cluster-sharding.svg",
+      "markdown_embed": "![Redis Cluster Slot Hash](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/architectures/redis-cluster-sharding.svg)"
+    },
+    {
+      "id": "postgresql-wal-replication",
+      "category": "architectures",
+      "title": "PostgreSQL Streaming WAL",
+      "default_theme": "solarized_dark",
+      "file_path": "library/shapes/architectures/postgresql-wal-replication.svg",
+      "markdown_embed": "![PostgreSQL Streaming WAL](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/architectures/postgresql-wal-replication.svg)"
+    },
+    {
+      "id": "distributed-tracing-jaeger",
+      "category": "architectures",
+      "title": "OpenTelemetry Trace Span",
+      "default_theme": "tokyo_night",
+      "file_path": "library/shapes/architectures/distributed-tracing-jaeger.svg",
+      "markdown_embed": "![OpenTelemetry Trace Span](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/architectures/distributed-tracing-jaeger.svg)"
+    },
+    {
+      "id": "websocket-realtime-pubsub",
+      "category": "architectures",
+      "title": "WebSockets Realtime Engine",
+      "default_theme": "emerald_matrix",
+      "file_path": "library/shapes/architectures/websocket-realtime-pubsub.svg",
+      "markdown_embed": "![WebSockets Realtime Engine](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/architectures/websocket-realtime-pubsub.svg)"
+    },
+    {
+      "id": "lambda-serverless-pipeline",
+      "category": "architectures",
+      "title": "Event-Driven Serverless Flow",
+      "default_theme": "amber_crt",
+      "file_path": "library/shapes/architectures/lambda-serverless-pipeline.svg",
+      "markdown_embed": "![Event-Driven Serverless Flow](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/architectures/lambda-serverless-pipeline.svg)"
+    },
+    {
+      "id": "ci-cd-github-actions-pipeline",
+      "category": "architectures",
+      "title": "Hermetic CI/CD Build Matrix",
+      "default_theme": "nord_frost",
+      "file_path": "library/shapes/architectures/ci-cd-github-actions-pipeline.svg",
+      "markdown_embed": "![Hermetic CI/CD Build Matrix](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/architectures/ci-cd-github-actions-pipeline.svg)"
+    },
+    {
+      "id": "rag-vector-search-flow",
+      "category": "architectures",
+      "title": "RAG Embedding & Retrieval",
+      "default_theme": "cyberpunk_2077",
+      "file_path": "library/shapes/architectures/rag-vector-search-flow.svg",
+      "markdown_embed": "![RAG Embedding & Retrieval](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/architectures/rag-vector-search-flow.svg)"
+    },
+    {
+      "id": "neural-llm-inference-pipeline",
+      "category": "architectures",
+      "title": "PagedAttention vLLM Serving",
+      "default_theme": "monokai_pro",
+      "file_path": "library/shapes/architectures/neural-llm-inference-pipeline.svg",
+      "markdown_embed": "![PagedAttention vLLM Serving](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/architectures/neural-llm-inference-pipeline.svg)"
+    },
+    {
+      "id": "multi-tenant-isolation-tier",
+      "category": "architectures",
+      "title": "Multi-Tenant Row Level DB",
+      "default_theme": "rose_pine",
+      "file_path": "library/shapes/architectures/multi-tenant-isolation-tier.svg",
+      "markdown_embed": "![Multi-Tenant Row Level DB](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/architectures/multi-tenant-isolation-tier.svg)"
+    },
+    {
+      "id": "p2p-libp2p-dht-network",
+      "category": "architectures",
+      "title": "libp2p Kademlia DHT Net",
+      "default_theme": "emerald_matrix",
+      "file_path": "library/shapes/architectures/p2p-libp2p-dht-network.svg",
+      "markdown_embed": "![libp2p Kademlia DHT Net](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/architectures/p2p-libp2p-dht-network.svg)"
+    },
+    {
+      "id": "edge-cdn-caching-layer",
+      "category": "architectures",
+      "title": "Edge Anycast Stale-While-Reval",
+      "default_theme": "solarized_dark",
+      "file_path": "library/shapes/architectures/edge-cdn-caching-layer.svg",
+      "markdown_embed": "![Edge Anycast Stale-While-Reval](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/architectures/edge-cdn-caching-layer.svg)"
+    },
+    {
+      "id": "oauth2-oidc-pkce-flow",
+      "category": "architectures",
+      "title": "OAuth 2.1 PKCE Auth State",
+      "default_theme": "kemet_nocturne",
+      "file_path": "library/shapes/architectures/oauth2-oidc-pkce-flow.svg",
+      "markdown_embed": "![OAuth 2.1 PKCE Auth State](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/architectures/oauth2-oidc-pkce-flow.svg)"
+    },
+    {
+      "id": "saga-distributed-transactions",
+      "category": "architectures",
+      "title": "Temporal Orchestrated Saga",
+      "default_theme": "tokyo_night",
+      "file_path": "library/shapes/architectures/saga-distributed-transactions.svg",
+      "markdown_embed": "![Temporal Orchestrated Saga](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/architectures/saga-distributed-transactions.svg)"
+    },
+    {
+      "id": "outbox-pattern-broker",
+      "category": "architectures",
+      "title": "Transactional Outbox Pattern",
+      "default_theme": "dracula",
+      "file_path": "library/shapes/architectures/outbox-pattern-broker.svg",
+      "markdown_embed": "![Transactional Outbox Pattern](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/architectures/outbox-pattern-broker.svg)"
+    },
+    {
+      "id": "circuit-breaker-resilience",
+      "category": "architectures",
+      "title": "Resilience4j State Machine",
+      "default_theme": "amber_crt",
+      "file_path": "library/shapes/architectures/circuit-breaker-resilience.svg",
+      "markdown_embed": "![Resilience4j State Machine](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/architectures/circuit-breaker-resilience.svg)"
+    },
+    {
+      "id": "api-gateway-rate-limiter",
+      "category": "architectures",
+      "title": "Token Bucket Rate Limiter",
+      "default_theme": "cyberpunk_2077",
+      "file_path": "library/shapes/architectures/api-gateway-rate-limiter.svg",
+      "markdown_embed": "![Token Bucket Rate Limiter](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/architectures/api-gateway-rate-limiter.svg)"
+    },
+    {
+      "id": "lakehouse-iceberg-catalog",
+      "category": "architectures",
+      "title": "Apache Iceberg Lakehouse",
+      "default_theme": "nord_frost",
+      "file_path": "library/shapes/architectures/lakehouse-iceberg-catalog.svg",
+      "markdown_embed": "![Apache Iceberg Lakehouse](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/architectures/lakehouse-iceberg-catalog.svg)"
+    },
+    {
+      "id": "observability-prometheus-grafana",
+      "category": "architectures",
+      "title": "Prometheus Scraping Target",
+      "default_theme": "amber_crt",
+      "file_path": "library/shapes/architectures/observability-prometheus-grafana.svg",
+      "markdown_embed": "![Prometheus Scraping Target](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/architectures/observability-prometheus-grafana.svg)"
+    },
+    {
+      "id": "etcd-key-value-quorum",
+      "category": "architectures",
+      "title": "etcd B+Tree Quorum Engine",
+      "default_theme": "monokai_pro",
+      "file_path": "library/shapes/architectures/etcd-key-value-quorum.svg",
+      "markdown_embed": "![etcd B+Tree Quorum Engine](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/architectures/etcd-key-value-quorum.svg)"
+    },
+    {
+      "id": "nextjs-app-router-rsc-flow",
+      "category": "architectures",
+      "title": "Next.js RSC Wire Protocol",
+      "default_theme": "kemet_nocturne",
+      "file_path": "library/shapes/architectures/nextjs-app-router-rsc-flow.svg",
+      "markdown_embed": "![Next.js RSC Wire Protocol](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/architectures/nextjs-app-router-rsc-flow.svg)"
+    },
+    {
+      "id": "embedded-sqlite-vfs-layer",
+      "category": "architectures",
+      "title": "SQLite WAL & VFS Subsystem",
+      "default_theme": "solarized_dark",
+      "file_path": "library/shapes/architectures/embedded-sqlite-vfs-layer.svg",
+      "markdown_embed": "![SQLite WAL & VFS Subsystem](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/architectures/embedded-sqlite-vfs-layer.svg)"
+    },
+    {
+      "id": "secure-enclave-crypto-kms",
+      "category": "architectures",
+      "title": "AWS Nitro Enclave KMS",
+      "default_theme": "nord_frost",
+      "file_path": "library/shapes/architectures/secure-enclave-crypto-kms.svg",
+      "markdown_embed": "![AWS Nitro Enclave KMS](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/architectures/secure-enclave-crypto-kms.svg)"
+    },
+    {
+      "id": "dns-anycast-routing-tree",
+      "category": "architectures",
+      "title": "BGP Anycast Geo-DNS Tree",
+      "default_theme": "rose_pine",
+      "file_path": "library/shapes/architectures/dns-anycast-routing-tree.svg",
+      "markdown_embed": "![BGP Anycast Geo-DNS Tree](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/architectures/dns-anycast-routing-tree.svg)"
+    },
+    {
+      "id": "webrtc-peer-mesh-signaling",
+      "category": "architectures",
+      "title": "WebRTC ICE & DTLS-SRTP Mesh",
+      "default_theme": "tokyo_night",
+      "file_path": "library/shapes/architectures/webrtc-peer-mesh-signaling.svg",
+      "markdown_embed": "![WebRTC ICE & DTLS-SRTP Mesh](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/architectures/webrtc-peer-mesh-signaling.svg)"
+    },
+    {
+      "id": "kemet-deterministic-engine",
+      "category": "architectures",
+      "title": "Kemet Deterministic Core",
+      "default_theme": "kemet_nocturne",
+      "file_path": "library/shapes/architectures/kemet-deterministic-engine.svg",
+      "markdown_embed": "![Kemet Deterministic Core](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/architectures/kemet-deterministic-engine.svg)"
+    },
+    {
+      "id": "now-building-reactor-core",
+      "category": "badges",
+      "title": "Now Building: Core Engine",
+      "default_theme": "kemet_nocturne",
+      "file_path": "library/shapes/badges/now-building-reactor-core.svg",
+      "markdown_embed": "![Now Building: Core Engine](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/badges/now-building-reactor-core.svg)"
+    },
+    {
+      "id": "cyberpunk-hud-target-lock",
+      "category": "badges",
+      "title": "Cyberpunk HUD Target Lock",
+      "default_theme": "cyberpunk_2077",
+      "file_path": "library/shapes/badges/cyberpunk-hud-target-lock.svg",
+      "markdown_embed": "![Cyberpunk HUD Target Lock](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/badges/cyberpunk-hud-target-lock.svg)"
+    },
+    {
+      "id": "satellite-orbital-uplink",
+      "category": "badges",
+      "title": "Satellite Orbital Uplink",
+      "default_theme": "nord_frost",
+      "file_path": "library/shapes/badges/satellite-orbital-uplink.svg",
+      "markdown_embed": "![Satellite Orbital Uplink](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/badges/satellite-orbital-uplink.svg)"
+    },
+    {
+      "id": "glass-pill-active-status",
+      "category": "badges",
+      "title": "Glass Pill Active Status",
+      "default_theme": "rose_pine",
+      "file_path": "library/shapes/badges/glass-pill-active-status.svg",
+      "markdown_embed": "![Glass Pill Active Status](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/badges/glass-pill-active-status.svg)"
+    },
+    {
+      "id": "brutalist-solid-badge",
+      "category": "badges",
+      "title": "Brutalist Mono Badge",
+      "default_theme": "solarized_dark",
+      "file_path": "library/shapes/badges/brutalist-solid-badge.svg",
+      "markdown_embed": "![Brutalist Mono Badge](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/badges/brutalist-solid-badge.svg)"
+    },
+    {
+      "id": "neon-pulse-live-indicator",
+      "category": "badges",
+      "title": "Neon Pulse Live Indicator",
+      "default_theme": "tokyo_night",
+      "file_path": "library/shapes/badges/neon-pulse-live-indicator.svg",
+      "markdown_embed": "![Neon Pulse Live Indicator](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/badges/neon-pulse-live-indicator.svg)"
+    },
+    {
+      "id": "terminal-prompt-pill",
+      "category": "badges",
+      "title": "Terminal Prompt Pill",
+      "default_theme": "monokai_pro",
+      "file_path": "library/shapes/badges/terminal-prompt-pill.svg",
+      "markdown_embed": "![Terminal Prompt Pill](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/badges/terminal-prompt-pill.svg)"
+    },
+    {
+      "id": "docker-healthy-container",
+      "category": "badges",
+      "title": "Docker Container Health",
+      "default_theme": "emerald_matrix",
+      "file_path": "library/shapes/badges/docker-healthy-container.svg",
+      "markdown_embed": "![Docker Container Health](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/badges/docker-healthy-container.svg)"
+    },
+    {
+      "id": "github-actions-pass-shield",
+      "category": "badges",
+      "title": "CI Matrix Pass Shield",
+      "default_theme": "nord_frost",
+      "file_path": "library/shapes/badges/github-actions-pass-shield.svg",
+      "markdown_embed": "![CI Matrix Pass Shield](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/badges/github-actions-pass-shield.svg)"
+    },
+    {
+      "id": "nix-deterministic-pill",
+      "category": "badges",
+      "title": "Nix Flake Hash Pin",
+      "default_theme": "nord_frost",
+      "file_path": "library/shapes/badges/nix-deterministic-pill.svg",
+      "markdown_embed": "![Nix Flake Hash Pin](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/badges/nix-deterministic-pill.svg)"
+    },
+    {
+      "id": "uptime-99-99-sla-badge",
+      "category": "badges",
+      "title": "99.99% SLA Uptime Badge",
+      "default_theme": "emerald_matrix",
+      "file_path": "library/shapes/badges/uptime-99-99-sla-badge.svg",
+      "markdown_embed": "![99.99% SLA Uptime Badge](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/badges/uptime-99-99-sla-badge.svg)"
+    },
+    {
+      "id": "zero-vulnerability-audit",
+      "category": "badges",
+      "title": "Zero Vulnerability Audit",
+      "default_theme": "dracula",
+      "file_path": "library/shapes/badges/zero-vulnerability-audit.svg",
+      "markdown_embed": "![Zero Vulnerability Audit](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/badges/zero-vulnerability-audit.svg)"
+    },
+    {
+      "id": "cairo-gmt-plus-3-clock",
+      "category": "badges",
+      "title": "Cairo Workstation Time",
+      "default_theme": "kemet_nocturne",
+      "file_path": "library/shapes/badges/cairo-gmt-plus-3-clock.svg",
+      "markdown_embed": "![Cairo Workstation Time](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/badges/cairo-gmt-plus-3-clock.svg)"
+    },
+    {
+      "id": "open-source-sponsor-tier",
+      "category": "badges",
+      "title": "GitHub Sponsors Tier",
+      "default_theme": "rose_pine",
+      "file_path": "library/shapes/badges/open-source-sponsor-tier.svg",
+      "markdown_embed": "![GitHub Sponsors Tier](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/badges/open-source-sponsor-tier.svg)"
+    },
+    {
+      "id": "security-shield-a-plus",
+      "category": "badges",
+      "title": "Mozilla Observatory A+",
+      "default_theme": "nord_frost",
+      "file_path": "library/shapes/badges/security-shield-a-plus.svg",
+      "markdown_embed": "![Mozilla Observatory A+](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/badges/security-shield-a-plus.svg)"
+    },
+    {
+      "id": "type-safe-strict-guard",
+      "category": "badges",
+      "title": "TypeScript Strict Mode",
+      "default_theme": "solarized_dark",
+      "file_path": "library/shapes/badges/type-safe-strict-guard.svg",
+      "markdown_embed": "![TypeScript Strict Mode](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/badges/type-safe-strict-guard.svg)"
+    },
+    {
+      "id": "latency-sub-5ms-badge",
+      "category": "badges",
+      "title": "Sub-5ms Edge Latency",
+      "default_theme": "tokyo_night",
+      "file_path": "library/shapes/badges/latency-sub-5ms-badge.svg",
+      "markdown_embed": "![Sub-5ms Edge Latency](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/badges/latency-sub-5ms-badge.svg)"
+    },
+    {
+      "id": "fastmcp-ai-tool-certified",
+      "category": "badges",
+      "title": "FastMCP AI Protocol Ready",
+      "default_theme": "kemet_nocturne",
+      "file_path": "library/shapes/badges/fastmcp-ai-tool-certified.svg",
+      "markdown_embed": "![FastMCP AI Protocol Ready](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/badges/fastmcp-ai-tool-certified.svg)"
+    },
+    {
+      "id": "dual-license-mit-apache",
+      "category": "badges",
+      "title": "Dual License MIT / Apache",
+      "default_theme": "amber_crt",
+      "file_path": "library/shapes/badges/dual-license-mit-apache.svg",
+      "markdown_embed": "![Dual License MIT / Apache](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/badges/dual-license-mit-apache.svg)"
+    },
+    {
+      "id": "carbon-neutral-compute",
+      "category": "badges",
+      "title": "100% Carbon Neutral Compute",
+      "default_theme": "emerald_matrix",
+      "file_path": "library/shapes/badges/carbon-neutral-compute.svg",
+      "markdown_embed": "![100% Carbon Neutral Compute](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/badges/carbon-neutral-compute.svg)"
+    },
+    {
+      "id": "code-coverage-100-badge",
+      "category": "badges",
+      "title": "Code Coverage 100% Suite",
+      "default_theme": "dracula",
+      "file_path": "library/shapes/badges/code-coverage-100-badge.svg",
+      "markdown_embed": "![Code Coverage 100% Suite](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/badges/code-coverage-100-badge.svg)"
+    },
+    {
+      "id": "git-branch-main-protected",
+      "category": "badges",
+      "title": "Branch Protection Strict",
+      "default_theme": "solarized_dark",
+      "file_path": "library/shapes/badges/git-branch-main-protected.svg",
+      "markdown_embed": "![Branch Protection Strict](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/badges/git-branch-main-protected.svg)"
+    },
+    {
+      "id": "sha256-verified-binary",
+      "category": "badges",
+      "title": "Cosign SHA256 Sigstore",
+      "default_theme": "nord_frost",
+      "file_path": "library/shapes/badges/sha256-verified-binary.svg",
+      "markdown_embed": "![Cosign SHA256 Sigstore](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/badges/sha256-verified-binary.svg)"
+    },
+    {
+      "id": "rust-zero-cost-badge",
+      "category": "badges",
+      "title": "Rust Zero-Cost Abstraction",
+      "default_theme": "amber_crt",
+      "file_path": "library/shapes/badges/rust-zero-cost-badge.svg",
+      "markdown_embed": "![Rust Zero-Cost Abstraction](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/badges/rust-zero-cost-badge.svg)"
+    },
+    {
+      "id": "grpc-http3-quic-badge",
+      "category": "badges",
+      "title": "HTTP/3 QUIC Protocol",
+      "default_theme": "tokyo_night",
+      "file_path": "library/shapes/badges/grpc-http3-quic-badge.svg",
+      "markdown_embed": "![HTTP/3 QUIC Protocol](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/badges/grpc-http3-quic-badge.svg)"
+    },
+    {
+      "id": "edge-worker-active",
+      "category": "badges",
+      "title": "Cloudflare Edge V8 Worker",
+      "default_theme": "amber_crt",
+      "file_path": "library/shapes/badges/edge-worker-active.svg",
+      "markdown_embed": "![Cloudflare Edge V8 Worker](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/badges/edge-worker-active.svg)"
+    },
+    {
+      "id": "battery-charge-100-hud",
+      "category": "badges",
+      "title": "Energy Storage HUD",
+      "default_theme": "emerald_matrix",
+      "file_path": "library/shapes/badges/battery-charge-100-hud.svg",
+      "markdown_embed": "![Energy Storage HUD](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/badges/battery-charge-100-hud.svg)"
+    },
+    {
+      "id": "cpu-frequency-turbo-pill",
+      "category": "badges",
+      "title": "CPU Turbo Boost 5.4 GHz",
+      "default_theme": "cyberpunk_2077",
+      "file_path": "library/shapes/badges/cpu-frequency-turbo-pill.svg",
+      "markdown_embed": "![CPU Turbo Boost 5.4 GHz](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/badges/cpu-frequency-turbo-pill.svg)"
+    },
+    {
+      "id": "ram-ecc-verified-badge",
+      "category": "badges",
+      "title": "ECC Memory Bitflip Guard",
+      "default_theme": "nord_frost",
+      "file_path": "library/shapes/badges/ram-ecc-verified-badge.svg",
+      "markdown_embed": "![ECC Memory Bitflip Guard](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/badges/ram-ecc-verified-badge.svg)"
+    },
+    {
+      "id": "dark-mode-native-toggle",
+      "category": "badges",
+      "title": "Native CSS prefers-color",
+      "default_theme": "monokai_pro",
+      "file_path": "library/shapes/badges/dark-mode-native-toggle.svg",
+      "markdown_embed": "![Native CSS prefers-color](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/badges/dark-mode-native-toggle.svg)"
+    },
+    {
+      "id": "system-team-lead-crest",
+      "category": "badges",
+      "title": "Technical Team Lead Crest",
+      "default_theme": "kemet_nocturne",
+      "file_path": "library/shapes/badges/system-team-lead-crest.svg",
+      "markdown_embed": "![Technical Team Lead Crest](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/badges/system-team-lead-crest.svg)"
+    },
+    {
+      "id": "kemet-pharaonic-seal",
+      "category": "badges",
+      "title": "Pharaonic Horus Eye Seal",
+      "default_theme": "kemet_nocturne",
+      "file_path": "library/shapes/badges/kemet-pharaonic-seal.svg",
+      "markdown_embed": "![Pharaonic Horus Eye Seal](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/badges/kemet-pharaonic-seal.svg)"
+    },
+    {
+      "id": "high-availability-active",
+      "category": "badges",
+      "title": "Multi-Region HA Active",
+      "default_theme": "dracula",
+      "file_path": "library/shapes/badges/high-availability-active.svg",
+      "markdown_embed": "![Multi-Region HA Active](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/badges/high-availability-active.svg)"
+    },
+    {
+      "id": "immutable-root-fs-pill",
+      "category": "badges",
+      "title": "Immutable Read-Only RootFS",
+      "default_theme": "solarized_dark",
+      "file_path": "library/shapes/badges/immutable-root-fs-pill.svg",
+      "markdown_embed": "![Immutable Read-Only RootFS](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/badges/immutable-root-fs-pill.svg)"
+    },
+    {
+      "id": "warp-drive-online-hud",
+      "category": "badges",
+      "title": "Warp Drive Subspace HUD",
+      "default_theme": "cyberpunk_2077",
+      "file_path": "library/shapes/badges/warp-drive-online-hud.svg",
+      "markdown_embed": "![Warp Drive Subspace HUD](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/badges/warp-drive-online-hud.svg)"
+    },
+    {
+      "id": "glass-bento-repo-card",
+      "category": "repo_cards",
+      "title": "Glass Bento Repo Card",
+      "default_theme": "kemet_nocturne",
+      "file_path": "library/shapes/repo_cards/glass-bento-repo-card.svg",
+      "markdown_embed": "![Glass Bento Repo Card](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/repo_cards/glass-bento-repo-card.svg)"
+    },
+    {
+      "id": "cyber-outline-nixmanager",
+      "category": "repo_cards",
+      "title": "Cyber Outline Card",
+      "default_theme": "cyberpunk_2077",
+      "file_path": "library/shapes/repo_cards/cyber-outline-nixmanager.svg",
+      "markdown_embed": "![Cyber Outline Card](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/repo_cards/cyber-outline-nixmanager.svg)"
+    },
+    {
+      "id": "terminal-box-sessionguard",
+      "category": "repo_cards",
+      "title": "Terminal Box Code Card",
+      "default_theme": "nord_frost",
+      "file_path": "library/shapes/repo_cards/terminal-box-sessionguard.svg",
+      "markdown_embed": "![Terminal Box Code Card](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/repo_cards/terminal-box-sessionguard.svg)"
+    },
+    {
+      "id": "gradient-glow-smart-sync",
+      "category": "repo_cards",
+      "title": "Gradient Glow Bento Card",
+      "default_theme": "tokyo_night",
+      "file_path": "library/shapes/repo_cards/gradient-glow-smart-sync.svg",
+      "markdown_embed": "![Gradient Glow Bento Card](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/repo_cards/gradient-glow-smart-sync.svg)"
+    },
+    {
+      "id": "clean-minimal-portfolio",
+      "category": "repo_cards",
+      "title": "Clean Minimalist Mono Card",
+      "default_theme": "solarized_dark",
+      "file_path": "library/shapes/repo_cards/clean-minimal-portfolio.svg",
+      "markdown_embed": "![Clean Minimalist Mono Card](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/repo_cards/clean-minimal-portfolio.svg)"
+    },
+    {
+      "id": "deep-glass-fastmcp-tools",
+      "category": "repo_cards",
+      "title": "Deep Glass Frosted Card",
+      "default_theme": "dracula",
+      "file_path": "library/shapes/repo_cards/deep-glass-fastmcp-tools.svg",
+      "markdown_embed": "![Deep Glass Frosted Card](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/repo_cards/deep-glass-fastmcp-tools.svg)"
+    },
+    {
+      "id": "bordered-beam-next-kit",
+      "category": "repo_cards",
+      "title": "Bordered Beam Highlight Card",
+      "default_theme": "monokai_pro",
+      "file_path": "library/shapes/repo_cards/bordered-beam-next-kit.svg",
+      "markdown_embed": "![Bordered Beam Highlight Card](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/repo_cards/bordered-beam-next-kit.svg)"
+    },
+    {
+      "id": "monokai-ide-code-card",
+      "category": "repo_cards",
+      "title": "Monokai Syntax Card",
+      "default_theme": "monokai_pro",
+      "file_path": "library/shapes/repo_cards/monokai-ide-code-card.svg",
+      "markdown_embed": "![Monokai Syntax Card](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/repo_cards/monokai-ide-code-card.svg)"
+    },
+    {
+      "id": "dracula-shadow-card",
+      "category": "repo_cards",
+      "title": "Dracula Cast Shadow Card",
+      "default_theme": "dracula",
+      "file_path": "library/shapes/repo_cards/dracula-shadow-card.svg",
+      "markdown_embed": "![Dracula Cast Shadow Card](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/repo_cards/dracula-shadow-card.svg)"
+    },
+    {
+      "id": "tokyo-night-glass-box",
+      "category": "repo_cards",
+      "title": "Tokyo Night Glass Container",
+      "default_theme": "tokyo_night",
+      "file_path": "library/shapes/repo_cards/tokyo-night-glass-box.svg",
+      "markdown_embed": "![Tokyo Night Glass Container](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/repo_cards/tokyo-night-glass-box.svg)"
+    },
+    {
+      "id": "nordic-frost-bento-tile",
+      "category": "repo_cards",
+      "title": "Nordic Frost Bento Tile",
+      "default_theme": "nord_frost",
+      "file_path": "library/shapes/repo_cards/nordic-frost-bento-tile.svg",
+      "markdown_embed": "![Nordic Frost Bento Tile](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/repo_cards/nordic-frost-bento-tile.svg)"
+    },
+    {
+      "id": "matrix-terminal-card",
+      "category": "repo_cards",
+      "title": "Matrix Terminal Green Card",
+      "default_theme": "emerald_matrix",
+      "file_path": "library/shapes/repo_cards/matrix-terminal-card.svg",
+      "markdown_embed": "![Matrix Terminal Green Card](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/repo_cards/matrix-terminal-card.svg)"
+    },
+    {
+      "id": "amber-crt-vintage-card",
+      "category": "repo_cards",
+      "title": "Amber CRT Heritage Card",
+      "default_theme": "amber_crt",
+      "file_path": "library/shapes/repo_cards/amber-crt-vintage-card.svg",
+      "markdown_embed": "![Amber CRT Heritage Card](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/repo_cards/amber-crt-vintage-card.svg)"
+    },
+    {
+      "id": "rose-pine-minimal-tile",
+      "category": "repo_cards",
+      "title": "Ros\u00e9 Pine Minimal Tile",
+      "default_theme": "rose_pine",
+      "file_path": "library/shapes/repo_cards/rose-pine-minimal-tile.svg",
+      "markdown_embed": "![Ros\u00e9 Pine Minimal Tile](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/repo_cards/rose-pine-minimal-tile.svg)"
+    },
+    {
+      "id": "solarized-contrast-box",
+      "category": "repo_cards",
+      "title": "Solarized High-Contrast Box",
+      "default_theme": "solarized_dark",
+      "file_path": "library/shapes/repo_cards/solarized-contrast-box.svg",
+      "markdown_embed": "![Solarized High-Contrast Box](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/repo_cards/solarized-contrast-box.svg)"
+    },
+    {
+      "id": "brutalist-mono-black",
+      "category": "repo_cards",
+      "title": "Brutalist Mono Card",
+      "default_theme": "kemet_nocturne",
+      "file_path": "library/shapes/repo_cards/brutalist-mono-black.svg",
+      "markdown_embed": "![Brutalist Mono Card](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/repo_cards/brutalist-mono-black.svg)"
+    },
+    {
+      "id": "holographic-edge-card",
+      "category": "repo_cards",
+      "title": "Holographic Edge Card",
+      "default_theme": "cyberpunk_2077",
+      "file_path": "library/shapes/repo_cards/holographic-edge-card.svg",
+      "markdown_embed": "![Holographic Edge Card](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/repo_cards/holographic-edge-card.svg)"
+    },
+    {
+      "id": "chamfered-cyber-card",
+      "category": "repo_cards",
+      "title": "Chamfered Cyber Deck Card",
+      "default_theme": "cyberpunk_2077",
+      "file_path": "library/shapes/repo_cards/chamfered-cyber-card.svg",
+      "markdown_embed": "![Chamfered Cyber Deck Card](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/repo_cards/chamfered-cyber-card.svg)"
+    },
+    {
+      "id": "circuit-traced-card",
+      "category": "repo_cards",
+      "title": "Circuit Traced Bento Card",
+      "default_theme": "emerald_matrix",
+      "file_path": "library/shapes/repo_cards/circuit-traced-card.svg",
+      "markdown_embed": "![Circuit Traced Bento Card](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/repo_cards/circuit-traced-card.svg)"
+    },
+    {
+      "id": "floating-glass-card",
+      "category": "repo_cards",
+      "title": "Floating Glass Acrylic Card",
+      "default_theme": "rose_pine",
+      "file_path": "library/shapes/repo_cards/floating-glass-card.svg",
+      "markdown_embed": "![Floating Glass Acrylic Card](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/repo_cards/floating-glass-card.svg)"
+    },
+    {
+      "id": "double-border-accent",
+      "category": "repo_cards",
+      "title": "Double Border Accent Card",
+      "default_theme": "monokai_pro",
+      "file_path": "library/shapes/repo_cards/double-border-accent.svg",
+      "markdown_embed": "![Double Border Accent Card](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/repo_cards/double-border-accent.svg)"
+    },
+    {
+      "id": "kemet-hieroglyph-bento",
+      "category": "repo_cards",
+      "title": "Kemet Hieroglyphic Bento",
+      "default_theme": "kemet_nocturne",
+      "file_path": "library/shapes/repo_cards/kemet-hieroglyph-bento.svg",
+      "markdown_embed": "![Kemet Hieroglyphic Bento](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/repo_cards/kemet-hieroglyph-bento.svg)"
+    },
+    {
+      "id": "radar-swept-repo-card",
+      "category": "repo_cards",
+      "title": "Radar Swept Defense Card",
+      "default_theme": "tokyo_night",
+      "file_path": "library/shapes/repo_cards/radar-swept-repo-card.svg",
+      "markdown_embed": "![Radar Swept Defense Card](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/repo_cards/radar-swept-repo-card.svg)"
+    },
+    {
+      "id": "split-gradient-card",
+      "category": "repo_cards",
+      "title": "Split Gradient Bento Card",
+      "default_theme": "dracula",
+      "file_path": "library/shapes/repo_cards/split-gradient-card.svg",
+      "markdown_embed": "![Split Gradient Bento Card](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/repo_cards/split-gradient-card.svg)"
+    },
+    {
+      "id": "code-diff-preview-card",
+      "category": "repo_cards",
+      "title": "Code Diff Review Card",
+      "default_theme": "solarized_dark",
+      "file_path": "library/shapes/repo_cards/code-diff-preview-card.svg",
+      "markdown_embed": "![Code Diff Review Card](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/repo_cards/code-diff-preview-card.svg)"
+    },
+    {
+      "id": "astrolabe-corner-card",
+      "category": "repo_cards",
+      "title": "Astrolabe Corner Card",
+      "default_theme": "kemet_nocturne",
+      "file_path": "library/shapes/repo_cards/astrolabe-corner-card.svg",
+      "markdown_embed": "![Astrolabe Corner Card](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/repo_cards/astrolabe-corner-card.svg)"
+    },
+    {
+      "id": "isometric-shadow-card",
+      "category": "repo_cards",
+      "title": "Isometric Shadow Card",
+      "default_theme": "nord_frost",
+      "file_path": "library/shapes/repo_cards/isometric-shadow-card.svg",
+      "markdown_embed": "![Isometric Shadow Card](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/repo_cards/isometric-shadow-card.svg)"
+    },
+    {
+      "id": "neon-underglow-card",
+      "category": "repo_cards",
+      "title": "Neon Underglow Card",
+      "default_theme": "cyberpunk_2077",
+      "file_path": "library/shapes/repo_cards/neon-underglow-card.svg",
+      "markdown_embed": "![Neon Underglow Card](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/repo_cards/neon-underglow-card.svg)"
+    },
+    {
+      "id": "dotted-grid-blueprint",
+      "category": "repo_cards",
+      "title": "Dotted Blueprint Card",
+      "default_theme": "solarized_dark",
+      "file_path": "library/shapes/repo_cards/dotted-grid-blueprint.svg",
+      "markdown_embed": "![Dotted Blueprint Card](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/repo_cards/dotted-grid-blueprint.svg)"
+    },
+    {
+      "id": "striped-caution-card",
+      "category": "repo_cards",
+      "title": "Caution Stripe Warning Card",
+      "default_theme": "amber_crt",
+      "file_path": "library/shapes/repo_cards/striped-caution-card.svg",
+      "markdown_embed": "![Caution Stripe Warning Card](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/repo_cards/striped-caution-card.svg)"
+    },
+    {
+      "id": "metallic-chrome-sheen",
+      "category": "repo_cards",
+      "title": "Metallic Chrome Sheen Card",
+      "default_theme": "nord_frost",
+      "file_path": "library/shapes/repo_cards/metallic-chrome-sheen.svg",
+      "markdown_embed": "![Metallic Chrome Sheen Card](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/repo_cards/metallic-chrome-sheen.svg)"
+    },
+    {
+      "id": "quantum-dot-card",
+      "category": "repo_cards",
+      "title": "Quantum Dot Grid Card",
+      "default_theme": "tokyo_night",
+      "file_path": "library/shapes/repo_cards/quantum-dot-card.svg",
+      "markdown_embed": "![Quantum Dot Grid Card](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/repo_cards/quantum-dot-card.svg)"
+    },
+    {
+      "id": "frosted-acrylic-card",
+      "category": "repo_cards",
+      "title": "Frosted Acrylic Glass Card",
+      "default_theme": "rose_pine",
+      "file_path": "library/shapes/repo_cards/frosted-acrylic-card.svg",
+      "markdown_embed": "![Frosted Acrylic Glass Card](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/repo_cards/frosted-acrylic-card.svg)"
+    },
+    {
+      "id": "vintage-cassette-card",
+      "category": "repo_cards",
+      "title": "Vintage Cassette Card",
+      "default_theme": "amber_crt",
+      "file_path": "library/shapes/repo_cards/vintage-cassette-card.svg",
+      "markdown_embed": "![Vintage Cassette Card](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/repo_cards/vintage-cassette-card.svg)"
+    },
+    {
+      "id": "kemet-nocturne-master-card",
+      "category": "repo_cards",
+      "title": "Kemet Nocturne Master Bento",
+      "default_theme": "kemet_nocturne",
+      "file_path": "library/shapes/repo_cards/kemet-nocturne-master-card.svg",
+      "markdown_embed": "![Kemet Nocturne Master Bento](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/repo_cards/kemet-nocturne-master-card.svg)"
+    },
+    {
+      "id": "visitor-terminal-ledger",
+      "category": "holograms",
+      "title": "Visitor Terminal Ledger",
+      "default_theme": "kemet_nocturne",
+      "file_path": "library/shapes/holograms/visitor-terminal-ledger.svg",
+      "markdown_embed": "![Visitor Terminal Ledger](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/holograms/visitor-terminal-ledger.svg)"
+    },
+    {
+      "id": "quantum-radar-sweep",
+      "category": "holograms",
+      "title": "Quantum Radar Sweep",
+      "default_theme": "cyberpunk_2077",
+      "file_path": "library/shapes/holograms/quantum-radar-sweep.svg",
+      "markdown_embed": "![Quantum Radar Sweep](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/holograms/quantum-radar-sweep.svg)"
+    },
+    {
+      "id": "circular-sonar-ping",
+      "category": "holograms",
+      "title": "Circular Sonar Ping",
+      "default_theme": "nord_frost",
+      "file_path": "library/shapes/holograms/circular-sonar-ping.svg",
+      "markdown_embed": "![Circular Sonar Ping](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/holograms/circular-sonar-ping.svg)"
+    },
+    {
+      "id": "blockchain-block-explorer",
+      "category": "holograms",
+      "title": "Blockchain Merkle Ledger",
+      "default_theme": "amber_crt",
+      "file_path": "library/shapes/holograms/blockchain-block-explorer.svg",
+      "markdown_embed": "![Blockchain Merkle Ledger](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/holograms/blockchain-block-explorer.svg)"
+    },
+    {
+      "id": "cyber-docking-register",
+      "category": "holograms",
+      "title": "Orbital Docking Register",
+      "default_theme": "tokyo_night",
+      "file_path": "library/shapes/holograms/cyber-docking-register.svg",
+      "markdown_embed": "![Orbital Docking Register](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/holograms/cyber-docking-register.svg)"
+    },
+    {
+      "id": "punch-card-retro-ledger",
+      "category": "holograms",
+      "title": "Punch Card Heritage Log",
+      "default_theme": "solarized_dark",
+      "file_path": "library/shapes/holograms/punch-card-retro-ledger.svg",
+      "markdown_embed": "![Punch Card Heritage Log](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/holograms/punch-card-retro-ledger.svg)"
+    },
+    {
+      "id": "satellite-tracker-hud",
+      "category": "holograms",
+      "title": "Low-Earth Satellite Tracker",
+      "default_theme": "nord_frost",
+      "file_path": "library/shapes/holograms/satellite-tracker-hud.svg",
+      "markdown_embed": "![Low-Earth Satellite Tracker](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/holograms/satellite-tracker-hud.svg)"
+    },
+    {
+      "id": "matrix-stream-access-log",
+      "category": "holograms",
+      "title": "Matrix Terminal Access Log",
+      "default_theme": "emerald_matrix",
+      "file_path": "library/shapes/holograms/matrix-stream-access-log.svg",
+      "markdown_embed": "![Matrix Terminal Access Log](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/holograms/matrix-stream-access-log.svg)"
+    },
+    {
+      "id": "star-chart-navigator",
+      "category": "holograms",
+      "title": "Celestial Sextant Star Chart",
+      "default_theme": "dracula",
+      "file_path": "library/shapes/holograms/star-chart-navigator.svg",
+      "markdown_embed": "![Celestial Sextant Star Chart](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/holograms/star-chart-navigator.svg)"
+    },
+    {
+      "id": "atomic-orbital-compass",
+      "category": "holograms",
+      "title": "Atomic Electron Orbital Ring",
+      "default_theme": "monokai_pro",
+      "file_path": "library/shapes/holograms/atomic-orbital-compass.svg",
+      "markdown_embed": "![Atomic Electron Orbital Ring](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/holograms/atomic-orbital-compass.svg)"
+    },
+    {
+      "id": "seismic-station-register",
+      "category": "holograms",
+      "title": "Global Seismic Event Log",
+      "default_theme": "amber_crt",
+      "file_path": "library/shapes/holograms/seismic-station-register.svg",
+      "markdown_embed": "![Global Seismic Event Log](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/holograms/seismic-station-register.svg)"
+    },
+    {
+      "id": "deep-core-telemetry-dial",
+      "category": "holograms",
+      "title": "Geothermal Core Pressure",
+      "default_theme": "amber_crt",
+      "file_path": "library/shapes/holograms/deep-core-telemetry-dial.svg",
+      "markdown_embed": "![Geothermal Core Pressure](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/holograms/deep-core-telemetry-dial.svg)"
+    },
+    {
+      "id": "retinal-scan-biometric",
+      "category": "holograms",
+      "title": "Biometric Retinal Scanner",
+      "default_theme": "cyberpunk_2077",
+      "file_path": "library/shapes/holograms/retinal-scan-biometric.svg",
+      "markdown_embed": "![Biometric Retinal Scanner](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/holograms/retinal-scan-biometric.svg)"
+    },
+    {
+      "id": "particle-accelerator-ring",
+      "category": "holograms",
+      "title": "Hadron Synchrotron Beam",
+      "default_theme": "tokyo_night",
+      "file_path": "library/shapes/holograms/particle-accelerator-ring.svg",
+      "markdown_embed": "![Hadron Synchrotron Beam](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/holograms/particle-accelerator-ring.svg)"
+    },
+    {
+      "id": "holographic-pyramid-wire",
+      "category": "holograms",
+      "title": "Holographic Giza Pyramid",
+      "default_theme": "kemet_nocturne",
+      "file_path": "library/shapes/holograms/holographic-pyramid-wire.svg",
+      "markdown_embed": "![Holographic Giza Pyramid](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/holograms/holographic-pyramid-wire.svg)"
+    },
+    {
+      "id": "air-traffic-control-radar",
+      "category": "holograms",
+      "title": "Air Traffic Primary Radar",
+      "default_theme": "emerald_matrix",
+      "file_path": "library/shapes/holograms/air-traffic-control-radar.svg",
+      "markdown_embed": "![Air Traffic Primary Radar](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/holograms/air-traffic-control-radar.svg)"
+    },
+    {
+      "id": "submarine-sonar-array",
+      "category": "holograms",
+      "title": "Towed Hydrophone Array",
+      "default_theme": "nord_frost",
+      "file_path": "library/shapes/holograms/submarine-sonar-array.svg",
+      "markdown_embed": "![Towed Hydrophone Array](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/holograms/submarine-sonar-array.svg)"
+    },
+    {
+      "id": "cyber-compass-rose",
+      "category": "holograms",
+      "title": "Digital Compass Azimuth",
+      "default_theme": "rose_pine",
+      "file_path": "library/shapes/holograms/cyber-compass-rose.svg",
+      "markdown_embed": "![Digital Compass Azimuth](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/holograms/cyber-compass-rose.svg)"
+    },
+    {
+      "id": "pulsar-timing-ledger",
+      "category": "holograms",
+      "title": "Millisecond Pulsar Timing",
+      "default_theme": "dracula",
+      "file_path": "library/shapes/holograms/pulsar-timing-ledger.svg",
+      "markdown_embed": "![Millisecond Pulsar Timing](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/holograms/pulsar-timing-ledger.svg)"
+    },
+    {
+      "id": "dna-helix-sequencer",
+      "category": "holograms",
+      "title": "Nanopore DNA Sequencer",
+      "default_theme": "monokai_pro",
+      "file_path": "library/shapes/holograms/dna-helix-sequencer.svg",
+      "markdown_embed": "![Nanopore DNA Sequencer](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/holograms/dna-helix-sequencer.svg)"
+    },
+    {
+      "id": "magnetic-field-dipole",
+      "category": "holograms",
+      "title": "Geomagnetic Dipole Flux",
+      "default_theme": "solarized_dark",
+      "file_path": "library/shapes/holograms/magnetic-field-dipole.svg",
+      "markdown_embed": "![Geomagnetic Dipole Flux](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/holograms/magnetic-field-dipole.svg)"
+    },
+    {
+      "id": "interstellar-waypoint-beacon",
+      "category": "holograms",
+      "title": "Deep Space Waypoint Beacon",
+      "default_theme": "rose_pine",
+      "file_path": "library/shapes/holograms/interstellar-waypoint-beacon.svg",
+      "markdown_embed": "![Deep Space Waypoint Beacon](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/holograms/interstellar-waypoint-beacon.svg)"
+    },
+    {
+      "id": "terminal-access-badge-card",
+      "category": "holograms",
+      "title": "Clearance Level 5 Access",
+      "default_theme": "kemet_nocturne",
+      "file_path": "library/shapes/holograms/terminal-access-badge-card.svg",
+      "markdown_embed": "![Clearance Level 5 Access](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/holograms/terminal-access-badge-card.svg)"
+    },
+    {
+      "id": "kemet-astrolabe-clock",
+      "category": "holograms",
+      "title": "Pharaonic Astrolabe Clock",
+      "default_theme": "kemet_nocturne",
+      "file_path": "library/shapes/holograms/kemet-astrolabe-clock.svg",
+      "markdown_embed": "![Pharaonic Astrolabe Clock](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/holograms/kemet-astrolabe-clock.svg)"
+    },
+    {
+      "id": "infinity-hyperdrive-gauge",
+      "category": "holograms",
+      "title": "Hyperdrive Warp Core Gauge",
+      "default_theme": "cyberpunk_2077",
+      "file_path": "library/shapes/holograms/infinity-hyperdrive-gauge.svg",
+      "markdown_embed": "![Hyperdrive Warp Core Gauge](https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/library/shapes/holograms/infinity-hyperdrive-gauge.svg)"
+    }
+  ]
+}
+  </script>
+</head>
+<body>
+
+  <header>
+    <div class="header-inner">
+      <div class="brand-row">
+        <div>
+          <div class="brand-badge">
+            <span class="dot"></span>
+            <span>VECTORFORGE // COMPONENT SHOWROOM</span>
+          </div>
+          <h1>VectorForge Shape Studio</h1>
+          <p class="subtitle">235+ deterministic, zero-dependency SVG shapes, banners, terminals, skylines, and system architecture cards.</p>
+        </div>
+        <div class="controls-row">
+          <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle theme">☀️ Light Mode</button>
+          <a href="https://github.com/MikeeeDeV/MikeeeDeV" class="theme-toggle-btn" style="text-decoration: none;" target="_blank" rel="noopener">GitHub Repo ↗</a>
+        </div>
+      </div>
+
+      <div class="controls-row">
+        <div class="search-box">
+          <span class="search-icon">🔍</span>
+          <input type="search" id="search-input" placeholder="Search 235 components (e.g. rosettes, terminals, raft, cyber, nix)..." autocomplete="off" spellcheck="false" />
+        </div>
+      </div>
+
+      <nav class="category-tabs" id="category-tabs" aria-label="Filter by category"></nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="stats-bar">
+      <span id="visible-count">Showing 235 components</span>
+      <span>10 Curated Palettes • 100% SVG • &lt;100KB</span>
+    </div>
+
+    <section class="shapes-grid" id="shapes-grid" aria-label="Shape Components Grid"></section>
+  </main>
+
+  <dialog id="inspect-dialog" class="inspect-modal">
+    <div class="modal-header">
+      <div>
+        <h3 id="modal-title" style="font-size: 1.3rem;">Component Inspector</h3>
+        <p id="modal-meta" style="font-size: 0.85rem; color: var(--text-muted); font-family: var(--font-mono);"></p>
+      </div>
+      <button id="modal-close" class="modal-close-btn" aria-label="Close modal">&times;</button>
+    </div>
+    <div class="modal-preview">
+      <img id="modal-img" src="" alt="Preview" />
+    </div>
+    <div>
+      <h4 style="font-size: 0.9rem; margin-bottom: 0.5rem; font-family: var(--font-mono);">MARKDOWN EMBED</h4>
+      <pre class="code-block" id="modal-md-code"></pre>
+    </div>
+  </dialog>
+
+  <footer>
+    <p>Crafted with mathematical determinism by Mohamed Ayman (<a href="https://github.com/MikeeeDeV" style="color: var(--accent-gold); text-decoration: none;" target="_blank">@MikeeeDeV</a>) • Technical Team Leader @ Gawdah</p>
+    <p style="margin-top: 0.5rem; font-size: 0.75rem;">All components are self-contained SVGs. Zero external API calls. Zero runtime tracking.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
