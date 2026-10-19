@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 360" width="680" height="360" role="img" aria-labelledby="title-id desc-id">
+  <title id="title-id">Gentoo Hardened Core - Terminal Card</title>
+  <desc id="desc-id">System stats terminal gentoo-kernel-compile</desc>
+  <style>
+    :root {
+      --vf-bg: #221F22;
+      --vf-card: #2D2A2E;
+      --vf-border: #403E41;
+      --vf-text: #FCFCFA;
+      --vf-text-muted: #939293;
+      --vf-accent-1: #FFD866;
+      --vf-accent-2: #FF6188;
+      --vf-accent-3: #78DCE8;
+      --vf-glow: #FFD86644;
+      --vf-font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      --vf-font-mono: "JetBrains Mono", "Fira Code", ui-monospace, Menlo, Monaco, Consolas, monospace;
+      --vf-font-arabic: "Cairo", "Amiri", "Tahoma", -apple-system, sans-serif;
+    }
+    @media (prefers-color-scheme: light) {
+      :root {
+        --vf-bg: #F9F8F9;
+        --vf-card: #FFFFFF;
+        --vf-border: #DAD7DA;
+        --vf-text: #2D2A2E;
+        --vf-text-muted: #656366;
+        --vf-accent-1: #B58600;
+        --vf-accent-2: #C7204A;
+        --vf-accent-3: #0B8B9B;
+        --vf-glow: #B5860033;
+      }
+    }
+    text {
+      user-select: none;
+    }
+    
+      .term-window { fill: var(--vf-card); stroke: var(--vf-border); stroke-width: 1; }
+      .term-header { fill: var(--vf-bg); stroke: var(--vf-border); stroke-width: 0.5; }
+      .traffic-red { fill: #EF4444; }
+      .traffic-yellow { fill: #F59E0B; }
+      .traffic-green { fill: #10B981; }
+      .term-title { font-family: var(--vf-font-mono); font-size: 11px; fill: var(--vf-text-muted); }
+      .code-line { font-family: var(--vf-font-mono); font-size: 12px; fill: var(--vf-text); }
+      .ascii-art { font-family: var(--vf-font-mono); font-size: 13px; font-weight: 700; fill: var(--vf-accent-1); }
+      .spec-key { font-family: var(--vf-font-mono); font-size: 12px; font-weight: 700; fill: var(--vf-accent-2); }
+      .spec-val { font-family: var(--vf-font-mono); font-size: 12px; fill: var(--vf-text); }
+      .accent-dot { fill: var(--vf-accent-1); }
+    
+  </style>
+  
+  <rect x="1" y="1" width="678" height="358" rx="8" class="term-window" />
+<path d="M 1 9 A 8 8 0 0 1 9 1 L 671 1 A 8 8 0 0 1 679 9 L 679 34 L 1 34 Z" class="term-header" />
+<circle cx="20" cy="18" r="4.5" class="traffic-red" />
+<circle cx="36" cy="18" r="4.5" class="traffic-yellow" />
+<circle cx="52" cy="18" r="4.5" class="traffic-green" />
+<text x="340.0" y="22" text-anchor="middle" class="term-title">mikeeedev@engine: ~/vectorforge/gentoo-kernel-compile</text>
+<text x="28" y="60" class="code-line"><tspan fill="var(--vf-accent-1)">❯</tspan> <tspan fill="var(--vf-accent-2)">neofetch</tspan> --target=gentoo-kernel-compile --theme=monokai_pro</text>
+<line x1="28" y1="72" x2="652" y2="72" stroke="var(--vf-border)" stroke-width="0.8" />
+<g class="ascii-group"><text x="36" y="110" class="ascii-art">    .---.    </text><text x="36" y="130" class="ascii-art">   /     \   </text><text x="36" y="150" class="ascii-art">  | () () |  </text><text x="36" y="170" class="ascii-art">   \  _  /   </text><text x="36" y="190" class="ascii-art">    /___\    </text></g>
+<g class="specs-group"><text x="250" y="104"><tspan class="spec-key">OS:</tspan> <tspan class="spec-val">VectorOS / Gentoo Hardened Core</tspan></text><text x="250" y="125"><tspan class="spec-key">Host:</tspan> <tspan class="spec-val">Deterministic MicroVM v2.4</tspan></text><text x="250" y="146"><tspan class="spec-key">Kernel:</tspan> <tspan class="spec-val">6.9.12-kemet-hardened</tspan></text><text x="250" y="167"><tspan class="spec-key">Uptime:</tspan> <tspan class="spec-val">250d 02h</tspan></text><text x="250" y="188"><tspan class="spec-key">Shell:</tspan> <tspan class="spec-val">sh (gcc-14)</tspan></text><text x="250" y="209"><tspan class="spec-key">Resolution:</tspan> <tspan class="spec-val">680x360 (Retina 2x)</tspan></text><text x="250" y="230"><tspan class="spec-key">Terminal:</tspan> <tspan class="spec-val">VectorForge WebTTY</tspan></text><text x="250" y="251"><tspan class="spec-key">Memory:</tspan> <tspan class="spec-val">1,844 MiB / 32,768 MiB</tspan></text></g>
+
+    <g transform="translate(250, 276)">
+      <text x="0" y="11" font-family="var(--vf-font-mono)" font-size="10" fill="var(--vf-text-muted)">SYSTEM LOAD</text>
+      <rect x="80" y="2" width="220" height="10" rx="3" fill="var(--vf-bg)" stroke="var(--vf-border)" />
+      <rect x="81" y="3" width="140" height="8" rx="2" fill="var(--vf-accent-1)" />
+      <text x="310" y="11" font-family="var(--vf-font-mono)" font-size="10" fill="var(--vf-accent-1)">64%</text>
+    </g>
+    
+<g class="palette-chips"><rect x="250" y="306" width="20" height="12" rx="2" fill="var(--vf-accent-1)" opacity="0.40" /><rect x="276" y="306" width="20" height="12" rx="2" fill="var(--vf-accent-2)" opacity="0.60" /><rect x="302" y="306" width="20" height="12" rx="2" fill="var(--vf-accent-3)" opacity="0.80" /><rect x="328" y="306" width="20" height="12" rx="2" fill="var(--vf-accent-1)" opacity="1.00" /><rect x="354" y="306" width="20" height="12" rx="2" fill="var(--vf-accent-2)" opacity="0.40" /><rect x="380" y="306" width="20" height="12" rx="2" fill="var(--vf-accent-3)" opacity="0.60" /><rect x="406" y="306" width="20" height="12" rx="2" fill="var(--vf-accent-1)" opacity="0.80" /><rect x="432" y="306" width="20" height="12" rx="2" fill="var(--vf-accent-2)" opacity="1.00" /></g>
+</svg>
