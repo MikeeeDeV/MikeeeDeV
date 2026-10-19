@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 210" width="880" height="210" role="img" aria-labelledby="title-id desc-id">
+  <title id="title-id">PCB Logic Trace Skyline - Contribution Skyline</title>
+  <desc id="desc-id">Telemetry horizon circuit-board-trace-horizon</desc>
+  <style>
+    :root {
+      --vf-bg: #030A05;
+      --vf-card: #07170B;
+      --vf-border: #113B1B;
+      --vf-text: #A3F7BF;
+      --vf-text-muted: #4ADE80;
+      --vf-accent-1: #00FF66;
+      --vf-accent-2: #34D399;
+      --vf-accent-3: #22C55E;
+      --vf-glow: #00FF6644;
+      --vf-font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      --vf-font-mono: "JetBrains Mono", "Fira Code", ui-monospace, Menlo, Monaco, Consolas, monospace;
+      --vf-font-arabic: "Cairo", "Amiri", "Tahoma", -apple-system, sans-serif;
+    }
+    @media (prefers-color-scheme: light) {
+      :root {
+        --vf-bg: #F0FAF3;
+        --vf-card: #FFFFFF;
+        --vf-border: #B7E6C5;
+        --vf-text: #063815;
+        --vf-text-muted: #1A6832;
+        --vf-accent-1: #048A36;
+        --vf-accent-2: #0C6B45;
+        --vf-accent-3: #15803D;
+        --vf-glow: #048A3633;
+      }
+    }
+    text {
+      user-select: none;
+    }
+    
+      .card-frame { fill: var(--vf-card); stroke: var(--vf-border); stroke-width: 1; }
+      .skyline-bar { fill: var(--vf-accent-1); }
+      .skyline-sub { fill: var(--vf-accent-2); opacity: 0.65; }
+      .grid-h { stroke: var(--vf-border); stroke-width: 0.5; stroke-dasharray: 2 4; }
+      .metric-title { font-family: var(--vf-font-mono); font-size: 13px; font-weight: 700; fill: var(--vf-text); }
+      .metric-stat { font-family: var(--vf-font-mono); font-size: 11px; fill: var(--vf-text-muted); }
+      .accent-pill { fill: var(--vf-bg); stroke: var(--vf-border); stroke-width: 1; }
+    
+  </style>
+  
+  <rect x="1" y="1" width="878" height="208" rx="8" class="card-frame" />
+
+    <g transform="translate(28, 26)">
+      <circle cx="0" cy="0" r="4" fill="var(--vf-accent-1)" />
+      <text x="12" y="4" class="metric-title">PCB LOGIC TRACE SKYLINE</text>
+      <text x="12" y="20" class="metric-stat">52 WEEKS • 1,844 TOTAL COMMITS • 99.8% CI PASS RATE</text>
+      
+      <g transform="translate(640, -8)">
+        <rect x="0" y="0" width="180" height="26" rx="4" class="accent-pill" />
+        <circle cx="12" cy="13" r="3" fill="var(--vf-accent-3)" />
+        <text x="24" y="17" font-family="var(--vf-font-mono)" font-size="10" font-weight="700" fill="var(--vf-accent-1)">PEAK: 34 COMMITS/DAY</text>
+      </g>
+    </g>
+    
+<line x1="28" y1="152" x2="852" y2="152" class="grid-h" />
+<line x1="28" y1="117" x2="852" y2="117" class="grid-h" />
+<line x1="28" y1="82" x2="852" y2="82" class="grid-h" />
+<g class="skyline-content"><path d="M 28.0 92.2 L 34.9 95.2 L 41.8 98.2 L 48.8 101.2 L 55.7 104.2 L 62.6 107.2 L 69.5 110.1 L 76.5 112.8 L 83.4 115.4 L 90.3 117.8 L 97.2 120.0 L 104.2 121.9 L 111.1 123.7 L 118.0 125.1 L 124.9 126.3 L 131.9 127.3 L 138.8 128.0 L 145.7 128.4 L 152.6 128.6 L 159.6 128.6 L 166.5 128.3 L 173.4 127.9 L 180.3 127.3 L 187.3 126.5 L 194.2 125.7 L 201.1 124.7 L 208.0 123.8 L 215.0 122.8 L 221.9 121.9 L 228.8 121.0 L 235.7 120.2 L 242.7 119.5 L 249.6 119.0 L 256.5 118.7 L 263.4 118.6 L 270.4 118.8 L 277.3 119.2 L 284.2 119.9 L 291.1 120.8 L 298.1 122.1 L 305.0 123.7 L 311.9 125.5 L 318.8 127.7 L 325.7 130.1 L 332.7 132.8 L 339.6 135.8 L 346.5 138.9 L 353.4 142.3 L 360.4 145.9 L 367.3 149.6 L 374.2 153.4 L 381.1 157.2 L 388.1 161.1 L 395.0 165.0 L 401.9 168.8 L 408.8 172.5 L 415.8 176.1 L 422.7 179.5 L 429.6 182.7 L 436.5 185.6 L 443.5 188.2 L 450.4 190.5 L 457.3 192.4 L 464.2 194.0 L 471.2 195.2 L 478.1 195.9 L 485.0 196.2 L 491.9 196.1 L 498.9 195.6 L 505.8 194.6 L 512.7 193.2 L 519.6 191.3 L 526.6 189.1 L 533.5 186.5 L 540.4 183.6 L 547.3 180.3 L 554.3 176.7 L 561.2 172.9 L 568.1 168.8 L 575.0 164.6 L 581.9 160.2 L 588.9 155.7 L 595.8 151.2 L 602.7 146.7 L 609.6 142.2 L 616.6 137.8 L 623.5 133.6 L 630.4 129.4 L 637.3 125.5 L 644.3 121.8 L 651.2 118.3 L 658.1 115.2 L 665.0 112.3 L 672.0 109.7 L 678.9 107.5 L 685.8 105.6 L 692.7 104.1 L 699.7 102.9 L 706.6 102.0 L 713.5 101.4 L 720.4 101.2 L 727.4 101.3 L 734.3 101.6 L 741.2 102.2 L 748.1 103.0 L 755.1 103.9 L 762.0 105.1 L 768.9 106.3 L 775.8 107.7 L 782.8 109.1 L 789.7 110.5 L 796.6 111.8 L 803.5 113.2 L 810.5 114.4 L 817.4 115.5 L 824.3 116.5 L 831.2 117.3 L 838.2 117.9 L 845.1 118.3 L 852.0 118.5 L 852 182 L 28 182 Z" fill="var(--vf-accent-2)" opacity="0.35" /><path d="M 28.0 92.2 L 34.9 95.2 L 41.8 98.2 L 48.8 101.2 L 55.7 104.2 L 62.6 107.2 L 69.5 110.1 L 76.5 112.8 L 83.4 115.4 L 90.3 117.8 L 97.2 120.0 L 104.2 121.9 L 111.1 123.7 L 118.0 125.1 L 124.9 126.3 L 131.9 127.3 L 138.8 128.0 L 145.7 128.4 L 152.6 128.6 L 159.6 128.6 L 166.5 128.3 L 173.4 127.9 L 180.3 127.3 L 187.3 126.5 L 194.2 125.7 L 201.1 124.7 L 208.0 123.8 L 215.0 122.8 L 221.9 121.9 L 228.8 121.0 L 235.7 120.2 L 242.7 119.5 L 249.6 119.0 L 256.5 118.7 L 263.4 118.6 L 270.4 118.8 L 277.3 119.2 L 284.2 119.9 L 291.1 120.8 L 298.1 122.1 L 305.0 123.7 L 311.9 125.5 L 318.8 127.7 L 325.7 130.1 L 332.7 132.8 L 339.6 135.8 L 346.5 138.9 L 353.4 142.3 L 360.4 145.9 L 367.3 149.6 L 374.2 153.4 L 381.1 157.2 L 388.1 161.1 L 395.0 165.0 L 401.9 168.8 L 408.8 172.5 L 415.8 176.1 L 422.7 179.5 L 429.6 182.7 L 436.5 185.6 L 443.5 188.2 L 450.4 190.5 L 457.3 192.4 L 464.2 194.0 L 471.2 195.2 L 478.1 195.9 L 485.0 196.2 L 491.9 196.1 L 498.9 195.6 L 505.8 194.6 L 512.7 193.2 L 519.6 191.3 L 526.6 189.1 L 533.5 186.5 L 540.4 183.6 L 547.3 180.3 L 554.3 176.7 L 561.2 172.9 L 568.1 168.8 L 575.0 164.6 L 581.9 160.2 L 588.9 155.7 L 595.8 151.2 L 602.7 146.7 L 609.6 142.2 L 616.6 137.8 L 623.5 133.6 L 630.4 129.4 L 637.3 125.5 L 644.3 121.8 L 651.2 118.3 L 658.1 115.2 L 665.0 112.3 L 672.0 109.7 L 678.9 107.5 L 685.8 105.6 L 692.7 104.1 L 699.7 102.9 L 706.6 102.0 L 713.5 101.4 L 720.4 101.2 L 727.4 101.3 L 734.3 101.6 L 741.2 102.2 L 748.1 103.0 L 755.1 103.9 L 762.0 105.1 L 768.9 106.3 L 775.8 107.7 L 782.8 109.1 L 789.7 110.5 L 796.6 111.8 L 803.5 113.2 L 810.5 114.4 L 817.4 115.5 L 824.3 116.5 L 831.2 117.3 L 838.2 117.9 L 845.1 118.3 L 852.0 118.5" fill="none" stroke="var(--vf-accent-1)" stroke-width="2" /></g>
+<line x1="28" y1="182" x2="852" y2="182" stroke="var(--vf-border)" stroke-width="1.5" />
+</svg>

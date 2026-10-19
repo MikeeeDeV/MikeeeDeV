@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 210" width="880" height="210" role="img" aria-labelledby="title-id desc-id">
+  <title id="title-id">Cosmic Nebular Ridge - Contribution Skyline</title>
+  <desc id="desc-id">Telemetry horizon cosmic-constellation-chart</desc>
+  <style>
+    :root {
+      --vf-bg: #1E1F29;
+      --vf-card: #282A36;
+      --vf-border: #44475A;
+      --vf-text: #F8F8F2;
+      --vf-text-muted: #B6B8CA;
+      --vf-accent-1: #BD93F9;
+      --vf-accent-2: #50FA7B;
+      --vf-accent-3: #FF79C6;
+      --vf-glow: #BD93F944;
+      --vf-font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      --vf-font-mono: "JetBrains Mono", "Fira Code", ui-monospace, Menlo, Monaco, Consolas, monospace;
+      --vf-font-arabic: "Cairo", "Amiri", "Tahoma", -apple-system, sans-serif;
+    }
+    @media (prefers-color-scheme: light) {
+      :root {
+        --vf-bg: #F5F3F8;
+        --vf-card: #FFFFFF;
+        --vf-border: #D6D0E3;
+        --vf-text: #282A36;
+        --vf-text-muted: #59556B;
+        --vf-accent-1: #7D49C9;
+        --vf-accent-2: #219E47;
+        --vf-accent-3: #C72E85;
+        --vf-glow: #7D49C933;
+      }
+    }
+    text {
+      user-select: none;
+    }
+    
+      .card-frame { fill: var(--vf-card); stroke: var(--vf-border); stroke-width: 1; }
+      .skyline-bar { fill: var(--vf-accent-1); }
+      .skyline-sub { fill: var(--vf-accent-2); opacity: 0.65; }
+      .grid-h { stroke: var(--vf-border); stroke-width: 0.5; stroke-dasharray: 2 4; }
+      .metric-title { font-family: var(--vf-font-mono); font-size: 13px; font-weight: 700; fill: var(--vf-text); }
+      .metric-stat { font-family: var(--vf-font-mono); font-size: 11px; fill: var(--vf-text-muted); }
+      .accent-pill { fill: var(--vf-bg); stroke: var(--vf-border); stroke-width: 1; }
+    
+  </style>
+  
+  <rect x="1" y="1" width="878" height="208" rx="8" class="card-frame" />
+
+    <g transform="translate(28, 26)">
+      <circle cx="0" cy="0" r="4" fill="var(--vf-accent-1)" />
+      <text x="12" y="4" class="metric-title">COSMIC NEBULAR RIDGE</text>
+      <text x="12" y="20" class="metric-stat">52 WEEKS • 1,844 TOTAL COMMITS • 99.8% CI PASS RATE</text>
+      
+      <g transform="translate(640, -8)">
+        <rect x="0" y="0" width="180" height="26" rx="4" class="accent-pill" />
+        <circle cx="12" cy="13" r="3" fill="var(--vf-accent-3)" />
+        <text x="24" y="17" font-family="var(--vf-font-mono)" font-size="10" font-weight="700" fill="var(--vf-accent-1)">PEAK: 34 COMMITS/DAY</text>
+      </g>
+    </g>
+    
+<line x1="28" y1="152" x2="852" y2="152" class="grid-h" />
+<line x1="28" y1="117" x2="852" y2="117" class="grid-h" />
+<line x1="28" y1="82" x2="852" y2="82" class="grid-h" />
+<g class="skyline-content"><path d="M 28.0 80.1 L 34.9 77.7 L 41.8 75.5 L 48.8 73.7 L 55.7 72.3 L 62.6 71.2 L 69.5 70.5 L 76.5 70.3 L 83.4 70.4 L 90.3 71.0 L 97.2 72.0 L 104.2 73.4 L 111.1 75.3 L 118.0 77.6 L 124.9 80.2 L 131.9 83.2 L 138.8 86.6 L 145.7 90.2 L 152.6 94.2 L 159.6 98.3 L 166.5 102.7 L 173.4 107.2 L 180.3 111.9 L 187.3 116.6 L 194.2 121.3 L 201.1 126.1 L 208.0 130.7 L 215.0 135.3 L 221.9 139.7 L 228.8 144.0 L 235.7 148.0 L 242.7 151.8 L 249.6 155.3 L 256.5 158.5 L 263.4 161.4 L 270.4 163.9 L 277.3 166.1 L 284.2 167.9 L 291.1 169.3 L 298.1 170.4 L 305.0 171.2 L 311.9 171.5 L 318.8 171.6 L 325.7 171.3 L 332.7 170.8 L 339.6 169.9 L 346.5 168.9 L 353.4 167.6 L 360.4 166.2 L 367.3 164.6 L 374.2 162.9 L 381.1 161.2 L 388.1 159.4 L 395.0 157.6 L 401.9 155.9 L 408.8 154.3 L 415.8 152.7 L 422.7 151.3 L 429.6 150.1 L 436.5 149.0 L 443.5 148.2 L 450.4 147.6 L 457.3 147.2 L 464.2 147.0 L 471.2 147.1 L 478.1 147.4 L 485.0 147.9 L 491.9 148.7 L 498.9 149.7 L 505.8 150.9 L 512.7 152.2 L 519.6 153.7 L 526.6 155.3 L 533.5 156.9 L 540.4 158.6 L 547.3 160.4 L 554.3 162.1 L 561.2 163.7 L 568.1 165.3 L 575.0 166.7 L 581.9 168.0 L 588.9 169.0 L 595.8 169.9 L 602.7 170.4 L 609.6 170.7 L 616.6 170.7 L 623.5 170.4 L 630.4 169.7 L 637.3 168.6 L 644.3 167.2 L 651.2 165.4 L 658.1 163.3 L 665.0 160.8 L 672.0 158.0 L 678.9 154.8 L 685.8 151.4 L 692.7 147.6 L 699.7 143.6 L 706.6 139.4 L 713.5 135.0 L 720.4 130.5 L 727.4 125.8 L 734.3 121.1 L 741.2 116.4 L 748.1 111.7 L 755.1 107.1 L 762.0 102.5 L 768.9 98.2 L 775.8 94.0 L 782.8 90.1 L 789.7 86.4 L 796.6 83.0 L 803.5 80.0 L 810.5 77.3 L 817.4 75.1 L 824.3 73.2 L 831.2 71.7 L 838.2 70.7 L 845.1 70.1 L 852.0 69.9 L 852 182 L 28 182 Z" fill="var(--vf-accent-2)" opacity="0.35" /><path d="M 28.0 80.1 L 34.9 77.7 L 41.8 75.5 L 48.8 73.7 L 55.7 72.3 L 62.6 71.2 L 69.5 70.5 L 76.5 70.3 L 83.4 70.4 L 90.3 71.0 L 97.2 72.0 L 104.2 73.4 L 111.1 75.3 L 118.0 77.6 L 124.9 80.2 L 131.9 83.2 L 138.8 86.6 L 145.7 90.2 L 152.6 94.2 L 159.6 98.3 L 166.5 102.7 L 173.4 107.2 L 180.3 111.9 L 187.3 116.6 L 194.2 121.3 L 201.1 126.1 L 208.0 130.7 L 215.0 135.3 L 221.9 139.7 L 228.8 144.0 L 235.7 148.0 L 242.7 151.8 L 249.6 155.3 L 256.5 158.5 L 263.4 161.4 L 270.4 163.9 L 277.3 166.1 L 284.2 167.9 L 291.1 169.3 L 298.1 170.4 L 305.0 171.2 L 311.9 171.5 L 318.8 171.6 L 325.7 171.3 L 332.7 170.8 L 339.6 169.9 L 346.5 168.9 L 353.4 167.6 L 360.4 166.2 L 367.3 164.6 L 374.2 162.9 L 381.1 161.2 L 388.1 159.4 L 395.0 157.6 L 401.9 155.9 L 408.8 154.3 L 415.8 152.7 L 422.7 151.3 L 429.6 150.1 L 436.5 149.0 L 443.5 148.2 L 450.4 147.6 L 457.3 147.2 L 464.2 147.0 L 471.2 147.1 L 478.1 147.4 L 485.0 147.9 L 491.9 148.7 L 498.9 149.7 L 505.8 150.9 L 512.7 152.2 L 519.6 153.7 L 526.6 155.3 L 533.5 156.9 L 540.4 158.6 L 547.3 160.4 L 554.3 162.1 L 561.2 163.7 L 568.1 165.3 L 575.0 166.7 L 581.9 168.0 L 588.9 169.0 L 595.8 169.9 L 602.7 170.4 L 609.6 170.7 L 616.6 170.7 L 623.5 170.4 L 630.4 169.7 L 637.3 168.6 L 644.3 167.2 L 651.2 165.4 L 658.1 163.3 L 665.0 160.8 L 672.0 158.0 L 678.9 154.8 L 685.8 151.4 L 692.7 147.6 L 699.7 143.6 L 706.6 139.4 L 713.5 135.0 L 720.4 130.5 L 727.4 125.8 L 734.3 121.1 L 741.2 116.4 L 748.1 111.7 L 755.1 107.1 L 762.0 102.5 L 768.9 98.2 L 775.8 94.0 L 782.8 90.1 L 789.7 86.4 L 796.6 83.0 L 803.5 80.0 L 810.5 77.3 L 817.4 75.1 L 824.3 73.2 L 831.2 71.7 L 838.2 70.7 L 845.1 70.1 L 852.0 69.9" fill="none" stroke="var(--vf-accent-1)" stroke-width="2" /></g>
+<line x1="28" y1="182" x2="852" y2="182" stroke="var(--vf-border)" stroke-width="1.5" />
+</svg>
