@@ -110,6 +110,61 @@
 
 ---
 
+### 🎨 VectorForge // 235+ Deterministic SVG Shape Studio &amp; Components
+
+> **Open-Source Vector Component System for Developers, Profiles &amp; Docs**  
+> *Engineered by Mohamed Ayman with pure mathematical determinism. Zero runtime dependencies, 100% valid XML, dark/light mode responsive, and under 100KB.*
+
+<div align="center">
+  <a href="LIBRARY.md">
+    <img src="library/shapes/banners/kemet-nocturne-rosette.svg" width="100%" alt="VectorForge Kemet Rosette Banner" />
+  </a>
+</div>
+
+<br />
+
+<div align="center">
+  <img src="library/shapes/architectures/fastmcp-agent-topology.svg" width="49%" alt="FastMCP Topology Diagram" />
+  <img src="library/shapes/terminals/nixos-flake-minimal.svg" width="49%" alt="NixOS Minimal Terminal Card" />
+</div>
+
+<br />
+
+<div align="center">
+  <img src="library/shapes/badges/now-building-reactor-core.svg" width="49%" alt="Reactor Core Badge" />
+  <img src="library/shapes/holograms/quantum-radar-sweep.svg" width="49%" alt="Quantum Radar Sweep" />
+</div>
+
+<br />
+
+#### 📂 Categories & Presets (235 Components)
+
+| Category | Shapes | Dimensions | Highlights |
+| :--- | :---: | :---: | :--- |
+| [**Geometric Banners**](library/shapes/banners/) | `40` | `960x240` | Rosettes, Sacred Mandalas, Astrolabes, Penrose Tilings, Hypercubes |
+| [**Neofetch Terminals**](library/shapes/terminals/) | `35` | `680x360` | NixOS, Arch, Cyberdeck, Docker, Rust, macOS, Ubuntu, Kali, FreeBSD |
+| [**Skylines &amp; Horizons**](library/shapes/skylines/) | `30` | `880x210` | 52-week Nile skyline, Night City, Tokyo Equalizer, Mountain Topo |
+| [**System Architectures**](library/shapes/architectures/) | `35` | `820x280` | FastMCP Agent Mesh, Istio Mesh, Raft Consensus, Kafka Streams |
+| [**HUD Badges &amp; Pills**](library/shapes/badges/) | `35` | `420x88` | Reactor Core, Target Lock, Satellite Uplink, 99.99% SLA Uptime |
+| [**Bento &amp; Repo Cards**](library/shapes/repo_cards/) | `35` | `420x160` | Glass Bento, Cyber Frame, Minimalist Mono, Bordered Beam |
+| [**Holograms &amp; Radars**](library/shapes/holograms/) | `25` | `560x240` | Visitor Ledgers, Quantum Radars, Sonar Pings, Merkle Explorers |
+
+<p align="center">
+  <b>Explore all 235 components in the interactive showroom or use the CLI:</b><br />
+  <a href="LIBRARY.md"><b>📖 Read Full Documentation (LIBRARY.md)</b></a> • 
+  <a href="library/catalog.json"><b>📋 Catalog JSON</b></a> • 
+  <a href="library/gallery/index.html"><b>🖥️ Offline Web Showroom</b></a>
+</p>
+
+```bash
+# Clone and explore via developer CLI:
+python3 -m library.cli list
+python3 -m library.cli generate raft-consensus-cluster --theme cyberpunk_2077
+python3 -m library.cli embed kemet-nocturne-rosette
+```
+
+---
+
 <div align="center">
 
 **Mohamed Ayman** • Technical Team Leader @ Gawdah • Cairo, Egypt (UTC+2)  
