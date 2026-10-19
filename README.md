@@ -1,12 +1,12 @@
 <div align="center">
 
 # ⚡ Mohamed Ayman (MikeeeDeV)
-### *Full-Stack Software Engineer & Systems Tools Architect*
+### 🚀 *Full-Stack Systems Engineer • Open-Source Builder • AI Tooling Architect*
 
 <br />
 
 <a href="https://github.com/MikeeeDeV">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=61AFEF&center=true&vCenter=true&width=750&lines=Hi+there!+I'm+Mohamed+Ayman+%F0%9F%91%8B;Building+Deterministic+Systems+%26+Production+Web+Apps;Python+%7C+TypeScript+%7C+Nix+%7C+Next.js+%7C+AI+Agents;Crafting+Fast%2C+Zero-Crash%2C+Modern+Developer+Tools" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=61AFEF&center=true&vCenter=true&width=780&lines=Hi+there!+I'm+Mohamed+Ayman+%F0%9F%91%8B;Building+Deterministic+Systems+%26+Cloud-Native+Web+Apps;Python+%7C+TypeScript+%7C+Nix+%7C+Next.js+%7C+AI+Agents;Crafting+Production-Ready%2C+Zero-Crash+Developer+Tools" alt="Typing SVG" />
 </a>
 
 <br />
@@ -17,6 +17,7 @@
 [![Open Source](https://img.shields.io/badge/Open%20Source-Active%20Contributor-brightgreen?style=flat-square&logo=git&logoColor=white)](https://github.com/MikeeeDeV)
 [![Location](https://img.shields.io/badge/Location-Egypt-E95420?style=flat-square&logo=google-maps&logoColor=white)](https://github.com/MikeeeDeV)
 [![Work](https://img.shields.io/badge/Building%20at-Gawdah-blueviolet?style=flat-square&logo=codewars&logoColor=white)](https://github.com/MikeeeDeV)
+[![Status](https://img.shields.io/badge/Status-Shipping%20Code-success?style=flat-square&logo=visualstudiocode&logoColor=white)](https://github.com/MikeeeDeV)
 
 <br />
 
@@ -24,18 +25,49 @@
 
 ---
 
-### 🚀 Who I Am & What I Build
+### 💻 Developer Terminal
 
-I am an engineer focused on **systems programming, developer infrastructure, and modern web architectures**. I bridge the gap between low-level Linux package isolation and elegant, responsive graphical user experiences.
-
-- ❄️ **Nix & Declarative Linux Infrastructure:** Lead architect of [NixManagerPro](https://github.com/MikeeeDeV/NixManagerPro) — transforming complex Nix derivations, Flakes, generation timelines, and channel operations into an intuitive, zero-freeze desktop experience.
-- 🛡️ **Enterprise Web & Session Security:** Creator of [next-session-guard](https://github.com/MikeeeDeV/next-session-guard) — defending Next.js applications with multi-device session management, real-time Server-Sent Events (SSE) token revocation, and anti-hijacking heuristics.
-- ⚡ **Workflow & Tooling Automation:** Developed [git-smart-sync](https://github.com/MikeeeDeV/git-smart-sync) to eliminate multi-branch divergence friction for engineering teams.
-- 🤖 **Model Context Protocol (MCP) Ecosystem:** Designing domain-specific MCP micro-servers to seamlessly orchestrate AI coding agents and production data workflows.
+```bash
+mohamed@workstation:~$ neofetch --profile
+---------------------------------------------
+OS        : Linux x86_64 / NixOS / Ubuntu Desktop
+Host      : Full-Stack & Systems Engineer
+Role      : Building at Gawdah & Open-Source Maintainer
+Kernel    : Python 3.10+, TypeScript 5+, Nix Flakes
+Focus     : Desktop GUI Architecture, Distributed Web Apps, AI Agent (MCP) Tools
+Uptime    : Continuous High-Impact Shipping
+Shell     : zsh / bash with custom dotfiles
+Status    : 🟢 Open for Technical Collaborations & Cutting-Edge Engineering
+Quote     : "Simplicity is a prerequisite for reliability." — Edsger W. Dijkstra
+```
 
 ---
 
-### 🛠️ Tech Stack & Tooling
+### 🌟 Featured Repositories
+
+<div align="center">
+
+<a href="https://github.com/MikeeeDeV/NixManagerPro">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=MikeeeDeV&repo=NixManagerPro&theme=tokyonight&hide_border=true" width="48%" alt="NixManagerPro Pin" />
+</a>
+<a href="https://github.com/MikeeeDeV/next-session-guard">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=MikeeeDeV&repo=next-session-guard&theme=tokyonight&hide_border=true" width="48%" alt="next-session-guard Pin" />
+</a>
+
+<br />
+
+<a href="https://github.com/MikeeeDeV/git-smart-sync">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=MikeeeDeV&repo=git-smart-sync&theme=tokyonight&hide_border=true" width="48%" alt="git-smart-sync Pin" />
+</a>
+<a href="https://github.com/MikeeeDeV/My-portfolio">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=MikeeeDeV&repo=My-portfolio&theme=tokyonight&hide_border=true" width="48%" alt="My-portfolio Pin" />
+</a>
+
+</div>
+
+---
+
+### 🛠️ Tech Stack & Arsenal
 
 <div align="center">
 
@@ -51,76 +83,11 @@ I am an engineer focused on **systems programming, developer infrastructure, and
 
 | Domain | Core Technologies & Tools |
 |---|---|
-| **Languages** | Python 3.10+, TypeScript, JavaScript (ESNext), Bash / Shell, SQL, Smali |
+| **Languages** | Python 3.10+, TypeScript, JavaScript (ESNext), Bash / POSIX Shell, SQL, Smali |
 | **Frontend & UI** | Next.js (App Router), React, CustomTkinter, Tailwind CSS, Material Design 3 (M3) |
 | **Backend & APIs** | Node.js, Express, Asyncio, FastMCP / Model Context Protocol, RESTful APIs, SSE |
 | **Databases & ORMs** | PostgreSQL, Prisma, Drizzle ORM, SQLite, Firebase Firestore |
-| **DevOps & Systems** | Nix, NixOS, Ubuntu, Debian, Docker, GitHub Actions CI/CD, Git |
-
----
-
-### 🌟 Featured Open-Source Projects
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3 align="center"><a href="https://github.com/MikeeeDeV/NixManagerPro">❄️ NixManager Pro</a></h3>
-      <p align="center">
-        <b>Production-Grade Asynchronous Desktop Control Suite for Nix on Linux</b>
-      </p>
-      <ul>
-        <li>Atomic generation rollbacks with visual history diffing.</li>
-        <li>Unified multi-manager support: Nix profiles, Flakes, Flatpak, and Snap.</li>
-        <li>100% test coverage with 31 automated pytest assertions & 0 Pyright errors.</li>
-      </ul>
-      <p align="center">
-        <code>Python 3.10+</code> • <code>CustomTkinter</code> • <code>Asyncio</code> • <code>Nix Ecosystem</code>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3 align="center"><a href="https://github.com/MikeeeDeV/next-session-guard">🛡️ next-session-guard</a></h3>
-      <p align="center">
-        <b>Enterprise Multi-Device Session Security & Real-Time SSE Revocation</b>
-      </p>
-      <ul>
-        <li>Real-time Server-Sent Events (SSE) immediate session termination.</li>
-        <li>Device fingerprinting & concurrent active session dashboards.</li>
-        <li>First-class integration with Next.js App Router, Prisma, and Drizzle.</li>
-      </ul>
-      <p align="center">
-        <code>TypeScript</code> • <code>Next.js</code> • <code>Prisma</code> • <code>Security Engineering</code>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3 align="center"><a href="https://github.com/MikeeeDeV/git-smart-sync">🔄 git-smart-sync</a></h3>
-      <p align="center">
-        <b>Intelligent Multi-Branch Git Synchronization for Modern Workspaces</b>
-      </p>
-      <ul>
-        <li>Prevents branch divergence with preset group synchronization.</li>
-        <li>Integrated clean architecture for IDEs and CLI workflows.</li>
-      </ul>
-      <p align="center">
-        <code>TypeScript</code> • <code>Git Engine</code> • <code>CLI</code> • <code>Automation</code>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3 align="center"><a href="https://github.com/MikeeeDeV/My-portfolio">🎨 Material Design 3 Portfolio</a></h3>
-      <p align="center">
-        <b>Google Material Design 3 Web Application & Developer Showcase</b>
-      </p>
-      <ul>
-        <li>Dynamic theme tokens mimicking M3 design specs.</li>
-        <li>Integrated with Firebase, Telegram Bot notifications, and GitHub API.</li>
-      </ul>
-      <p align="center">
-        <code>Next.js</code> • <code>React</code> • <code>Firebase</code> • <code>Telegram Bot API</code>
-      </p>
-    </td>
-  </tr>
-</table>
+| **DevOps & Systems** | Nix, NixOS, Ubuntu, Debian, Docker, GitHub Actions CI/CD, Git Engine |
 
 ---
 
@@ -134,6 +101,20 @@ I am an engineer focused on **systems programming, developer infrastructure, and
 <br />
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=MikeeeDeV&theme=tokyonight&hide_border=true" width="98%" alt="GitHub Streak" />
+
+</div>
+
+---
+
+### 🏙️ 3D Contribution Landscape
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/profile-3d-contrib/profile-night-rainbow.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/profile-3d-contrib/profile-green-animate.svg">
+  <img alt="GitHub 3D Contribution Landscape" src="https://raw.githubusercontent.com/MikeeeDeV/MikeeeDeV/main/profile-3d-contrib/profile-night-rainbow.svg">
+</picture>
 
 </div>
 
@@ -153,7 +134,17 @@ I am an engineer focused on **systems programming, developer infrastructure, and
 
 ---
 
-### 🤝 Connect & Collaborate
+### 💡 Daily Developer Humor
+
+<div align="center">
+
+<img src="https://readme-jokes.vercel.app/api?theme=tokyonight&hideBorder=true" alt="Developer Joke" />
+
+</div>
+
+---
+
+### 🤝 Let's Connect & Collaborate!
 
 <div align="center">
 
@@ -163,10 +154,6 @@ I am an engineer focused on **systems programming, developer infrastructure, and
 
 <br />
 
-> *"Simplicity is a prerequisite for reliability."* — Edsger W. Dijkstra
-
-<br />
-
-<sub>Crafted with passion by **Mohamed Ayman** • Built with Antigravity • © 2026</sub>
+<sub>Designed with precision by **Mohamed Ayman** • Built with Antigravity • © 2026</sub>
 
 </div>
