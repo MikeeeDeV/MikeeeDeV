@@ -47,7 +47,7 @@ Repository = "https://github.com/MikeeeDeV/MikeeeDeV.git"
 Issues = "https://github.com/MikeeeDeV/MikeeeDeV/issues"
 
 [project.scripts]
-vectorforge = "library.cli:main"
+vectorforge = "vectorforge.cli:main"
 
 [tool.setuptools.packages.find]
-include = ["library*"]
+include = ["library*", "vectorforge*"]
