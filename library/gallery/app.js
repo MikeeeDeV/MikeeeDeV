@@ -134,10 +134,16 @@ function renderGrid() {
     return;
   }
 
+function getShapePath(category, id) {
+  const isDirectGallery = window.location.protocol === "file:" || window.location.pathname.includes("/library/gallery");
+  const base = isDirectGallery ? "../shapes/" : "./shapes/";
+  return `${base}${category}/${id}.svg`;
+}
+
   filtered.forEach((item) => {
     const card = document.createElement("article");
     card.className = "shape-card";
-    const svgRelPath = `../shapes/${item.category}/${item.id}.svg`;
+    const svgRelPath = getShapePath(item.category, item.id);
 
     card.innerHTML = `
       <div class="card-preview-area">
@@ -194,7 +200,7 @@ window.inspectShape = function (presetId) {
   const modal = document.getElementById("inspect-dialog");
   if (!item || !modal) return;
 
-  const svgRelPath = `../shapes/${item.category}/${item.id}.svg`;
+  const svgRelPath = getShapePath(item.category, item.id);
   document.getElementById("modal-title").textContent = item.title;
   document.getElementById("modal-meta").textContent = `Category: ${item.category} • Theme: ${item.default_theme} • Preset: ${item.id}`;
   document.getElementById("modal-img").src = svgRelPath;
