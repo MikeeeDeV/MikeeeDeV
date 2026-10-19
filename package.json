@@ -1,0 +1,37 @@
+{
+  "name": "vectorforge",
+  "version": "1.0.0",
+  "description": "Deterministic developer SVG shape and component library with 235+ presets. Zero runtime dependencies.",
+  "bin": {
+    "vectorforge": "./bin/vectorforge.js"
+  },
+  "main": "./bin/vectorforge.js",
+  "scripts": {
+    "start": "node ./bin/vectorforge.js list",
+    "test": "node ./bin/vectorforge.js search raft"
+  },
+  "keywords": [
+    "svg",
+    "developer-shapes",
+    "github-profile",
+    "cli",
+    "react",
+    "nextjs",
+    "astro",
+    "fastmcp",
+    "nixos",
+    "banners",
+    "terminals",
+    "diagrams"
+  ],
+  "author": "Mohamed Ayman (@MikeeeDeV) <mohamed.ayman.developer@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MikeeeDeV/MikeeeDeV.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MikeeeDeV/MikeeeDeV/issues"
+  },
+  "homepage": "https://mikeeedev.github.io/MikeeeDeV/"
+}
