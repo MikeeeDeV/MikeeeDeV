@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
 scripts/generate_hero_typing.py - Generates pure CSS/SMIL animated SVG intro banner.
-Features a specific positioning statement and an Arabic RTL line.
+Features a specific positioning statement with a natural blinking cursor
+and an aligned, unclipped Arabic RTL calligraphic rhythm.
 Zero external JavaScript, zero third-party dependencies.
 """
 
@@ -18,7 +19,7 @@ def generate_hero_typing_svg() -> str:
     tokens = load_tokens()
     root_css = get_root_css(tokens)
     
-    w, h = 840, 134
+    w, h = 860, 138
     
     eng_statement = "Architecting deterministic Linux systems, resilient auth guards &amp; FastMCP agent infrastructure."
     arabic_statement = "مهندس نظم ومطور برمجيات متكاملة • أبني أنظمة محكمة غير قابلة للانهيار"
@@ -53,29 +54,18 @@ def generate_hero_typing_svg() -> str:
     }}
     .arabic-text {{
       font-family: var(--font-arabic);
-      font-size: 14px;
+      font-size: 13.5px;
       font-weight: 600;
       fill: var(--text-secondary);
-      direction: rtl;
-      unicode-bidi: embed;
     }}
     .cursor {{
       fill: var(--accent-gold);
+      font-weight: 700;
       animation: blink 0.9s infinite step-start;
-    }}
-    .chamfer-marker {{
-      fill: var(--accent-lapis);
     }}
     @keyframes blink {{
       0%, 100% {{ opacity: 1; }}
       50% {{ opacity: 0; }}
-    }}
-    @keyframes fadeIn {{
-      0% {{ opacity: 0; transform: translateY(4px); }}
-      100% {{ opacity: 1; transform: translateY(0); }}
-    }}
-    .fade-seq {{
-      animation: fadeIn 0.8s ease-out forwards;
     }}
   </style>
 
@@ -90,7 +80,7 @@ def generate_hero_typing_svg() -> str:
     <circle cx="28" cy="0" r="4" fill="var(--accent-teal)" />
     
     <text x="50" y="4" font-family="var(--font-mono)" font-size="11" fill="var(--text-muted)">session: init --profile=engineer --location=cairo</text>
-    <text x="{w - 56}" y="4" font-family="var(--font-mono)" font-size="11" font-weight="600" fill="var(--accent-teal)" text-anchor="end">STATUS: ACTIVE</text>
+    <text x="{w - 48}" y="4" font-family="var(--font-mono)" font-size="11" font-weight="600" fill="var(--accent-teal)" text-anchor="end">STATUS: ACTIVE</text>
   </g>
 
   <!-- Line 1: Terminal Command -->
@@ -99,17 +89,16 @@ def generate_hero_typing_svg() -> str:
     <text x="175" y="0" class="terminal-cmd">antigravity --focus=systems --manifest</text>
   </g>
 
-  <!-- Line 2: Positioning Statement with Cursor -->
+  <!-- Line 2: Positioning Statement with Inline Natural Blinking Cursor -->
   <g transform="translate(24, 88)">
     <text x="0" y="0" font-family="var(--font-mono)" font-size="14" font-weight="700" fill="var(--accent-teal)">❯</text>
-    <text x="18" y="0" class="typewriter-eng">{eng_statement}</text>
-    <rect x="746" y="-12" width="8" height="15" class="cursor" />
+    <text x="18" y="0" class="typewriter-eng">{eng_statement}<tspan class="cursor" dx="4">▋</tspan></text>
   </g>
 
-  <!-- Line 3: Arabic Typographic Line (RTL) -->
-  <g transform="translate(24, 114)">
+  <!-- Line 3: Arabic Typographic Line (Cleanly bounded to avoid clipping) -->
+  <g transform="translate(24, 116)">
     <text x="0" y="0" font-family="var(--font-mono)" font-size="11" font-weight="600" fill="var(--accent-lapis)">SYS//AR</text>
-    <text x="{w - 48}" y="0" class="arabic-text" text-anchor="end">{arabic_statement}</text>
+    <text x="{w - 36}" y="0" class="arabic-text" text-anchor="end" direction="rtl" xml:lang="ar">{arabic_statement}</text>
   </g>
 </svg>"""
     return svg
