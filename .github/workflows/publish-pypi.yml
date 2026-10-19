@@ -47,9 +47,9 @@ jobs:
           gh release upload ${{ github.ref_name }} dist/* --clobber || true
 
       - name: Publish to PyPI
-        if: ${{ inputs.publish_to_pypi == true }}
+        if: github.event_name == 'release' || inputs.publish_to_pypi == true
         uses: pypa/gh-action-pypi-publish@release/v1
         with:
           skip-existing: true
-          password: ${{ secrets.PYPI_API_TOKEN }}
         continue-on-error: true
+
