@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 240" width="960" height="240" role="img" aria-labelledby="title-id desc-id">
+  <title id="title-id">Hypocycloid Chrono Star - VectorForge Banner</title>
+  <desc id="desc-id">Algorithmic banner preset hypocycloid-gear-star</desc>
+  <style>
+    :root {
+      --vf-bg: #221F22;
+      --vf-card: #2D2A2E;
+      --vf-border: #403E41;
+      --vf-text: #FCFCFA;
+      --vf-text-muted: #939293;
+      --vf-accent-1: #FFD866;
+      --vf-accent-2: #FF6188;
+      --vf-accent-3: #78DCE8;
+      --vf-glow: #FFD86644;
+      --vf-font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      --vf-font-mono: "JetBrains Mono", "Fira Code", ui-monospace, Menlo, Monaco, Consolas, monospace;
+      --vf-font-arabic: "Cairo", "Amiri", "Tahoma", -apple-system, sans-serif;
+    }
+    @media (prefers-color-scheme: light) {
+      :root {
+        --vf-bg: #F9F8F9;
+        --vf-card: #FFFFFF;
+        --vf-border: #DAD7DA;
+        --vf-text: #2D2A2E;
+        --vf-text-muted: #656366;
+        --vf-accent-1: #B58600;
+        --vf-accent-2: #C7204A;
+        --vf-accent-3: #0B8B9B;
+        --vf-glow: #B5860033;
+      }
+    }
+    text {
+      user-select: none;
+    }
+    
+      .card-bg { fill: var(--vf-card); stroke: var(--vf-border); stroke-width: 1; }
+      .grid-line { stroke: var(--vf-border); stroke-width: 0.5; opacity: 0.4; }
+      .glow-layer { filter: drop-shadow(0 0 10px var(--vf-glow)); }
+      .badge-bg { fill: var(--vf-bg); stroke: var(--vf-border); stroke-width: 1; }
+      .title-text { font-family: var(--vf-font-sans); font-size: 24px; font-weight: 800; fill: var(--vf-text); letter-spacing: -0.5px; }
+      .subtitle-text { font-family: var(--vf-font-mono); font-size: 12px; fill: var(--vf-text-muted); letter-spacing: 0.5px; }
+      .tag-text { font-family: var(--vf-font-mono); font-size: 10px; font-weight: 700; fill: var(--vf-accent-1); }
+      .center-stroke { stroke: var(--vf-accent-1); stroke-width: 1.5; fill: none; }
+      .center-sub { stroke: var(--vf-accent-2); stroke-width: 1.0; fill: none; opacity: 0.75; }
+      .center-dot { fill: var(--vf-accent-3); }
+      .circuit-line { stroke: var(--vf-border); stroke-width: 1; fill: none; }
+    
+  </style>
+  
+  <rect x="1" y="1" width="958" height="238" rx="8" class="card-bg" />
+<g class="grid-layer"><line x1="40" y1="0" x2="40" y2="240" class="grid-line" /><line x1="100" y1="0" x2="100" y2="240" class="grid-line" /><line x1="160" y1="0" x2="160" y2="240" class="grid-line" /><line x1="220" y1="0" x2="220" y2="240" class="grid-line" /><line x1="280" y1="0" x2="280" y2="240" class="grid-line" /><line x1="340" y1="0" x2="340" y2="240" class="grid-line" /><line x1="400" y1="0" x2="400" y2="240" class="grid-line" /><line x1="460" y1="0" x2="460" y2="240" class="grid-line" /><line x1="520" y1="0" x2="520" y2="240" class="grid-line" /><line x1="580" y1="0" x2="580" y2="240" class="grid-line" /><line x1="640" y1="0" x2="640" y2="240" class="grid-line" /><line x1="700" y1="0" x2="700" y2="240" class="grid-line" /><line x1="760" y1="0" x2="760" y2="240" class="grid-line" /><line x1="820" y1="0" x2="820" y2="240" class="grid-line" /><line x1="880" y1="0" x2="880" y2="240" class="grid-line" /><line x1="940" y1="0" x2="940" y2="240" class="grid-line" /><line x1="0" y1="30" x2="960" y2="30" class="grid-line" /><line x1="0" y1="60" x2="960" y2="60" class="grid-line" /><line x1="0" y1="90" x2="960" y2="90" class="grid-line" /><line x1="0" y1="120" x2="960" y2="120" class="grid-line" /><line x1="0" y1="150" x2="960" y2="150" class="grid-line" /><line x1="0" y1="180" x2="960" y2="180" class="grid-line" /><line x1="0" y1="210" x2="960" y2="210" class="grid-line" /></g>
+<g><path d="M 420.0 80.0 L 450.0 80.0 L 458.0 88.0 L 690.0 88.0" class="circuit-line" /><circle cx="420" cy="80.0" r="2.5" fill="var(--vf-accent-2)" opacity="0.6" /><path d="M 420.0 120.0 L 465.0 120.0 L 465.0 120.0 L 690.0 120.0" class="circuit-line" /><circle cx="420" cy="120.0" r="2.5" fill="var(--vf-accent-2)" opacity="0.6" /><path d="M 420.0 160.0 L 480.0 160.0 L 472.0 152.0 L 690.0 152.0" class="circuit-line" /><circle cx="420" cy="160.0" r="2.5" fill="var(--vf-accent-2)" opacity="0.6" /></g>
+
+    <g transform="translate(48, 48)">
+      <!-- Category & Status Badge -->
+      <rect x="0" y="0" width="170" height="22" rx="4" class="badge-bg" />
+      <circle cx="10" cy="11" r="3.5" fill="var(--vf-accent-1)" />
+      <text x="22" y="15" class="tag-text">VECTORFORGE // BANNERS</text>
+      
+      <!-- Main Title -->
+      <text x="0" y="56" class="title-text">HYPOCYCLOID CHRONO STAR</text>
+      
+      <!-- Subtitle & Specs -->
+      <text x="0" y="82" class="subtitle-text">Deterministic 1-of-1 SVG Canvas • Seed 0xBCF35E</text>
+      <text x="0" y="104" font-family="var(--vf-font-mono)" font-size="11" fill="var(--vf-text-muted)">Theme: monokai_pro • Resolution: 960x240 • Zero Runtime Dependency</text>
+      
+      <!-- Badges row -->
+      <g transform="translate(0, 122)">
+        <rect x="0" y="0" width="80" height="20" rx="3" fill="var(--vf-bg)" stroke="var(--vf-border)" />
+        <text x="40" y="14" text-anchor="middle" font-family="var(--vf-font-mono)" font-size="10" fill="var(--vf-accent-2)">STANDALONE</text>
+        <rect x="90" y="0" width="70" height="20" rx="3" fill="var(--vf-bg)" stroke="var(--vf-border)" />
+        <text x="125" y="14" text-anchor="middle" font-family="var(--vf-font-mono)" font-size="10" fill="var(--vf-accent-1)">A11Y READY</text>
+        <rect x="170" y="0" width="60" height="20" rx="3" fill="var(--vf-bg)" stroke="var(--vf-border)" />
+        <text x="200" y="14" text-anchor="middle" font-family="var(--vf-font-mono)" font-size="10" fill="var(--vf-accent-3)">&lt; 15 KB</text>
+      </g>
+    </g>
+    
+<g class="art-layer"><path d="M 880.00 120.00 L 879.82 118.81 L 879.29 117.64 L 878.41 116.52 L 877.18 115.45 L 875.61 114.46 L 873.72 113.57 L 871.50 112.80 L 868.99 112.15 L 866.18 111.66 L 863.10 111.33 L 859.76 111.17 L 856.19 111.21 L 852.40 111.44 L 848.42 111.88 L 844.27 112.53 L 839.97 113.40 L 835.55 114.49 L 831.03 115.80 L 826.44 117.34 L 821.81 119.09 L 817.15 121.07 L 812.50 123.25 L 807.88 125.63 L 803.31 128.21 L 798.82 130.97 L 794.43 133.89 L 790.17 136.96 L 786.04 140.17 L 782.08 143.50 L 778.30 146.93 L 774.72 150.44 L 771.35 154.00 L 768.21 157.60 L 765.31 161.21 L 762.65 164.81 L 760.25 168.38 L 758.11 171.89 L 756.24 175.32 L 754.63 178.64 L 753.29 181.84 L 752.22 184.88 L 751.41 187.75 L 750.86 190.42 L 750.55 192.88 L 750.48 195.11 L 750.64 197.08 L 751.02 198.78 L 751.60 200.20 L 752.36 201.32 L 753.29 202.12 L 754.38 202.61 L 755.60 202.77 L 756.93 202.59 L 758.36 202.07 L 759.87 201.22 L 761.42 200.02 L 763.01 198.48 L 764.62 196.60 L 766.21 194.40 L 767.77 191.88 L 769.29 189.04 L 770.74 185.91 L 772.10 182.49 L 773.36 178.80 L 774.50 174.87 L 775.50 170.70 L 776.36 166.31 L 777.06 161.74 L 777.59 157.00 L 777.94 152.11 L 778.11 147.11 L 778.08 142.01 L 777.85 136.85 L 777.43 131.64 L 776.82 126.42 L 776.00 121.21 L 775.00 116.04 L 773.81 110.93 L 772.44 105.91 L 770.91 101.00 L 769.22 96.23 L 767.38 91.62 L 765.41 87.19 L 763.32 82.97 L 761.13 78.97 L 758.87 75.20 L 756.54 71.69 L 754.16 68.46 L 751.77 65.50 L 749.37 62.83 L 747.00 60.46 L 744.66 58.41 L 742.39 56.66 L 740.21 55.22 L 738.13 54.10 L 736.19 53.30 L 734.39 52.80 L 732.77 52.60 L 731.33 52.70 L 730.10 53.08 L 729.09 53.74 L 728.32 54.66 L 727.81 55.83 L 727.57 57.23 L 727.60 58.85 L 727.92 60.66 L 728.53 62.65 L 729.44 64.80 L 730.66 67.08 L 732.18 69.47 L 734.01 71.96 L 736.14 74.52 L 738.57 77.12 L 741.29 79.75 L 744.29 82.38 L 747.57 85.00 L 751.10 87.58 L 754.89 90.09 L 758.90 92.53 L 763.13 94.87 L 767.55 97.10 L 772.15 99.19 L 776.90 101.14 L 781.78 102.94 L 786.76 104.56 L 791.82 106.01 L 796.95 107.27 L 802.10 108.34 L 807.25 109.21 L 812.38 109.88 L 817.47 110.35 L 822.48 110.62 L 827.39 110.69 L 832.17 110.58 L 836.80 110.28 L 841.26 109.80 L 845.52 109.16 L 849.57 108.36 L 853.37 107.43 L 856.92 106.36 L 860.19 105.19 L 863.17 103.92 L 865.85 102.58 L 868.21 101.18 L 870.24 99.74 L 871.94 98.28 L 873.30 96.83 L 874.32 95.40 L 874.99 94.01 L 875.31 92.69 L 875.29 91.45 L 874.93 90.31 L 874.24 89.30 L 873.22 88.43 L 871.89 87.72 L 870.26 87.19 L 868.33 86.84 L 866.14 86.70 L 863.69 86.78 L 861.00 87.09" class="center-stroke glow-layer" /><circle cx="790" cy="120.0" r="78" fill="none" stroke="var(--vf-accent-2)" stroke-dasharray="2 4" /></g>
+</svg>
