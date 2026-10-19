@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 210" width="880" height="210" role="img" aria-labelledby="title-id desc-id">
+  <title id="title-id">Low-Poly Elevation Map - Contribution Skyline</title>
+  <desc id="desc-id">Telemetry horizon low-poly-isometric-terrain</desc>
+  <style>
+    :root {
+      --vf-bg: #00212B;
+      --vf-card: #002B36;
+      --vf-border: #073642;
+      --vf-text: #93A1A1;
+      --vf-text-muted: #657B83;
+      --vf-accent-1: #2AA198;
+      --vf-accent-2: #268BD2;
+      --vf-accent-3: #B58900;
+      --vf-glow: #2AA19844;
+      --vf-font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      --vf-font-mono: "JetBrains Mono", "Fira Code", ui-monospace, Menlo, Monaco, Consolas, monospace;
+      --vf-font-arabic: "Cairo", "Amiri", "Tahoma", -apple-system, sans-serif;
+    }
+    @media (prefers-color-scheme: light) {
+      :root {
+        --vf-bg: #FDF6E3;
+        --vf-card: #EEE8D5;
+        --vf-border: #D33682;
+        --vf-text: #586E75;
+        --vf-text-muted: #839496;
+        --vf-accent-1: #1B7871;
+        --vf-accent-2: #1A659E;
+        --vf-accent-3: #8A6800;
+        --vf-glow: #1B787133;
+      }
+    }
+    text {
+      user-select: none;
+    }
+    
+      .card-frame { fill: var(--vf-card); stroke: var(--vf-border); stroke-width: 1; }
+      .skyline-bar { fill: var(--vf-accent-1); }
+      .skyline-sub { fill: var(--vf-accent-2); opacity: 0.65; }
+      .grid-h { stroke: var(--vf-border); stroke-width: 0.5; stroke-dasharray: 2 4; }
+      .metric-title { font-family: var(--vf-font-mono); font-size: 13px; font-weight: 700; fill: var(--vf-text); }
+      .metric-stat { font-family: var(--vf-font-mono); font-size: 11px; fill: var(--vf-text-muted); }
+      .accent-pill { fill: var(--vf-bg); stroke: var(--vf-border); stroke-width: 1; }
+    
+  </style>
+  
+  <rect x="1" y="1" width="878" height="208" rx="8" class="card-frame" />
+
+    <g transform="translate(28, 26)">
+      <circle cx="0" cy="0" r="4" fill="var(--vf-accent-1)" />
+      <text x="12" y="4" class="metric-title">LOW-POLY ELEVATION MAP</text>
+      <text x="12" y="20" class="metric-stat">52 WEEKS • 1,844 TOTAL COMMITS • 99.8% CI PASS RATE</text>
+      
+      <g transform="translate(640, -8)">
+        <rect x="0" y="0" width="180" height="26" rx="4" class="accent-pill" />
+        <circle cx="12" cy="13" r="3" fill="var(--vf-accent-3)" />
+        <text x="24" y="17" font-family="var(--vf-font-mono)" font-size="10" font-weight="700" fill="var(--vf-accent-1)">PEAK: 34 COMMITS/DAY</text>
+      </g>
+    </g>
+    
+<line x1="28" y1="152" x2="852" y2="152" class="grid-h" />
+<line x1="28" y1="117" x2="852" y2="117" class="grid-h" />
+<line x1="28" y1="82" x2="852" y2="82" class="grid-h" />
+<g class="skyline-content"><path d="M 28.0 76.6 L 34.9 79.0 L 41.8 81.8 L 48.8 84.7 L 55.7 87.9 L 62.6 91.2 L 69.5 94.7 L 76.5 98.2 L 83.4 101.8 L 90.3 105.4 L 97.2 108.9 L 104.2 112.4 L 111.1 115.8 L 118.0 119.0 L 124.9 122.0 L 131.9 124.9 L 138.8 127.5 L 145.7 129.8 L 152.6 131.9 L 159.6 133.7 L 166.5 135.3 L 173.4 136.5 L 180.3 137.5 L 187.3 138.2 L 194.2 138.6 L 201.1 138.8 L 208.0 138.7 L 215.0 138.5 L 221.9 138.0 L 228.8 137.4 L 235.7 136.7 L 242.7 135.9 L 249.6 135.0 L 256.5 134.0 L 263.4 133.1 L 270.4 132.3 L 277.3 131.5 L 284.2 130.8 L 291.1 130.2 L 298.1 129.9 L 305.0 129.7 L 311.9 129.7 L 318.8 130.0 L 325.7 130.5 L 332.7 131.3 L 339.6 132.3 L 346.5 133.7 L 353.4 135.3 L 360.4 137.1 L 367.3 139.2 L 374.2 141.6 L 381.1 144.2 L 388.1 147.0 L 395.0 150.0 L 401.9 153.1 L 408.8 156.3 L 415.8 159.6 L 422.7 163.0 L 429.6 166.4 L 436.5 169.7 L 443.5 172.9 L 450.4 176.1 L 457.3 179.0 L 464.2 181.8 L 471.2 184.3 L 478.1 186.6 L 485.0 188.6 L 491.9 190.2 L 498.9 191.5 L 505.8 192.4 L 512.7 192.9 L 519.6 193.0 L 526.6 192.7 L 533.5 191.9 L 540.4 190.8 L 547.3 189.2 L 554.3 187.1 L 561.2 184.7 L 568.1 181.9 L 575.0 178.8 L 581.9 175.3 L 588.9 171.5 L 595.8 167.5 L 602.7 163.2 L 609.6 158.7 L 616.6 154.1 L 623.5 149.4 L 630.4 144.6 L 637.3 139.9 L 644.3 135.1 L 651.2 130.4 L 658.1 125.9 L 665.0 121.5 L 672.0 117.2 L 678.9 113.3 L 685.8 109.5 L 692.7 106.1 L 699.7 103.0 L 706.6 100.2 L 713.5 97.7 L 720.4 95.7 L 727.4 93.9 L 734.3 92.6 L 741.2 91.6 L 748.1 91.0 L 755.1 90.8 L 762.0 90.8 L 768.9 91.2 L 775.8 91.9 L 782.8 92.8 L 789.7 94.0 L 796.6 95.4 L 803.5 96.9 L 810.5 98.6 L 817.4 100.4 L 824.3 102.2 L 831.2 104.0 L 838.2 105.9 L 845.1 107.7 L 852.0 109.4 L 852 182 L 28 182 Z" fill="var(--vf-accent-2)" opacity="0.35" /><path d="M 28.0 76.6 L 34.9 79.0 L 41.8 81.8 L 48.8 84.7 L 55.7 87.9 L 62.6 91.2 L 69.5 94.7 L 76.5 98.2 L 83.4 101.8 L 90.3 105.4 L 97.2 108.9 L 104.2 112.4 L 111.1 115.8 L 118.0 119.0 L 124.9 122.0 L 131.9 124.9 L 138.8 127.5 L 145.7 129.8 L 152.6 131.9 L 159.6 133.7 L 166.5 135.3 L 173.4 136.5 L 180.3 137.5 L 187.3 138.2 L 194.2 138.6 L 201.1 138.8 L 208.0 138.7 L 215.0 138.5 L 221.9 138.0 L 228.8 137.4 L 235.7 136.7 L 242.7 135.9 L 249.6 135.0 L 256.5 134.0 L 263.4 133.1 L 270.4 132.3 L 277.3 131.5 L 284.2 130.8 L 291.1 130.2 L 298.1 129.9 L 305.0 129.7 L 311.9 129.7 L 318.8 130.0 L 325.7 130.5 L 332.7 131.3 L 339.6 132.3 L 346.5 133.7 L 353.4 135.3 L 360.4 137.1 L 367.3 139.2 L 374.2 141.6 L 381.1 144.2 L 388.1 147.0 L 395.0 150.0 L 401.9 153.1 L 408.8 156.3 L 415.8 159.6 L 422.7 163.0 L 429.6 166.4 L 436.5 169.7 L 443.5 172.9 L 450.4 176.1 L 457.3 179.0 L 464.2 181.8 L 471.2 184.3 L 478.1 186.6 L 485.0 188.6 L 491.9 190.2 L 498.9 191.5 L 505.8 192.4 L 512.7 192.9 L 519.6 193.0 L 526.6 192.7 L 533.5 191.9 L 540.4 190.8 L 547.3 189.2 L 554.3 187.1 L 561.2 184.7 L 568.1 181.9 L 575.0 178.8 L 581.9 175.3 L 588.9 171.5 L 595.8 167.5 L 602.7 163.2 L 609.6 158.7 L 616.6 154.1 L 623.5 149.4 L 630.4 144.6 L 637.3 139.9 L 644.3 135.1 L 651.2 130.4 L 658.1 125.9 L 665.0 121.5 L 672.0 117.2 L 678.9 113.3 L 685.8 109.5 L 692.7 106.1 L 699.7 103.0 L 706.6 100.2 L 713.5 97.7 L 720.4 95.7 L 727.4 93.9 L 734.3 92.6 L 741.2 91.6 L 748.1 91.0 L 755.1 90.8 L 762.0 90.8 L 768.9 91.2 L 775.8 91.9 L 782.8 92.8 L 789.7 94.0 L 796.6 95.4 L 803.5 96.9 L 810.5 98.6 L 817.4 100.4 L 824.3 102.2 L 831.2 104.0 L 838.2 105.9 L 845.1 107.7 L 852.0 109.4" fill="none" stroke="var(--vf-accent-1)" stroke-width="2" /></g>
+<line x1="28" y1="182" x2="852" y2="182" stroke="var(--vf-border)" stroke-width="1.5" />
+</svg>

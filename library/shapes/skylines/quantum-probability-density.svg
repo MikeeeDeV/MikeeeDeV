@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 210" width="880" height="210" role="img" aria-labelledby="title-id desc-id">
+  <title id="title-id">Schrödinger Wave Packet - Contribution Skyline</title>
+  <desc id="desc-id">Telemetry horizon quantum-probability-density</desc>
+  <style>
+    :root {
+      --vf-bg: #16161E;
+      --vf-card: #1F2335;
+      --vf-border: #292E42;
+      --vf-text: #C0CAF5;
+      --vf-text-muted: #7AA2F7;
+      --vf-accent-1: #7AA2F7;
+      --vf-accent-2: #BB9AF7;
+      --vf-accent-3: #73DACA;
+      --vf-glow: #7AA2F744;
+      --vf-font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      --vf-font-mono: "JetBrains Mono", "Fira Code", ui-monospace, Menlo, Monaco, Consolas, monospace;
+      --vf-font-arabic: "Cairo", "Amiri", "Tahoma", -apple-system, sans-serif;
+    }
+    @media (prefers-color-scheme: light) {
+      :root {
+        --vf-bg: #F3F4F8;
+        --vf-card: #FFFFFF;
+        --vf-border: #D5D9E7;
+        --vf-text: #1A1B26;
+        --vf-text-muted: #4C5A85;
+        --vf-accent-1: #3454B4;
+        --vf-accent-2: #7245B8;
+        --vf-accent-3: #1B8070;
+        --vf-glow: #3454B433;
+      }
+    }
+    text {
+      user-select: none;
+    }
+    
+      .card-frame { fill: var(--vf-card); stroke: var(--vf-border); stroke-width: 1; }
+      .skyline-bar { fill: var(--vf-accent-1); }
+      .skyline-sub { fill: var(--vf-accent-2); opacity: 0.65; }
+      .grid-h { stroke: var(--vf-border); stroke-width: 0.5; stroke-dasharray: 2 4; }
+      .metric-title { font-family: var(--vf-font-mono); font-size: 13px; font-weight: 700; fill: var(--vf-text); }
+      .metric-stat { font-family: var(--vf-font-mono); font-size: 11px; fill: var(--vf-text-muted); }
+      .accent-pill { fill: var(--vf-bg); stroke: var(--vf-border); stroke-width: 1; }
+    
+  </style>
+  
+  <rect x="1" y="1" width="878" height="208" rx="8" class="card-frame" />
+
+    <g transform="translate(28, 26)">
+      <circle cx="0" cy="0" r="4" fill="var(--vf-accent-1)" />
+      <text x="12" y="4" class="metric-title">SCHRÖDINGER WAVE PACKET</text>
+      <text x="12" y="20" class="metric-stat">52 WEEKS • 1,844 TOTAL COMMITS • 99.8% CI PASS RATE</text>
+      
+      <g transform="translate(640, -8)">
+        <rect x="0" y="0" width="180" height="26" rx="4" class="accent-pill" />
+        <circle cx="12" cy="13" r="3" fill="var(--vf-accent-3)" />
+        <text x="24" y="17" font-family="var(--vf-font-mono)" font-size="10" font-weight="700" fill="var(--vf-accent-1)">PEAK: 34 COMMITS/DAY</text>
+      </g>
+    </g>
+    
+<line x1="28" y1="152" x2="852" y2="152" class="grid-h" />
+<line x1="28" y1="117" x2="852" y2="117" class="grid-h" />
+<line x1="28" y1="82" x2="852" y2="82" class="grid-h" />
+<g class="skyline-content"><path d="M 28.0 67.8 L 34.9 67.3 L 41.8 67.2 L 48.8 67.5 L 55.7 68.3 L 62.6 69.5 L 69.5 71.2 L 76.5 73.2 L 83.4 75.6 L 90.3 78.4 L 97.2 81.5 L 104.2 84.9 L 111.1 88.5 L 118.0 92.4 L 124.9 96.5 L 131.9 100.7 L 138.8 105.0 L 145.7 109.4 L 152.6 113.8 L 159.6 118.1 L 166.5 122.4 L 173.4 126.6 L 180.3 130.6 L 187.3 134.5 L 194.2 138.1 L 201.1 141.5 L 208.0 144.6 L 215.0 147.4 L 221.9 150.0 L 228.8 152.2 L 235.7 154.1 L 242.7 155.6 L 249.6 156.8 L 256.5 157.7 L 263.4 158.3 L 270.4 158.6 L 277.3 158.6 L 284.2 158.3 L 291.1 157.8 L 298.1 157.1 L 305.0 156.2 L 311.9 155.2 L 318.8 154.0 L 325.7 152.8 L 332.7 151.6 L 339.6 150.3 L 346.5 149.1 L 353.4 147.9 L 360.4 146.8 L 367.3 145.9 L 374.2 145.1 L 381.1 144.5 L 388.1 144.1 L 395.0 143.9 L 401.9 143.9 L 408.8 144.2 L 415.8 144.7 L 422.7 145.5 L 429.6 146.5 L 436.5 147.7 L 443.5 149.2 L 450.4 150.8 L 457.3 152.7 L 464.2 154.7 L 471.2 156.8 L 478.1 159.1 L 485.0 161.4 L 491.9 163.8 L 498.9 166.2 L 505.8 168.5 L 512.7 170.7 L 519.6 172.9 L 526.6 174.9 L 533.5 176.7 L 540.4 178.3 L 547.3 179.7 L 554.3 180.7 L 561.2 181.5 L 568.1 181.9 L 575.0 181.9 L 581.9 181.6 L 588.9 180.9 L 595.8 179.8 L 602.7 178.3 L 609.6 176.4 L 616.6 174.2 L 623.5 171.5 L 630.4 168.5 L 637.3 165.2 L 644.3 161.5 L 651.2 157.6 L 658.1 153.4 L 665.0 149.0 L 672.0 144.4 L 678.9 139.6 L 685.8 134.8 L 692.7 129.9 L 699.7 125.0 L 706.6 120.1 L 713.5 115.4 L 720.4 110.7 L 727.4 106.2 L 734.3 101.9 L 741.2 97.8 L 748.1 94.0 L 755.1 90.6 L 762.0 87.4 L 768.9 84.7 L 775.8 82.3 L 782.8 80.3 L 789.7 78.7 L 796.6 77.5 L 803.5 76.7 L 810.5 76.3 L 817.4 76.4 L 824.3 76.8 L 831.2 77.6 L 838.2 78.7 L 845.1 80.1 L 852.0 81.9 L 852 182 L 28 182 Z" fill="var(--vf-accent-2)" opacity="0.35" /><path d="M 28.0 67.8 L 34.9 67.3 L 41.8 67.2 L 48.8 67.5 L 55.7 68.3 L 62.6 69.5 L 69.5 71.2 L 76.5 73.2 L 83.4 75.6 L 90.3 78.4 L 97.2 81.5 L 104.2 84.9 L 111.1 88.5 L 118.0 92.4 L 124.9 96.5 L 131.9 100.7 L 138.8 105.0 L 145.7 109.4 L 152.6 113.8 L 159.6 118.1 L 166.5 122.4 L 173.4 126.6 L 180.3 130.6 L 187.3 134.5 L 194.2 138.1 L 201.1 141.5 L 208.0 144.6 L 215.0 147.4 L 221.9 150.0 L 228.8 152.2 L 235.7 154.1 L 242.7 155.6 L 249.6 156.8 L 256.5 157.7 L 263.4 158.3 L 270.4 158.6 L 277.3 158.6 L 284.2 158.3 L 291.1 157.8 L 298.1 157.1 L 305.0 156.2 L 311.9 155.2 L 318.8 154.0 L 325.7 152.8 L 332.7 151.6 L 339.6 150.3 L 346.5 149.1 L 353.4 147.9 L 360.4 146.8 L 367.3 145.9 L 374.2 145.1 L 381.1 144.5 L 388.1 144.1 L 395.0 143.9 L 401.9 143.9 L 408.8 144.2 L 415.8 144.7 L 422.7 145.5 L 429.6 146.5 L 436.5 147.7 L 443.5 149.2 L 450.4 150.8 L 457.3 152.7 L 464.2 154.7 L 471.2 156.8 L 478.1 159.1 L 485.0 161.4 L 491.9 163.8 L 498.9 166.2 L 505.8 168.5 L 512.7 170.7 L 519.6 172.9 L 526.6 174.9 L 533.5 176.7 L 540.4 178.3 L 547.3 179.7 L 554.3 180.7 L 561.2 181.5 L 568.1 181.9 L 575.0 181.9 L 581.9 181.6 L 588.9 180.9 L 595.8 179.8 L 602.7 178.3 L 609.6 176.4 L 616.6 174.2 L 623.5 171.5 L 630.4 168.5 L 637.3 165.2 L 644.3 161.5 L 651.2 157.6 L 658.1 153.4 L 665.0 149.0 L 672.0 144.4 L 678.9 139.6 L 685.8 134.8 L 692.7 129.9 L 699.7 125.0 L 706.6 120.1 L 713.5 115.4 L 720.4 110.7 L 727.4 106.2 L 734.3 101.9 L 741.2 97.8 L 748.1 94.0 L 755.1 90.6 L 762.0 87.4 L 768.9 84.7 L 775.8 82.3 L 782.8 80.3 L 789.7 78.7 L 796.6 77.5 L 803.5 76.7 L 810.5 76.3 L 817.4 76.4 L 824.3 76.8 L 831.2 77.6 L 838.2 78.7 L 845.1 80.1 L 852.0 81.9" fill="none" stroke="var(--vf-accent-1)" stroke-width="2" /></g>
+<line x1="28" y1="182" x2="852" y2="182" stroke="var(--vf-border)" stroke-width="1.5" />
+</svg>

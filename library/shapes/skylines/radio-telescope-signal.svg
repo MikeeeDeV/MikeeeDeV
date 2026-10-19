@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 210" width="880" height="210" role="img" aria-labelledby="title-id desc-id">
+  <title id="title-id">Arecibo SETI Beacon - Contribution Skyline</title>
+  <desc id="desc-id">Telemetry horizon radio-telescope-signal</desc>
+  <style>
+    :root {
+      --vf-bg: #14121E;
+      --vf-card: #191724;
+      --vf-border: #26233A;
+      --vf-text: #E0DEF4;
+      --vf-text-muted: #908CAA;
+      --vf-accent-1: #EBBCBA;
+      --vf-accent-2: #9CCFD8;
+      --vf-accent-3: #C4A7E7;
+      --vf-glow: #EBBCBA44;
+      --vf-font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      --vf-font-mono: "JetBrains Mono", "Fira Code", ui-monospace, Menlo, Monaco, Consolas, monospace;
+      --vf-font-arabic: "Cairo", "Amiri", "Tahoma", -apple-system, sans-serif;
+    }
+    @media (prefers-color-scheme: light) {
+      :root {
+        --vf-bg: #FAF4ED;
+        --vf-card: #FFFFFF;
+        --vf-border: #E4DFDE;
+        --vf-text: #575279;
+        --vf-text-muted: #797593;
+        --vf-accent-1: #B85D6B;
+        --vf-accent-2: #3F7A85;
+        --vf-accent-3: #765C9C;
+        --vf-glow: #B85D6B33;
+      }
+    }
+    text {
+      user-select: none;
+    }
+    
+      .card-frame { fill: var(--vf-card); stroke: var(--vf-border); stroke-width: 1; }
+      .skyline-bar { fill: var(--vf-accent-1); }
+      .skyline-sub { fill: var(--vf-accent-2); opacity: 0.65; }
+      .grid-h { stroke: var(--vf-border); stroke-width: 0.5; stroke-dasharray: 2 4; }
+      .metric-title { font-family: var(--vf-font-mono); font-size: 13px; font-weight: 700; fill: var(--vf-text); }
+      .metric-stat { font-family: var(--vf-font-mono); font-size: 11px; fill: var(--vf-text-muted); }
+      .accent-pill { fill: var(--vf-bg); stroke: var(--vf-border); stroke-width: 1; }
+    
+  </style>
+  
+  <rect x="1" y="1" width="878" height="208" rx="8" class="card-frame" />
+
+    <g transform="translate(28, 26)">
+      <circle cx="0" cy="0" r="4" fill="var(--vf-accent-1)" />
+      <text x="12" y="4" class="metric-title">ARECIBO SETI BEACON</text>
+      <text x="12" y="20" class="metric-stat">52 WEEKS • 1,844 TOTAL COMMITS • 99.8% CI PASS RATE</text>
+      
+      <g transform="translate(640, -8)">
+        <rect x="0" y="0" width="180" height="26" rx="4" class="accent-pill" />
+        <circle cx="12" cy="13" r="3" fill="var(--vf-accent-3)" />
+        <text x="24" y="17" font-family="var(--vf-font-mono)" font-size="10" font-weight="700" fill="var(--vf-accent-1)">PEAK: 34 COMMITS/DAY</text>
+      </g>
+    </g>
+    
+<line x1="28" y1="152" x2="852" y2="152" class="grid-h" />
+<line x1="28" y1="117" x2="852" y2="117" class="grid-h" />
+<line x1="28" y1="82" x2="852" y2="82" class="grid-h" />
+<g class="skyline-content"><path d="M 28.0 113.5 L 34.9 114.9 L 41.8 116.1 L 48.8 117.0 L 55.7 117.7 L 62.6 118.2 L 69.5 118.4 L 76.5 118.4 L 83.4 118.2 L 90.3 117.7 L 97.2 117.1 L 104.2 116.2 L 111.1 115.2 L 118.0 114.1 L 124.9 112.8 L 131.9 111.4 L 138.8 110.1 L 145.7 108.7 L 152.6 107.3 L 159.6 106.0 L 166.5 104.8 L 173.4 103.7 L 180.3 102.7 L 187.3 102.0 L 194.2 101.5 L 201.1 101.3 L 208.0 101.3 L 215.0 101.6 L 221.9 102.3 L 228.8 103.2 L 235.7 104.6 L 242.7 106.2 L 249.6 108.2 L 256.5 110.5 L 263.4 113.2 L 270.4 116.2 L 277.3 119.4 L 284.2 123.0 L 291.1 126.7 L 298.1 130.7 L 305.0 134.9 L 311.9 139.2 L 318.8 143.7 L 325.7 148.2 L 332.7 152.7 L 339.6 157.2 L 346.5 161.6 L 353.4 165.9 L 360.4 170.1 L 367.3 174.1 L 374.2 177.9 L 381.1 181.4 L 388.1 184.5 L 395.0 187.4 L 401.9 189.9 L 408.8 192.0 L 415.8 193.7 L 422.7 195.0 L 429.6 195.8 L 436.5 196.2 L 443.5 196.2 L 450.4 195.7 L 457.3 194.8 L 464.2 193.6 L 471.2 191.9 L 478.1 189.8 L 485.0 187.4 L 491.9 184.7 L 498.9 181.7 L 505.8 178.4 L 512.7 175.0 L 519.6 171.4 L 526.6 167.6 L 533.5 163.8 L 540.4 159.9 L 547.3 156.0 L 554.3 152.2 L 561.2 148.4 L 568.1 144.7 L 575.0 141.2 L 581.9 137.9 L 588.9 134.8 L 595.8 131.9 L 602.7 129.3 L 609.6 126.9 L 616.6 124.9 L 623.5 123.1 L 630.4 121.6 L 637.3 120.5 L 644.3 119.6 L 651.2 119.0 L 658.1 118.7 L 665.0 118.6 L 672.0 118.8 L 678.9 119.1 L 685.8 119.7 L 692.7 120.4 L 699.7 121.2 L 706.6 122.1 L 713.5 123.1 L 720.4 124.0 L 727.4 125.0 L 734.3 125.9 L 741.2 126.7 L 748.1 127.4 L 755.1 128.0 L 762.0 128.4 L 768.9 128.6 L 775.8 128.5 L 782.8 128.3 L 789.7 127.8 L 796.6 127.0 L 803.5 126.0 L 810.5 124.7 L 817.4 123.1 L 824.3 121.3 L 831.2 119.3 L 838.2 117.0 L 845.1 114.6 L 852.0 111.9 L 852 182 L 28 182 Z" fill="var(--vf-accent-2)" opacity="0.35" /><path d="M 28.0 113.5 L 34.9 114.9 L 41.8 116.1 L 48.8 117.0 L 55.7 117.7 L 62.6 118.2 L 69.5 118.4 L 76.5 118.4 L 83.4 118.2 L 90.3 117.7 L 97.2 117.1 L 104.2 116.2 L 111.1 115.2 L 118.0 114.1 L 124.9 112.8 L 131.9 111.4 L 138.8 110.1 L 145.7 108.7 L 152.6 107.3 L 159.6 106.0 L 166.5 104.8 L 173.4 103.7 L 180.3 102.7 L 187.3 102.0 L 194.2 101.5 L 201.1 101.3 L 208.0 101.3 L 215.0 101.6 L 221.9 102.3 L 228.8 103.2 L 235.7 104.6 L 242.7 106.2 L 249.6 108.2 L 256.5 110.5 L 263.4 113.2 L 270.4 116.2 L 277.3 119.4 L 284.2 123.0 L 291.1 126.7 L 298.1 130.7 L 305.0 134.9 L 311.9 139.2 L 318.8 143.7 L 325.7 148.2 L 332.7 152.7 L 339.6 157.2 L 346.5 161.6 L 353.4 165.9 L 360.4 170.1 L 367.3 174.1 L 374.2 177.9 L 381.1 181.4 L 388.1 184.5 L 395.0 187.4 L 401.9 189.9 L 408.8 192.0 L 415.8 193.7 L 422.7 195.0 L 429.6 195.8 L 436.5 196.2 L 443.5 196.2 L 450.4 195.7 L 457.3 194.8 L 464.2 193.6 L 471.2 191.9 L 478.1 189.8 L 485.0 187.4 L 491.9 184.7 L 498.9 181.7 L 505.8 178.4 L 512.7 175.0 L 519.6 171.4 L 526.6 167.6 L 533.5 163.8 L 540.4 159.9 L 547.3 156.0 L 554.3 152.2 L 561.2 148.4 L 568.1 144.7 L 575.0 141.2 L 581.9 137.9 L 588.9 134.8 L 595.8 131.9 L 602.7 129.3 L 609.6 126.9 L 616.6 124.9 L 623.5 123.1 L 630.4 121.6 L 637.3 120.5 L 644.3 119.6 L 651.2 119.0 L 658.1 118.7 L 665.0 118.6 L 672.0 118.8 L 678.9 119.1 L 685.8 119.7 L 692.7 120.4 L 699.7 121.2 L 706.6 122.1 L 713.5 123.1 L 720.4 124.0 L 727.4 125.0 L 734.3 125.9 L 741.2 126.7 L 748.1 127.4 L 755.1 128.0 L 762.0 128.4 L 768.9 128.6 L 775.8 128.5 L 782.8 128.3 L 789.7 127.8 L 796.6 127.0 L 803.5 126.0 L 810.5 124.7 L 817.4 123.1 L 824.3 121.3 L 831.2 119.3 L 838.2 117.0 L 845.1 114.6 L 852.0 111.9" fill="none" stroke="var(--vf-accent-1)" stroke-width="2" /></g>
+<line x1="28" y1="182" x2="852" y2="182" stroke="var(--vf-border)" stroke-width="1.5" />
+</svg>

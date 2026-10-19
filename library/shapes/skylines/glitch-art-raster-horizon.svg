@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 210" width="880" height="210" role="img" aria-labelledby="title-id desc-id">
+  <title id="title-id">CRT Raster Desync Scan - Contribution Skyline</title>
+  <desc id="desc-id">Telemetry horizon glitch-art-raster-horizon</desc>
+  <style>
+    :root {
+      --vf-bg: #08080E;
+      --vf-card: #121222;
+      --vf-border: #2B2B47;
+      --vf-text: #FFFDF0;
+      --vf-text-muted: #8E8EA8;
+      --vf-accent-1: #FEE715;
+      --vf-accent-2: #00F0FF;
+      --vf-accent-3: #FF007F;
+      --vf-glow: #00F0FF44;
+      --vf-font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      --vf-font-mono: "JetBrains Mono", "Fira Code", ui-monospace, Menlo, Monaco, Consolas, monospace;
+      --vf-font-arabic: "Cairo", "Amiri", "Tahoma", -apple-system, sans-serif;
+    }
+    @media (prefers-color-scheme: light) {
+      :root {
+        --vf-bg: #F4F4F8;
+        --vf-card: #FFFFFF;
+        --vf-border: #D1D1DF;
+        --vf-text: #121224;
+        --vf-text-muted: #5A5A72;
+        --vf-accent-1: #CA9A00;
+        --vf-accent-2: #0099A8;
+        --vf-accent-3: #D6006B;
+        --vf-glow: #0099A833;
+      }
+    }
+    text {
+      user-select: none;
+    }
+    
+      .card-frame { fill: var(--vf-card); stroke: var(--vf-border); stroke-width: 1; }
+      .skyline-bar { fill: var(--vf-accent-1); }
+      .skyline-sub { fill: var(--vf-accent-2); opacity: 0.65; }
+      .grid-h { stroke: var(--vf-border); stroke-width: 0.5; stroke-dasharray: 2 4; }
+      .metric-title { font-family: var(--vf-font-mono); font-size: 13px; font-weight: 700; fill: var(--vf-text); }
+      .metric-stat { font-family: var(--vf-font-mono); font-size: 11px; fill: var(--vf-text-muted); }
+      .accent-pill { fill: var(--vf-bg); stroke: var(--vf-border); stroke-width: 1; }
+    
+  </style>
+  
+  <rect x="1" y="1" width="878" height="208" rx="8" class="card-frame" />
+
+    <g transform="translate(28, 26)">
+      <circle cx="0" cy="0" r="4" fill="var(--vf-accent-1)" />
+      <text x="12" y="4" class="metric-title">CRT RASTER DESYNC SCAN</text>
+      <text x="12" y="20" class="metric-stat">52 WEEKS • 1,844 TOTAL COMMITS • 99.8% CI PASS RATE</text>
+      
+      <g transform="translate(640, -8)">
+        <rect x="0" y="0" width="180" height="26" rx="4" class="accent-pill" />
+        <circle cx="12" cy="13" r="3" fill="var(--vf-accent-3)" />
+        <text x="24" y="17" font-family="var(--vf-font-mono)" font-size="10" font-weight="700" fill="var(--vf-accent-1)">PEAK: 34 COMMITS/DAY</text>
+      </g>
+    </g>
+    
+<line x1="28" y1="152" x2="852" y2="152" class="grid-h" />
+<line x1="28" y1="117" x2="852" y2="117" class="grid-h" />
+<line x1="28" y1="82" x2="852" y2="82" class="grid-h" />
+<g class="skyline-content"><path d="M 28.0 92.2 L 34.9 89.4 L 41.8 86.6 L 48.8 84.1 L 55.7 81.7 L 62.6 79.7 L 69.5 77.9 L 76.5 76.4 L 83.4 75.2 L 90.3 74.4 L 97.2 74.0 L 104.2 74.0 L 111.1 74.4 L 118.0 75.2 L 124.9 76.4 L 131.9 78.1 L 138.8 80.2 L 145.7 82.6 L 152.6 85.4 L 159.6 88.6 L 166.5 92.2 L 173.4 96.0 L 180.3 100.1 L 187.3 104.4 L 194.2 108.9 L 201.1 113.6 L 208.0 118.4 L 215.0 123.2 L 221.9 128.1 L 228.8 133.0 L 235.7 137.7 L 242.7 142.4 L 249.6 146.9 L 256.5 151.3 L 263.4 155.4 L 270.4 159.2 L 277.3 162.8 L 284.2 166.0 L 291.1 168.9 L 298.1 171.4 L 305.0 173.6 L 311.9 175.4 L 318.8 176.8 L 325.7 177.8 L 332.7 178.4 L 339.6 178.7 L 346.5 178.6 L 353.4 178.2 L 360.4 177.4 L 367.3 176.4 L 374.2 175.1 L 381.1 173.6 L 388.1 171.9 L 395.0 170.0 L 401.9 168.0 L 408.8 165.9 L 415.8 163.7 L 422.7 161.6 L 429.6 159.4 L 436.5 157.3 L 443.5 155.3 L 450.4 153.5 L 457.3 151.8 L 464.2 150.2 L 471.2 148.9 L 478.1 147.7 L 485.0 146.8 L 491.9 146.2 L 498.9 145.7 L 505.8 145.5 L 512.7 145.6 L 519.6 145.9 L 526.6 146.4 L 533.5 147.1 L 540.4 148.0 L 547.3 149.0 L 554.3 150.2 L 561.2 151.5 L 568.1 152.9 L 575.0 154.2 L 581.9 155.6 L 588.9 157.0 L 595.8 158.3 L 602.7 159.5 L 609.6 160.6 L 616.6 161.5 L 623.5 162.1 L 630.4 162.6 L 637.3 162.8 L 644.3 162.7 L 651.2 162.3 L 658.1 161.6 L 665.0 160.6 L 672.0 159.2 L 678.9 157.5 L 685.8 155.4 L 692.7 153.0 L 699.7 150.3 L 706.6 147.3 L 713.5 144.0 L 720.4 140.4 L 727.4 136.5 L 734.3 132.5 L 741.2 128.3 L 748.1 123.9 L 755.1 119.5 L 762.0 115.0 L 768.9 110.5 L 775.8 106.0 L 782.8 101.6 L 789.7 97.3 L 796.6 93.1 L 803.5 89.2 L 810.5 85.5 L 817.4 82.0 L 824.3 78.9 L 831.2 76.1 L 838.2 73.7 L 845.1 71.7 L 852.0 70.1 L 852 182 L 28 182 Z" fill="var(--vf-accent-2)" opacity="0.35" /><path d="M 28.0 92.2 L 34.9 89.4 L 41.8 86.6 L 48.8 84.1 L 55.7 81.7 L 62.6 79.7 L 69.5 77.9 L 76.5 76.4 L 83.4 75.2 L 90.3 74.4 L 97.2 74.0 L 104.2 74.0 L 111.1 74.4 L 118.0 75.2 L 124.9 76.4 L 131.9 78.1 L 138.8 80.2 L 145.7 82.6 L 152.6 85.4 L 159.6 88.6 L 166.5 92.2 L 173.4 96.0 L 180.3 100.1 L 187.3 104.4 L 194.2 108.9 L 201.1 113.6 L 208.0 118.4 L 215.0 123.2 L 221.9 128.1 L 228.8 133.0 L 235.7 137.7 L 242.7 142.4 L 249.6 146.9 L 256.5 151.3 L 263.4 155.4 L 270.4 159.2 L 277.3 162.8 L 284.2 166.0 L 291.1 168.9 L 298.1 171.4 L 305.0 173.6 L 311.9 175.4 L 318.8 176.8 L 325.7 177.8 L 332.7 178.4 L 339.6 178.7 L 346.5 178.6 L 353.4 178.2 L 360.4 177.4 L 367.3 176.4 L 374.2 175.1 L 381.1 173.6 L 388.1 171.9 L 395.0 170.0 L 401.9 168.0 L 408.8 165.9 L 415.8 163.7 L 422.7 161.6 L 429.6 159.4 L 436.5 157.3 L 443.5 155.3 L 450.4 153.5 L 457.3 151.8 L 464.2 150.2 L 471.2 148.9 L 478.1 147.7 L 485.0 146.8 L 491.9 146.2 L 498.9 145.7 L 505.8 145.5 L 512.7 145.6 L 519.6 145.9 L 526.6 146.4 L 533.5 147.1 L 540.4 148.0 L 547.3 149.0 L 554.3 150.2 L 561.2 151.5 L 568.1 152.9 L 575.0 154.2 L 581.9 155.6 L 588.9 157.0 L 595.8 158.3 L 602.7 159.5 L 609.6 160.6 L 616.6 161.5 L 623.5 162.1 L 630.4 162.6 L 637.3 162.8 L 644.3 162.7 L 651.2 162.3 L 658.1 161.6 L 665.0 160.6 L 672.0 159.2 L 678.9 157.5 L 685.8 155.4 L 692.7 153.0 L 699.7 150.3 L 706.6 147.3 L 713.5 144.0 L 720.4 140.4 L 727.4 136.5 L 734.3 132.5 L 741.2 128.3 L 748.1 123.9 L 755.1 119.5 L 762.0 115.0 L 768.9 110.5 L 775.8 106.0 L 782.8 101.6 L 789.7 97.3 L 796.6 93.1 L 803.5 89.2 L 810.5 85.5 L 817.4 82.0 L 824.3 78.9 L 831.2 76.1 L 838.2 73.7 L 845.1 71.7 L 852.0 70.1" fill="none" stroke="var(--vf-accent-1)" stroke-width="2" /></g>
+<line x1="28" y1="182" x2="852" y2="182" stroke="var(--vf-border)" stroke-width="1.5" />
+</svg>
