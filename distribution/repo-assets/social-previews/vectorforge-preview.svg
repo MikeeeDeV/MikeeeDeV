@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="1280" height="640" role="img" aria-label="VectorForge OpenGraph Social Preview">
+  <title>VectorForge - 235+ Developer SVG Shapes &amp; Components</title>
+  <desc>Deterministic vector shapes, terminals, skylines, and architectures for developers by Mohamed Ayman (@MikeeeDeV).</desc>
+  <style>
+    :root {
+      --bg: #0A0E17;
+      --card: #111827;
+      --border: #1F293D;
+      --text: #F8FAFC;
+      --text-muted: #94A3B8;
+      --gold: #F5C451;
+      --cyan: #38BDF8;
+      --teal: #14B8A6;
+      --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      --font-mono: "JetBrains Mono", ui-monospace, Menlo, Monaco, monospace;
+    }
+    .bg-canvas { fill: var(--bg); }
+    .grid-mesh { stroke: var(--border); stroke-width: 0.8; opacity: 0.4; }
+    .hero-title { font-family: var(--font-sans); font-size: 52px; font-weight: 800; fill: var(--text); letter-spacing: -1px; }
+    .hero-sub { font-family: var(--font-sans); font-size: 22px; fill: var(--text-muted); font-weight: 500; }
+    .badge-pill { fill: var(--card); stroke: var(--gold); stroke-width: 1.5; }
+    .badge-text { font-family: var(--font-mono); font-size: 14px; font-weight: 700; fill: var(--gold); letter-spacing: 1px; }
+    .meta-tag { font-family: var(--font-mono); font-size: 14px; fill: var(--cyan); }
+  </style>
+
+  <rect width="1280" height="640" class="bg-canvas" />
+  
+  <!-- Subtle Blueprint Grid -->
+  <g class="grid-mesh">
+    <line x1="0" y1="0" x2="0" y2="640" /><line x1="80" y1="0" x2="80" y2="640" /><line x1="160" y1="0" x2="160" y2="640" /><line x1="240" y1="0" x2="240" y2="640" /><line x1="320" y1="0" x2="320" y2="640" /><line x1="400" y1="0" x2="400" y2="640" /><line x1="480" y1="0" x2="480" y2="640" /><line x1="560" y1="0" x2="560" y2="640" /><line x1="640" y1="0" x2="640" y2="640" /><line x1="720" y1="0" x2="720" y2="640" /><line x1="800" y1="0" x2="800" y2="640" /><line x1="880" y1="0" x2="880" y2="640" /><line x1="960" y1="0" x2="960" y2="640" /><line x1="1040" y1="0" x2="1040" y2="640" /><line x1="1120" y1="0" x2="1120" y2="640" /><line x1="1200" y1="0" x2="1200" y2="640" />
+    <line x1="0" y1="0" x2="1280" y2="0" /><line x1="0" y1="80" x2="1280" y2="80" /><line x1="0" y1="160" x2="1280" y2="160" /><line x1="0" y1="240" x2="1280" y2="240" /><line x1="0" y1="320" x2="1280" y2="320" /><line x1="0" y1="400" x2="1280" y2="400" /><line x1="0" y1="480" x2="1280" y2="480" /><line x1="0" y1="560" x2="1280" y2="560" />
+  </g>
+
+  <!-- Glowing Accent Rings in Background -->
+  <circle cx="1060" cy="320" r="260" fill="none" stroke="var(--gold)" stroke-width="1" opacity="0.15" />
+  <circle cx="1060" cy="320" r="180" fill="none" stroke="var(--cyan)" stroke-width="1.5" opacity="0.25" stroke-dasharray="6 6" />
+  <circle cx="1060" cy="320" r="80" fill="none" stroke="var(--teal)" stroke-width="2" opacity="0.4" />
+
+  <!-- Content Left Column -->
+  <g transform="translate(80, 160)">
+    <!-- Pill -->
+    <rect x="0" y="0" width="340" height="36" rx="18" class="badge-pill" />
+    <circle cx="20" cy="18" r="5" fill="var(--gold)" />
+    <text x="36" y="23" class="badge-text">VECTORFORGE // COMPONENT ENGINE</text>
+
+    <!-- Main Title -->
+    <text x="0" y="100" class="hero-title">VECTORFORGE</text>
+    <text x="0" y="145" class="hero-sub">235+ Deterministic Developer SVG Shapes &amp; Components</text>
+    
+    <!-- Badges Row -->
+    <g transform="translate(0, 195)">
+      <text x="0" y="0" class="meta-tag">⚡ 7 CATEGORIES • 10 CURATED PALETTES • &lt; 100KB BUDGET</text>
+      <text x="0" y="32" class="meta-tag">🛡️ ZERO EXTERNAL RUNTIME DEPENDENCY • W3C A11Y READY</text>
+    </g>
+
+    <g transform="translate(0, 290)">
+      <text x="0" y="0" font-family="var(--font-mono)" font-size="16" fill="var(--text-muted)">Created by Mohamed Ayman (<tspan fill="var(--gold)">@MikeeeDeV</tspan>) • Technical Team Leader @ Gawdah</text>
+    </g>
+  </g>
+
+  <!-- Right Visual Elements: Abstract Rosette & Interconnects -->
+  <g transform="translate(1060, 320)">
+    <!-- 8-pointed rosette -->
+    <path d="M 0 -130 L 38 -38 L 130 0 L 38 38 L 0 130 L -38 38 L -130 0 L -38 -38 Z" fill="none" stroke="var(--gold)" stroke-width="3" />
+    <path d="M 0 -85 L 25 -25 L 85 0 L 25 25 L 0 85 L -25 25 L -85 0 L -25 -25 Z" fill="none" stroke="var(--cyan)" stroke-width="2" />
+    <circle cx="0" cy="0" r="14" fill="var(--gold)" />
+  </g>
+</svg>
