@@ -1,0 +1,169 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 240" width="100%" height="240" role="img" aria-label="Mohamed Ayman Generative Geometric Banner">
+  <title>Mohamed Ayman (@MikeeeDeV) - Systems Engineer Banner</title>
+  <desc>Generative Egyptian geometric rosette and circuit matrix seeded by git commit hash 0xa7d4e02b.</desc>
+  <style>
+    
+    :root {
+      --bg: #0A0E14;
+      --card-bg: #111822;
+      --card-elevated: #182230;
+      --border: #223348;
+      --border-accent: #3B5372;
+      --text-primary: #E2E8F0;
+      --text-secondary: #94A3B8;
+      --text-muted: #64748B;
+      --accent-gold: #E5C07B;
+      --accent-lapis: #3898EC;
+      --accent-teal: #2DD4BF;
+      --accent-coral: #F43F5E;
+      --term-green: #2DD4BF;
+      --term-yellow: #E5C07B;
+      --term-blue: #3898EC;
+      --term-purple: #C678DD;
+      --font-mono: ui-monospace, 'JetBrains Mono', 'SF Mono', 'Fira Code', 'Menlo', monospace;
+      --font-sans: system-ui, -apple-system, 'Segoe UI', Roboto, 'Cairo', sans-serif;
+      --font-arabic: 'Cairo', 'Amiri', 'Noto Sans Arabic', 'Segoe UI', system-ui, sans-serif;
+    }
+
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg: #F8FAFC;
+        --card-bg: #FFFFFF;
+        --card-elevated: #F1F5F9;
+        --border: #CBD5E1;
+        --border-accent: #94A3B8;
+        --text-primary: #0F172A;
+        --text-secondary: #475569;
+        --text-muted: #64748B;
+        --accent-gold: #B48924;
+        --accent-lapis: #1E6BB8;
+        --accent-teal: #0D9488;
+        --accent-coral: #E11D48;
+        --term-green: #0D9488;
+        --term-yellow: #B48924;
+        --term-blue: #1E6BB8;
+        --term-purple: #9333EA;
+      }
+    }
+    
+    .banner-frame {
+      fill: var(--card-bg);
+      stroke: var(--border);
+      stroke-width: 1px;
+    }
+    .inner-panel {
+      fill: var(--card-elevated);
+      stroke: var(--border-accent);
+      stroke-width: 1px;
+    }
+    .kemet-name {
+      font-family: var(--font-mono);
+      font-size: 32px;
+      font-weight: 700;
+      letter-spacing: 4px;
+      fill: var(--text-primary);
+    }
+    .kemet-role {
+      font-family: var(--font-mono);
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 1.5px;
+      fill: var(--accent-gold);
+    }
+    .kemet-tagline {
+      font-family: var(--font-sans);
+      font-size: 13px;
+      fill: var(--text-secondary);
+    }
+    .seed-tag {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      fill: var(--accent-teal);
+      letter-spacing: 1px;
+    }
+    .arabic-watermark {
+      font-family: var(--font-arabic);
+      font-size: 26px;
+      font-weight: 700;
+      fill: var(--border);
+      opacity: 0.35;
+      direction: rtl;
+    }
+    .badge-pill {
+      fill: var(--card-elevated);
+      stroke: var(--border-accent);
+      stroke-width: 1px;
+    }
+    .badge-text {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      font-weight: 600;
+      fill: var(--accent-lapis);
+    }
+    .glow-pulse {
+      animation: banner-pulse 3s infinite ease-in-out;
+    }
+    @keyframes banner-pulse {
+      0%, 100% { opacity: 0.9; }
+      50% { opacity: 0.45; }
+    }
+  </style>
+
+  <!-- Outer Frame -->
+  <rect x="0.5" y="0.5" width="959" height="239" rx="8" class="banner-frame" />
+
+  <!-- Arabic Calligraphic Watermark in Background -->
+  <text x="640" y="70" class="arabic-watermark">محمد أيمن • مهندس نظم برمجية</text>
+
+  <!-- Nile Circuit Traces -->
+  <g>
+    <path d="M 600.0 114.0 L 462.9 95.8 L 349.1 94.6 L 170.8 72.5" fill="none" stroke="var(--accent-teal)" stroke-width="1" opacity="0.3" stroke-dasharray="4,4" /><circle cx="170.8" cy="72.5" r="2" fill="var(--accent-teal)" opacity="0.7" /><path d="M 600.0 176.0 L 432.6 176.6 L 257.4 168.9 L 155.6 149.4" fill="none" stroke="var(--accent-lapis)" stroke-width="1" opacity="0.3" stroke-dasharray="4,4" /><circle cx="155.6" cy="149.4" r="2" fill="var(--accent-lapis)" opacity="0.7" /><path d="M 600.0 82.0 L 502.8 74.9 L 330.7 79.6 L 157.5 57.5" fill="none" stroke="var(--accent-teal)" stroke-width="1" opacity="0.3" stroke-dasharray="4,4" /><circle cx="157.5" cy="57.5" r="2" fill="var(--accent-teal)" opacity="0.7" /><path d="M 600.0 113.0 L 519.6 118.4 L 415.2 107.2 L 256.5 113.7" fill="none" stroke="var(--accent-lapis)" stroke-width="1" opacity="0.3" stroke-dasharray="4,4" /><circle cx="256.5" cy="113.7" r="2" fill="var(--accent-lapis)" opacity="0.7" /><path d="M 600.0 76.0 L 429.7 82.2 L 326.4 97.1 L 167.5 103.6" fill="none" stroke="var(--accent-lapis)" stroke-width="1" opacity="0.3" stroke-dasharray="4,4" /><circle cx="167.5" cy="103.6" r="2" fill="var(--accent-lapis)" opacity="0.7" />
+  </g>
+
+  <!-- Left Content Branding -->
+  <g transform="translate(42, 54)">
+    <!-- Header Seed Indicator -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="-12" width="230" height="20" rx="3" class="inner-panel" />
+      <circle cx="8" cy="-2" r="3" fill="var(--accent-teal)" class="glow-pulse" />
+      <text x="18" y="2" class="seed-tag">CIPHER SEED: 0xa7d4e02b // DETERMINISTIC</text>
+    </g>
+
+    <!-- Name -->
+    <text x="0" y="44" class="kemet-name">MOHAMED AYMAN</text>
+    
+    <!-- Title -->
+    <text x="0" y="72" class="kemet-role">TECHNICAL TEAM LEADER @ GAWDAH • SYSTEMS &amp; FULL-STACK</text>
+    
+    <!-- Engineering Focus Statement -->
+    <text x="0" y="98" class="kemet-tagline">Architecting Zero-Drift Linux Tooling, Next.js Security Guards &amp; FastMCP AI Agents</text>
+
+    <!-- Stack Badges -->
+    <g transform="translate(0, 118)">
+      <rect x="0" y="0" width="84" height="22" rx="3" class="badge-pill" />
+      <text x="42" y="15" text-anchor="middle" class="badge-text">❄️ NIXOS</text>
+
+      <rect x="94" y="0" width="98" height="22" rx="3" class="badge-pill" />
+      <text x="143" y="15" text-anchor="middle" class="badge-text">⚡ FASTMCP</text>
+
+      <rect x="202" y="0" width="102" height="22" rx="3" class="badge-pill" />
+      <text x="253" y="15" text-anchor="middle" class="badge-text">🐍 PYTHON</text>
+
+      <rect x="314" y="0" width="112" height="22" rx="3" class="badge-pill" />
+      <text x="370" y="15" text-anchor="middle" class="badge-text">🛡️ NEXT.JS AUTH</text>
+    </g>
+  </g>
+
+  <!-- Right Geometric 8-Point Rosette -->
+  <g id="rosette">
+    <circle cx="800" cy="120.0" r="102.5" fill="none" stroke="var(--border)" stroke-width="1" stroke-dasharray="3,4" opacity="0.6" /><circle cx="800" cy="120.0" r="82" fill="none" stroke="var(--accent-teal)" stroke-width="1.2" opacity="0.4" /><circle cx="800" cy="120.0" r="36.9" fill="none" stroke="var(--accent-gold)" stroke-width="1" opacity="0.7" /><polygon points="809.1,191.6 728.4,129.1 790.9,48.4 871.6,110.9" fill="none" stroke="var(--accent-gold)" stroke-width="1.4" opacity="0.8" /><polygon points="755.8,177.1 742.9,75.8 844.2,62.9 857.1,164.2" fill="none" stroke="var(--accent-lapis)" stroke-width="1.2" opacity="0.7" /><rect x="808.6" y="208.1" width="6" height="6" transform="rotate(45 811.6 211.1)" fill="var(--accent-gold)" /><line x1="800" y1="120.0" x2="811.6" y2="211.1" stroke="var(--border-accent)" stroke-width="0.8" opacity="0.5" /><rect x="740.8" y="189.6" width="6" height="6" transform="rotate(45 743.8 192.6)" fill="var(--accent-gold)" /><line x1="800" y1="120.0" x2="743.8" y2="192.6" stroke="var(--border-accent)" stroke-width="0.8" opacity="0.5" /><rect x="705.9" y="128.6" width="6" height="6" transform="rotate(45 708.9 131.6)" fill="var(--accent-gold)" /><line x1="800" y1="120.0" x2="708.9" y2="131.6" stroke="var(--border-accent)" stroke-width="0.8" opacity="0.5" /><rect x="724.4" y="60.8" width="6" height="6" transform="rotate(45 727.4 63.8)" fill="var(--accent-gold)" /><line x1="800" y1="120.0" x2="727.4" y2="63.8" stroke="var(--border-accent)" stroke-width="0.8" opacity="0.5" /><rect x="785.4" y="25.9" width="6" height="6" transform="rotate(45 788.4 28.9)" fill="var(--accent-gold)" /><line x1="800" y1="120.0" x2="788.4" y2="28.9" stroke="var(--border-accent)" stroke-width="0.8" opacity="0.5" /><rect x="853.2" y="44.4" width="6" height="6" transform="rotate(45 856.2 47.4)" fill="var(--accent-gold)" /><line x1="800" y1="120.0" x2="856.2" y2="47.4" stroke="var(--border-accent)" stroke-width="0.8" opacity="0.5" /><rect x="888.1" y="105.4" width="6" height="6" transform="rotate(45 891.1 108.4)" fill="var(--accent-gold)" /><line x1="800" y1="120.0" x2="891.1" y2="108.4" stroke="var(--border-accent)" stroke-width="0.8" opacity="0.5" /><rect x="869.6" y="173.2" width="6" height="6" transform="rotate(45 872.6 176.2)" fill="var(--accent-gold)" /><line x1="800" y1="120.0" x2="872.6" y2="176.2" stroke="var(--border-accent)" stroke-width="0.8" opacity="0.5" /><circle cx="800" cy="120.0" r="4" fill="var(--accent-gold)" />
+  </g>
+
+  <!-- Architectural Corner Brackets (Egyptian Masonry Chamfers) -->
+  <g stroke="var(--accent-gold)" stroke-width="1.5" fill="none">
+    <path d="M 12 24 L 12 12 L 24 12" />
+    <path d="M 936 12 L 948 12 L 948 24" />
+    <path d="M 12 216 L 12 228 L 24 228" />
+    <path d="M 936 228 L 948 228 L 948 216" />
+  </g>
+</svg>
