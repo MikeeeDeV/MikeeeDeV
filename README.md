@@ -1,7 +1,7 @@
 <div align="center">
 
-# ⚡ Mohamed Ayman (MikeeeDeV)
-### 🚀 *Full-Stack Systems Engineer • Open-Source Builder • AI Tooling Architect*
+#  Mohamed Ayman (MikeeeDeV)
+###  *Full-Stack Systems Engineer • Open-Source Builder • AI Tooling Architect*
 
 <br />
 
@@ -43,7 +43,7 @@ Quote     : "Simplicity is a prerequisite for reliability." — Edsger W. Dijkst
 
 ---
 
-### 🌟 Featured Repositories
+###  Featured Repositories
 
 <div align="center">
 
@@ -67,7 +67,7 @@ Quote     : "Simplicity is a prerequisite for reliability." — Edsger W. Dijkst
 
 ---
 
-### 🛠️ Tech Stack & Arsenal
+###  Tech Stack & Arsenal
 
 <div align="center">
 
@@ -91,7 +91,7 @@ Quote     : "Simplicity is a prerequisite for reliability." — Edsger W. Dijkst
 
 ---
 
-### 📊 GitHub Activity & Real-Time Metrics
+###  GitHub Activity & Real-Time Metrics
 
 <div align="center">
 
@@ -106,7 +106,7 @@ Quote     : "Simplicity is a prerequisite for reliability." — Edsger W. Dijkst
 
 ---
 
-### 🏙️ 3D Contribution Landscape
+###  3D Contribution Landscape
 
 <div align="center">
 
@@ -120,7 +120,7 @@ Quote     : "Simplicity is a prerequisite for reliability." — Edsger W. Dijkst
 
 ---
 
-### 🐍 Contribution Activity Snake
+###  Contribution Activity Snake
 
 <div align="center">
 
@@ -134,7 +134,7 @@ Quote     : "Simplicity is a prerequisite for reliability." — Edsger W. Dijkst
 
 ---
 
-### 💡 Daily Developer Humor
+###  Daily Developer Humor
 
 <div align="center">
 
@@ -144,7 +144,7 @@ Quote     : "Simplicity is a prerequisite for reliability." — Edsger W. Dijkst
 
 ---
 
-### 🤝 Let's Connect & Collaborate!
+###  Let's Connect & Collaborate!
 
 <div align="center">
 
@@ -154,6 +154,6 @@ Quote     : "Simplicity is a prerequisite for reliability." — Edsger W. Dijkst
 
 <br />
 
-<sub>Designed with precision by **Mohamed Ayman** • Built with Antigravity • © 2026</sub>
+<sub>Designed with precision by **Mohamed Ayman** • © 2026</sub>
 
 </div>
