@@ -1,0 +1,41 @@
+name: Bug Report
+description: File a bug report for an SVG rendering issue, XML error, or CLI behavior
+title: "fix: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please provide details to help us diagnose and fix the issue.
+  - type: input
+    id: component_id
+    attributes:
+      label: Affected Component or File
+      description: e.g. `assets/hero-typing.svg` or `library/shapes/banners/kemet-nocturne-rosette.svg`
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: What should happen?
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Behavior / Error
+      description: What actually happened (include screenshots or XML parser logs if applicable)?
+    validations:
+      required: true
+  - type: dropdown
+    id: browser
+    attributes:
+      label: Environment / Renderer
+      options:
+        - Chrome / Chromium
+        - Firefox
+        - Safari / WebKit
+        - GitHub Web UI / Mobile App
+        - Python CLI (`xml.etree`)
+        - Other

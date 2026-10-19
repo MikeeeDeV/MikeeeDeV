@@ -1,0 +1,57 @@
+name: New Shape / Component Request
+description: Propose a new SVG shape, banner, terminal card, or architecture flow for VectorForge
+title: "feat(shape): "
+labels: ["enhancement", "shape-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for proposing a new component for the **VectorForge** library!
+  - type: dropdown
+    id: category
+    attributes:
+      label: Component Category
+      description: Which category does this shape belong to?
+      options:
+        - Geometric Banners (960x240)
+        - Neofetch & System Terminals (680x360)
+        - Skylines & Contribution Horizons (880x210)
+        - System Architectures & Flowcards (820x280)
+        - HUD Badges & Status Pills (420x88)
+        - Bento & Repo Cards (420x160)
+        - Holographic Ledgers & Radars (560x240)
+        - Propose a new category
+    validations:
+      required: true
+  - type: input
+    id: shape_name
+    attributes:
+      label: Shape Name / Identifier
+      description: e.g. `riscv-vector-engine` or `solana-mempool-stream`
+      placeholder: my-new-shape
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Visual & Architectural Description
+      description: Describe what this shape should display (geometry, nodes, ASCII glyphs, labels).
+    validations:
+      required: true
+  - type: dropdown
+    id: theme
+    attributes:
+      label: Preferred Theme
+      options:
+        - Kemet Nocturne
+        - Cyberpunk 2077
+        - Nord Frost
+        - Dracula Vampire
+        - Tokyo Night
+        - Monokai Pro
+        - Emerald Matrix
+        - Amber CRT
+        - Solarized Dark
+        - Rosé Pine
+    validations:
+      required: true
