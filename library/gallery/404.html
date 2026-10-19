@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 // Vector Coordinate Not Found — VectorForge</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .error-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      min-height: 70vh;
+      padding: 2rem;
+    }
+    .error-code {
+      font-family: var(--font-mono);
+      font-size: 5rem;
+      font-weight: 800;
+      color: var(--accent-gold);
+      letter-spacing: 0.1em;
+      margin-bottom: 0.5rem;
+      text-shadow: 0 0 30px rgba(245, 196, 81, 0.3);
+    }
+    .error-title {
+      font-size: 1.75rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      color: var(--text-main);
+    }
+    .error-desc {
+      max-width: 500px;
+      color: var(--text-muted);
+      font-size: 1rem;
+      line-height: 1.6;
+      margin-bottom: 2rem;
+    }
+    .error-actions {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .error-icon {
+      width: 120px;
+      height: 120px;
+      margin-bottom: 1.5rem;
+      animation: pulse-glow 3s infinite alternate;
+    }
+    @keyframes pulse-glow {
+      0% { transform: scale(1); filter: drop-shadow(0 0 10px rgba(245, 196, 81, 0.4)); }
+      100% { transform: scale(1.05); filter: drop-shadow(0 0 25px rgba(56, 189, 248, 0.6)); }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <div class="brand-row">
+        <div class="brand-logo">
+          <span class="logo-glyph">⚡</span>
+          <span class="brand-name">VECTORFORGE</span>
+          <span class="brand-version">v1.0.0</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="error-container">
+    <svg class="error-icon" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="404 Singularity Glyph">
+      <circle cx="50" cy="50" r="44" stroke="#1F293D" stroke-width="2" />
+      <polygon points="50,15 85,75 15,75" stroke="#F5C451" stroke-width="2.5" fill="none" stroke-linejoin="round" />
+      <circle cx="50" cy="52" r="6" fill="#38BDF8" />
+      <line x1="50" y1="28" x2="50" y2="44" stroke="#F5C451" stroke-width="2" stroke-linecap="round" />
+    </svg>
+
+    <div class="error-code">404</div>
+    <h1 class="error-title">Geometric Singularity Not Found</h1>
+    <p class="error-desc">
+      The vector coordinates or component identifier you requested do not exist in the VectorForge catalog.
+    </p>
+
+    <div class="error-actions">
+      <a href="./" class="action-btn primary" style="text-decoration: none; padding: 0.75rem 1.5rem; font-size: 0.95rem;">
+        ⚡ Return to Showroom Gallery
+      </a>
+      <a href="https://github.com/MikeeeDeV/MikeeeDeV" class="action-btn" target="_blank" style="text-decoration: none; padding: 0.75rem 1.5rem; font-size: 0.95rem;">
+        📂 GitHub Repository
+      </a>
+    </div>
+  </main>
+
+  <footer>
+    <p>VectorForge // Crafted by Mohamed Ayman (<a href="https://github.com/MikeeeDeV" style="color: var(--accent-gold); text-decoration: none;">@MikeeeDeV</a>)</p>
+  </footer>
+</body>
+</html>

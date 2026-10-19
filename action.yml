@@ -6,17 +6,27 @@ branding:
   color: 'yellow'
 
 inputs:
+  command:
+    description: 'Operation command: generate (single preset) or build (declarative vectorforge.json)'
+    required: false
+    default: 'generate'
   shape:
     description: 'Preset ID to generate (e.g. kemet-nocturne-rosette, raft-consensus-cluster)'
-    required: true
+    required: false
     default: 'kemet-nocturne-rosette'
   theme:
     description: 'Color theme override (kemet_nocturne, cyberpunk_2077, nord_frost, dracula, etc.)'
     required: false
   output:
     description: 'Output SVG file path'
-    required: true
+    required: false
     default: 'assets/vectorforge-shape.svg'
+  params:
+    description: 'Comma-separated dynamic parameter overrides (e.g. title=Senior Engineer,subtitle=Zero-Crash)'
+    required: false
+  config:
+    description: 'Path to declarative vectorforge.json (used when command is build)'
+    required: false
 
 runs:
   using: 'composite'
@@ -25,7 +35,24 @@ runs:
       uses: actions/setup-python@v5
       with:
         python-version: '3.11'
-    - name: Generate VectorForge Shape
+    - name: Execute VectorForge Action
       shell: bash
+      env:
+        PYTHONPATH: ${{ github.action_path }}
       run: |
-        python3 -m library.cli generate "${{ inputs.shape }}" ${{ inputs.theme && format('--theme {0}', inputs.theme) || '' }} --out "${{ inputs.output }}"
+        if [ "${{ inputs.command }}" = "build" ]; then
+          python3 "${{ github.action_path }}/library/cli.py" build ${{ inputs.config && format('--config "{0}"', inputs.config) || '' }}
+        else
+          PARAM_FLAGS=""
+          if [ -n "${{ inputs.params }}" ]; then
+            IFS=',' read -ra ADDR <<< "${{ inputs.params }}"
+            for pair in "${ADDR[@]}"; do
+              PARAM_FLAGS="$PARAM_FLAGS -p \"$pair\""
+            done
+          fi
+          
+          eval python3 "\"${{ github.action_path }}/library/cli.py\"" generate "\"${{ inputs.shape }}\"" \
+            ${{ inputs.theme && format('--theme "{0}"', inputs.theme) || '' }} \
+            --out "\"${{ inputs.output }}\"" \
+            $PARAM_FLAGS
+        fi
